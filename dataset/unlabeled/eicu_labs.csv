@@ -1,0 +1,159 @@
+,labtypeid,labtype,labname
+0,7,abg,FiO2
+1,7,abg,Mode
+2,7,abg,Site
+3,7,abg,Total CO2
+4,7,abg,O2 Content
+5,7,abg,Base Excess
+6,7,abg,Pressure Support
+7,7,abg,PEEP
+8,7,abg,paCO2
+9,7,abg,Device
+10,7,abg,O2 Sat (%)
+11,7,abg,Base Deficit
+12,7,abg,Methemoglobin
+13,7,abg,Respiratory Rate
+14,7,abg,TV
+15,7,abg,paO2
+16,7,abg,LPM O2
+17,7,abg,Temperature
+18,7,abg,Oxyhemoglobin
+19,7,abg,Carboxyhemoglobin
+20,7,abg,Peak Airway/Pressure
+21,7,abg,pH
+22,7,abg,HCO3
+23,7,abg,Vent Other
+24,7,abg,Pressure Control
+25,7,abg,Spontaneous Rate
+26,7,abg,Vent Rate
+27,6,sensitive,HSV 1&2 IgG AB
+28,6,sensitive,HSV 1&2 IgG AB titer
+29,6,sensitive,HIV 1&2 AB
+30,6,sensitive,RPR titer
+31,4,misc,T4
+32,4,misc,BNP
+33,4,misc,ammonia
+34,4,misc,WBC's in urine
+35,4,misc,24 h urine protein
+36,4,misc,WBC's in body fluid
+37,4,misc,24 h urine urea nitrogen
+38,4,misc,WBC's in peritoneal fluid
+39,4,misc,Clostridium difficile toxin A+B
+40,4,misc,serum ketones
+41,4,misc,WBC's in synovial fluid
+42,4,misc,T3
+43,4,misc,CRP
+44,4,misc,T3RU
+45,4,misc,ANF/ANA
+46,4,misc,free T4
+47,4,misc,myoglobin
+48,4,misc,protein - CSF
+49,4,misc,urinary sodium
+50,4,misc,serum osmolality
+51,4,misc,urinary specific gravity
+52,4,misc,WBC's in cerebrospinal fluid
+53,4,misc,CRP-hs
+54,4,misc,WBC's in pleural fluid
+55,4,misc,glucose - CSF
+56,4,misc,bedside glucose
+57,4,misc,Legionella pneumophila Ab
+58,4,misc,WBC's in pericardial fluid
+59,4,misc,TSH
+60,4,misc,uric acid
+61,4,misc,urinary creatinine
+62,4,misc,urinary osmolality
+63,4,misc,prolactin
+64,3,hemo,ESR
+65,3,hemo,Hct
+66,3,hemo,Hgb
+67,3,hemo,PTT
+68,3,hemo,RBC
+69,3,hemo,TIBC
+70,3,hemo,-basos
+71,3,hemo,-lymphs
+72,3,hemo,PT - INR
+73,3,hemo,-bands
+74,3,hemo,MCV
+75,3,hemo,cd 4
+76,3,hemo,folate
+77,3,hemo,fibrinogen
+78,3,hemo,Fe/TIBC Ratio
+79,3,hemo,-monos
+80,3,hemo,-polys
+81,3,hemo,RDW
+82,3,hemo,MCH
+83,3,hemo,protein S
+84,3,hemo,Fe
+85,3,hemo,MPV
+86,3,hemo,-eos
+87,3,hemo,Ferritin
+88,3,hemo,Vitamin B12
+89,3,hemo,MCHC
+90,3,hemo,protein C
+91,3,hemo,PT
+92,3,hemo,PTT ratio
+93,3,hemo,WBC x 1000
+94,3,hemo,haptoglobin
+95,3,hemo,transferrin
+96,3,hemo,platelets x 1000
+97,3,hemo,reticulocyte count
+98,2,drug_level,Lithium
+99,2,drug_level,salicylate
+100,2,drug_level,Gentamicin - peak
+101,2,drug_level,Amikacin - peak
+102,2,drug_level,Vancomycin - peak
+103,2,drug_level,Digoxin
+104,2,drug_level,ethanol
+105,2,drug_level,Tacrolimus-FK506
+106,2,drug_level,Tobramycin - trough
+107,2,drug_level,Gentamicin - random
+108,2,drug_level,Lidocaine
+109,2,drug_level,Amikacin - trough
+110,2,drug_level,Procainamide
+111,2,drug_level,Phenytoin
+112,2,drug_level,Theophylline
+113,2,drug_level,Acetaminophen
+114,2,drug_level,Carbamazepine
+115,2,drug_level,Phenobarbital
+116,2,drug_level,Vancomycin - random
+117,2,drug_level,Cyclosporin
+118,2,drug_level,Gentamicin - trough
+119,2,drug_level,Vancomycin - trough
+120,2,drug_level,Tobramycin - random
+121,2,drug_level,Amikacin - random
+122,2,drug_level,Tobramycin - peak
+123,2,drug_level,NAPA
+124,1,chemistry,lipase
+125,1,chemistry,potassium
+126,1,chemistry,CPK-MB INDEX
+127,1,chemistry,LDL
+128,1,chemistry,LDH
+129,1,chemistry,CPK-MB
+130,1,chemistry,amylase
+131,1,chemistry,glucose
+132,1,chemistry,AST (SGOT)
+133,1,chemistry,prealbumin
+134,1,chemistry,ionized calcium
+135,1,chemistry,direct bilirubin
+136,1,chemistry,BUN
+137,1,chemistry,HDL
+138,1,chemistry,lactate
+139,1,chemistry,phosphate
+140,1,chemistry,ALT (SGPT)
+141,1,chemistry,bicarbonate
+142,1,chemistry,troponin - I
+143,1,chemistry,total protein
+144,1,chemistry,alkaline phos.
+145,1,chemistry,CPK
+146,1,chemistry,sodium
+147,1,chemistry,albumin
+148,1,chemistry,calcium
+149,1,chemistry,chloride
+150,1,chemistry,cortisol
+151,1,chemistry,anion gap
+152,1,chemistry,magnesium
+153,1,chemistry,creatinine
+154,1,chemistry,troponin - T
+155,1,chemistry,triglycerides
+156,1,chemistry,total bilirubin
+157,1,chemistry,total cholesterol

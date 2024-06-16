@@ -1,0 +1,2459 @@
+,celllabel,count
+0,Urine,3300489
+1,Bodyweight (kg),438834
+2,Bodyweight (lb),438755
+3,P.O.,418701
+4,URINE CATHETER,406364
+5,NS IVF,392469
+6,Continuous infusion meds,372263
+7,NS ,293650
+8,Urinary Catheter Output: Indwelling/Continuous Ure,261045
+9,IVPB,249384
+10,Stool,193826
+11,Volume (mL)-0.9 %  sodium chloride infusion,167973
+12,Crystalloids,154667
+13,Indwelling Catheter Output,143217
+14,Oral Intake,141344
+15,Volume (mL)-0.9 % sodium chloride solution,127009
+16,Other meds,117141
+17,P.O. Intake,100483
+18,Nutrition Total,80752
+19,Enteral Formula Volume/Bolus Amt (mL),79227
+20,TPN,70544
+21,D5NS ,70149
+22,Enteral/Gastric Tube Intake #1,63979
+23,D51/2NS IVF,56182
+24,pRBCs,54774
+25,Gastric (NG),54438
+26,Volume (mL)-0.45 % sodium chloride solution,52652
+27,Volume (mL)-sodium chloride 0.9% infusion,47439
+28,propofol,44278
+29,LR ,41948
+30,I.V.,38762
+31,Volume (mL) Fentanyl,35983
+32,1/2NS IVF,35395
+33,Voided Amount,34967
+34,Volume (mL) Heparin,34595
+35,Oral,34099
+36,D5W,32895
+37,Volume (mL)-lactated ringers infusion,32237
+38,Out,29972
+39,NS b IVF,29966
+40,Volume (mL) Norepinephrine,27825
+41,Feeding Tube Flush/Water Bolus Amt (mL),27318
+42,IVPB Volume (ml),27225
+43,D5W ,26428
+44,norepinephrine,24989
+45,Saline Flush (mL),24258
+46,Volume Given (mL),24150
+47,Actual Patient Fluid Removal,23799
+48,fentaNYL,23390
+49,LR IVF,23285
+50,Volume (mL)-dextrose 5 % and 0.45 % sodium chloride with KCl 20 mEq/L infusion,23189
+51,D5NS IVF,22948
+52,Stool Occurrence,22629
+53,Tube Feeding Flush (mL),22539
+54,Volume (ml) Fentanyl,22200
+55,Enteral Tube Intake: Orogastric Oral,22074
+56,PO fluids,21120
+57,Volume (mL) Amiodarone,20394
+58,Enteral Pivot 1.5,20392
+59,Volume (ml) Insulin,19944
+60,Enteral Tube Intake: Percutaneous endo gastrostomy,19943
+61,Volume Infused (mL),19650
+62,heparin,18927
+63,Formula Volume In         ml,18776
+64,Enteral Nepro,18552
+65,Volume (mL) Propofol ,16764
+66,Volume (ml) Propofol,16631
+67,Tube Flush/Meds,16614
+68,FFP,16597
+69,D5 0.45 NS ,16357
+70,Volume (mL) Milrinone ,15920
+71,Tube Feeding Residual Discarded (mL),15621
+72,"Enteral Tube Intake: Nasoduodenal Nostril, R",15298
+73,Flush Volume In               ml,15252
+74,Volume (mL)-0.45 % sodium chloride infusion,15020
+75,Foley cath,14854
+76,insulin regular,14507
+77,Volume (mL)-dextrose 5 %-0.45 % sodium chloride infusion,14418
+78,"Enteral Tube Intake: Nasoduodenal Nostril, L",14305
+79,Electrolyte Other (volume),13994
+80,Tube Feeding,13750
+81,dexmedetomidine,13727
+82,Flush Total,13691
+83,Volume (mL)-dextrose 5 %-0.9 % sodium chloride infusion,13562
+84,Vascular Flush Amount (mL),13476
+85,Urine Count,13250
+86,PO Fluids,13170
+87,Volume (mL) Midazolam,12924
+88,Chest Tube A Amount,12724
+89,Blood Loss,12685
+90,Volume (ml) Amiodarone,12670
+91,Volume (mL)-dextrose 5 % solution,12474
+92,"Intake, Oral Amount",12327
+93,Volume (ml) Dexmedetomidine,12167
+94,Intake (mL)-NG/OG Tube Nasogastric Right nostril,12098
+95,0.45 NS ,12070
+96,Volume (ml) Midazolam,11862
+97,Volume (mL) Dopamine,11840
+98,Volume (mL) Dexmedetomidine,11623
+99,midazolam,11577
+100,Volume (mL)-0.9 % sodium chloride with potassium chloride 20 mEq/L infusion,11534
+101,Fentanyl,11527
+102,8 Hr Total Fluid Removed ,11462
+103,Zosyn,11293
+104,Volume (mL) Phenylephrine ,11264
+105,Volume (mL)-piperacillin-tazobactam (ZOSYN) IVPB 3.375 g,11187
+106,Total Lumen Flushes,11165
+107,"Enteral Tube Intake: Nasogastric Nostril, R",11107
+108,% Meal Eaten,10911
+109,NS,10882
+110,PO intake,10823
+111,Drain 1 Output mL,10821
+112,Volume (mL)-0.9 % NaCl with KCl 20 mEq/ L  infusion,10811
+113,Per IV Flush: Forearm R 20 gauge,10544
+114,Volume (mL) Nitroglycerin ,10534
+115,Per IV Flush: Antecubital R 20 gauge,10500
+116,Volume (mL) TPN,10324
+117,Vascular 2 Flush Amount (mL),10205
+118,Volume (mL) Insulin ,10132
+119,Volume Expanders,10075
+120,PANTOPRAZOLE,10044
+121,D10W,10024
+122,#1:,9994
+123,Enteral Tube Intake: Gastrostomy tube Abdominal wa,9914
+124,Volume (mL)-dextrose 5 % and 0.9% NaCl infusion,9855
+125,Lipids,9806
+126,diltiazem,9731
+127,Per IV Flush: Forearm L 20 gauge,9704
+128,Per IV Flush: Antecubital L 20 gauge,9683
+129,Emesis,9641
+130,Volume (mL) Diltiazem,9457
+131,In,8865
+132,Levophed,8817
+133,Volume (ml) Norepinephrine,8630
+134,Platelets,8571
+135,Volume Infused  (mL),8515
+136,Volume (mL)-dextrose 5 % / sodium chloride 0.45% infusion,8506
+137,Propofol,8447
+138,Miscellaneous IV Other (volume),8323
+139,Enteral meds,8255
+140,Volume (ml) Heparin,8142
+141,Volume (mL)-dextrose 5 % and 0.45% NaCl infusion,8124
+142,Intake (mL)-NG/OG Tube Nasogastric Left nostril,7946
+143,PO Intake,7896
+144,Volume (ml) Dopamine,7828
+145,Volume (ml) Furosemide,7700
+146,Volume (mL) Furosemide,7569
+147,Volume (mL) Lipids,7558
+148,PO Oral,7477
+149,Other,7427
+150,amiodarone,7376
+151,"Volume (ml) Heparin-heparin 25,000 units in dextrose 500 mL infusion",7350
+152,Output Amt-Chest Tube,7342
+153,PROPOFOL,7339
+154,phenylephrine,7214
+155,"Enteral Tube Intake: Nasogastric Nostril, L",7153
+156,Enteral Meds,7107
+157,CL Flush: Pressure/Power inj Periph. Inserted Cent,7070
+158,"CRRT Actual Pt Fluid Removed (""C"")",7066
+159,Volume (mL)-dextrose 5 % and 0.45 % NaCl with KCl 20 mEq/L infusion,7022
+160,Chest Tube,6982
+161,Per IV Flush: Antecubital R 18 gauge,6926
+162,OthrIntakeTotal,6917
+163,Volume (ml) Phenylephrine,6836
+164,ChestTube Total,6824
+165,Intake (mL)-NG/OG Tube Orogastric Center mouth,6643
+166,"Surgical Drain, Tube Output: Bulb-closed system Ab",6533
+167,IV Other,6501
+168,Per IV Flush: Antecubital L 18 gauge,6380
+169,#2:,6282
+170,PO oral,6236
+171,Citrate ml/hr,6192
+172,zosyn,6187
+173,niCARdipine,6179
+174,Enteral Promote w/ Fiber,6072
+175,Output (mL)-Urethral Catheter,6064
+176,Ventric #1,6016
+177,Misc.,5942
+178,Volume Infused (ml)-HYDROmorphone (DILAUDID) 0.4 mg/mL in sodium chloride 0.9% 30 mL PCA infusion,5926
+179,Enteral nepro,5921
+180,Enteral pivot 1.5,5850
+181,Volume-Transfuse red blood cells,5841
+182,Enteral Jevity 1.2,5824
+183,Volume (mL) Magnesium ,5578
+184,Output Amt-Blake Drain A,5509
+185,Volume (mL) Vasopressin,5472
+186,NS  w/20 mEq KCL 1000 ml,5356
+187,IV Intake Amount,5321
+188,fentanyl,5265
+189,vasopressin,5228
+190,Enteral Perative,5228
+191,Vascular 3 Flush Amount (mL),5204
+192,Urine Occurrence,5197
+193,Foley,5030
+194,Total Intake,5019
+195,PO liquids,5002
+196,Output Amt-Chest Tube A,4984
+197,Enteral Glucerna 1.5,4884
+198,Output (mL)-Urethral Catheter Non-latex 16 Fr.,4858
+199,Volume (mL)-metroNIDAZOLE (FLAGYL) IV 500 mg,4815
+200,Volume (ml) Diltiazem,4809
+201,CL Flush: Non-Tunneled IJ R,4786
+202,Volume (ml) Milrinone,4784
+203,"Volume (mL)-sodium bicarbonate 150 mEq in dextrose 5 % 1,000 mL infusion",4777
+204,Per IV Flush: Upper arm R 20 gauge,4720
+205,Volume (mL) Pantoprazole,4714
+206,Volume (mL)-potassium chloride 10 mEq in 50 mL *CENTRAL LINE* IVPB,4674
+207,Intake (mL)-NG/OG Tube Orogastric Right mouth,4670
+208,Output (mL)-Urethral Catheter Latex 14 Fr.,4630
+209,Free Water,4621
+210,IV Drips,4594
+211,CL PICC Total Lumen Flushes,4562
+212,Volume (mL)-dextrose 10 % infusion,4522
+213,levophed,4481
+214,Volume (mL)-dextrose 5 % and 0.9 % sodium chloride with KCl 20 mEq/L,4481
+215,Bulb #1,4393
+216,pantoprazole,4329
+217,Heparin,4257
+218,Volume (mL)-sodium bicarbonate in D5W premix 150 mEq/1000 mL,4240
+219,Volume (ml) Dobutamine,4213
+220,CISATRACURIUM,4199
+221,Volume (mL)-ampicillin-sulbactam (UNASYN) 3 g in sodium chloride 0.9 % 100 mL IVPB,4170
+222,Oral Intake Amount,4157
+223,Colloids Total,4155
+224,Volume (ml) Epinephrine,4142
+225,Heparin (NS 0.45%)-IN,4114
+226,Propofol v2-IN,4090
+227,Hemofiltration,4062
+228,Volume (ml) Vasopressin,4051
+229,Per IV Flush: Upper arm L 20 gauge,4028
+230,Chest Tube Output: Mediastinal R Anterior,4009
+231,Enteral Nutren 1.5,3986
+232,Per IV Flush: Hand R 20 gauge,3984
+233,Versed,3976
+234,Volume (ml) Lipids,3916
+235,Output (mL)-Urethral Catheter Latex 16 Fr.,3898
+236,PO:,3892
+237,Volume (mL)-dextrose 5 % / sodium chloride 0.45% with KCl 20 mEq infusion,3877
+238,Norepinephrine V3-IN,3789
+239,Enteral Tube Intake: Orogastric Oral 16,3656
+240,Enteral Fibersource,3643
+241,Enteral Flush,3633
+242,"Intake, IV Amount",3625
+243,PO PO,3606
+244,Volume (ml) Cisatracurium,3605
+245,Per IV Flush: Hand L 20 gauge,3602
+246,Volume (mL)-piperacillin-tazobactam (ZOSYN) 3.375 g in sodium chloride 0.9 % 100 mL IVPB,3578
+247,LEVOPHED,3523
+248,NG Tube,3505
+249,nitroglycerin,3475
+250,Output Amt-Blake Drain,3471
+251,Output (mL)-Urethral Catheter Latex;Temperature probe 14 Fr.,3442
+252,Output (mL)-Urethral Catheter 16 Fr.,3428
+253,Precedex,3391
+254,Total Amount (mcg)-fentaNYL PCA 50 mcg/mL,3376
+255,bumetanide,3361
+256,Insulin,3354
+257,NS 0.9% Volume,3334
+258,Output Amt-Blake Drain B,3308
+259,IV Antibiotics,3295
+260,Liquid Stool,3288
+261,Volume (mL)-piperacillin-tazobactam (ZOSYN) 3.375 g in sodium chloride 0.9 % 100 mL FOUR HOUR EXTENDED INFUSION IVPB,3242
+262,NS KVO,3226
+263,NS  w/20 mEq KCL,3224
+264,Enteral Glucerna,3214
+265,Chest Tube Output: Mediastinal Anterior,3206
+266,Colostomy,3172
+267,Chest Tube #1,3163
+268,Output (mL)-External Urinary Catheter,3162
+269,FENTANYL,3156
+270,D5 LR ,3150
+271,Volume (mL) Cisatracurium,3124
+272,CHEST TUBE MEDIASTINAL,3099
+273,octreotide,3076
+274,Enteral TF,3074
+275,#3:,3069
+276,Ileostomy,3067
+277,Chest Tube Output: Mediastinal L Anterior,3044
+278,Per IV Flush: Forearm L 18 gauge,3017
+279,Urinary Catheter Output: Indwelling/Continuous Sup,3002
+280,Per IV Flush: Forearm R 18 gauge,2983
+281,DOPamine,2974
+282,Chest Tube Output: Pleural R Lateral,2948
+283,D5W  w/150 mEq NaHCO3 1000 ml,2924
+284,PO FLUIDS,2907
+285,Volume (mL)-potassium chloride 10 mEq in 100 mL IVPB,2872
+286,0.9 NS_c,2867
+287,PO po,2847
+288,versed,2829
+289,Volume (mL)-piperacillin-tazobactam (ZOSYN) FOUR HOUR EXTENDED INFUSION IVPB 3.375 g,2818
+290,"Urine, void:",2800
+291,Chest Tube Output: Pleural L Lateral,2800
+292,Ventriculostomy,2787
+293,Output Amt-Jackson Pratt Drain,2779
+294,Vasopressin,2777
+295,Number of Bowel Movements Output,2762
+296,CHEST TUBE PLEURAL,2760
+297,PO ORAL,2756
+298,HEPARIN,2754
+299,Tube Feeding:,2726
+300,JP,2713
+301,EVD Output (ml)-ICP/External Ventricular Drain (EVD) Right Ventriculostomy,2690
+302,Volume (mL)-metroNIDAZOLE (FLAGYL) IVPB 500 mg,2679
+303,Amiodarone,2652
+304,Volume (mL)-potassium chloride 20 mEq/100mL IVPB premix,2651
+305,CRRT Out,2650
+306,DOBUTamine,2629
+307,D5 0.45 NS  w/20 mEq KCL 1000 ml,2629
+308,Output (mL)-Urethral Catheter Straight-tip 16 Fr.,2605
+309,Enteral Vital AF 1.2,2573
+310,INSULIN,2570
+311,Output Amt-Jackson Pratt Drain A,2569
+312,Volume (mL)-sodium chloride 0.9 % with KCl 20 mEq infusion,2567
+313,ARGATROBAN,2549
+314,Vascular 4 Flush Amount (mL),2544
+315,Volume (mL)-0.45 % NaCl with KCl 20 mEq / L infusion,2544
+316,Enteral NUTREN 1.5,2533
+317,Rectal Tube,2524
+318,Volume (ml) Pantoprazole,2512
+319,Volume (mL)-dextrose 5 % and 0.9 % NaCl with KCl 20 mEq/L infusion,2509
+320,Volume (mL)-piperacillin-tazobactam (ZOSYN) 4.5 g in sodium chloride 0.9 % 100 mL IVPB,2498
+321,Output Amt-Jackson Pratt Drain B,2495
+322,Volume (ml) Nitroglycerin,2488
+323,Enteral Pivot,2465
+324,Drain 2 Output mL,2462
+325,"Volume (mL)-sodium chloride 0.9 % 1,000 mL IV bolus",2455
+326,Enteral,2454
+327,Output (mL)-Urethral Catheter Temperature probe 14 Fr.,2453
+328,Enteral perative,2452
+329,Enteral nutren 1.5,2443
+330,Output Y (ml)-Chest Tube Y - a #1 Right b #2 Left,2443
+331,Volume (mL) Nicardipine,2432
+332,Volume (mL)-vancomycin (VANCOCIN) IVPB 1000 mg/200 mL premix,2418
+333,"CL Flush: Coated Catheter, Pressure/power inj IJ R",2415
+334,Output (mL)-Urethral Catheter Non-latex 14 Fr.,2413
+335,PO clears,2411
+336,EnteralTubeFlush,2405
+337,Fentanyl-IN,2361
+338,INTAKE,2358
+339,Enteral Jevity 1.5,2357
+340,Volume (mL)-potassium chloride IVPB 20 mEq,2356
+341,Enteral 2cal HN,2340
+342,Volume (mL)-albumin human 5 % injection 12.5 g,2335
+343,Volume (mL)-levofloxacin (LEVAQUIN) IVPB 750 mg,2324
+344,Volume (mL)-dextrose 5 % infusion,2311
+345,IV,2310
+346,Enteral flush,2305
+347,Per IV Flush: Wrist R 20 gauge,2301
+348,Output (mL)-Urethral Catheter Temperature probe 16 Fr.,2297
+349,Epidural,2292
+350,Volume (ml) Alteplase,2261
+351,NS  w/40 mEq KCL 1000 ml,2258
+352,Fat emulsion,2249
+353,Enteral 2 Cal HN,2226
+354,Hypertonic saline 3% ,2224
+355,Volume (ml) Morphine,2194
+356,Per IV Flush: Wrist L 20 gauge,2193
+357,Output Y (ml)-Chest Tube Y - a #1 Mid b #2 Mid,2182
+358,D5 0.45 NS  w/20 mEq KCL,2179
+359,Volume (mL)-sodium chloride (NORMAL SALINE) 0.9 % bolus 500 mL,2165
+360,"Enteral Tube Intake: Nasogastric Nostril, R 16",2157
+361,Drainage Output Amount1,2153
+362,PO clear liquids,2119
+363,Output Amt-Chest Tube B,2090
+364,Chest Tube B Amount,2084
+365,Enteral 2 cal HN,2079
+366,Output (mL)-Urethral Catheter 14 Fr.,2060
+367,NS c IVF,2054
+368,PO Liquids,2045
+369,Output (mL)-Urethral Catheter Latex;Straight-tip 14 Fr.,2045
+370,milrinone,2033
+371,Chest Tube Output: Pleural L Anterior,2021
+372,Mixed Urine/Stool Volume,2018
+373,insulin,2015
+374,Volume (mL)-sodium chloride 0.9 % flush IVPB 500 mL,2011
+375,TOTAL OUT,2008
+376,Tube Feeding Flushes (mL),2005
+377,TOTAL IN,2002
+378,Enteral Tube Feed,1998
+379,foley,1974
+380,variance,1962
+381,Intake (mL)-NG/OG Tube Orogastric Left mouth,1934
+382,Enteral Tube Feeding,1925
+383,Gastric Tube Intake,1925
+384,cisatracurium,1923
+385,Urine Output-Foley,1920
+386,Output (mL)-Urethral Catheter Straight-tip 14 Fr.,1920
+387,Volume (mL)-sodium chloride 0.9 % flush IVPB 250 mL,1888
+388,Estimated Blood Loss,1885
+389,Chest Tube Pleural,1880
+390,EVD,1878
+391,"Enteral Tube Intake: Nasogastric Nostril, L 16",1876
+392,Protonix,1865
+393,VERSED,1847
+394,VASOPRESSIN,1846
+395,Enteral Other,1840
+396,Chest Tube Mediastinal,1839
+397,Volume (ml)-Transfuse - Leukoreduced Packed RBCs,1835
+398,Volume (mL)-meropenem (MERREM) 500 mg in sodium chloride 0.9 % 100 mL IVPB,1827
+399,Volume (ml) Nicardipine,1795
+400,Output Amt-Blake Drain C,1782
+401,PO po fluids,1776
+402,Other Intake,1765
+403,Volume (mL)-potassium chloride 10 mEq in 50 mL IVPB,1764
+404,Volume (mL)-dextrose 5 % / sodium chloride 0.45% with KCl 40 mEq infusion,1762
+405,Volume (ml)  Nicardipine,1750
+406,Volume-Transfuse plasma,1748
+407,"Enteral Tube Intake: Nasoduodenal Nostril, R 10",1746
+408,Volume (mL)-potassium chloride IVPB 20 mEq 100 mL,1746
+409,Output (mL)-External Urethral Device Condom catheter,1741
+410,"Volume (mL)-dextrose 5 % / sodium chloride 0.45% 1,000 mL with potassium chloride 40 mEq, magnesium sulfate 5 g infusion",1737
+411,Variance,1725
+412,CRRT - UF removed,1722
+413,NOREPINEPHRINE,1721
+414,Urinary Catheter Output: Straight/Intermittent Ure,1720
+415,Volume (mL)-cefepime (MAXIPIME) 1 g in sodium chloride 0.9 % 100 mL IVPB,1717
+416,Chest tube #1,1714
+417,Enteral Promote,1696
+418,Volume (mL)-0.9 % NaCl with KCl 40 mEq / L  infusion,1694
+419,Volume (mL)-sodium chloride 0.9 % 500 mL IV bolus,1691
+420,CL Flush: Coated Catheter IJ R,1689
+421,Pantoprazole (NS)-IN,1686
+422,Volume (mL)-dextrose 5 % / sodium chloride 0.9% infusion,1684
+423,CL Flush: Introducer sheath IJ R,1678
+424,Banana Bag,1667
+425,External Ventricular Drain (EVD) Output (ml)-ICP/External Ventricular Drain (EVD) Right Ventriculostomy,1661
+426,Enteral Osmolite 1.5,1660
+427,5% Albumin,1658
+428,Nimbex,1635
+429,CL Flush: IJ R,1632
+430,Bulb #2,1628
+431,Volume (ml) Nitroprusside,1625
+432,Enteral Pivot 1.5cal,1622
+433,Enteral Replete,1618
+434,TPN w/fat emulsion,1609
+435,Cardene,1598
+436,Volume (mL) Epinephrine,1589
+437,JP #1,1588
+438,Chest Tube #2,1588
+439,"Intake, Tube Feeding Amount",1587
+440,CO,1586
+441,Urinary Catheter Output: Indwelling/Continuous Ext,1586
+442,Volume (ml)  Bivalirudin,1585
+443,JP Drain Total,1572
+444,D5LR IVF,1565
+445,Volume (mL)-cefepime (MAXIPIME) 2 g in sodium chloride 0.9 % 100 mL IVPB,1562
+446,D10,1560
+447,Chest Tube C Amount,1549
+448,Fentanyl (NS)-IN,1534
+449,epidural,1510
+450,PO fluid,1509
+451,PROpofol (ml):,1504
+452,Volume (mL) Dobutamine,1489
+453,sorensons,1488
+454,Enteral Vital AF,1486
+455,Enteral NG/GT,1470
+456,Emesis Count,1467
+457,PPN,1465
+458,IV Admix,1454
+459,Amiodarone-IN,1452
+460,Volume (mL)-famotidine (PEPCID) IVPB 20 mg,1448
+461,Volume (mL)-piperacillin-tazobactam (ZOSYN) IVPB 2.25 g,1439
+462,TUBE FDGING FORM,1437
+463,TUBE FEED FLUSH,1436
+464,PO  ,1434
+465,Per IV Flush: Hand L 18 gauge,1432
+466,Enteral glucerna 1.5,1430
+467,#4:,1423
+468,Enteral Tube Flush,1422
+469,CONDOM CATHETER OUTPUT,1415
+470,PO INTAKE,1406
+471,"Enteral Tube Intake: Nasoduodenal Nostril, R 10F",1406
+472,Plasmalyte ,1402
+473,Volume (ml) Magnesium Sulfate,1397
+474,Output (mL)-Urethral Catheter Latex,1391
+475,Output (mL)-Urethral Catheter Straight-tip,1388
+476,"Volume (mL)-vancomycin (VANCOCIN) 1,500 mg in dextrose 5 % 250 mL IVPB",1384
+477,Volume (mL)-0.45 % sodium chloride with KCl 20 mEq infusion,1380
+478,Condom Catheter,1371
+479,Enteral tube feeding,1370
+480,CL Flush: Non-Tunneled IJ L,1369
+481,Enteral other,1359
+482,Output Y (ml)-Chest Tube Y - a #1 Right b #2 Mid c #3 Left,1357
+483,Enteral jevity 1.5,1341
+484,Tube Feeding Amount,1340
+485,Gastric Tube Output: Orogastric Oral,1317
+486,Fat emulsion 20%,1314
+487,Volume (mL)-ceFEPIme (MAXIPIME) 1 g in dextrose 5 % 50 mL IVPB,1314
+488,"Gastric Tube Output: Nasogastric Nostril, R",1309
+489,Anticoag/Thrombolytic Other (volume),1309
+490,"Enteral Tube Intake: Nasoduodenal Nostril, R 12",1306
+491,Output (mL)-Urethral Catheter Latex;Straight-tip;Temperature probe 14 Fr.,1306
+492,Volume (mL)-magnesium sulfate in 5 % dextrose IVPB 1 g,1304
+493,Output (mL)-Urinary Catheter Indwelling,1303
+494,Enteral NEPRO,1295
+495,D5NS  w/20 mEq KCL 1000 ml,1295
+496,Enteral tube feeds,1290
+497,Output Amt-Wound Vac,1284
+498,Volume (mL)-albumin human 5 % injection 25 g,1283
+499,"Volume (mL)-vancomycin (VANCOCIN) 1,250 mg in dextrose 5 % 250 mL IVPB",1283
+500,Volume-Transfuse platelet pheresis,1276
+501,Output (mL)-Urethral Catheter Non-latex,1268
+502,Enteral Novasource Renal,1266
+503,Intake (mL)-Gastrostomy/Enterostomy Percutaneous endoscopic gastrostomy (PEG) LUQ,1261
+504,Insulin Drip (NS)-IN,1260
+505,1/2 NS,1259
+506,Output (mL)-Urethral Catheter Temperature probe,1259
+507,Enteral Tube Intake: Orogastric Oral 18,1258
+508,Output Y (ml)-Chest Tube Y - a #1 Mid b #2 Left,1248
+509,Volume (mL)-cefTRIAXone (ROCEPHIN) 1 g in dextrose 5 % 50 mL IVPB,1242
+510,Diprivan,1238
+511,Volume (mL)-vancomycin in dextrose premix 1 g,1238
+512,Vascular 5 Flush Amount (mL),1234
+513,SN Urine Output(ml),1233
+514,24 HR TOTAL OUTPUT  0700-0659,1230
+515,Enteral Tube Intake: Orogastric,1229
+516,Per IV Flush: Antecubital R,1223
+517,"Volume (mL)-ceFAZolin 2,000 mg in sodium chloride 0.9% 100 mL IVPB",1221
+518,sorenson,1220
+519,Volume (mL) Octreotide,1220
+520,Volume (mL)-dextrose 5 % and 0.45 % NaCl with KCl 40 mEq/L infusion,1216
+521,"Volume (mL)-ceFEPIme (MAXIPIME) 1,000 mg in sodium chloride 0.9 % 100 mL IVPB",1211
+522,0.45 NS  w/20 mEq KCL 1000 ml,1203
+523,Per IV Flush: Forearm R 22 gauge,1197
+524,D5W  w/150 mEq NaHCO3,1191
+525,"Chest Tube Output: Mediastinal Anterior, Medial",1191
+526,Per IV Flush: Hand R 18 gauge,1191
+527,Drains Neuro24H,1188
+528,Ventric,1187
+529,Volume (mL)-sodium chloride 3 % solution,1187
+530,Per IV Flush: Antecubital L,1186
+531,Output (ml)-Chest Tube #1 Right,1184
+532,"Enteral Tube Intake: Nasoduodenal Nostril, L 10",1182
+533,precedex,1181
+534,24 HR TOTAL INTAKE  0700-0659,1181
+535,Volume (mL)-sodium chloride (hypertonic) 3 % solution,1179
+536,LEVophed (ml):,1178
+537,PO cardiac,1173
+538,Sorenson,1171
+539,GI Tube 1 Drainage Amount,1170
+540,Vancomycin,1164
+541,Enteral glucerna,1159
+542,Enteral OGT flush,1158
+543,Output Y (ml)-Chest Tube Y - a #1 Right Mid b #2 Left Mid,1153
+544,Enteral tube feed,1152
+545,Albumin 5%,1149
+546,JP #2,1148
+547,G Tube,1145
+548,Volume (mL)-albumin human 25 % injection 25 g,1145
+549,Volume (mL)-levETIRAcetam (KEPPRA) IVPB 500 mg,1145
+550,Volume (mL)-levETIRAcetam (KEPPRA) 500 mg in sodium chloride 0.9 % 100 mL IVPB,1144
+551,Per IV Flush: Forearm L 22 gauge,1141
+552,Enteral Two Cal HN,1140
+553,PO diet,1130
+554,Per IV Flush: Wrist L 18 gauge,1124
+555,Tube flush,1123
+556,DEXmedetomidine (ml):,1122
+557,Tube feeding,1118
+558,Chest Tube Output: Pleural R Anterior,1115
+559,Per IV Flush: Forearm R,1109
+560,Output Y (ml)-Chest Tube Y - a #1 Right Lateral b #4 Left Lateral,1108
+561,Volume (mL)-dextrose 5 % in lactated ringers infusion,1108
+562,Volume (mL)-sodium chloride 0.45 % infusion,1107
+563,"Volume (mL)-sodium chloride 0.9 % 1,000 mL infusion",1102
+564,"Volume (mL)-sodium chloride (NORMAL SALINE) 0.9 % bolus 1,000 mL",1101
+565,Enteral Peptamen,1098
+566,NS + ADD,1097
+567,Output (mL)-Straight Catheter,1093
+568,Volume (mL)-vancomycin (VANCOCIN) IVPB 750 mg/150 ml premix,1084
+569,NEPHROSTOMY OUTPUT,1083
+570,Enteral jevity 1.2,1083
+571,Volume (mL)-ceFAZolin (ANCEF) in sod chl 2 g IVPB premix,1081
+572,CO/Sorenson,1080
+573,Enteral 2calHN,1075
+574,KPhos,1074
+575,Levo,1073
+576,Amicar,1064
+577,PO Fluid,1063
+578,PO cardiac diet,1059
+579,Volume (mL)-clindamycin (CLEOCIN) IVPB 600 mg,1057
+580,Volume (mL)-cefUROXime (ZINACEF) 1.5 g in dextrose 5 % 50 mL IVPB,1057
+581,Enteral meds/flush,1056
+582,"Volume (mL)-vancomycin (VANCOCIN) 1,250 mg in sodium chloride 0.9 % 250 mL IVPB",1054
+583,% Snack Eaten,1052
+584,NS  w/40 mEq KCL,1047
+585,Per IV Flush: Forearm L,1047
+586,protonix,1045
+587,Enteral osmolite 1.5,1040
+588,Enteral ng/gt,1037
+589,Volume (mL)-magnesium sulfate 1 g in dextrose 5% 100 mL IVPB premix,1030
+590,Volume Infused (ml)-fentaNYL 20 mcg/mL in sodium chloride 0.9% 30 mL PCA infusion,1030
+591,"CL Flush: Non-Tunneled, Coated Catheter, Pressure/",1025
+592,Sorensons,1022
+593,Enteral Tube Feeds,1019
+594,Enteral Glucerna 1.2,1017
+595,Output Amt-Chest Tube C,1016
+596,Lipid Intake Amount,1007
+597,CL Flush: Non-Tunneled Subclavian L,1005
+598,Diltiazem-IN,1004
+599,DOPamine (ml):,1004
+600,Total Out,995
+601,PO oral intake,994
+602,DOPAMINE,993
+603,Volume (mL)-fat emulsion 20 % infusion,991
+604,CRRT- UF removed,988
+605,Urine Output (mL)-Urethral Catheter,988
+606,diprivan,987
+607,Enteral Tube Intake: Jejunostomy Abdominal wall,982
+608,Total In,980
+609,Water via tube:,979
+610,OthrOutputTotal,976
+611,Dopamine,975
+612,Enteral Tube feeds,974
+613,Output Amt-Hemovac Drain,971
+614,PRESSURE LINE FLUSH,971
+615,DIPRIVAN,969
+616,Enteral Tube Intake: Transgastric-Jejunal Abdomina,969
+617,CBI OUTPUT,963
+618,PPN/TNA/TPN,959
+619,Enteral Free Water,957
+620,Enteral  Nepro,955
+621,Enteral pivot1.5,954
+622,Urine Output-foley,953
+623,SN IV Solution Volume (ml),953
+624,cardene,948
+625,Chest Tube #1:,944
+626,chest tube,941
+627,"Volume (mL)-sodium bicarbonate 150 mEq in sterile water 1,000 mL infusion",941
+628,Sorenson / CO,935
+629,Enteral OGT meds,935
+630,Per IV Flush: Hand R 22 gauge,935
+631,T Tube,931
+632,Analgesic Other (Volume),931
+633,Tube Meds,930
+634,argatroban,928
+635,Enteral Tubefeed,926
+636,Argatroban,914
+637,Output (mL)-NG/OG Tube Nasogastric Right nostril,913
+638,Enteral 2Cal HN,911
+639,PO liqs,910
+640,Enteral Peptamen AF,910
+641,Other Output,909
+642,Per IV Flush: Hand L 22 gauge,909
+643,Enteral Nutren,908
+644,"CL Flush: Coated Catheter, Pressure/power inj IJ L",907
+645,Volume (mL)-albumin human (SPA) 25 % injection 12.5 g,907
+646,Output (ml)-Chest Tube #1 Right Lateral,906
+647,Intake (mL)-NG/OG Tube Orogastric,904
+648,Enteral water flushes,903
+649,Volume (mL)-piperacillin-tazobactam (ZOSYN) 3.375 g in sodium chloride 0.9 % 100 mL EXTENDED INFUSION IVPB,902
+650,ZOSYN,896
+651,Enteral Jevity,893
+652,PRECEDEX,883
+653,Neo,882
+654,Urine Output (mL)-Urethral Catheter ,881
+655,Volume (mL)-antithrombin III (human) (THROMBATE III) 550 Units in STERILE IV DILUENT 11 mL INFUSION syringe,881
+656,Volume Octreotide,880
+657,Amount administered,880
+658,Enteral water flush,879
+659,Volume Infused (ml)-morphine 2 mg/mL in sodium chloride 0.9% 30 mL PCA infusion,876
+660,Urostomy,872
+661,EPINEPHrine,871
+662,CL Flush: Pressure/power inj IJ R,871
+663,Hemodialysis Intake (mL),867
+664,Volume (mL)-albumin human (SPA) 25 % injection 25 g,867
+665,Cardizem,865
+666,"Surgical Drain, Tube Output: Vacuum-closed system ",865
+667,Enteral tube flush,863
+668,Straight Cath,857
+669,25% Albumin,857
+670,"Gastric Tube Output: Nasogastric Nostril, L",857
+671,Output Y (ml)-Chest Tube Y - a #3 Mid b #4 Mid,856
+672,Enteral Feed,854
+673,Volume (mL)-magnesium sulfate in dextrose premix 2 g,854
+674,Enteral OGT Flush,852
+675,Enteral Tube Intake,850
+676,Enteral Fibersource HN,849
+677,"Volume (mL)-vancomycin 1,250 mg in sodium chloride 0.9% 250 mL IVPB",847
+678,NG tube,840
+679,"Chest Tube Output: Mediastinal R Anterior, Medial",836
+680,AMIODARONE,833
+681,Volume (mL)-piperacillin-tazobactam (ZOSYN) 2.25 g in sodium chloride 0.9 % 100 mL IVPB,833
+682,D5NS  w/20 mEq KCL,832
+683,PO Clears,829
+684,Crystalloid,829
+685,IV/IVPB:,828
+686,Volume (mL)-cefTRIAXone (ROCEPHIN) 2 g in sodium chloride 0.9 % 100 mL IVPB,827
+687,EVD Output (ml)-ICP/External Ventricular Drain (EVD) Left Ventriculostomy,826
+688,Vanco,824
+689,D51/4NS IVF,820
+690,Emesis Output,819
+691,Output Amt-Urinary Catheter,819
+692,"Volume (mL)-vancomycin (VANCOCIN) 1,000 mg in sodium chloride 0.9 % 250 mL IVPB",817
+693,Output Y (ml)-Chest Tube Y - a #1 Right b #1 Left,815
+694,Chest Tube Output: Pleural L,814
+695,Volume (ml)  Metoprolol,814
+696,D10NS,811
+697,"Enteral Tube Intake: Nasoduodenal Nostril, R 12 fr",810
+698,Per IV Flush: Wrist R 18 gauge,807
+699,Volume (mL)-imipenem-cilastatin (PRIMAXIN) 250 mg in sodium chloride 0.9 % 100 mL IVPB,807
+700,Output (mL)-Urethral Catheter Latex;Straight-tip 16 Fr.,803
+701,"Volume (mL)-dextrose 5 % 1,000 mL with potassium chloride 40 mEq infusion",802
+702,Volume (mL)-meropenem (MERREM) 1 g in sodium chloride 0.9 % 100 mL IVPB,799
+703,Output (ml)-Nephrostomy Left,792
+704,Enteral Tube Intake: Nasogastric Oral,792
+705,Ventrculostomy#1,789
+706,Volume (mL)-ceFAZolin (ANCEF) IVPB 2 g/50 mL premix,783
+707,Urinary Catheter Output: Coude Urethral 16 Fr.,781
+708,Total Intake ,780
+709,IV Antibiotics_c,780
+710,Volume (ml)  Aminocaproic Acid,780
+711,"Volume (mL)-vancomycin in dextrose premix 1,000 mg",779
+712,Vascular 6 Flush Amount (mL),778
+713,Volume (mL)-linezolid (ZYVOX) IVPB 600 mg,775
+714,PO po intake,773
+715,JP drain,772
+716,Volume (mL)-piperacillin-tazobactam (ZOSYN) in dextrose 5% premix IVPB 3.375 g,770
+717,Enteral FLUSH,769
+718,Enteral Twocal,767
+719,Output (ml)-Nephrostomy Right,767
+720,Midazolam (NS)-IN,767
+721,Volume (mL)-dextrose 5 % with KCl 20 mEq / L  infusion,767
+722,D5 0.45 NS  w/40 mEq KCL,760
+723,Chest Tube Output: Mediastinal,757
+724,Wound/Drain #1,756
+725,PO Regular,755
+726,Intake (mL)-NG/OG Tube Other (Comment) Right nostril,753
+727,Enteral TUBE FEEDING,752
+728,PO meds,751
+729,PO Cardiac,751
+730,Output Y (ml)-Chest Tube Y - a #1 Right Lateral b #2 Left Lateral,751
+731,Octreotide (NS)-IN,750
+732,Enteral TUBE FEED,748
+733,Enteral Free water,746
+734,Contrast amount,744
+735,Volume (mL)-SODIUM CHLORIDE 0.9 % IV SOLN Pyxis Override,743
+736,Enteral fibersource,740
+737,Volume (ml) 3% NaCl,740
+738,"CL Flush: Non-Tunneled, Coated Catheter IJ R 7fr",740
+739,Volume (mL)-azithromycin (ZITHROMAX) 500 mg in sodium chloride 0.9 % 250 mL IVPB,740
+740,Output (mL)-Urinary Catheter  Indwelling,739
+741,"Volume (mL)-cefTRIAXone (ROCEPHIN) 1,000 mg in sodium chloride 0.9 % 100 mL IVPB",738
+742,CT,736
+743,D5 0.45 NS  w/40 mEq KCL 1000 ml,736
+744,"Enteral Tube Intake: Nasoduodenal Nostril, L 12",735
+745,"Enteral Tube Intake: Nasoduodenal Nostril, L 10F",732
+746,PROTONIX,730
+747,Enteral MEDS,727
+748,Urinary Catheter Output: Urethral,727
+749,CL Hemo Total Flush,727
+750,NS for Blood Administration,726
+751,Enteral Vital 1.2,724
+752,"Surgical Drain, Tube Output: Drainage bag-closed s",724
+753,Enteral pivot,723
+754,CL Flush: Non-Tunneled dialysis IJ R,723
+755,PO -,721
+756,Enteral Feeds,721
+757,Enteral feed,718
+758,"CL Flush: Non-Tunneled, Coated Catheter IJ R 7F",717
+759,Drain 3 Output mL,716
+760,Intake Variance,714
+761,Output (mL)-NG/OG Tube Nasogastric Left nostril,714
+762,Output Y (ml)-Chest Tube Y - a #1 Right Lateral b #1 Left Lateral,713
+763,"Enteral Tube Intake: Nasoduodenal Nostril, R 10 fr",711
+764,Neosynephrine,708
+765,LR,707
+766,Chest Tube Output: Pleural R,705
+767,CL Flush: Non-Tunneled Subclavian R,703
+768,Incontinence,701
+769,Output Amt-Urinary Catheter ,696
+770,Output Amt-Jackson Pratt Drain C,693
+771,OGT,691
+772,generic,689
+773,Volume (mL)-Ampicillin-Sulbactam (UNASYN) 3 g in sodium chloride 0.9 % 100 mL IVPB,689
+774,Intake (mL)-NG/OG Tube Center mouth,687
+775,"Volume (mL)-sodium chloride 0.9 % bolus 1,000 mL",687
+776,Albumin 25%,686
+777,morPHINe,682
+778,"CL Flush: Non-Tunneled, Coated Catheter IJ R 7Fr",681
+779,Enteral NOVASOURCE RENAL,678
+780,Enteral Tube Intake: Percutaneous endo jejunostomy,678
+781,CV Norepinephrine 8mg V2-IN,677
+782,Norepinephrine,676
+783,Sorensens,675
+784,Enteral fibersource HN,675
+785,Volume (mL)-potassium chloride 20 MEQ/50ML IVPB premix 20 mEq,675
+786,Drainage Output Amount2,673
+787,Epinephrine,673
+788,Enteral Tube Intake: Orogastric Oral 14,672
+789,"CL Flush: Non-Tunneled, Coated Catheter IJ R 7FR",670
+790,Hemovac #1,668
+791,Dobutamine,668
+792,Enteral Promote with fiber,668
+793,Chest Tube Output: Mediastinal R Medial,667
+794,Enteral Meds/Flushes,660
+795,cardizem,657
+796,"Chest Tube Output: Pleural L Anterior, Lateral",655
+797,Enteral TUBE FLUSH,653
+798,Enteral :Pivot 1.5,652
+799,Enteral Osmolte 1.5,652
+800,Fentanyl PCA Volume,652
+801,Lorazepam Volume,650
+802,CL Flush: Coated Catheter IJ R 7F,650
+803,"Intake, GI Tube Flush",647
+804,Output (ml)-Chest Tube #1 Left,645
+805,HEPARIN DRIP,644
+806,NS bolus,642
+807,Enteral 2CalHN,642
+808,PO Oral Intake,642
+809,Volume (mL)-fluconazole (DIFLUCAN) IVPB 200 mg,642
+810,Output (mL)-ICP/Ventriculostomy Ventricular drainage catheter with ICP microsensor Right Frontal region,641
+811,CARDENE,638
+812,Volume Infused (ml)-morphine PCA 5 mg/mL,638
+813,Balance this Exchange (mL),637
+814,NEOsynephrine (ml):,637
+815,JP C,636
+816,CL Flush: PICC R,636
+817,Enteral WATER FLUSH,634
+818,TPN Volume,633
+819,Milrinone,632
+820,"Surgical Drain, Tube Output: Bulb-closed system He",631
+821,Volume (mL)-hydrocortisone sod succ PF (Solu-CORTEF) 250 mg in sodium chloride 0.9 % 250 mL infusion,631
+822,D5NS  w/40 mEq KCL 1000 ml,629
+823,Primacor,628
+824,Stool Volume,625
+825,KCL,624
+826,PO,624
+827,Generic,621
+828,Urine Output (mL)-Urethral Catheter  ,620
+829,Urinary Catheter Output: Coude Urethral 14 Fr.,619
+830,Ileal Conduit,617
+831,D5 1/2NS,617
+832,"Surgical Drain, Tube Output: Bulb-closed system Ch",617
+833,Volume (mL)-vancomycin (VANCOCIN) 500 mg in sodium chloride 0.9 % 100 mL IVPB,617
+834,Volume (mL)-imipenem-cilastatin (PRIMAXIN) 500 mg in sodium chloride 0.9 % 100 mL IVPB,615
+835,Volume (mL) Argatroban,614
+836,Volume (ml) Lidocaine,613
+837,Enteral Glucerna 1.5 ,612
+838,Volume (ml) Vecuronium,610
+839,Gastric Tube Amount of Irrigant,608
+840,JP B,607
+841,"Enteral Tube Intake: Nasoduodenal Nostril, R 10 Fr",607
+842,Enteral Impact Peptide 1.5,606
+843,SN Total Blood Product Volume(ml),604
+844,Output Y (ml)-Chest Tube Y - a #1 Left b #2 Right,602
+845,EVD Output (ml)-ICP/External Ventricular Drain (EVD) Right,596
+846,PO regular diet,595
+847,Urinary Catheter Output: Coude Urethral 18 Fr.,595
+848,Volume (mL)-magnesium sulfate IVPB 4 g 100 mL,595
+849,furosemide,594
+850,CL PICC Total Lumen Flushes 2,594
+851,Volume (mL)-dextrose 5 % and 0.9 % NaCl with KCl 40 mEq/L infusion,594
+852,Volume (mL)-ceFAZolin (ANCEF) IVPB 1 g/50 mL premix,592
+853,D20W,590
+854,Enteral Free H2O,590
+855,Volume (mL)-potassium chloride IVPB 10 mEq 100 mL,590
+856,Enteral TwoCalHN,588
+857,TPN/PPN Intake Amount,584
+858,Pressure Line Flush,582
+859,Volume (mL)-sodium chloride 0.9 % bolus 500 mL,582
+860,Enteral meds/flushes,579
+861,PO liquid,578
+862,Volume (mL)-calcium CHLORIDE IVPB premix 1 g,577
+863,Enteral Osmolyte 1.5,576
+864,Lactated Ringers Volume,574
+865,Volume (mL)-albumin human 5 % solution 250 mL,574
+866,"Volume (mL)-dextrose 5 % 1,000 mL with potassium chloride 20 mEq infusion",573
+867,Chest tube #2,572
+868,Nafcillin,572
+869,VASopressin (ml):,571
+870,Output (ml)-Chest Tube #1 Pleural Right Lower;Anterior,571
+871,Output Variance,569
+872,Output Y (ml)-Chest Tube Y - a #1 Mid b #1 Mid,569
+873,Incontinent,568
+874,Volume (mL)-ciprofloxacin (CIPRO) IVPB 400 mg,568
+875,Total Amount (mL)-bupivacaine 0.125-0.9 % premix solution,568
+876,Per IV Flush: Hand L,567
+877,"Enteral Tube Intake: Nasoduodenal Nostril, L 10 Fr",566
+878,"Surgical Drain, Tube Output: Bulb-closed system Ne",565
+879,Volume (mL)-levofloxacin (LEVAQUIN) in dextrose 5% premix IVPB 750 mg,564
+880,DEXMEDETOMIDINE,560
+881,Chest Tube Mediastinal ,559
+882,Enteral free water,559
+883,Output Y (ml)-Chest Tube Y - a #1 Right b #2 Mid,558
+884,DOBUTAMINE,555
+885,FENTANYL GTT,555
+886,NS Bolus,552
+887,Meropenem,552
+888,PO Cardiac Diet,552
+889,Output (mL)-Urethral Catheter Double-lumen 16 Fr.,552
+890,Chest Tube Output: Mediastinal L Medial,551
+891,CL Flush: Chest R,550
+892,epoprostenol,548
+893,banana bag,547
+894,Per IV Flush: Hand R,547
+895,Enteral Free H20,546
+896,Output (mL)-[REMOVED] Straight Catheter,546
+897,vanco,545
+898,Output (ml)-Chest Tube #2 Left,545
+899,Effluent,544
+900,Enteral FWF,544
+901,Per IV Flush: Upper arm L 18 gauge,544
+902,Mannitol,543
+903,"CL Flush: Non-Tunneled, Coated Catheter IJ R",543
+904,Enteral Isosource,542
+905,Volume (mL)-dextrose 5 % / lactated ringers infusion,541
+906,eptifibatide,540
+907,Enteral 2CAL HN,540
+908,PO Clear liquids,540
+909,Enteral OGT meds/flush,540
+910,Enteral OGT flush/meds,538
+911,Volume (mL)-sodium bicarbonate 150 mEq in dextrose 5% 1000 mL infusion,536
+912,intake,535
+913,"Volume (mL)-levETIRAcetam (KEPPRA) IVPB 1,000 mg",535
+914,CL Flush: Coated Catheter Subclavian L,534
+915,"Volume (mL)-vancomycin (VANCOCIN) 1,500 mg in sodium chloride 0.9 % 500 mL IVPB",534
+916,LEVO,532
+917,Chest Tube Drainage Output1,532
+918,Lumbar Drain,531
+919,Per IV Flush: Upper arm R 18 gauge,530
+920,Enteral Vital High Protien,529
+921,Chest Tube Pleural ,528
+922,"Volume (mL)-sodium chloride 0.9 % 1,000 mL with potassium chloride 20 mEq infusion",528
+923,"Volume (mL)-dextrose 5 % 1,000 mL with sodium bicarbonate 150 mEq infusion",526
+924,D5 NS,525
+925,Urinary Catheter Output: Urethral 16 Fr.,525
+926,Enteral Tube feed,524
+927,D5W  w/20 mEq KCL,521
+928,esmolol,520
+929,"Enteral Tube Intake: Nasogastric Nostril, L 10",516
+930,Volume (mL) Labetalol,513
+931,Bulb #3,512
+932,Enteral 2 calHN,512
+933,sorenson/co,511
+934,Enteral Osmolite 1.2,509
+935,Volume (mL)-vancomycin (VANCOCIN) 750 mg in dextrose 5 % 250 mL IVPB,509
+936,Enteral fibersource hn,506
+937,Phenylephrine (NS)-IN,506
+938,Chest Tube Output: Mediastinal Medial,504
+939,Enteral flush with meds,504
+940,JP A,502
+941,Nicardipine (NS)-IN,501
+942,Enteral Jevity 1.2 ,500
+943,Ventric #2,499
+944,Volume (mL)-azithromycin (ZITHROMAX) 500 mg in dextrose 5 % 250 mL IVPB,499
+945,NS  w/30 mmol (as PO4) KPO4 500 ml,498
+946,PO Meds,497
+947,Output Amt-Pleural Drain,495
+948,Enteral TPN,494
+949,"Volume (mL)-antithrombin III (human) (THROMBATE III) 1,208 Units in STERILE IV DILUENT 22 mL INFUSION syringe",494
+950,Enteral Jevity 1,493
+951,Volume (ml) Calcium Chloride,493
+952,D5 1/2 NS w/KCl 20mEq Volume,492
+953,Banana bag,491
+954,Per IV Flush: Upper arm R,491
+955,Wound 1 Neg Pressure Vac Drainage Amount,488
+956,Enteral Water Flush,487
+957,Enteral WATER FLUSHES,487
+958,T-tube,486
+959,"Output, Stool Amount",486
+960,Volume (mL)-ceFEPIme (MAXIPIME) 2 g in dextrose 5 % 50 mL IVPB,485
+961,JP 1,484
+962,vancomycin,484
+963,CL Flush: PICC Basilic R,484
+964,Volume (mL)-levETIRAcetam (KepPRA) 500 mg in sodium chloride 0.9 % 100 mL IVPB,484
+965,Volume (mL)-antithrombin III (human) (THROMBATE III) 621 Units in STERILE IV DILUENT 11 mL INFUSION syringe,483
+966,Output (ml)-Ostomy - GI Ileostomy RLQ,481
+967,Volume (mL)-magnesium sulfate IVPB 2 g 50 mL,481
+968,Volume (mL)-micafungin (MYCAMINE) 100 mg in sodium chloride 0.9 % 100 mL IVPB,481
+969,#5:,480
+970,Output (ml)-Chest Tube #1 Mid,480
+971,Dobutamine-IN,480
+972,Per IV Flush: Wrist R 22 gauge,480
+973,Output (ml)-Chest Tube #1 Pleural Left Lower;Anterior,480
+974,Output (mL)-Urethral Catheter Non-latex;Temperature probe 16 Fr.,480
+975,Enteral Water flush,478
+976,Per IV Flush: Wrist L 22 gauge,478
+977,Volume (mL)-clindamycin (CLEOCIN) IVPB 900 mg,478
+978,Enteral Flush/Meds,477
+979,"Volume (mL)-sodium bicarbonate 100 mEq in dextrose 5 % 1,000 mL infusion",477
+980,CL Flush: Non-Tunneled IJ R 8fr,476
+981,Enteral Tube Intake: Orogastric Oral 16F,475
+982,Enteral ngt,473
+983,Fentanyl ,473
+984,"Volume (mL)-ceFEPIme (MAXIPIME) 2,000 mg in sodium chloride 0.9 % 100 mL IVPB",473
+985,"Volume (mL)-vancomycin 1,500 mg in sodium chloride 0.9% 250 mL IVPB",472
+986,CSF,469
+987,other,469
+988,Amio,469
+989,Enteral 2calhn,467
+990,Output Y (ml)-Chest Tube Y - a #2 Right Mid b #2 Left Mid,467
+991,"Volume (mL)-sodium chloride 0.45 % 1,000 mL infusion",467
+992,lidocaine,466
+993,Magnesium,465
+994,"Volume (mL)-aztreonam (AZACTAM) 1,000 mg in sodium chloride 0.9 % 100 mL IVPB",464
+995,Volume (ml) Rocuronium,463
+996,Heparin Drip,462
+997,JP 2,460
+998,Midazolam-IN,460
+999,Vasopressin-IN,459
+1000,24 HR TOTAL OUTPUT  0700-0659	Yes,459
+1001,Volume (mL) Lidocaine,459
+1002,Intake (mL)-NG/OG Tube Right mouth,457
+1003,Nephrostomy #1,455
+1004,Dobutamine (NS)-IN,455
+1005,PO regular,453
+1006,VECURONIUM,453
+1007,Sandostatin,453
+1008,Volume (mL)-ampicillin (OMNIPEN) 2 g in sodium chloride 0.9 % 100 mL IVPB,453
+1009,Output Amt-Blake Drain D,452
+1010,Esmolol,452
+1011,Phenylephrine-IN,452
+1012,PO Oral intake,451
+1013,Enteral vital AF 1.2,451
+1014,Output (ml)-Chest Tube #1 Pleural Left Anterior;Lower,449
+1015,NS w/KCl 20mEq Volume,448
+1016,Output Y (ml)-Chest Tube Y - a #1 Mid b #2 Left Lateral,448
+1017,Volume (mL)-cefTRIAXone (ROCEPHIN) 2 g in dextrose 5 % 50 mL IVPB,447
+1018,"Volume (mL)-vancomycin (VANCOCIN) 1,750 mg in dextrose 5 % 500 mL IVPB",447
+1019,Output Y (ml)-Chest Tube Y - a #1 Right Anterior b #2 Left Anterior,445
+1020,Enteral vital af 1.2,444
+1021,Nicardipine-IN,443
+1022,ALTEPLASE,441
+1023,Output Amt-Hemovac Drain A,440
+1024,Output Y (ml)-Chest Tube Y - a #2 Right Mid b #3 Left Mid,440
+1025,"Enteral Tube Intake: Nasoduodenal Nostril, R 12 Fr",439
+1026,Vasopressin (NS)-IN,438
+1027,emesis,437
+1028,ACD SOLUTION A,435
+1029,Nephrostomy Left Output,434
+1030,Output (mL)-Urethral Catheter tawanda nt,433
+1031,K Phos,431
+1032,CL Flush: PICC Brachial R,431
+1033,"Chest Tube Output: Pleural R Anterior, Lateral",430
+1034,Enteral Nepro ,428
+1035,Volume-Transfuse cryoprecipitate,428
+1036,"Enteral Tube Intake: Nasoduodenal Nostril, L 10Fr",427
+1037,"Output (mL)-Urethral Catheter Maria Pelance, RN Latex;Straight-tip;Temperature probe;Triple-lumen 16 Fr.",426
+1038,CALCIUM GLUCONAT,425
+1039,JP Drain,423
+1040,"Output (mL)-Urethral Catheter Kristi Lawless, RN Latex;Straight-tip 16 Fr.",422
+1041,Enteral Meds/Flush,421
+1042,Volume (mL)-fluconazole (DIFLUCAN) IVPB 400 mg,420
+1043,Enteral Fibersource HL,419
+1044,Volume (mL)-dextrose 5 % / sodium chloride 0.9% with KCl 20 mEq infusion,419
+1045,Enteral isosource,418
+1046,PO Clear Liquids,417
+1047,CL Flush: Coated Catheter Subclavian R,417
+1048,Output Amt-Wound Vac A,416
+1049,SN Blood Loss(ml),415
+1050,Intake,414
+1051,Chest Tube Output: Mediastinal R,414
+1052,Volume (mL)-calcium GLUCONATE IVPB premix 2 g,414
+1053,D5W  w/20 mEq KCL 1000 ml,412
+1054,Chest Tube Output: Mediastinal L,411
+1055,24 HR TOTAL INTAKE  0700-0659	Yes,411
+1056,Phenylephrine,410
+1057,"Enteral Tube Intake: Nasogastric Nostril, R 16F",409
+1058,Chest Tube #3,408
+1059,Sorensons/CO,406
+1060,Output (ml)-Chest Tube #1 Pleural Left Lateral,405
+1061,Output Y (ml)-Chest Tube Y - a #1 Right Mid b #1 Left Mid,402
+1062,JP #3,401
+1063,Other In,399
+1064,levophed drip,399
+1065,Enteral Glucerna 1.5 40ml/hour,398
+1066,Volume (mL)-ampicillin (OMNIPEN) 2 g in sodium chloride 0.9 % 50 mL IVPB,398
+1067,Enteral flushes,396
+1068,Urinary Catheter Output: Indwelling/Continuous Per,396
+1069,Output (mL)-Urethral Catheter Latex;Temperature probe;Straight-tip;Triple-lumen,396
+1070,Na Acetate,395
+1071,ABICIXIMAB,394
+1072,Intermittent/Straight Cath (mL),394
+1073,Volume (mL)-0.9% sodium chloride with potassium chloride 40 mEq/L infusion,394
+1074,Volume (mL)-cefTRIAXone (ROCEPHIN) 1 g in sodium chloride 0.9 % 100 mL IVPB,394
+1075,25% Albumin 50 ml,391
+1076,Enteral Water flushes,391
+1077,Heparin (D5W)-IN,390
+1078,Output (ml)-Chest Tube #2 Left Lateral,390
+1079,Enteral Tube Intake: Orogastric Oral 16 fr,390
+1080,LORazePAM,389
+1081,Urinary Catheter Output: Coude Urethral,389
+1082,Keppra,388
+1083,NS+KCl,388
+1084,CL Flush: Subclavian L,388
+1085,Output (mL)-Urethral Catheter Double-lumen 14 Fr.,388
+1086,Enteral Novasource,387
+1087,NS  w/60 mEq KCL 1000 ml,387
+1088,Output (mL)-Urethral Catheter Double-lumen,387
+1089,External Shunt,386
+1090,Volume (ml) Argatroban,386
+1091,Urinary Catheter Output: Indwelling/Continuous Nep,385
+1092,"Volume (mL)-dextrose 5 % and 0.45% NaCl 1,000 mL with potassium chloride 20 mEq infusion",384
+1093,Na Acetate 1.26%,383
+1094,"Volume (mL)-levETIRAcetam (KEPPRA) 1,000 mg in sodium chloride 0.9 % 100 mL IVPB",383
+1095,Per IV Flush: Wrist L,382
+1096,"Output, Gastric Drainage Amount",381
+1097,Enteral enteral meds,381
+1098,Milrinone-IN,380
+1099,PO Intake ,379
+1100,Output (ml)-Chest Tube #1 Left Lateral,379
+1101,Urinary Catheter Output: Condom External,379
+1102,Per IV Flush: Antecubital L 22 gauge,379
+1103,PO PO intake,377
+1104,Output (ml)-Chest Tube #1 Pleural Right Lateral,377
+1105,Enteral Tube Intake: Gastrostomy tube,376
+1106,incontinent,374
+1107,Urine Output-FOLEY,373
+1108,Nitroglycerin-IN,373
+1109,PO Feeding tube,372
+1110,PO Regular diet,371
+1111,Enteral Pulmocare,371
+1112,Enteral Tube Intake: Orogastric Oral 12,371
+1113,Enteral Vital,370
+1114,ventric,369
+1115,Protonix drip,369
+1116,Propofol drip,369
+1117,EVD Output (ml)-ICP/External Ventricular Drain (EVD) Left,369
+1118,1.5% NaCl,368
+1119,D5W  w/40 mEq KCL 1000 ml,368
+1120,"Volume (mL)-dextrose 5 % 1,000 mL with sodium bicarbonate 100 mEq infusion",368
+1121,CARDIZEM,366
+1122,EVD Output (ml)-ICP/External Ventricular Drain (EVD) Right Codman,366
+1123,Volume (mL)-dextrose 5 % and 0.45 % NaCl with KCl 10 mEq/L infusion,365
+1124,D10 NS,364
+1125,Misc. Output,363
+1126,Drainage Total,362
+1127,CL Flush: Non-Tunneled IJ R 7fr,362
+1128,RHI,361
+1129,NITROGLYCERIN,359
+1130,Enteral Jevity 1.0,359
+1131,OtherDrainTotal,358
+1132,Output (mL)-Urinary Catheter Suprapubic catheter,357
+1133,Intake (mL)-NG/OG Tube Left nostril,357
+1134,Volume (mL)-piperacillin-tazobactam (ZOSYN) 4.5 g in sodium chloride 0.9 % 100 mL thirty minute IVPB,357
+1135,Enteral OGT,356
+1136,Levophed drip,355
+1137,NS + KCL,353
+1138,Per IV Flush: Antecubital L 16 gauge,353
+1139,PO Fluids ,352
+1140,Volume (mL)-SODIUM CHLORIDE 0.9 % IV SOLN,351
+1141,KETAMINE,350
+1142,Wound drn #1,349
+1143,Output (mL)-Urethral Catheter hayley ringley rn Temperature probe,349
+1144,Volume (mL)-dextrose 5 % and 0.45 % sodium chloride with KCl 40 mEq/L infusion,348
+1145,Enteral Pivot 1.5 Goal 65cc/hr,345
+1146,NS  w/15 mmol (as PO4) KPO4 250 ml,345
+1147,NEOSYNEPHRINE,344
+1148,Volume (mL)-aztreonam (AZACTAM) 1 g in dextrose 5 % 50 mL IVPB,344
+1149,Enteral Tube feeding,343
+1150,Output Y (ml)-Chest Tube Y - a #1 Mid b #1 Left Lateral,343
+1151,Per IV Flush: Antecubital R 22 gauge,343
+1152,"Volume (mL)-dextrose 5 % and 0.45% sodium chloride 1,000 mL with sodium bicarbonate 50 mEq infusion",343
+1153,DOButamine (ml):,342
+1154,Volume (ml) Hydromorphone,341
+1155,Output Y (ml)-Chest Tube Y - a #1 Right Lateral b #2 Mid c #3 Left Lateral,341
+1156,CL Flush: Subclavian R,340
+1157,Wound VAC #1,339
+1158,Enteral Flushes,339
+1159,a-line/cvp sorensens,339
+1160,CO/Sorensons,338
+1161,Enteral water w/meds,338
+1162,Volume (mL)-lactated ringers bolus 500 mL,338
+1163,Per IV Flush: Forearm L 16 gauge,337
+1164,PO Fluid intake,336
+1165,"Intake, TPN/PPN Amount",336
+1166,"CL Flush: Non-Tunneled, Pressure/power inj IJ R",336
+1167,Ultrafiltration,335
+1168,Epidural/PCA,335
+1169,Propofol gtt,335
+1170,Enteral Glucerna 1.0,335
+1171,Volume (mL)-antithrombin III (human) (THROMBATE III) 540 Units in STERILE IV DILUENT 11 mL INFUSION syringe,334
+1172,TPN:,333
+1173,NS+abx,333
+1174,Volume (mL)-piperacillin-tazobactam (ZOSYN) thirty minute IVPB 4.5 g,333
+1175,Volume Eptifibatide,332
+1176,"Volume (mL)-acetaminophen (OFIRMEV) IV 1,000 mg",332
+1177,EVD Output (ml)-ICP/External Ventricular Drain (EVD) Ventriculostomy,332
+1178,Flagyl,331
+1179,LR bolus,331
+1180,Output Y (ml)-Chest Tube Y - a #2 Mid b #3 Mid,330
+1181,Volume (mL)-Calcium gluconate 10 g in 0.9% sodium chloride 250 ml infusion,330
+1182,Output (mL)-Urethral Catheter Latex;Straight-tip;Temperature probe;Triple-lumen 14 Fr.,329
+1183,Enteral pertive,328
+1184,neosynephrine,328
+1185,Output (mL)-Y Chest Tube 1 and 2 1 Right 36 fr 2 Left Pleural collection system,328
+1186,Heparin gtt,327
+1187,Enteral Oxepa,326
+1188,EVD Output (ml)-ICP/External Ventricular Drain (EVD) Right Codman;Ventriculostomy,326
+1189,Number of Incontinent Voids,325
+1190,Intake (mL)-Gastrostomy/Enterostomy Percutaneous endoscopic gastrostomy (PEG),325
+1191,Insulin drip,324
+1192,NICARDIPINE,323
+1193,Enteral FIBERSOURCE HN,323
+1194,"Volume (mL)-sodium chloride 0.9 % 1,000 mL with potassium chloride 40 mEq infusion",323
+1195,D5NS Volume,321
+1196,Per IV Flush: Wrist R,321
+1197,"Enteral Tube Intake: Transgastric-Jejunal Nostril,",321
+1198,URETERAL STENT,320
+1199,magnesium,320
+1200,0.45 NS  w/20 mEq KCL,320
+1201,TPN w/fat emulsion 20%,319
+1202,Enteral Nepro tube feeds,319
+1203,Volume (mL) Acetylcysteine,319
+1204,"Surgical Drain, Tube Output: Bulb-closed system Ba",319
+1205,Volume (mL)-meropenem (MERREM) 2 g in sodium chloride 0.9 % 100 mL IVPB,319
+1206,Lipids:,318
+1207,DILTIAZEM,318
+1208,cardizem drip,318
+1209,"Chest Tube Output: Pleural L Anterior, Upper",318
+1210,CL Flush: Non-Tunneled IJ R 7FR,318
+1211,Intake (mL)-Gastrostomy/Enterostomy Gastrostomy 16 Fr. LUQ,318
+1212,Output (mL)-NG/OG Tube Orogastric Center mouth,317
+1213,Output (mL)-Y Chest Tube 1 and 2 1 Right 28 fr 2 Left Pleural collection system,317
+1214,Sorenson's/CO,316
+1215,Volume (mL)-ampicillin-sulbactam (UNASYN) 1.5 g in sodium chloride 0.9 % 100 mL IVPB,316
+1216,KVO,315
+1217,D5W  w/ mEq NaHCO3,314
+1218,Volume (mL)-valproate (DEPACON) 500 mg in dextrose 5 % 50 mL IVPB,314
+1219,D5 1/2NS + KCL,313
+1220,CL Flush: Coated Catheter IJ L,313
+1221,Kphos,312
+1222,Output (ml)-Chest Tube #1 Pleural Left,312
+1223,"Enteral Tube Intake: Nasoduodenal Nostril, R 10f",312
+1224,Bumetanide-IN,311
+1225,Enteral flush/meds,311
+1226,NS  w/30 mmol (as PO4) KPO4 250 ml,311
+1227,NEO,310
+1228,Output (ml)-Chest Tube #1 Mediastinal,310
+1229,Volume (mL)-dextrose 5% with KCL 20 mEq infusion,310
+1230,"Output (mL)-Urethral Catheter M. Tice, RN Latex;Temperature probe 16 Fr.",310
+1231,levo,308
+1232,Enteral vital high protein,308
+1233,0.45 NS  w/75 mEq NaHCO3 1000 ml,308
+1234,Intake (mL)-Gastrostomy/Enterostomy Gastrostomy 18 Fr. LUQ,308
+1235,Volume (mL)-magnesium sulfate 2 g in sodium chloride 0.9% IVPB,308
+1236,Fluid Removed,307
+1237,NS  w/ mEq KCL,306
+1238,Fentanyl drip,306
+1239,CL Flush: PICC Basilic L,306
+1240,"Output (mL)-Urethral Catheter A. Hegarty, RN Latex;Temperature probe 16 Fr.",305
+1241,PO LIQUIDS,304
+1242,Enteral 2 CAL/HN ,304
+1243,Straight cath,303
+1244,Enteral jevity1.2,302
+1245,Enteral osmolyte 1.2,301
+1246,Per IV Flush: Antecubital R 16 gauge,300
+1247,NTG,299
+1248,NS flushes,299
+1249,CHEST TUBE: MEDIASTINAL,298
+1250,Enteral Vivonex,298
+1251,25% Albumin 100 ml,298
+1252,"Enteral Tube Intake: Nasogastric Nostril, L 12F",298
+1253,Enteral Perrative,297
+1254,Enteral Protein Powder,297
+1255,D5W + ADD,296
+1256,nafcillin 500mg/hr,296
+1257,"CL Flush: Non-Tunneled, Coated Catheter IJ R 7 Fre",296
+1258,Enteral H2O,295
+1259,Enteral FEED,295
+1260,NSS,293
+1261,"Chest Tube Output: Pleural R Posterior, Lateral",293
+1262,JP 3,292
+1263,Output (ml)-Chest Tube #1 Pleural Right,292
+1264,"Chest Tube Output: Mediastinal L Anterior, Medial,",292
+1265,EVD drainage,291
+1266,Sodium Bicarb,291
+1267,"Enteral Tube Intake: Nasoduodenal Nostril, L 14",290
+1268,FOLEY,289
+1269,straight cath,289
+1270,Morphine-IN,288
+1271,Enteral Promote with Fiber,288
+1272,Volume (mL)-cefTAZidime (FORTAZ) 1 g in dextrose 5 % 50 mL IVPB,288
+1273,"Volume (mL)-ceFAZolin (ANCEF) 1,000 mg in sodium chloride 0.9 % 100 mL IVPB",288
+1274,Output (ml)-Chest Tube Left,287
+1275,Chest Tube Output: Mediastinal R Lateral,287
+1276,"Enteral Tube Intake: Nasoduodenal Nostril, L 10fr",287
+1277,JP#2,286
+1278,Levophed gtt,286
+1279,Volume (ml) Epoprostenol,285
+1280,Wound Vac Total,284
+1281,5% Albumin 500 ml,284
+1282,D5NS  w/40 mEq KCL,284
+1283,flagyl,283
+1284,Blood Products,283
+1285,Output (mL)-Urethral Catheter 18 Fr.,283
+1286,Volume (mL)-magnesium sulfate in sterile water 2 g IVPB premix,283
+1287,CL Flush: IJ L,282
+1288,Output Y (ml)-Chest Tube Y - a #1 Right Lateral b #2 Mid,282
+1289,Intake (mL)-Gastrostomy/Enterostomy Gastrostomy LUQ,282
+1290,Enteral Free water flush,281
+1291,Volume (mL)-potassium phosphate 15 mmol in dextrose 5 % 250 mL IVPB,281
+1292,Enteral H2O flush,280
+1293,Chest Tube Drainage Total,279
+1294,PO reg diet,279
+1295,PO PO FLUIDS,279
+1296,SN Wound Drainage Volume(ml),279
+1297,Enteral PEG flush,279
+1298,Volume (mL)-albumin human 5 % injection,279
+1299,PO Fluid Intake,278
+1300,"Enteral Tube Intake: Nasoduodenal Nostril, R 8 Fr",278
+1301,Volume (mL)-potassium phosphate 30 mmol in dextrose 5 % 500 mL infusion,278
+1302,Drainage Output Amount3,277
+1303,PO PO Fluids,277
+1304,Dobutrex,277
+1305,Enteral Jevity 1.2 goal 45ml/hour,277
+1306,PO Diet,276
+1307,Lasix,276
+1308,SANDOSTATIN,276
+1309,Enteral Tube Intake: Orogastric Oral 16f,276
+1310,Nephrostomy Right Output,274
+1311,Enteral Jevity 1cal,274
+1312,"Surgical Drain, Tube Output: Bulb-closed system Gr",274
+1313,CL Flush: PICC L,273
+1314,"Chest Tube Output: Pleural R Lateral, Upper",273
+1315,Octreotide,272
+1316,Enteral glycerna,272
+1317,Enteral Water Flushes,272
+1318,Output (ml)-Chest Tube #1 Pleural Right Anterior;Lower,272
+1319,Enteral H20 FLUSH,271
+1320,Enteral FLUSH/MEDS,271
+1321,Chest Tube Output: Pleural L Medial,271
+1322,Volume (mL)-micafungin 100 mg in sodium chloride 0.9 % 100 mL IVPB,271
+1323,Enteral replete,270
+1324,Nitroglycerin,270
+1325,Enteral Tube Intake: Orogastric Oral 16 FR,270
+1326,Enteral OG Flush,269
+1327,Enteral Glycerna 1.5,269
+1328,Volume (mL)-antithrombin III (human) (THROMBATE III) 557 Units in STERILE IV DILUENT 11 mL INFUSION syringe,269
+1329,PO Regular Diet,268
+1330,PO fluid intake,268
+1331,NGT,267
+1332,Morphine,267
+1333,"CL Flush: Non-Tunneled, Coated Catheter IJ L 7fr",266
+1334,CSF Drainage,265
+1335,L Pleural CT 6/26,265
+1336,CRRT FLUSH,265
+1337,"Chest Tube Output: Mediastinal L Anterior, Medial",265
+1338,incontinence,264
+1339,PO Cardiac diet,264
+1340,Enteral NGT Meds,264
+1341,Enteral Meds/flush,264
+1342,Output (mL)-Urethral Catheter Amanda Lee  Latex 14 Fr.,264
+1343,Volume (mL)-sodium chloride 0.9 % with KCl 40 mEq infusion,264
+1344,MIDAZOLAM,263
+1345,Volume (mL)-levofloxacin (LEVAQUIN) IVPB 500 mg,263
+1346,"CL Flush: Non-Tunneled, Coated Catheter Subclavian",263
+1347,Enteral OG flush,262
+1348,Enteral NGT flush,262
+1349,"Enteral Tube Intake: Nasogastric Nostril, R 14",262
+1350,EPInephrine (ml):,261
+1351,Volume (mL) Tenecteplase,261
+1352,CL Flush: Non-Tunneled IJ ,261
+1353,CL Flush: Pressure/power inj Subclavian L,261
+1354,Nasogastric Tube - Intake,260
+1355,"Output (mL)-Urethral Catheter Deanna Revis, RN and Rose Cullom, RN Non-latex 14 Fr.",260
+1356,"Volume (mL)-dextrose 5 % 1,000 mL with sodium bicarbonate 50 mEq infusion",260
+1357,"Volume (mL)-nafcillin (NAFCIL) 2,000 mg in sodium chloride 0.9 % 100 mL IVPB",260
+1358,Volume (mL)-anticoagulant citrate/dextrose formula A (ACD FORMULA A) infusion,260
+1359,VASO,259
+1360,Enteral Water,259
+1361,Volume (mL)-furosemide (LASIX) 160 mg in dextrose 5 % 50 mL IVPB,259
+1362,Veletri,258
+1363,nitroprusside,258
+1364,Chest Tube Output: Mediastinal Posterior,258
+1365,Enteral Tube feeds ,257
+1366,Volume (mL)-sodium chloride 0.45 % with KCl 20 mEq infusion,257
+1367,"Volume (mL)-calcium chloride 100 mEq in sodium chloride 0.9 % 1,000 mL infusion (CRRT with citrate anticoag)",257
+1368,ventriculostomy,256
+1369,Chest Tube D Amount,256
+1370,PRBC,256
+1371,MAGNESIUM SULFATE,256
+1372,Output Y (ml)-Chest Tube Y - a #1 Right Lateral,256
+1373,Volume (mL)-ALBUMIN HUMAN 5 % IV SOLN Pyxis Override,256
+1374,Enteral glucerna 1.2,255
+1375,Volume (mL) Nitroprusside ,255
+1376,Aspiration Fluid Amount,254
+1377,Output (ml)-Chest Tube #1,254
+1378,PO ADA diet,254
+1379,Per IV Flush: Cephalic R 20 gauge,254
+1380,Enteral Tube Intake: Jejunostomy Abdominal wall 16,254
+1381,Varience,253
+1382,Bumetanide Volume ,253
+1383,Aminocaproic Acid Volume,253
+1384,"Chest Tube Output: Mediastinal Anterior, Lower",253
+1385,Enteral Tube Intake: Orogastric Oral 16fr,253
+1386,Output (ml)-Chest Tube #2 Pleural Right Anterior;Lower,252
+1387,Cefepime,251
+1388,Diprivan drip,251
+1389,Enteral free water flush,251
+1390,"Volume (mL)-dextrose 5 % and 0.9% NaCl 1,000 mL with potassium chloride 20 mEq infusion",251
+1391,JP#1,250
+1392,nimbex,250
+1393,Nourish/Supplemt,250
+1394,Per IV Flush: EJ R 18 gauge,250
+1395,NS @ KVO,249
+1396,PO free water,249
+1397,Output Amt-Jackson Pratt Drain D,249
+1398,Output (ml)-Chest Tube #3 Mediastinal,249
+1399,Per IV Flush: Upper arm L,249
+1400,Per IV Flush: Hand L 16 gauge,249
+1401,External Ventricular Drain (EVD) Output (ml)-ICP/External Ventricular Drain (EVD) Right Ventriculostomy;Codman,249
+1402,amicar,248
+1403,AMIO,248
+1404,Output (mL)-Lumbar Drain,248
+1405,Enteral 2 CAL HN,248
+1406,Output (mL)-Urethral Catheter Anne Lowe RN 16 Fr.,248
+1407,"Enteral Tube Intake: Nasogastric Nostril, L 12fr",248
+1408,NIMBEX,247
+1409,CO/Sorensen,247
+1410,Enteral NGT meds,247
+1411,Amiodarone drip,247
+1412,Output (ml)-Chest Tube #1 Mediastinal Mid,247
+1413,EVD Output (ml)-ICP/External Ventricular Drain (EVD),247
+1414,"Enteral Tube Intake: Nasogastric Nostril, R 10 Fr.",247
+1415,Volume (mL)-cefTAZidime (FORTAZ) 2 g in dextrose 5 % 50 mL IVPB,247
+1416,Vaso,246
+1417,CO/sorensons,246
+1418,Output Amt-Miscellaneous Drain,246
+1419,"Enteral Tube Intake: Nasogastric Nostril, R 16fr",246
+1420,Enteral pivot 1.5 ,245
+1421,LR  w/40 mEq KCL 1000 ml,245
+1422,NS  w/45 mmol (as PO4) KPO4 500 ml,245
+1423,CL Flush: Introducer sheath Subclavian L,245
+1424,"Enteral Tube Intake: Nasogastric Nostril, R 18",245
+1425,Output (mL)-NG/OG Tube Orogastric Right mouth,244
+1426,Enteral Tube Intake: Orogastric Oral 14F,244
+1427,CHEST TUBE,243
+1428,PO .,242
+1429,3 Percent NaCl_c,242
+1430,PO sips,241
+1431,Enteral Osmolyte ,241
+1432,Bumetanide (NS)-IN,241
+1433,Enteral JEVITY 1.2,240
+1434,Enteral peptamen AF,240
+1435,CL Flush: Coated Catheter IJ R 7FR,240
+1436,Enteral gt meds,239
+1437,Per IV Flush: Basilic R 20 gauge,239
+1438,Output Y (ml)-Chest Tube Y - a #1 Right b #2 Right Anterior,239
+1439,EVD ,238
+1440,Thoracentesis Output,238
+1441,EPTIFIBATIDE,238
+1442,Output (mL)-Urethral Catheter K. Hardy RNFA Latex 16 Fr.,238
+1443,Volume Infused (ml)-fentaNYL PCA 50 mcg/mL,238
+1444,Intake (mL)-Gastrostomy/Enterostomy PEG-jejunostomy 20 Fr.,238
+1445,Wound Vac #1,237
+1446,Enteral vital AF,237
+1447,PHENYEPHRINE,236
+1448,Volume (ml) Octreotide,236
+1449,Output (mL)-Negative Pressure Wound Therapy Abdomen Mid,236
+1450,Enteral Pivot  1.5,235
+1451,Enteral H2O flushes,235
+1452,"Output (mL)-Urethral Catheter Chip Harris, RN  Latex;Straight-tip 16 Fr.",235
+1453,Enteral Vital high protein,234
+1454,CVP Flush,233
+1455,Enteral promote,233
+1456,Output (ml)-Chest Tube Left Lateral,233
+1457,R Nephrostomy,232
+1458,Enteral pivot  1.5,232
+1459,Enteral Two- Cal HN,232
+1460,Volume (mL)-levETIRAcetam (KEPPRA) IVPB 500 mg/100 mL premix,232
+1461,"Volume (mL)-vancomycin (VANCOCIN) 1,500 mg in sodium chloride 0.9 % 250 mL IVPB",232
+1462,OTHER,231
+1463,Urine Output-Urine Output,231
+1464,Sodium acetate ,231
+1465,D5 0.45 NS  w/20 mEq KCL and 10 mmol (as PO4) KPO4,231
+1466,TPA,230
+1467,Insulin Drip,230
+1468,Output (ml)-Chest Tube #3 Right Mid,230
+1469,CL Flush: Non-Tunneled IJ R 7F,230
+1470,Gastric Tube Output: Gastrostomy tube Abdominal wa,230
+1471,CL Flush: Non-Tunneled Femoral R,230
+1472,Output Amt-Percutaneous All Purpose Drain Left;Mid;Lateral,230
+1473,Output (mL)-Urethral Catheter M. Irwin RNFA Temperature probe 16 Fr.,230
+1474,Volume (mL)-levofloxacin (LEVAQUIN) in dextrose 5% premix IVPB 500 mg,229
+1475,Volume (mL)-vancomycin (VANCOCIN) 750 mg in sodium chloride 0.9 % 250 mL IVPB,229
+1476,Volume (mL)-ampicillin-sulbactam (UNASYN) 1.5 g in sodium chloride 0.9 % 50 mL IVPB,229
+1477,Gastric Tube Output: Orogastric Oral 16,228
+1478,"Output (mL)-Urethral Catheter Yasemia Lebron, RN Straight-tip 16 Fr.",228
+1479,JP#3,227
+1480,Urinary Incontinence,227
+1481,free water,227
+1482,Volume (ml) Esmolol,227
+1483,Output (mL)-Urethral Catheter K. Hardy RNFA Temperature probe 16 Fr.,227
+1484,"CL Flush: Non-Tunneled, Coated Catheter IJ R 7fr 1",227
+1485,Volume (mL)-levETIRAcetam (KEPPRA) 750 mg in sodium chloride 0.9 % 100 mL IVPB,227
+1486,L Nephrostomy,226
+1487,Output Amount-Colostomy ,226
+1488,Enteral perative goal 75/hr,226
+1489,OR EBL,225
+1490,ABX,225
+1491,dopamine,225
+1492,Enteral 2 Cal HN ,225
+1493,D5 1/2 NS Volume,225
+1494,Output (mL)-Nephrostomy Right 10 Fr.,225
+1495,Output Y (ml)-Chest Tube Y - a #1 Mid b #2 Right,225
+1496,Volume (mL)-dextrose 5 % and 0.2% sodium chloride infusion,225
+1497,AHC R FENOLDOPAM Volume,224
+1498,CL Flush: Coated Catheter IJ R 7f,224
+1499,"Enteral Tube Intake: Nostril, R 10fr",224
+1500,Intake (mL)-Gastrostomy/Enterostomy Gastrostomy 20 Fr. ,224
+1501,wet diaper,223
+1502,Enteral Fibersource TF,223
+1503,Volume (mL)-dextrose 5 % and 0.2 % NaCl infusion,223
+1504,po,222
+1505,CL Flush: Non-Tunneled IJ R 7Fr,222
+1506,Volume (mL)-sodium chloride (NORMAL SALINE) 0.9 % bolus 250 mL,222
+1507,"Volume (mL)-levETIRAcetam (KepPRA) 1,000 mg in sodium chloride 0.9 % 100 mL IVPB",222
+1508,DRAINAGE TOTAL,221
+1509,PO cardiac diabetic,221
+1510,Output (mL)-Nephrostomy Left 10 Fr.,221
+1511,Enteral Pivit 1.5 goal 55ml/hr,221
+1512,Output (mL)-Urethral Catheter Latex;Temperature probe 16 Fr.,221
+1513,Volume (mL)-sodium glycerophosphate (GLYCOPHOS) 20 mmol in sodium chloride 0.9 % 250 mL infusion,221
+1514,Neo Ostomy #1 Output,220
+1515,Suprapubic Urine Output,220
+1516,PO PO fluids,220
+1517,FREE WATER,220
+1518,Enteral Novasource renal,220
+1519,"Gastric Tube Output: Nasogastric Nostril, R 16",220
+1520,"CL Flush: Non-Tunneled dialysis, Pressure/power in",220
+1521,"CL Flush: Tunneled (other than dialysis), Pressure",220
+1522,Chest tube,219
+1523,Enteral ogt flush,219
+1524,Fentanyl gtt ,219
+1525,"CL Flush: Non-Tunneled, Pressure/Power inj Periph.",219
+1526,CHEST TUBE: PLEURAL,218
+1527,PO OGT Flush,218
+1528,Enteral Pivot 1.5 TF,218
+1529,Bivalirudin Volume,218
+1530,Volume Tresprostinil ,218
+1531,Volume (mL)-sodium chloride 0.9 % 250 mL IV bolus,218
+1532,"Volume (mL)-sodium chloride 0.9 % 1,000 mL with thiamine 100 mg, folic acid 1 mg, multivitamins adult 10 mL infusion",218
+1533,Labetalol (NS)-IN,217
+1534,Chest Tube Output: Pleural Anterior,217
+1535,Atracurium Volume,217
+1536,Enteral Tube Intake: Orogastric Oral 18fr,217
+1537,kphos,216
+1538,PO Oral ,216
+1539,merrem,216
+1540,PO ice chips,216
+1541,Fentanyl IV,216
+1542,Enteral Isosource HN,216
+1543,Output Y (ml)-Chest Tube Y - a #2 Mid;Anterior b #3 Mid;Anterior,216
+1544,Blood (non-drain),215
+1545,Per IV Flush: Wrist L 16 gauge,215
+1546,Per IV Flush: Upper arm L 22 gauge,215
+1547,Volume (mL)-piperacillin-tazobactam (ZOSYN) IVPB 4.5 g,215
+1548,Volume Infused (ml)-HYDROmorphone (DILAUDID) PCA 1 mg/mL,215
+1549,Intake (mL)-Gastrostomy/Enterostomy Percutaneous endoscopic gastrostomy (PEG) 20 Fr. Umbilicus,215
+1550,Paracentesis Output,214
+1551,Output (ml)-Chest Tube Right,214
+1552,Albumin Intake,214
+1553,Volume (ml)  Argatroban,214
+1554,Output (mL)-Urethral Catheter Latex;Temperature probe;Straight-tip 14 Fr.,214
+1555,Volume Infused (ml)-fentaNYL (SUBLIMAZE) 2 mcg/mL - bupivacaine (SENSORCAINE MPF) 0.125% premix epidural infusion,214
+1556,PO intake ,213
+1557,Sodium Acetate,213
+1558,Heparin 100 Units-IN,213
+1559,Output Y (ml)-Chest Tube Y - a #1 Left Mid b #1 Right Mid,213
+1560,"Enteral Tube Intake: Nasoduodenal Nostril, R 10fr",213
+1561,GI Tube 2 Drainage Amount,212
+1562,D5W  w/75 mEq NaHCO3 1000 ml,212
+1563,"Volume (mL)-sodium chloride 0.45 % 1,000 mL with potassium chloride 40 mEq infusion",212
+1564,Evd output,211
+1565,PO cl liqs,211
+1566,heparin drip,211
+1567,"Volume (mL)-vancomycin (VANCOCIN) 1,750 mg in sodium chloride 0.9 % 500 mL IVPB",211
+1568,PO nutren 1.5,210
+1569,Enteral H20 Flush,210
+1570,Enteral Free Water Flush,210
+1571,urine count,209
+1572,L Pleural CT,209
+1573,% Nutrition Supplement Taken,208
+1574,"Volume (mL)-lactated ringers 1,000 mL with potassium chloride 20 mEq infusion",208
+1575,EBL,207
+1576,PO reg,207
+1577,Enteral 2CALHN,207
+1578,LR  w/20 mEq KCL 1000 ml,207
+1579,"Enteral Tube Intake: Nasoduodenal Nostril, L 12fr",207
+1580,wound vac,206
+1581,Merrem,206
+1582,Enteral Med Flush,206
+1583,Output Y (ml)-Chest Tube Y - a #1 Mid b #1 Left,206
+1584,Per IV Flush: Forearm R 16 gauge,206
+1585,Output (mL)-Urethral Catheter A. Haggard RN  Temperature probe,206
+1586,Total out,205
+1587,Diprivan IV,205
+1588,1/2NS + ADD,205
+1589,fibersource,205
+1590,sorensen/co,205
+1591,CL Flush: Coated Catheter IJ R 7Fr,205
+1592,"Volume (mL)-sodium chloride 0.45 % 1,000 mL with sodium bicarbonate 50 mEq infusion",205
+1593,Nicardipine,204
+1594,Primacor drip,204
+1595,Enteral Piviot 1.5,204
+1596,Output Y (ml)-Chest Tube Y - a #1 Anterior b #2 Anterior,204
+1597,"Volume (mL)-cefTRIAXone (ROCEPHIN) 2,000 mg in sodium chloride 0.9 % 100 mL IVPB",204
+1598,GI Tube Output (mL)-GI Tube Right,203
+1599,CBI/Bladder Irr In,203
+1600,Output (ml)-Ostomy - GI Colostomy LLQ,203
+1601,Enteral TUBE FEED FLUSH,203
+1602,Output (mL)-Urethral Catheter Non-latex;Straight-tip 14 Fr.,203
+1603,"Output (mL)-Urethral Catheter Christine Hinshaw, RN Straight-tip 14 Fr.",203
+1604,VANCOMYCIN,202
+1605,NS with 20KCL,202
+1606,Enteral Replete TF,202
+1607,Enteral TUBE FEEDS,202
+1608,PO cardiac liquids,202
+1609,0.9NS with 20mEq KCL_c,202
+1610,"CL Flush: Non-Tunneled, Coated Catheter IJ R 7FR 1",202
+1611,Enteral TFs,201
+1612,Output Y (ml)-Chest Tube Y - a #1 Mid b #2 Left Anterior,201
+1613,Volume (mL)-folic acid (FOLVITE) 1 mg in sodium chloride 0.9 % 50 mL IVPB,201
+1614,NS + ABX,200
+1615,Enteral w/ meds,200
+1616,Output (mL)-Urethral Catheter Amanda Stranten EMT Latex;Temperature probe 14 Fr.,200
+1617,Volume (mL)-erythromycin (ERYTHROCIN) 250 mg in sodium chloride 0.9 % 100 mL IVPB,200
+1618,Volume (mL)-antithrombin III (human) (THROMBATE III) 532 Units in STERILE IV DILUENT 11 mL INFUSION syringe,200
+1619,PO ADA,199
+1620,co/sorenson,199
+1621,Enteral meds h2o flush,199
+1622,Output (mL)-Urethral Catheter Latex;Straight-tip;Temperature probe;Triple-lumen 16 Fr.,199
+1623,Total in,198
+1624,Enteral PIVOT 1.5,198
+1625,Urinary Catheter Output: Condom Urethral,198
+1626,"CL Flush: Non-Tunneled, Coated Catheter IJ L 7Fr",198
+1627,Esmolol-IN,197
+1628,Enteral FEEDS,197
+1629,Enteral free H2O,197
+1630,Sedative Other (Volume),197
+1631,CL Flush: PICC Basilic R 5FR,197
+1632,Per IV Flush: Upper arm R 22 gauge,197
+1633,External Ventricular Drain (EVD) Output (ml)-ICP/External Ventricular Drain (EVD) Ventriculostomy,197
+1634,Volume (mL)-piperacillin-tazobactam (ZOSYN) 3.375 g in sodium chloride 0.9 % 100 mL thirty minute IVPB,197
+1635,CT #2,196
+1636,Output Amount-Ileostomy,196
+1637,Enteral PERATIVE,196
+1638,sorensons / C.O.,196
+1639,Enteral Tube Intake: Sump Oral 16,196
+1640,"Output (mL)-Urethral Catheter Kristi Lawless, RN Latex;Straight-tip 14 Fr.",196
+1641,Volume (mL)-Micafungin Sodium 100 mg in sodium chloride 0.9 % 100 mL IVPB,196
+1642,CO ,195
+1643,Enteral Nepro TF,195
+1644,External Ventricular Drain (EVD) Output (ml)-ICP/External Ventricular Drain (EVD) Left Ventriculostomy,195
+1645,PO_c,194
+1646,impella,194
+1647,heparin ,194
+1648,Enteral Osmolite,194
+1649,Enteral water via feeding tube,194
+1650,Gastric Tube Output: Percutaneous endo gastrostomy,194
+1651,0.45 NS  w/100 mEq NaHCO3 1000 ml,194
+1652,"Enteral Tube Intake: Nasoduodenal Nostril, L 10 fr",194
+1653,Per IV Flush: EJ L 18 gauge,193
+1654,Per IV Flush: Cephalic L 20 gauge,193
+1655,1.5% NS,192
+1656,Chest Tube Output: L anterior,192
+1657,Output (ml)-Chest Tube Right Lateral,192
+1658,Enteral Vital High Protein,192
+1659,Output (mL)-Urethral Catheter Josh Paramedic 16 Fr.,192
+1660,Volume (mL)-albumin human 25 % injection 12.5 g,192
+1661,C.O/ sorences,191
+1662,PO Diabetic Diet,191
+1663,Per IV Flush: Midline Basilic R 20 gauge,191
+1664,Output (ml)-Chest Tube Fourth intercostal space;Midaxillary Right,191
+1665,Volume (mL)-ciprofloxacin (CIPRO) 400 mg in dextrose 5% 200 mL IVPB,191
+1666,Output (mL)-Ostomy-GU Urostomy,190
+1667,VASSOPRESSIN,190
+1668,Enteral TF Pivot 1.5 ,190
+1669,Enteral Jtube meds & flush ,190
+1670,Tube Feeding Intake (mL)-Tube Feeding Intake (mL),190
+1671,"Output (mL)-Urethral Catheter Diane Wilson, RN Latex;Temperature probe 16 Fr.",190
+1672,Volume (ml) Labetalol,189
+1673,Output (mL)-Negative Pressure Wound Therapy Buttocks,189
+1674,Output (mL)-Urethral Catheter Temperature probe;Latex 16 Fr.,189
+1675,Hemovac #2,188
+1676,Lumbar drain,188
+1677,Lido,188
+1678,PO PO FLUID,188
+1679,D5W  w/100 mEq NaHCO3 1000 ml,188
+1680,Output Y (ml)-Chest Tube Y - a #1 Right b #4 Left,188
+1681,Output Y (ml)-Chest Tube Y - a #1 Right b #2 Mid Left,188
+1682,"Enteral Tube Intake: Nasogastric Nostril, R 10",188
+1683,"Enteral Tube Intake: Nasoduodenal Nostril, L 10FR",188
+1684,Wound Vac,187
+1685,colostomy,187
+1686,Chest Tube Output: L lateral,187
+1687,Enteral TF Flush,187
+1688,Enteral meds/ flush,187
+1689,"Chest Tube Output: Pleural R Anterior, Upper",187
+1690,Output (mL)-Closed/Suction Drain Left Pleural 19 Fr.,187
+1691,JP #4,186
+1692,Foley Cath,186
+1693,Enteral jev 1.2,186
+1694,HYDROMORPHONE,186
+1695,Output (ml)-Chest Tube #1 Left Mid,186
+1696,Volume (ml) Isoproterenol,186
+1697,"Enteral Tube Intake: Nasoduodenal Nostril, R 10Fr",186
+1698,Enteral Vital AF 1.5,185
+1699,"Output (mL)-Urethral Catheter Vina Sananikone, RN Latex 16 Fr.",185
+1700,Output (mL)-Y Chest Tube 1 and 2 1 Mid 36 fr 2 Left Pleural collection system,185
+1701,Ventric (CSF),184
+1702,MERREM,184
+1703,EPINEPHRINE,184
+1704,"Enteral Tube Intake: Nasogastric Nostril, L 18fr",184
+1705,"Enteral Tube Intake: Nasogastric Nostril, L 8 FR",184
+1706,"Volume (mL)-sodium chloride 0.45 % 1,000 mL with sodium bicarbonate 100 mEq infusion",184
+1707,L pl chest tube,183
+1708,isoproterenol,183
+1709,sorenson's/CO,183
+1710,Output (ml)-Chest Tube #2 Right,183
+1711,Intake variance,183
+1712,CL Flush: Coated Catheter IJ ,183
+1713,Output Y (ml)-Chest Tube Y - a #1 Anterior b #2 Left,183
+1714,Output (mL)-NG/OG/Feeding Tube Nasogastric Right nare,183
+1715,Output (mL)-Urethral Catheter Non-latex;Temperature probe 14 Fr.,183
+1716,"Enteral Tube Intake: Nasoduodenal Nostril, L 12 Fr",183
+1717,Output Amt-Chest Tube D,182
+1718,FENTANYL ,182
+1719,Chest Tube Output: R anterior,182
+1720,NS  w/45 mmol (as PO4) KPO4 1000 ml,182
+1721,ICP,181
+1722,jp drain,181
+1723,NS TKO,181
+1724,Volume (ml) Naloxone,181
+1725,Output Y (ml)-Chest Tube Y - a #2 Mid b #2 Mid,181
+1726,Per IV Flush: Basilic L 20 gauge,181
+1727,Volume (ml)-Transfuse Cryoprecipitate,181
+1728,Enteral  ,180
+1729,D5W  w/50 mEq NaHCO3 1000 ml,180
+1730,"Enteral Tube Intake: Nasogastric Nostril, L 16 fr",180
+1731,JP DRAIN,179
+1732,Enteral nutren,179
+1733,PO oral fluids,179
+1734,Chemotherapy Other (Volume),179
+1735,Output Y (ml)-Chest Tube Y - a #1 Left Lower b #1 Mid,179
+1736,"Enteral Tube Intake: Nasoduodenal Nostril, R 10 FR",179
+1737,Output Y (ml)-Chest Tube Y - a #2 Right Mid;Anterior b #3 Left Mid;Anterior,179
+1738,"Volume (mL)-sodium chloride 0.45 % 1,000 mL with sodium bicarbonate 75 mEq infusion",179
+1739,Volume (mL)-sodium glycerophosphate (GLYCOPHOS) 10 mmol in sodium chloride 0.9 % 250 mL infusion,179
+1740,Enteral OXEPA,178
+1741,CO / Sorenson,178
+1742,Enteral NG flush,178
+1743,Enteral osmolyte,178
+1744,Enteral h20 flush,178
+1745,Eptifibatide V2-IN,178
+1746,Output (mL)-Urethral Catheter Stormie Duffy RN Straight-tip 16 Fr.,178
+1747,T tube,177
+1748,Chest Tube E Amount,177
+1749,Enteral Nutren ,177
+1750,TPN with insulin,177
+1751,Enteral Glucerna ,177
+1752,"Chest Tube Output: Mediastinal R Anterior, Lateral",177
+1753,Lorazepam-IN,176
+1754,Enteral Feeding,176
+1755,Enteral Perative ,176
+1756,amiodarone drip,176
+1757,Enteral OGT Meds/Flush,176
+1758,"Output (mL)-Urethral Catheter Marie Irwin, RN Latex;Straight-tip;Temperature probe;Triple-lumen 16 Fr.",176
+1759,Hemovac Total,175
+1760,REPLACEMENT FLUID,175
+1761,Enteral novasource renal,175
+1762,Volume (mL)-dextrose 15 % infusion,175
+1763,Output Y (ml)-Chest Tube Y - a #1 Right b #1 Mid c #1 Left,175
+1764,drainage total,174
+1765,CHEST TUBE DRAINAGE TOTAL,174
+1766,Enteral FIbersource,174
+1767,Output Amt-Nasogastric Tube,173
+1768,Sorenson/CO,173
+1769,Enteral Pivot ,173
+1770, nutren 1.5,173
+1771,IV Medication_c,173
+1772,Enteral tube feeds via gt,173
+1773,CL Flush: PICC Brachial L 5f,173
+1774,Volume (mL)-dextrose 5 % and 0.45 % NaCl with KCl 30 mEq/L infusion,173
+1775,output variance,172
+1776,Drain 4 Output mL,172
+1777,CL Flush: Chest L,172
+1778,Volume (mL) Naloxone,172
+1779,Output (mL)-Urethral Catheter Mavis Nyako RN 14 Fr.,172
+1780,Volume (mL)-calcium GLUCONATE IVPB 1 g,172
+1781,Bicarb,171
+1782,LR  w/40 mEq KCL,171
+1783,Enteral Osmolyte 1.2,171
+1784,"Output (mL)-Urethral Catheter LF, SN Temperature probe",171
+1785,Output (mL)-Closed/Suction Drain Right Abdomen Bulb 19 Fr.,171
+1786,Output (mL)-Urethral Catheter T Davis Latex;Straight-tip 14 Fr.,171
+1787,"Volume (mL)-aztreonam (AZACTAM) 2,000 mg in sodium chloride 0.9 % 100 mL IVPB",171
+1788,unmeasured voids,170
+1789,KPHOS,170
+1790,total in,170
+1791,PO PO INTAKE,170
+1792,D5.45NS+KCl,170
+1793,Enteral FREE WATER,170
+1794,"Output (mL)-Urethral Catheter Mavis , NR Latex",170
+1795,"Chest Tube Output: Mediastinal L Anterior, Lateral",170
+1796,"Enteral Tube Intake: Nasoduodenal Nostril, R 8",170
+1797,Liquid stool:,169
+1798,PO Reg,169
+1799,Enteral Two CAL HN,169
+1800,Chest Tube Output: Pleural R Posterior,168
+1801,Output (mL)-Closed/Suction Drain Right Abdomen Bulb 7 Fr.,168
+1802,"Enteral Tube Intake: Nasoduodenal Nostril, L 10f",168
+1803,NSS w/ abx,167
+1804,CL Flush: PICC Double,167
+1805,Enteral Tube Intake: Orogastric Oral 16Fr,167
+1806,Volume (mL)-sodium chloride 0.225 % with sodium bicarbonate 100 mEq infusion,167
+1807,PO cl liq,166
+1808,D5W  w/40 mEq KCL,166
+1809,Output (ml)-Chest Tube #1 Right Mid,166
+1810,Epinephrine drip,166
+1811,"Volume (mL)-vancomycin (VANCOCIN) 2,000 mg in sodium chloride 0.9 % 500 mL IVPB",166
+1812,HemodialysisOut,165
+1813,#6:,165
+1814,Versed ,165
+1815,Enteral Perative 40ml/hour,165
+1816,Enteral Pivot goal of 40ml/hr,165
+1817,"Output (mL)-Urethral Catheter Teal Curry, RN  Straight-tip",165
+1818,Volume (mL)-potassium phosphate 20 mmol in dextrose 5 % 500 mL infusion,165
+1819,jp,164
+1820,NS w/ abx,164
+1821,Chest Tube Output: R lateral,164
+1822,"Chest Tube Output: Pleural L Lateral, Upper",164
+1823,T-Tube,163
+1824,Paracentesis,163
+1825,Solumedrol,163
+1826,Enteral TWO CALHN,163
+1827,"CL Flush: Non-Tunneled, Coated Catheter IJ L 7FR",163
+1828,Output (mL)-Y Chest Tube 1 and 2 1 Right 36 fr 2 Mid Pleural collection system,163
+1829,Volume (mL)-calcium gluconate 1 g in sodium chloride 0.9 % 100 mL IVPB,163
+1830,PO Liquid,162
+1831,Enteral Fluids,162
+1832,Enteral tubefeeding,162
+1833,Cryoprecipitate,162
+1834,CV Nitroglycerin-IN,162
+1835,CL Flush: Introducer sheath IJ L,162
+1836,"Output (mL)-Urethral Catheter Sara Early, RN Non-latex",162
+1837,"Output (mL)-Urethral Catheter Darrell, EMT  Latex;Temperature probe",162
+1838,"Volume (mL)-sodium chloride 0.9 % 2,000 mL IV bolus",162
+1839,"Enteral Tube Intake: Nasoduodenal Nostril, L 10 FR",162
+1840,Output (mL)-Y Chest Tube 1 and 2 1 Mid 24 fr 2 Mid Pleural collection system,162
+1841,PO Diabetic diet,161
+1842,LEVOPHED DRIP,161
+1843,MILrinone (ml):,161
+1844,D5 0.45 NS  w/75 mEq NaHCO3 1000 ml,161
+1845,Enteral  feed,160
+1846,AMIODORONE GTT,160
+1847,Enteral Nepro goal 40ml/hour,160
+1848,Per IV Flush: EJ R 20 gauge,160
+1849,Output (mL)-Y Chest Tube 1 and 2 1 Mid 32 fr 2 Left Pleural collection system,160
+1850,total out,159
+1851,EmesisOccurrence,159
+1852,Enteral nepro ,159
+1853,Bupivicaine epidural,159
+1854,CL Hemo Total Flush 2,159
+1855,Urine Output-RIGHT Nephrouretero Stent Urine Output,159
+1856,Chest Tube Drainage Output2,158
+1857,Output (ml)-Chest Tube #2 Mid,158
+1858,CL Flush: Chest,158
+1859,Enteral vital af 1.2 ,158
+1860,Volume (ml) EPTIFIBATIDE,158
+1861,CL Flush: Non-Tunneled dialysis IJ L,158
+1862,"CL Flush: Non-Tunneled, Coated Catheter IJ L",158
+1863,PO WATER,157
+1864,enteral meds,157
+1865,CL Flush: PICC Basilic R 5fr,157
+1866,"Enteral Tube Intake: Nasogastric Nostril, L 14",157
+1867,Volume (mL)-pantoprazole (PROTONIX) injection 40 mg,157
+1868,Enteral feeds,156
+1869,PO liquid intake,156
+1870,Enteral Perravtive,156
+1871,0.45 NS  w/75 mEq NaHCO3,156
+1872,Intake (mL)-NG/OG Tube Nasogastric Left mouth,156
+1873,"CL Flush: Non-Tunneled, Pressure/power inj Subclav",156
+1874,Output (mL)-Urethral Catheter P Weatherly RNFA Latex;Straight-tip;Temperature probe;Triple-lumen 16 Fr.,156
+1875,NaCl 1.5%,155
+1876,PO clear liquid,155
+1877,intake variance,155
+1878,PROPOFOL DRIP,155
+1879,Amiodarone gtt,155
+1880,"Chest Tube Output: R anterior, Mediastinal",155
+1881,D5W  w/60 mEq KCL 1000 ml,155
+1882,CL Flush: Non-Tunneled IJ R 8 fr,155
+1883,Output (mL)-Closed/Suction Drain Mediastinal Other (Comment) 19 Fr.,155
+1884,"Volume Infused (ml)-morphine (ASTRAMORPH PF) 100 mcg/mL, bupivacaine PF (SENSORCAINE-MPF) 0.125 % in sodium chloride 0.9 % 100 mL epidural infusion",155
+1885,Ancef,154
+1886,Enteral jevity,154
+1887,AMIORDARONE,154
+1888,Heparin drip,154
+1889,Enteral H2O Flush,154
+1890,Enteral meds flushes,154
+1891,Volume (mL) Lorazepam,154
+1892,L chest tube,153
+1893,CBI,153
+1894,BANANA BAG,153
+1895,PO clear lixs,153
+1896,0.45 NS  w/40 mEq KCL,153
+1897,Chest tube #3,152
+1898,CRRT Flush,152
+1899,PO Clear liquid,152
+1900,HEPARIN DRIP ,152
+1901,Enteral free water flushes,152
+1902,Output (ml)-Chest Tube #2 Midaxillary Left Mid;Lateral,152
+1903,Output (mL)-Urethral Catheter emt-liza Temperature probe 16 Fr.,152
+1904,"Output (mL)-Urethral Catheter John NT+3, Carrie RN Temperature probe",152
+1905,chest tube meds,151
+1906,Chest Tubes Meds,151
+1907,Output Amount-Ileostomy  ,151
+1908,PO PO Liquids,151
+1909,Enteral Enteral,151
+1910,Enteral protein powder,151
+1911,Output (ml)-Ostomy - GI Colostomy LUQ,151
+1912,Enteral Tube Intake: Orogastric Oral 12 Fr.,151
+1913,"Output (mL)-Urethral Catheter Hayley Ringley, RN/ Dr. Thompson Temperature probe 16 Fr.",151
+1914,Volume (mL)-valproate (DEPACON) 500 mg in sodium chloride 0.9 % 50 mL IVPB,151
+1915,PO OGT,150
+1916,IV Flush,150
+1917,amiodorone,150
+1918,Volume (mL)-doxycycline (VIBRAMYCIN) 100 mg in dextrose 5 % 250 mL IVPB,150
+1919,Potassium,149
+1920,OGT Flush,149
+1921,NIMBEX DRIP,149
+1922,Output (mL)-Suprapubic Catheter,149
+1923,Enteral Peptamen ,149
+1924,"Volume (mL)-ampicillin (OMNIPEN) 2,000 mg in sodium chloride 0.9 % 100 mL IVPB",149
+1925,Volume (mL)-tigecycline (TYGACIL) 50 mg in sodium chloride 0.9 % 100 mL IVPB,149
+1926,PO diabetic diet,148
+1927,INSULIN DRIP,148
+1928,Urinary Catheter Output: Nephrostomy L,148
+1929,Output (mL)-Urethral Catheter C. Wofford Temperature probe,148
+1930,Volume (ml)-Transfuse - Cryoprecipitate,148
+1931,Volume (mL)-furosemide (LASIX) 120 mg in dextrose 5 % 50 mL IVPB,148
+1932,R CT,147
+1933,Mag,147
+1934,VANCO,147
+1935,Output Amt-Hemovac Drain B,147
+1936,c/sorenson,147
+1937,Enteral Novasource Renal ,147
+1938,Enteral novosource renal ,147
+1939,Output (ml)-Chest Tube #1 Midaxillary Left Lateral,147
+1940,Output (mL)-Urethral Catheter Heather Richard Rn Latex 14 Fr.,147
+1941,Volume (mL)-mannitol (OSMITROL) 20 % 25 g IVPB,147
+1942,Output (mL)-Y Chest Tube 1 and 2 1 Right 24 fr 2 Left Pleural collection system,147
+1943,"Output (mL)-Urethral Catheter DeLisa Cobb, RN   Megan Stocks RN Temperature probe 14 Fr.",147
+1944,Volume (mL)-vancomycin (VANCOCIN) 750 mg in sodium chloride 0.9 % 150 mL IVPB,147
+1945,CBI/Bladder Irr Out,146
+1946,PO water,146
+1947,Cryo Infused,146
+1948,Enteral NGT meds/ flush,146
+1949,"Chest Tube Output: Mediastinal Anterior, Medial, L",146
+1950,Output (mL)-Closed/Suction Drain Right Abdomen Bulb,146
+1951,Output (mL)-Urethral Catheter M Troha RN Straight-tip 14 Fr.,146
+1952,Output Y (ml)-Chest Tube Y - a #1 Left Mid b #2 Right Mid c #3  ,146
+1953,CSF drain,145
+1954,"Gastric Tube Output: Nasogastric Nostril, L 16",145
+1955,Volume (mL)-ceFAZolin (ANCEF) in d5w 2 g premix,145
+1956,keppra,144
+1957,Enteral FLUSHES,144
+1958,Enteral 2 cal HN ,144
+1959,Enteral TwoCal HN,144
+1960,CL Flush: Tunneled IJ R,144
+1961,Volume (mL)-aztreonam (AZACTAM) 2 g in dextrose 5 % 50 mL IVPB,144
+1962,chest tubes meds,143
+1963,tpn,143
+1964,amio,143
+1965,NS d IVF,143
+1966,Output (mL)-Urethral Catheter Latex 18 Fr.,143
+1967,"CL Flush: PICC, Coated Catheter, Pressure/Power in",143
+1968,"Output (mL)-Urethral Catheter Stephanie DeHart, RN Latex;Straight-tip 16 Fr.",143
+1969,ileostomy,142
+1970,Ofirmev,142
+1971,Enteral PEG Flush,142
+1972,PO Cardiac/Diabetic Diet,142
+1973,Enteral pivot 1.5 @ 25ml/hr,142
+1974,"CL Flush: Non-Tunneled, Coated Catheter IJ R 7F 17",142
+1975,JP 4,141
+1976,Zozyn,141
+1977,mannitol,141
+1978,Tacrolimus,141
+1979,Stool Output (mL)-Ileostomy ileostomy,141
+1980,Output (mL)-Urethral Catheter Coude 18 Fr.,141
+1981,Per IV Flush: EJ L 20 gauge,141
+1982,CL Flush: Non-Tunneled IJ R 9fr,141
+1983,Output (mL)-Urethral Catheter Christy Golden RN 14 Fr.,141
+1984,Output (mL)-NG/OG/Feeding Tube Nasogastric 16 Fr. Right nare,141
+1985,Volume (mL)-ceFAZolin (ANCEF) in sod chl 3 g IVPB premix,141
+1986,Left Pleural CT,140
+1987,Fentanal,140
+1988,CL Flush: R,140
+1989,Enteral 2 cal Hn,140
+1990,NITroglycerine (ml):,140
+1991,Output (mL)-Urethral Catheter Non-latex 18 Fr.,140
+1992,Output (mL)-Urethral Catheter Straight-tip;Temperature probe 16 Fr.,140
+1993,Output Y (ml)-Chest Tube Y - a #2 Right Anterior b #3 Left Anterior,140
+1994,Output (mL)-Urethral Catheter Christa McClellen Latex;Straight-tip 16 Fr.,140
+1995,G-tube,139
+1996,Lumbar drainage,139
+1997,Right Nephrostomy,139
+1998,Bladder Irrigation,139
+1999,Urinary Catheter Output: Nephrostomy R,139
+2000,Diltiazem (0.45% NS)-IN,139
+2001,Intake (mL)-NG/OG Tube Nasogastric,139
+2002,CL Flush: Pressure inj IJ R 7Fr 16cm,139
+2003,Volume (mL)-sodium phosphate 20 mmol in dextrose 5 % 250 mL IVPB,139
+2004,Intake (mL)-Gastrostomy/Enterostomy Percutaneous endoscopic gastrostomy (PEG) 24 Fr. LUQ,139
+2005,urine incontinence,138
+2006,LASIX,138
+2007,K phos,138
+2008,Straight Catheter Output,138
+2009,ESMOLOL,138
+2010,Enteral VITAL AF 1.2,138
+2011,Enteral Glucerna 1.5 Cal.,138
+2012,CL Flush: Pressure/power inj IJ ,138
+2013,Volume (mL)-propofol (DIPRIVAN) IV bolus,138
+2014,"Output (mL)-Urethral Catheter Diana Acuna, RN Latex;Straight-tip;Temperature probe 14 Fr.",138
+2015,Output (mL)-Y Chest Tube 1 and 2 1 Left Anterior 28 fr 2 Right Mid Pleural collection system,138
+2016,Output (ml)-Chest Tube Mid,137
+2017,k. phos,137
+2018,Fentanyl gtt,137
+2019,vasopressin drip,137
+2020,Enteral Osmolite 1.2 ,137
+2021,JP1,136
+2022,Incontinent ,136
+2023,Chest tube #2:,136
+2024,protonix drip,136
+2025,TPN with H2 Blocker,136
+2026,"Chest Tube Output: Mediastinal L Anterior, Upper",136
+2027,CL Flush: Non-Tunneled IJ R 7F 3L,136
+2028,"Output (mL)-Urethral Catheter Natalie,RN Non-latex 14 Fr.",136
+2029,"CL Flush: Non-Tunneled, Pressure/power inj IJ R 7f",136
+2030,Volume (mL)-sodium phosphate 10 mmol in dextrose 5 % 250 mL infusion,136
+2031,Texas Cath,135
+2032,Output variance,135
+2033,R. Pleural CT (OR-7/3),135
+2034,PO PO Intake,135
+2035,LEvophed,135
+2036,Enteral piviot 1.5,135
+2037,Other Blood Prod,135
+2038,0.45 NS  w/40 mEq KCL 1000 ml,135
+2039,CL Flush: Pressure/power inj IJ L,135
+2040,"Enteral Tube Intake: Orogastric Nostril, R 16 Fr",135
+2041,R JP,134
+2042,PO Water,134
+2043,meropenem,134
+2044,Protonix gtt,134
+2045,AMIODORONE DRIP,134
+2046,"Surgical Drain, Tube Output: Bulb-closed system Th",134
+2047,Output (mL)-Urethral Catheter Temperature probe;Latex 14 Fr.,134
+2048,"CL Flush: Non-Tunneled, Coated Catheter IJ R 7 Fr.",134
+2049,"Output (mL)-Urethral Catheter Diana Acuna, RN Latex;Straight-tip 14 Fr.",134
+2050,Output (mL)-Urethral Catheter April Whitlow EMT Temperature probe 14 Fr.,134
+2051,ativan,133
+2052,Output (ml)-Chest Tube #4 Left,133
+2053,Enteral NGT Nepro,133
+2054,Enteral flushes/meds,133
+2055,Mass Transfusion Volume,133
+2056,Per IV Flush: Midline Upper arm R 20 gauge,133
+2057,Volume (mL)-sodium phosphate 20 mmol in dextrose 5 % 250 mL infusion,133
+2058,"Volume (mL)-dextrose 5 % and 0.9% sodium chloride 1,000 mL with potassium chloride 40 mEq infusion",133
+2059,"Volume (mL)-lactated ringers 1,000 mL with thiamine 100 mg, folic acid 1 mg, magnesium sulfate 2 g infusion",133
+2060,Wound vac,132
+2061,R Chest Tube,132
+2062,Propofol ,132
+2063,Enteral piviot,132
+2064,Enteral Pivit 1.5,132
+2065,Enteral Pivot 1.5 ,132
+2066,Volume (mL)-albumin human 5 % solution 12.5 g,132
+2067,Output (mL)-Urethral Catheter Temperature probe;Straight-tip;Latex,132
+2068,Volume (mL)-clindamycin 600 mg in sodium chloride 0.9% 50 mL IVPB,132
+2069,Free H2O,131
+2070,Enteral Isosource TF,131
+2071,Output (mL)-Urethral Catheter Straight-tip 18 Fr.,131
+2072,Output (mL)-Closed/Suction Drain Right Pleural 19 Fr.,131
+2073,Volume (mL)-potassium chloride 20 MEQ/50ML IVPB premix 40 mEq,131
+2074,KEPPRA,130
+2075,Variance ,130
+2076,proprofol,130
+2077,sorensens,130
+2078,PO reg diet ,130
+2079,dobutamine,130
+2080,Output (mL)-Urethral Catheter Victor 16 Fr.,130
+2081,CL Flush: Pressure inj IJ R,130
+2082,CL Flush: Coated Catheter IJ R 7.0,130
+2083,Output Y (ml)-Chest Tube Y - a #1 Left b #2 Mid c #3 Right,130
+2084,"Enteral Tube Intake: Nasogastric Nostril, L 16f",130
+2085,Output Y (ml)-Chest Tube Y - a #1 Right Anterior b #2 Mid c #3 Left Anterior,130
+2086,L PLEURAL CT,129
+2087,Ventricular Drain Right_c,129
+2088,Enteral GLUCERNA 1.2,129
+2089,Output (mL)-Nephrostomy Right 10.2 Fr.,129
+2090,Enteral Pivot 1.5 via J-tube,129
+2091,CL Flush: Coated Catheter IJ L 7F,129
+2092,Output (mL)-Urethral Catheter Latex;Temperature probe,129
+2093,Output (mL)-NG/OG/Feeding Tube Nasogastric 16 Fr. Left nare,129
+2094,"Enteral Tube Intake: Nasogastric Nostril, L 18",129
+2095,Volume (mL)-furosemide (LASIX) injection 40 mg,129
+2096,Other Out,128
+2097,ILEAL CONDUIT,128
+2098,PO FL,128
+2099,CVP,128
+2100,k phos,128
+2101,Enteral af vital,128
+2102,Enteral med flushes,128
+2103,1.26% Sodium Acetate,128
+2104,Output (mL)-Urethral Catheter Temperature probe;Non-latex 16 Fr.,128
+2105,Volume (mL)-albumin human 5 % injection 12.5-25 g,128
+2106,Volume (mL)-levETIRAcetam (KEPPRA) 250 mg in sodium chloride 0.9 % 100 mL IVPB,128
+2107,D5NS,127
+2108,Enteral feeding,127
+2109,Enteral Hepament,127
+2110,Enteral Flush/meds,127
+2111,Urinary Catheter Output: Suprapubic,127
+2112,Output (ml)-Chest Tube #2 Right Lateral,127
+2113,Enteral Pivot 1.5 Goal 45,127
+2114,CL Flush: PICC Brachial ,127
+2115,D5NS  w/150 mEq NaHCO3 1000 ml,127
+2116,Intake (mL)-Gastrostomy/Enterostomy 22 Fr. Umbilicus,127
+2117,Output (mL)-Urethral Catheter dr macdermid Non-latex;Straight-tip 14 Fr.,127
+2118,"Output (mL)-Urethral Catheter Sarah Burnham, RN and Jordan Perkins, RN Temperature probe 16 Fr.",127
+2119,MED CT X2,126
+2120,PO liq,126
+2121,Flush,126
+2122,Output (mL)-Urethral Catheter sheilla ridenhour 16 Fr.,126
+2123,"Output (mL)-Urethral Catheter L. Simpson, RN Latex;Straight-tip 14 Fr.",126
+2124,Volume (mL)-clindamycin 900 mg in sodium chloride 0.9% 50 mL IVPB,126
+2125,Volume (mL)-ampicillin (OMNIPEN) 12 g in sodium chloride 0.9 % 500 mL IVPB,126
+2126,DiPRivan,125
+2127,nicardipine,125
+2128,OGT flush,125
+2129,Enteral flush ,125
+2130,Output (ml)-Chest Tube #3 Mid,125
+2131,DOBUTAMINE ,125
+2132,fentanyl drip,125
+2133,Enteral JEVITY 1.5,125
+2134,CL Flush: PICC Basilic R 5 fr,125
+2135,Per IV Flush: Wrist R 16 gauge,125
+2136,CL Flush: Non-Tunneled IJ L 7fr,125
+2137,"CL Flush: Non-Tunneled, Coated Catheter IJ L 7 FR",125
+2138,"Output (mL)-Urethral Catheter Chasity Yates, RN Latex;Straight-tip;Temperature probe 16 Fr.",125
+2139,Urine Output-Nephrostomy,124
+2140,NS 1.5%,124
+2141,NS e IVF,124
+2142,Fibersource ,124
+2143,Output (mL)-Ileostomy  ileostomy,124
+2144,Enteral jevity 1.5 ,124
+2145,Volume (mL) Esmolol,124
+2146,Output (mL)-Urethral Catheter Temperature probe 18 Fr.,124
+2147,Enteral Tube Intake: Oroduodenal Oral,124
+2148,Volume (mL)-albumin human 25 % solution 25 g,124
+2149,Output (mL)-Closed/Suction Drain Left Pleural Other (Comment) 19 Fr.,124
+2150,Intake (mL)-Gastrostomy/Enterostomy Gastrostomy 20 Fr. LUQ,124
+2151,Volume (mL)-potassium phosphate 10 mmol in dextrose 5 % 250 mL infusion,124
+2152,Volume (mL)-antithrombin III (human) (THROMBATE III) 604 Units in STERILE IV DILUENT 11 mL INFUSION syringe,124
+2153,PO Glucerna 1.0,123
+2154,J Tube flush/ meds,123
+2155,Output (ml)-Chest Tube #3 Left Lateral,123
+2156,Amiodarone (0.45% NS)-IN,123
+2157,Output Y (ml)-Chest Tube Y - a #1 Left b #2 Right c #3,123
+2158,Volume (mL)-ondansetron (ZOFRAN) 8 mg/NS 50 ml IVPB,123
+2159,"Output (mL)-Urethral Catheter K. Lawless, RN Latex;Temperature probe 16 Fr.",123
+2160,Volume (mL)-penicillin G potassium 2.5 Million Units in dextrose 5 % 100 mL IVPB,123
+2161,chest tube drainage total,122
+2162,Enteral OTHER,122
+2163,Enteral oxepa,122
+2164,Cell Saver,122
+2165,PROPOFOL GTT,122
+2166,Enteral Meds via NGT,122
+2167,Output (ml)-Chest Tube #3 Pleural Left,122
+2168,Volume (mL)-sodium chloride 0.9 % bolus 250 mL,122
+2169,"Volume (mL)-dextrose 5 % / sodium chloride 0.45% 1,000 mL with magnesium sulfate 5 g infusion",122
+2170,left ct 7/4,121
+2171,GI Tube Output (mL)-GI Tube,121
+2172,CRRT flush,121
+2173,Enteral Two Kal HN,121
+2174,Enteral Two Cal HN-goal 35cc/hr,121
+2175,"Enteral Tube Intake: Nostril, L",121
+2176,CL Flush: Pressure/power inj IJ R 7Fr 16cm,121
+2177,JP2,120
+2178,Foley catheter,120
+2179,Heparin ,120
+2180,Dilaudid drip,120
+2181,Output (ml)-Chest Tube #1 Right Upper,120
+2182,Output (ml)-Drain Right Abdomen Other (comment),120
+2183,"Enteral Tube Intake: Nasoduodenal Nostril, L 10 F",120
+2184,CT #1,119
+2185,Urine Incontinence,119
+2186,PO lix,119
+2187,D5NS + KCL,119
+2188,Output (mL)-Urethral Catheter Latex 10 Fr.,119
+2189,Enteral Tube Intake: Orogastric Oral 14Fr,119
+2190,Output (mL)-Urethral Catheter Brittany Davis RN Non-latex 14 Fr.,119
+2191,"Volume (mL)-sodium chloride 0.9 % 1,000 mL with potassium chloride 10 mEq infusion",119
+2192,Free water,118
+2193,Volume (ml) Abciximab,118
+2194,Intake (mL)-NG/OG Tube,118
+2195,Per IV Flush: Hand R 16 gauge,118
+2196,Output (mL)-Closed/Suction Drain Midline Abdomen Bulb 10 Fr.,118
+2197,chest tubes,117
+2198,Right Chest Tube,117
+2199,MEDIASTINAL CHEST TUBE,117
+2200,PO 1800 ADA,117
+2201,epinephrine,117
+2202,Output (mL)-Urethral Catheter Coude 14 Fr.,117
+2203,Output (ml)-Chest Tube #1 Mediastinal Mid;Anterior,117
+2204,"Output (mL)-Urethral Catheter Marie Irwin, RNFA Latex;Temperature probe 16 Fr.",117
+2205,Volume (ml) Heparin-heparin infusion 2 units/mL in 0.9% sodium chloride (ARTERIAL LINE),117
+2206,Left CT,116
+2207,IVF,116
+2208,EPI,116
+2209,Enteral  Perative,116
+2210,Enteral free h20 ,116
+2211,"Surgical Drain, Tube Output: Bulb-closed system Le",116
+2212,Output Y (ml)-Chest Tube Y - a #2 Mid b #2 Mid c #2 Mid,116
+2213,CL Flush: Introducer sheath IJ R 8 FR,116
+2214,Output (mL)-Urethral Catheter Temperature probe;Non-latex,116
+2215,Output Y (ml)-Chest Tube Y - a #1 Right Mid b #2 Left Lateral,116
+2216,Volume (mL)-dextrose 5 % and 0.2 % sodium chloride infusion,116
+2217,R Pleural CT,115
+2218,NS + Abx,115
+2219,Chest Tube Output: L Anterior,115
+2220,Enteral NGT meds/flush,115
+2221,CL Flush: PICC Brachial L,115
+2222,CL Flush: PICC Basilic R 5Fr,115
+2223,"Surgical Drain, Tube Output: Closed system Abdomen",115
+2224,Output (mL)-Urethral Catheter James RN Temperature probe,115
+2225,Volume (mL)-lactated ringers infusion 500 mL,115
+2226,"Output (mL)-Urethral Catheter Kimyona Ray, Jennifer Bishop 14 Fr.",115
+2227,"Enteral Tube Intake: Nasoduodenal Nostril, R 8fr",115
+2228,"Enteral Tube Intake: Nasoduodenal Nostril, R 8 FR",115
+2229,Output (mL)-Y Chest Tube 1 and 2 1 Mid 24 fr 2 Left Pleural collection system,115
+2230,Output (mL)-Y Chest Tube 1 and 2 Right Mid 24 fr Left Mid Pleural collection system,115
+2231,Output (mL)-ICP/Ventriculostomy Ventricular drainage catheter with ICP microsensor Left Frontal region,115
+2232,"Volume (mL)-dextrose 5 % and 0.45% sodium chloride 1,000 mL with sodium bicarbonate 75 mEq infusion",115
+2233,EVD right,114
+2234,lumbar drain,114
+2235,R pl chest tube,114
+2236,lipds,114
+2237,PO po diet,114
+2238,PO po fluid,114
+2239,INSULIN GTT,114
+2240,Output (mL)-External Urethral Device ,114
+2241,Chest Tube Output: Pleural L Posterior,114
+2242,PO low Na. fluid restrict,114
+2243,LR  w/60 mEq KCL 1000 ml,114
+2244,"Output (mL)-Urethral Catheter L. Taylor, RN Latex 16 Fr.",114
+2245,Output Y (ml)-Chest Tube Y -  b #2 Right Mid c #3 Left Mid,114
+2246,Per IV Flush: Midline Brachial R 20 gauge,114
+2247,Output Y (ml)-Chest Tube Y - a #1 Anterior;Mid b #2 Anterior;Mid,114
+2248,Volume (mL)-fluconazole (DIFLUCAN) IVPB 100 mg,114
+2249,Output (mL)-Urethral Catheter Christian Smith RN/ Laura Caudle RN  Latex,114
+2250,Total Amount (mL)-BUPIVACAINE HCL-NACL 0.125-0.9 % IJ SOLN,114
+2251,Intake (mL)-Gastrostomy/Enterostomy Percutaneous endoscopic gastrostomy (PEG) 20 Fr.,114
+2252,AMIO GTT,113
+2253,co/sorensons,113
+2254,Versed Drip,113
+2255,Enteral H2O FLUSH,113
+2256,Enteral H20 with meds,113
+2257,Enteral Jevity 1.5 TF,113
+2258,zosyn extended dosing,113
+2259,NS  w/150 mEq NaHCO3 1000 ml,113
+2260,Output (ml)-Chest Tube #1 Pleural Right Anterior,113
+2261,Output (ml)-Chest Tube #2 Pleural Left Lower;Anterior,113
+2262,Output (ml)-Chest Tube #3 Pleural Right Anterior;Lower,113
+2263,"Output (mL)-Urethral Catheter Cory Vaughn, EMT Latex 14 Fr.",113
+2264,Enteral Tube Intake: Orogastric Oral 18 F,113
+2265,"Enteral Tube Intake: Nasoduodenal Nostril, R 8FR",113
+2266,Output (mL)-Y Chest Tube 3 and 4 3 Mid 32 Fr. 4 Mid 24 Fr. Pleural collection system,113
+2267,Volume (mL)-sodium phosphate 30 mmol in dextrose 5 % 250 mL infusion,113
+2268,L JP,112
+2269,lipids,112
+2270,DIPI,112
+2271,PO reg liqs,112
+2272,NA Acetate,112
+2273,MAGNESIUM,112
+2274,Enteral vivonex,112
+2275,Output (ml)-Chest Tube #3 Right,112
+2276,Intercostal epidural ,112
+2277,Output Y (ml)-Chest Tube Y - a #2 Mid b #1 Mid,112
+2278,"Volume (mL)-tranexamic acid 1,000 mg in sodium chloride 0.9 % 100 mL IVPB",112
+2279,Right chest tube,111
+2280,PO :,111
+2281,NS/abx,111
+2282,PO  OGT meds,111
+2283,1.5% saline,111
+2284,Enteral Oxepa TF,111
+2285,PROTONIX DRIP ,111
+2286,sodium acetate,111
+2287,PROTONIX DRIP,111
+2288,Output (mL)-Biliary Tube  8 Fr. RLQ,111
+2289,Enteral Free water flushes,111
+2290,CL Flush: Introducer sheath IJ ,111
+2291,Output (ml)-Chest Tube #2 Mediastinal Lower;Anterior,111
+2292,Output (mL)-Negative Pressure Wound Therapy Leg Right,111
+2293,Volume (mL)-calcium CHLORIDE IVPB premix 2 g,111
+2294,"Enteral Tube Intake: Nasogastric Nostril, L 1",111
+2295,"Enteral Tube Intake: Nasoduodenal Nostril, L 55cm",111
+2296,OSTOMY,110
+2297,ventric drain ,110
+2298,Urinary Incont.,110
+2299,PO food,110
+2300,chemo,110
+2301,Mediastinal Chest Tubes,110
+2302,Enteral 2 cal,110
+2303,Output (ml)-Chest Tube #1 Midaxillary Right Mid,110
+2304,Output (ml)-Chest Tube #1 Midaxillary;Pleural Right,110
+2305,CL Flush: Pressure/power inj Subclavian R,110
+2306,"Enteral Tube Intake: Nasoduodenal Nostril, R 12fr",110
+2307,ct,109
+2308,Nephrostomy,109
+2309,urinary incontinence,109
+2310,CBI In,109
+2311,CARDIZEM DRIP ,109
+2312,Output Y (ml)-Chest Tube Y - a #2 Right b #2 Left,109
+2313,Output (mL)-Urethral Catheter k hyatt RN Non-latex 16 Fr.,109
+2314,Output Y (ml)-Chest Tube Y - a #1 Right Mid  c #2 Left Mid,109
+2315,"Volume (mL)-lactated ringers bolus 1,000 mL",109
+2316,"Output (mL)-Urethral Catheter Diana Acuna, RN Latex;Straight-tip 16 Fr.",109
+2317,Intake (mL)-[REMOVED] NG/OG Tube Nasogastric Right nostril,109
+2318,"Volume (mL)-levETIRAcetam (KEPPRA) 1,500 mg in sodium chloride 0.9 % 100 mL IVPB",109
+2319,OR urine,108
+2320,"Drain,other:",108
+2321,Wound/Drain #2,108
+2322,Epi,108
+2323,Zyvox,108
+2324,Main IVF,108
+2325,Acyclovir,108
+2326,GT Meds,108
+2327,PHENYLEPHRINE,108
+2328,D5 LR Volume,108
+2329,Enteral Pulmacare,108
+2330,Sodium Phosphate,108
+2331,Enteral Pivot 1.5 via OG Tube,108
+2332,"CL Flush: PICC Basilic R 5fr, 2l",108
+2333,Output Y (ml)-Chest Tube Y - a #1 Right Mid;Anterior b #2 Left Mid;Anterior,108
+2334,Bulb #4,107
+2335,D 20,107
+2336,3% saline,107
+2337,TwoCal HN,107
+2338,PO sips of clears,107
+2339,Sandostatin gtt,107
+2340,Chest Tube Output: Mediastinal L Lateral,107
+2341,Enteral tube feeds - nepro,107
+2342,Output (ml)-Chest Tube #1 Pleural Left Mid,107
+2343,Output Y (ml)-Chest Tube Y - a #1 Left b #1 Right,107
+2344,Output (ml)-Chest Tube #2 Pleural Right Lower;Anterior,107
+2345,Output (mL)-NG/OG/Feeding Tube Nasogastric 18 Fr. Right nare,107
+2346,"CL Flush: Non-Tunneled, Coated Catheter IJ R 7 FR",107
+2347,Output (mL)-Urethral Catheter James Dunlop RN Temperature probe 16 Fr.,107
+2348,"Output (mL)-Urethral Catheter Chasity Yates, RNFA Latex;Temperature probe 16 Fr.",107
+2349,meds CT,106
+2350,"Urine, L neph:",106
+2351,LR Bolus,106
+2352,Meropenum,106
+2353,PO clear liq,106
+2354,1/2NS + KCL,106
+2355,Enteral H20 w/ meds,106
+2356,Epinephrine (NS)-IN,106
+2357,NS  w/40 mEq KCL 500 ml,106
+2358,Enteral Vital 1.5 goal 56ml,106
+2359,Enteral Jevity 1.2via G-tube,106
+2360,NS  w/30 mmol (as PO4) KPO4,106
+2361,Output (mL)-Closed/Suction Drain Mediastinal 19 Fr.,106
+2362,Output Y (ml)-Chest Tube Y - a #1 Right Lateral b #4 Left Lateral;Mid,106
+2363,Volume (mL)-calcium gluconate 2 g in dextrose 5 % 50 mL IVPB,106
+2364,"Volume (mL)-sodium bicarbonate 50 mEq in dextrose 5 % 1,000 mL infusion",106
+2365,"Volume (mL)-dextrose 5 % and 0.2 % sodium chloride 1,000 mL with sodium bicarbonate 100 mEq infusion",106
+2366,kcl,105
+2367,NaPhos,105
+2368,Maxipime,105
+2369,sorensons/CO,105
+2370,Enteral FIBERSOURCE HN ,105
+2371,Output Y (ml)-Chest Tube Y - a #1 Right,105
+2372,NS  w/15 mmol (as PO4) NaPO4 250 ml,105
+2373,CL Flush: Coated Catheter IJ R 8Fr,105
+2374,"Output (mL)-Urethral Catheter Diana Acuna, RN Latex 16 Fr.",105
+2375,Output (mL)-Negative Pressure Wound Therapy Abdomen Anterior;Mid,105
+2376,"CL Flush: Non-Tunneled, Coated Catheter IJ R 7FR 3",105
+2377,Output (mL)-Closed/Suction Drain Anterior Mediastinal Other (Comment) 19 Fr.,105
+2378,Intake (mL)-[REMOVED] NG/OG Tube Nasogastric Left nostril,105
+2379,R CT 7/5,104
+2380,Chest tube meds,104
+2381,chest tube pleurals,104
+2382,Abx,104
+2383,NEXIUM,104
+2384,Output Amt-Pleural Drain B,104
+2385,D5 0.2 NS ,104
+2386,NS Addits ,104
+2387,NGT Flush,104
+2388,Insulin Gtt,104
+2389,NESIRITIDE (BNP),104
+2390,Enteral Flushes and meds,104
+2391,Output Y (ml)-Chest Tube Y - Left Lateral Right Lateral,104
+2392,Output Y (ml)-Chest Tube Y - a #1 Anterior b #2 Left Lateral,104
+2393,"Volume (mL)-lactated ringers infusion 1,000 mL",104
+2394,Volume (mL)-sodium phosphate 15 mmol in dextrose 5 % 250 mL IVPB,104
+2395,Volume (mL)-Dextran 40 in sodium chloride (DEXTRAN 40 IN NS) 10-0.9 % infusion,104
+2396,"GI, Ostomy:",103
+2397,PO fluids ,103
+2398,NS BOLUS,103
+2399,PO PO fluid,103
+2400,INsulin IV,103
+2401,Enteral Meds ,103
+2402,PO Flush/ Meds,103
+2403,A-line Flush,103
+2404,vassopressin,103
+2405,Enteral Free H20 ,103
+2406,Enteral nutri-hep,103
+2407,Enteral two cal HN ,103
+2408,Enteral osmolite 1.2,103
+2409,Enteral glucerna 1.5 ,103
+2410,Enteral Pivot 1.5 goal 45ml/hour,103
+2411,Per IV Flush: Midline Upper arm L 20 gauge,103
+2412,Intake (mL)-Gastrostomy/Enterostomy PEG-jejunostomy,103
+2413,CT meds,102
+2414,albumin,102
+2415,Flush:,102
+2416,Enteral Pivol 1.5,102
+2417,Enteral vital 1.2,102
+2418,Output (mL)-Urethral Catheter Dr Wrenn,102
+2419,Pressure Line Flush ,102
+2420,Output Y (ml)-Chest Tube Y - b #2 Right Mid c #2 Left Mid,102
+2421,Output (mL)-Urethral Catheter Greg Meadows RN Latex 16 Fr.,102
+2422,Output (ml)-Chest Tube #1 Mediastinal Right Lower;Anterior,102
+2423,Volume (mL)-levETIRAcetam (KEPPRA) IVPB 1500 mg,102
+2424,"Output (mL)-Urethral Catheter Josh McDaniel, RN Straight-tip 16 Fr.",102
+2425,"Enteral Tube Intake: Nasogastric Nostril, R 16FR",102
+2426,"Output (mL)-Urethral Catheter A. Hegarty, RN Latex;Temperature probe 14 Fr.",102
+2427,VENTRICULOSTOMY,101
+2428,PO Renal,101
+2429,Protonix ,101
+2430,PO Nectar thick,101
+2431,sodium bicarb,101
+2432,Enteral GLUCERNA,101
+2433,Enteral fibersource ,101
+2434,Enteral Isosource 1.5,101
+2435,D5 0.45 NS  w/10 mEq KCL,101
+2436,CL Flush: Non-Tunneled Subclavian L 8fr,101
+2437,"Enteral Tube Intake: Nasogastric Nostril, R 8F",101
+2438,"CL Flush: Coated Catheter, Pressure/power inj Subc",101
+2439,Output Y (ml)-Chest Tube Y - a #1 Right Lateral;Anterior b #4 Left Anterior;Lateral,101
+2440,Volume (mL)-dextran 40 in dextrose 5% (DEXTRAN 40 IN D5W) 10 % infusion,101
+2441,Volume (mL)-doxycycline (VIBRAMYCIN) 100 mg in sodium chloride 0.9 % 250 mL IVPB,101
+2442,J Tube,100
+2443,mucous fistula,100
+2444,incontinent urine,100
+2445,Enteral TF flush,100
+2446,Enteral peg tube,100
+2447,Enteral NOVASOURCE,100
+2448,Enteral Flushes/Meds,100
+2449,Enteral PEG flush/meds,100
+2450,Enteral Pivot 1.5 via GT,100
+2451,Enteral ogt meds/flushes,100
+2452,Enteral Pivot 1.5 per gtube,100
+2453,Volume (mL) Vecuronium ,100
+2454,"Enteral Tube Intake: Nasogastric Nostril, R 10F",100
+2455,"Output (mL)-Urethral Catheter B Jacobelli, RN Latex;Straight-tip 14 Fr.",100
+2456,"Volume (mL)-sodium bicarbonate 75 mEq in dextrose 5 % 1,000 mL infusion",100
+2457,"Output (mL)-Urethral Catheter Chasity Yates, RN Latex;Temperature probe;Straight-tip 14 Fr.",100
