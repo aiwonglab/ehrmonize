@@ -1,6 +1,6 @@
-from .ehrmonize import LLM_API
+from .ehrmonize import EHRmonize
 
-__author__ = "João Matos <jcmatos@mit.edu>"
+__author__ = "João Matos <joao.matos@duke.edu>"
 __version__ = "0.1.0a1"
 
-__all__ = ['EquiFlow', 'TableFlows', 'TableCharacteristics']
+__all__ = ['EHRmonize']
