@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ehrmonize"
+version = "0.1.0a2"
+authors = [
+  { name="João Matos", email="jcmatos@mit.edu" },
+]
+license = {file = "LICENSE"}
+description = "ehrmonize is an AI-powered package to clean and categorize medical concepts in EHR data."
+readme = "README.md"
+requires-python = ">=3.9"
+keywords=["ehrmonize", "statistics", "AI", "clinical research", "machine learning"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "statsmodels",
+    "tabulate",
+    "Jinja2",
+    "openpyxl",
+]
+
+[tool.black]
+line-length = 119
+
+[tool.pyright]
+reportMissingImports = true
+
+[project.urls]
+homepage = "https://github.com/aiwonglab/ehrmonize/"
+repository = "https://github.com/aiwonglab/ehrmonize/"
