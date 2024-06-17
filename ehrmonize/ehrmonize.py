@@ -174,5 +174,21 @@ class EHRmonize:
 
         return self._clean_text(output)
 
+    def classify_drug(self, drugname, classes):
+
+            
+        prompt = f" \
+            You are a well trained clinician doing data cleaning and harmonization. \
+            You are given a raw drug name out of EHR, below, within squared brackets[]. \
+            Please classify [{drugname}] into one of the following categories: \
+            {classes} \
+            Please output nothing more than the category name. \
+        "
+    
+        output = self._prompt(
+            prompt=('\nHuman: ' + prompt + '\nAssistant:')
+        )
+
+        return self._clean_text(output)
         
         
