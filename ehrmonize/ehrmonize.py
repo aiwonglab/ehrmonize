@@ -117,7 +117,10 @@ class EHRmonize:
         # remove "\n" and spaces
         text = text.replace("\n", " ").strip()
         # transform to lowercase
-        return text.lower()
+        text = text.lower()
+        # remove any '
+        text = text.replace("'", "")
+        return text
     
     def _prompt(self, prompt):
 
@@ -139,27 +142,88 @@ class EHRmonize:
                              meta.llama2-13b-chat-v1, meta.llama2-70b-chat-v1, meta.llama3-70b-instruct-v1:0\
                              anthropic.claude-v2:1, anthropic.claude-instant-v1,\
                              mistral.mistral-7b-instruct-v0:2, mistral.mixtral-8x7b-instruct-v0:1')
-        
 
-    def clean_route(self, route):
+    def _run_rule_based(self, results):
+        consistency = results.count(max(set(results), key = results.count)) / len(results)
+
+        # see if there is a tie, i.e, more than one class with the same count that are the max
+        # while results.count(max(set(results), key = results.count)) <= len(results)/2:
+        #     # run prompt again, until there is no tie
+        #     results.append(self._get_clean_route(route, classes))
+
+        if consistency <= 0.5:
+            return results, 'unsure', consistency
+        else:
+            return results, max(set(results), key = results.count), consistency
+
+    def _run_agentic(self, previous_prompt, n_attempts, results):
+
+        consistency = results.count(max(set(results), key = results.count)) / len(results)
 
         prompt = f" \
-            You are a well trained clinician doing data cleaning and harmonization. \
-            You are given a raw route name, below, within squared brackets[]. \
-            Please classify [{route}] into one of the following categories: \
-            - intravenous (which includes IV, intraven, or other mispelled variations) \
-            - oral (which includes PO) \
-            - other (which includes all other routes) \
-            Please output nothing more than the category name. \
+            You are a well trained, senior clinician who is reviewing the work done by your more junior colleagues\
+            who are doing data cleaning and harmonization. This was the task that they received:\
+            {previous_prompt}\
+            After asking {n_attempts} different colleagues, these were their responses:\
+            {results}\
+            Please decide the final answer to this task.\
+            Output nothing more than the final answer, without explaining anything,\
+            and write 'unsure' if there is a tie or you are unable to decide.\
         "
 
         output = self._prompt(
             prompt=('\nHuman: ' + prompt + '\nAssistant:')
         )
 
+        return results, self._clean_text(output), consistency
+        
+
+    def _generate_route_prompt(self, route, classes):    
+
+        prompt = f" \
+            You are a well trained clinician doing data cleaning and harmonization. \
+            You are given a raw route name, which may contain spelling typos and variations, below within squared brackets[]. \
+            Please classify [{route}] into one of the following categories: \
+            {classes} \
+            Please output nothing more than the category name. \
+        "
+        return prompt
+
+    def _get_clean_route(self, route, classes):
+
+        prompt = self._generate_route_prompt(route, classes)
+
+        output = self._prompt(
+            prompt=('\nHuman: ' + prompt + '\nAssistant:')
+        )
+
         return self._clean_text(output)
-    
-    def get_generic(self, drugname):
+
+    def clean_route(self, route, classes, n_attempts=5, agentic=False):
+
+        results = []
+
+        for i in range(n_attempts):
+            results.append(self._get_clean_route(route, classes))
+
+        # if only one attempt, simply return the result
+        if n_attempts == 1:
+            return results[0]
+
+        # if more than one attempt, return the most common result, or let another agent decide
+        else:  
+            # first, rule-based approach, return the most common result
+            if not agentic:
+                return self._run_rule_based(results)
+
+            # second, agentic approach, return the result that another LLM decides
+            elif agentic:
+                previous_prompt = self._generate_route_prompt(route, classes)
+                return self._run_agentic(previous_prompt, n_attempts, results)
+
+                
+
+    def _generate_generic_name_prompt(self, drugname):
 
         prompt = f" \
             You are a well trained clinician doing data cleaning and harmonization. \
@@ -167,6 +231,11 @@ class EHRmonize:
             Please give me this drug's generic name: [{drugname}] \
             Please output nothing more than the generic name. \
         "
+        return prompt
+    
+    def _get_generic_name(self, drugname):
+
+        prompt = self._generate_generic_name_prompt(drugname)
 
         output = self._prompt(
             prompt=('\nHuman: ' + prompt + '\nAssistant:')
@@ -174,8 +243,25 @@ class EHRmonize:
 
         return self._clean_text(output)
 
-    def classify_drug(self, drugname, classes):
+    def get_generic_name(self, drugname, n_attempts=5, agentic=False):
+        results = []
 
+        for i in range(n_attempts):
+            results.append(self._get_generic_name(drugname))
+
+        if n_attempts == 1:
+            return results[0]
+
+        else:  
+            if not agentic:
+                return self._run_rule_based(results)
+
+            elif agentic:
+                previous_prompt = self._generate_generic_name_prompt(drugname)
+                return self._run_agentic(previous_prompt, n_attempts, results)
+
+
+    def _generate_drug_classification_prompt(self, drugname, classes):
             
         prompt = f" \
             You are a well trained clinician doing data cleaning and harmonization. \
@@ -184,11 +270,35 @@ class EHRmonize:
             {classes} \
             Please output nothing more than the category name. \
         "
+        return prompt
+
+    def _get_drug_classification(self, drugname, classes):
+
+        prompt = self._generate_drug_classification_prompt(drugname, classes)
     
         output = self._prompt(
             prompt=('\nHuman: ' + prompt + '\nAssistant:')
         )
 
         return self._clean_text(output)
+
+
+    def classify_drug(self, drugname, classes, n_attempts=5, agentic=False):
+
+        results = []
+
+        for i in range(n_attempts):
+            results.append(self._get_drug_classification(drugname, classes))
+
+        if n_attempts == 1:
+            return results[0]
+
+        else:  
+            if not agentic:
+                return self._run_rule_based(results)
+
+            elif agentic:
+                previous_prompt = self._generate_drug_classification_prompt(drugname, classes)
+                return self._run_agentic(previous_prompt, n_attempts, results)
         
         
