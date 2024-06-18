@@ -234,7 +234,7 @@ class EHRmonize:
 
         return prompt
 
-    def _get_clean_route(self, route, classes, possible_shots):
+    def _get_generic_route(self, route, classes, possible_shots):
 
         prompt = self._generate_route_prompt(route, classes, possible_shots)
 
@@ -244,12 +244,12 @@ class EHRmonize:
 
         return self._clean_text(output)
 
-    def clean_route(self, route, classes, possible_shots=[]):
+    def get_generic_route(self, route, classes, possible_shots=[]):
 
         results = []
 
         for i in range(self.n_attempts):
-            results.append(self._get_clean_route(route, classes, possible_shots))
+            results.append(self._get_generic_route(route, classes, possible_shots))
 
         # if only one attempt, simply return the result
         if self.n_attempts == 1:
@@ -449,13 +449,13 @@ class EHRmonize:
 
     def predict(self, input):
 
-        if self.task == 'clean_route':
+        if self.task == 'get_generic_route':
             # make sure that input is a pandas Series
             if not isinstance(input, pd.Series):
                 raise ValueError('input must be a pandas Series')
             
             res = input.apply(
-                lambda x: self.clean_route(
+                lambda x: self.get_generic_route(
                     route=x,
                     classes=self.kwargs.get('classes'),
                     possible_shots=self.kwargs.get('possible_shots')
@@ -567,5 +567,5 @@ class EHRmonize:
     
         else:
             raise ValueError('task not supported. Please make sure you are using the correct task. We currently support: \
-                             clean_route, get_generic_name, classify_drug, custom')
+                             get_generic_route, get_generic_name, classify_drug, custom')
         

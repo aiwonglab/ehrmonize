@@ -1,0 +1,24 @@
+task: get_generic_route
+
+possible_shots:
+- "An input route 'intraven' would be classified as 'intravenous'.",
+- "An input route 'intramuscul' would be classified as 'intramuscular'.",
+- "An input route 'rEcTal' would be classified as 'rectal'.",
+- "An input route 'oral' would be classified as 'oral'.",
+- "An input route 'po' would be classified as 'oral'.",
+
+source_db: 
+  - MIMIC-IV
+  - eICU-CRD
+
+source_csv:
+  - dataset/unlabeled/mimic_meds.csv
+  - dataset/unlabeled/eicu_meds.csv
+
+input_col_name:
+  - drug
+  - drugname
+
+gt_col_name:
+  - generic_route
+  - generic_route

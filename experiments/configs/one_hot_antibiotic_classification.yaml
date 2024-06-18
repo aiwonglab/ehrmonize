@@ -1,0 +1,25 @@
+task: one_hot_drug_classification
+
+possible_shots:
+  - An input drugname 'vancocin' and route 'IV' would be classified as '1'.
+  - An input drugname 'Toprol XL' and route 'oral' would be classified as '0'.
+  - An input drugname 'Adderall' and route 'oral' would be classified as '0'.
+  - An input drugname 'Cephalosporin' and route 'intramuscular' would be classified as '1'.
+  - An input drugname 'hepariin' and route 'subcutaneous' would be classified as '0'.
+
+source_db: 
+  - MIMIC-IV
+  - eICU-CRD
+
+source_csv:
+  - dataset/unlabeled/mimic_meds.csv
+  - dataset/unlabeled/eicu_meds.csv
+
+input_col_name:
+  - drug, route
+  - drugname, routeadmin
+
+gt_col_name:
+  - antibiotic
+  - antibiotic
+
