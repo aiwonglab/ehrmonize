@@ -183,7 +183,7 @@ class EHRmonize:
         if consistency <= 0.5:
             return results, 'unsure', consistency
         else:
-            return results, max(set(results), key = results.count), consistency
+            return max(set(results), key = results.count), consistency, results
 
     def _run_agentic(self, previous_prompt, results):
 
@@ -204,7 +204,7 @@ class EHRmonize:
             prompt=('\nHuman: ' + prompt + '\nAssistant:')
         )
 
-        return results, self._clean_text(output), consistency
+        return self._clean_text(output), consistency, results
         
 
     def _generate_route_prompt(self, route, classes, possible_shots):    
@@ -384,7 +384,7 @@ class EHRmonize:
             if not isinstance(input, pd.Series):
                 raise ValueError('input must be a pandas Series')
             
-            return input.apply(
+            res = input.apply(
                 lambda x: self.clean_route(
                     route=x,
                     classes=self.kwargs.get('classes'),
@@ -392,24 +392,44 @@ class EHRmonize:
                 )
             )
 
+            if self.n_attempts == 1:
+                return res
+            
+            elif self.n_attempts > 1:
+                return {
+                    'pred': res.apply(lambda x: x[0]), 
+                    'consistency': res.apply(lambda x: x[1]), 
+                    'all_pred': res.apply(lambda x: x[2]) 
+                }
+
         elif self.task == 'get_generic_name':
             # make sure that input is a pandas Series
             if not isinstance(input, pd.Series):
                 raise ValueError('input must be a pandas Series')
             
-            return input.apply(
+            res = input.apply(
                 lambda x: self.get_generic_name(
                     drugname=x,
                     possible_shots=self.kwargs.get('possible_shots')
                 )
             )
+
+            if self.n_attempts == 1:
+                return res
+            
+            elif self.n_attempts > 1:
+                return {
+                    'pred': res.apply(lambda x: x[0]),
+                    'consistency': res.apply(lambda x: x[1]),
+                    'all_pred': res.apply(lambda x: x[2])
+                }
         
         elif self.task == 'classify_drug':
             # make sure that input is a pandas DataFrame
             if not isinstance(input, pd.DataFrame):
                 raise ValueError('input must be a pandas DataFrame')
             
-            return input.apply(
+            res = input.apply(
                 lambda row: self.classify_drug(
                     drugname=row.drug,
                     route=row.route,
@@ -418,6 +438,16 @@ class EHRmonize:
                 ),
                 axis=1
             )
+
+            if self.n_attempts == 1:
+                return res
+            
+            elif self.n_attempts > 1:
+                return {
+                    'pred': res.apply(lambda x: x[0]),
+                    'consistency': res.apply(lambda x: x[1]),
+                    'all_pred': res.apply(lambda x: x[2])
+                }
     
         else:
             raise ValueError('task not supported. Please make sure you are using the correct task. We currently support: \
