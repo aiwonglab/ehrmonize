@@ -372,7 +372,38 @@ class EHRmonize:
             elif self.agentic:
                 previous_prompt = self._generate_drug_classification_prompt(drugname, route, classes, possible_shots)
                 return self._run_agentic(previous_prompt, results)
+            
+    def _generate_custom_prompt(self, prompt, input):
+        return f" {prompt} \n {input}"    
         
+    def _custom_prompt(self, full_prompt):
+
+        output = self._prompt(
+            prompt=('\nHuman: ' + full_prompt + '\nAssistant:')
+        )
+
+        return self._clean_text(output)
+    
+    def custom_task(self, prompt, input):
+
+        full_prompt = self._generate_custom_prompt(prompt, input)
+
+        results = []
+
+        for i in range(self.n_attempts):
+            results.append(self._custom_prompt(full_prompt))
+
+        if self.n_attempts == 1:
+            return results[0]
+
+        else:  
+            if not self.agentic:
+                return self._run_rule_based(results)
+
+            elif self.agentic:
+                previous_prompt = full_prompt
+                return self._run_agentic(previous_prompt, results)
+
     def set_task(self, task, **kwargs):
         self.task = task
         self.kwargs = kwargs
@@ -437,6 +468,28 @@ class EHRmonize:
                     possible_shots=self.kwargs.get('possible_shots')
                 ),
                 axis=1
+            )
+
+            if self.n_attempts == 1:
+                return res
+            
+            elif self.n_attempts > 1:
+                return {
+                    'pred': res.apply(lambda x: x[0]),
+                    'consistency': res.apply(lambda x: x[1]),
+                    'all_pred': res.apply(lambda x: x[2])
+                }
+            
+        elif self.task == 'custom':
+            # make sure that input is a pandas Series
+            if not isinstance(input, pd.Series):
+                raise ValueError('input must be a pandas Series')
+            
+            res = input.apply(
+                lambda x: self.custom_task(
+                    prompt=self.kwargs.get('prompt'),
+                    input=x
+                )
             )
 
             if self.n_attempts == 1:
