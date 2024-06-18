@@ -373,6 +373,45 @@ class EHRmonize:
                 previous_prompt = self._generate_drug_classification_prompt(drugname, route, classes, possible_shots)
                 return self._run_agentic(previous_prompt, results)
             
+    def _generate_one_hot_drug_classification(self, drugname, route, classif):
+
+        prompt = f" \
+            You are a well trained clinician doing data cleaning and harmonization. \
+            You are given a raw drug name and administration route out of EHR, below, within squared brackets as [drugname, route]. \
+            Please output 1 if [{drugname}, {route}] is classified as {classif}, otherwise output 0. \
+            Please output nothing more than 1 or 0. \
+        "
+
+        return prompt
+    
+    def _get_one_hot_drug_classification(self, drugname, route, classif):
+            
+            prompt = self._generate_one_hot_drug_classification(drugname, route, classif)
+        
+            output = self._prompt(
+                prompt=('\nHuman: ' + prompt + '\nAssistant:')
+            )
+    
+            return self._clean_text(output)
+    
+    def one_hot_drug_classification(self, drugname, route, classif):
+            
+            results = []
+    
+            for i in range(self.n_attempts):
+                results.append(self._get_one_hot_drug_classification(drugname, route, classif))
+    
+            if self.n_attempts == 1:
+                return results[0]
+    
+            else:  
+                if not self.agentic:
+                    return self._run_rule_based(results)
+    
+                elif self.agentic:
+                    previous_prompt = self._generate_one_hot_drug_classification(drugname, route, classif)
+                    return self._run_agentic(previous_prompt, results)
+            
     def _generate_custom_prompt(self, prompt, input):
         return f" {prompt} \n {input}"    
         
@@ -480,6 +519,30 @@ class EHRmonize:
                     'all_pred': res.apply(lambda x: x[2])
                 }
             
+        elif self.task == 'one_hot_drug_classification':
+            # make sure that input is a pandas DataFrame
+            if not isinstance(input, pd.DataFrame):
+                raise ValueError('input must be a pandas DataFrame')
+            
+            res = input.apply(
+                lambda row: self.one_hot_drug_classification(
+                    drugname=row.drug,
+                    route=row.route,
+                    classif=self.kwargs.get('classif')
+                ),
+                axis=1
+            )
+
+            if self.n_attempts == 1:
+                return res
+            
+            elif self.n_attempts > 1:
+                return {
+                    'pred': res.apply(lambda x: x[0]),
+                    'consistency': res.apply(lambda x: x[1]),
+                    'all_pred': res.apply(lambda x: x[2])
+                }
+            
         elif self.task == 'custom':
             # make sure that input is a pandas Series
             if not isinstance(input, pd.Series):
@@ -504,8 +567,5 @@ class EHRmonize:
     
         else:
             raise ValueError('task not supported. Please make sure you are using the correct task. We currently support: \
-                             clean_route, get_generic_name, classify_drug')
+                             clean_route, get_generic_name, classify_drug, custom')
         
-    # currently only supporting accuracy
-    def evaluate(self, input, pred):
-        return (input == pred).mean()

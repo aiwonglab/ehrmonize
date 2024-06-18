@@ -1,4 +1,4 @@
-task_function: get_generic_name
+task: get_generic_name
 
 source_db: 
   - MIMIC-IV
@@ -17,11 +17,11 @@ gt_col_name:
   - generic_name
 
 model_id:
-  - gpt-3.5-turbo
-  - gpt-4o
   - meta.llama3-70b-instruct-v1:0
   - anthropic.claude-v2:1
   - mistral.mixtral-8x7b-instruct-v0:1
+  - gpt-3.5-turbo
+  - gpt-4o
 
 temperature:
   - 0
