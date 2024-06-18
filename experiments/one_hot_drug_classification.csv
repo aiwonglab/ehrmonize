@@ -1,0 +1,4 @@
+source_db,model_id,temperature,number_of_shots,number_of_attempts,agentic,accuracy,recall,precision,consistencies,time_taken
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0,0,1,False,0.8,0.0,0.0,,2.05
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0,0,3,True,0.8,0.0,0.0,1.0,6.87
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0,0,3,False,0.8,0.0,0.0,1.0,4.49

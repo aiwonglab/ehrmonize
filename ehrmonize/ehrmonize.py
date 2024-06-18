@@ -1,8 +1,10 @@
 import pandas as pd
+import numpy as np
 import json
 from dotenv import load_dotenv
 import os
 import yaml
+import sklearn.metrics
 
 class EHRmonize:
 
@@ -458,7 +460,7 @@ class EHRmonize:
                 lambda x: self.get_generic_route(
                     route=x,
                     classes=self.kwargs.get('classes'),
-                    possible_shots=self.kwargs.get('possible_shots')
+                    possible_shots=self.kwargs.get('possible_shots'),
                 )
             )
 
@@ -480,7 +482,7 @@ class EHRmonize:
             res = input.apply(
                 lambda x: self.get_generic_name(
                     drugname=x,
-                    possible_shots=self.kwargs.get('possible_shots')
+                    possible_shots=self.kwargs.get('possible_shots'),
                 )
             )
 
@@ -504,7 +506,7 @@ class EHRmonize:
                     drugname=row.drug,
                     route=row.route,
                     classes=self.kwargs.get('classes'),
-                    possible_shots=self.kwargs.get('possible_shots')
+                    possible_shots=self.kwargs.get('possible_shots'),
                 ),
                 axis=1
             )
@@ -528,7 +530,7 @@ class EHRmonize:
                 lambda row: self.one_hot_drug_classification(
                     drugname=row.drug,
                     route=row.route,
-                    classif=self.kwargs.get('classif')
+                    classif=self.kwargs.get('classif'),
                 ),
                 axis=1
             )
@@ -551,7 +553,7 @@ class EHRmonize:
             res = input.apply(
                 lambda x: self.custom_task(
                     prompt=self.kwargs.get('prompt'),
-                    input=x
+                    input=x,
                 )
             )
 
@@ -569,3 +571,12 @@ class EHRmonize:
             raise ValueError('task not supported. Please make sure you are using the correct task. We currently support: \
                              get_generic_route, get_generic_name, classify_drug, custom')
         
+    def evaluate(self, y_true, y_pred, experiment_number=0):
+
+        metric_dict = {}
+
+        for m in self.kwargs.get('metrics'):
+            metric_dict[m] = np.round(getattr(sklearn.metrics, m)(y_true, y_pred), 3)
+
+        return pd.DataFrame(metric_dict, index=[experiment_number])
+

@@ -1,11 +1,20 @@
-task: get_generic_route
+task_specific:
+  task: get_generic_route
 
-possible_shots:
-- "An input route 'intraven' would be classified as 'intravenous'.",
-- "An input route 'intramuscul' would be classified as 'intramuscular'.",
-- "An input route 'rEcTal' would be classified as 'rectal'.",
-- "An input route 'oral' would be classified as 'oral'.",
-- "An input route 'po' would be classified as 'oral'.",
+  classes:
+    - intravenous
+    - intramuscular
+    - rectal
+    - oral
+    - intravenous
+    - oral
+
+  possible_shots:
+  - "An input route 'intraven' would be classified as 'intravenous'."
+  - "An input route 'intramuscul' would be classified as 'intramuscular'."
+  - "An input route 'rEcTal' would be classified as 'rectal'."
+  - "An input route 'oral' would be classified as 'oral'."
+  - "An input route 'po' would be classified as 'oral'."
 
 source_db: 
   - MIMIC-IV

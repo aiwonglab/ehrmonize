@@ -1,11 +1,15 @@
-task: get_generic_name
+task_specific:
+  task: get_generic_name
 
-possible_shots:
-  - An input drugname 'vancocin' would be classified as 'vancomycin'.
-  - An input drugname 'Toprol XL' would be classified as 'metroprolol'.
-  - An input drugname 'Adderall' would be classified as 'amphetamine/dextroamphetamine'.
-  - An input drugname 'Tylenol' would be classified as 'acetaminophen'.
-  - An input drugname 'vancomycin' would be classified as 'vancomycin'.
+  possible_shots:
+    - An input drugname 'vancocin' would be classified as 'vancomycin'.
+    - An input drugname 'Toprol XL' would be classified as 'metroprolol'.
+    - An input drugname 'Adderall' would be classified as 'amphetamine/dextroamphetamine'.
+    - An input drugname 'Tylenol' would be classified as 'acetaminophen'.
+    - An input drugname 'vancomycin' would be classified as 'vancomycin'.
+
+  metrics:
+    - accuracy_score
 
 source_db: 
   - MIMIC-IV
