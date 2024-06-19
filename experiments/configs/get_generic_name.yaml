@@ -16,7 +16,7 @@ source_db:
   # - eICU-CRD
 
 source_csv:
-  - dataset/unlabeled/mimic_meds.csv
+  - dataset/labeled/mimic_meds.csv
   # - dataset/unlabeled/eicu_meds.csv
 
 input_col_name:

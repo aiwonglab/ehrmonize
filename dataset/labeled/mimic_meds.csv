@@ -67,7 +67,7 @@ OxyCODONE (Immediate Release),PO/NG,904644461,32436,oxycodone (immediate release
 Omeprazole,PO,904568461,32340,omeprazole,oral,0,0,0,0,0,0,0,0,0,0,1,0,1,0
 0.9% Sodium Chloride,IV DRIP,338004938,32150,sodium chloride 0.9%,intravenous,0,0,0,0,1,0,0,0,0,0,0,0,0,0
 Magnesium Sulfate,IV,63323010605,31968,magnesium sulfate,intravenous,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Furosemide,PO/NG,51079007220,30424,furosemide,oral,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Furosemide,PO/NG,51079007220,30424,furosemide,"oral, nasogastric tube",0,0,0,1,0,0,0,0,0,0,0,0,0,0
 Ondansetron,IV,641608025,30417,ondansetron,intravenous,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Warfarin,PO/NG,56017075,30195,warfarin,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Calcium Carbonate,PO,66553000401,29847,calcium carbonate,oral,0,0,0,0,0,0,1,0,0,0,0,0,0,0
