@@ -1,0 +1,36 @@
+task_specific:
+  task: one_hot_drug_classification
+
+  classif:
+    - opioid_analgesic
+  
+  expanded_classif:
+    - opioid analgesic, used for pain relief
+
+  possible_shots:
+    - 
+
+  metrics:
+    - accuracy_score
+    - precision_score
+    - recall_score
+    - f1_score
+    - specificity_score
+    - balanced_accuracy_score
+
+source_db: 
+  - MIMIC-IV
+  # - eICU-CRD
+
+source_csv:
+  - dataset/labeled/mimic_meds.csv
+  # - dataset/labeled/eicu_meds.csv
+
+input_col_name:
+  - ['drug', 'route']
+  # - ['drugname', 'routeadmin']
+
+gt_col_name:
+  - opioid_analgesic
+  # - opioid_analgesic
+

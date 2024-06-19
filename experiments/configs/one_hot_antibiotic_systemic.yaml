@@ -1,0 +1,40 @@
+task_specific:
+  task: one_hot_drug_classification
+
+  classif:
+    - antibiotic_systemic
+  
+  expanded_classif:
+  - systemic antibiotic of any type (against bacteria, not including viruses or fungi) that is circulated systemically (e.g., not topical, not opthalmic)
+
+  possible_shots:
+  - An input drugname 'vancomycin' and route 'intravenous' would be classified as '1'
+  - An input drugname 'vancocin' and route 'oral' would be classified as '0'
+  - An input drugname 'famotidine' and route 'intravenous' would be classified as '0'
+  - An input drugname 'trimethoprim-sulfamethoxazole' and route 'oral' would be classified as '1'
+  - An input drugname 'amlodipine' and route 'oral' would be classified as '0'
+
+  metrics:
+    - accuracy_score
+    - precision_score
+    - recall_score
+    - f1_score
+    - specificity_score
+    - balanced_accuracy_score
+
+source_db: 
+  - MIMIC-IV
+  # - eICU-CRD
+
+source_csv:
+  - dataset/labeled/mimic_meds.csv
+  # - dataset/labeled/eicu_meds.csv
+
+input_col_name:
+  - ['drug', 'route']
+  # - ['drugname', 'routeadmin']
+
+gt_col_name:
+  - antibiotic_systemic
+  # - antibiotic_systemic
+

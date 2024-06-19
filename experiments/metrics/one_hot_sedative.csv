@@ -1,0 +1,11 @@
+db,model_id,temperature,n_shots,n_attempts,agentic,elapsed_time,consistencies,accuracy_score,precision_score,recall_score,f1_score,specificity_score,balanced_accuracy_score
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.0,0,1,False,21.694,,0.949,0.444,1.0,0.615,0.947,0.973
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.5,0,1,False,21.954,,0.98,0.667,1.0,0.8,0.979,0.989
+MIMIC-IV,anthropic.claude-v2:1,0.0,0,1,False,53.817,,0.959,,0.0,,1.0,0.5
+MIMIC-IV,anthropic.claude-v2:1,0.5,0,1,False,47.798,,0.969,1.0,0.25,0.4,1.0,0.625
+MIMIC-IV,mistral.mixtral-8x7b-instruct-v0:1,0.0,0,1,False,18.659,,0.949,0.444,1.0,0.615,0.947,0.973
+MIMIC-IV,mistral.mixtral-8x7b-instruct-v0:1,0.5,0,1,False,19.223,,0.949,0.444,1.0,0.615,0.947,0.973
+MIMIC-IV,gpt-3.5-turbo,0.0,0,1,False,41.7,,0.041,0.041,1.0,0.078,0.0,0.5
+MIMIC-IV,gpt-3.5-turbo,0.5,0,1,False,39.852,,0.092,0.043,1.0,0.082,0.053,0.527
+MIMIC-IV,gpt-4o,0.0,0,1,False,45.771,,0.99,1.0,0.75,0.857,1.0,0.875
+MIMIC-IV,gpt-4o,0.5,0,1,False,43.716,,1.0,1.0,1.0,1.0,1.0,1.0

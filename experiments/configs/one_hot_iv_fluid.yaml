@@ -1,0 +1,40 @@
+task_specific:
+  task: one_hot_drug_classification
+
+  classif:
+    - intravenous_fluid
+  
+  expanded_classif:
+    - intravenous fluid given for the purpose of volume expansion
+
+  possible_shots:
+    - An input drugname 'sodium chloride 0.9%' and route 'intravenous' would be classified as '1'
+    - An input drugname 'normal saline' and route 'intravenous' would be classified as '1'
+    - An input drugname 'sterile water' and route 'oral' would be classified as '0'
+    - An input drugname 'sodium bicarbonate in 0.9% normal saline' and route 'intravenous' would be classified as '1'
+    - An input drugname 'albuterol nebulizer' and route 'inhaled' would be classified as '0'
+
+  metrics:
+    - accuracy_score
+    - precision_score
+    - recall_score
+    - f1_score
+    - specificity_score
+    - balanced_accuracy_score
+
+source_db: 
+  - MIMIC-IV
+  # - eICU-CRD
+
+source_csv:
+  - dataset/labeled/mimic_meds.csv
+  # - dataset/labeled/eicu_meds.csv
+
+input_col_name:
+  - ['drug', 'route']
+  # - ['drugname', 'routeadmin']
+
+gt_col_name:
+  - intravenous_fluid
+  # - intravenous_fluid
+
