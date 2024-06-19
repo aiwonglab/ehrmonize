@@ -31,3 +31,21 @@ In case you're interested in running a batch of queries, i.e, all the queries th
 ```sh
 python3 dataset/get_bigquery_data.py --sql_folder "dataset/queries/" --destination_folder "dataset/unlabeled/"
 ```
+
+### Run Experiments
+
+1. Set the .YAML configuration file in the `experiments/config/` folder
+
+2. Run the following command
+
+```sh
+python3 run_experiment.py --experiment {name_of_experiment/config}
+```
+
+As an example,
+
+```sh
+python3 run_experiment.py --experiment one_hot_antibiotic
+```
+
+will run the experiment defined in `experiments/config/one_hot_antibiotic.yaml`.

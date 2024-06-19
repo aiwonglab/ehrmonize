@@ -4,7 +4,7 @@ import json
 from dotenv import load_dotenv
 import os
 import yaml
-import sklearn.metrics
+
 
 class EHRmonize:
 
@@ -375,20 +375,21 @@ class EHRmonize:
                 previous_prompt = self._generate_drug_classification_prompt(drugname, route, classes, possible_shots)
                 return self._run_agentic(previous_prompt, results)
             
-    def _generate_one_hot_drug_classification(self, drugname, route, classif):
+    def _generate_one_hot_drug_classification(self, drugname, route, classif, expanded_classif):
 
         prompt = f" \
             You are a well trained clinician doing data cleaning and harmonization. \
             You are given a raw drug name and administration route out of EHR, below, within squared brackets as [drugname, route]. \
             Please output 1 if [{drugname}, {route}] is classified as {classif}, otherwise output 0. \
+            {classif} means {expanded_classif} \
             Please output nothing more than 1 or 0. \
         "
 
         return prompt
     
-    def _get_one_hot_drug_classification(self, drugname, route, classif):
+    def _get_one_hot_drug_classification(self, drugname, route, classif, expanded_classif):
             
-            prompt = self._generate_one_hot_drug_classification(drugname, route, classif)
+            prompt = self._generate_one_hot_drug_classification(drugname, route, classif, expanded_classif)
         
             output = self._prompt(
                 prompt=('\nHuman: ' + prompt + '\nAssistant:')
@@ -396,12 +397,13 @@ class EHRmonize:
     
             return self._clean_text(output)
     
-    def one_hot_drug_classification(self, drugname, route, classif):
+    def one_hot_drug_classification(self, drugname, route, classif, expanded_classif=None):
             
             results = []
     
             for i in range(self.n_attempts):
-                results.append(self._get_one_hot_drug_classification(drugname, route, classif))
+                results.append(self._get_one_hot_drug_classification(drugname, route,
+                                                                     classif, expanded_classif))
     
             if self.n_attempts == 1:
                 return results[0]
@@ -411,7 +413,8 @@ class EHRmonize:
                     return self._run_rule_based(results)
     
                 elif self.agentic:
-                    previous_prompt = self._generate_one_hot_drug_classification(drugname, route, classif)
+                    previous_prompt = self._generate_one_hot_drug_classification(drugname, route,
+                                                                                 classif, expanded_classif)
                     return self._run_agentic(previous_prompt, results)
             
     def _generate_custom_prompt(self, prompt, input):
@@ -571,12 +574,42 @@ class EHRmonize:
             raise ValueError('task not supported. Please make sure you are using the correct task. We currently support: \
                              get_generic_route, get_generic_name, classify_drug, custom')
         
+    def accuracy_score(self, y_true, y_pred):
+        return np.mean(y_true == y_pred)
+    
+    def recall_score(self, y_true, y_pred):
+        tp = np.sum((y_true == '1') & (y_pred == '1'))
+        fn = np.sum((y_true == '1') & (y_pred == '0'))
+        return tp / (tp + fn)
+    
+    def precision_score(self, y_true, y_pred):
+        tp = np.sum((y_true == '1') & (y_pred == '1'))
+        fp = np.sum((y_true == '0') & (y_pred == '1'))
+        return tp / (tp + fp)
+
+    def f1_score(self, y_true, y_pred):
+        recall = self.recall_score(y_true, y_pred)
+        precision = self.precision_score(y_true, y_pred)
+        return 2 * (precision * recall) / (precision + recall)
+    
+    def specificity_score(self, y_true, y_pred):
+        return np.sum((y_true == '0') & (y_pred == '0')) / np.sum(y_true == '0')
+    
+    def balanced_accuracy_score(self, y_true, y_pred):
+        recall = self.recall_score(y_true, y_pred)
+        specificity = self.specificity_score(y_true, y_pred)
+        return (recall + specificity) / 2
+    
+
     def evaluate(self, y_true, y_pred, experiment_number=0):
+
+        y_true = y_true.astype(str)
+        y_pred = y_pred.astype(str)
 
         metric_dict = {}
 
         for m in self.kwargs.get('metrics'):
-            metric_dict[m] = np.round(getattr(sklearn.metrics, m)(y_true, y_pred), 3)
+            metric_dict[m] = np.round(getattr(self, m)(y_true, y_pred), 3)
 
         return pd.DataFrame(metric_dict, index=[experiment_number])
 

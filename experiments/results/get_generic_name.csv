@@ -1,4 +1,0 @@
-,drug,generic_name,pred_1,pred_2,all_pred_2,consistency_2
-0,Heparin,heparin,heparin,heparin,"['heparin', 'unfractionated heparin', 'heparin']",0.6666666666666666
-1,Magnesium Sulfate,heparin,magnesium sulfate,magnesium sulfate,"['magnesium sulfate', 'magnesium sulfate', 'magnesium sulfate']",1.0
-2,Insulin,heparin,insulin,insulin,"['insulin', 'insulin', 'insulin']",1.0

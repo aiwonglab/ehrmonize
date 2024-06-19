@@ -1,0 +1,99 @@
+drug,route,ndc,count,generic_name,generic_route,antibiotic,antibiotic_systemic,antifungal,diuretic,intravenous_fluid,antihypertensive,electrolytes,opioid_analgesic,anticoagulant,beta_blocker,stress_ulcer_prophylaxis,H2_blocker,proton_pump_inhibitor,sedative
+Heparin,SC,63323026201,245905,heparin,subcutaneous,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Magnesium Sulfate,IV,409672924,215074,magnesium sulfate,intravenous,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Insulin,SC,2751001,202834,insulin,subcutaneous,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sodium Chloride 0.9%,IV,338004904,169910,normal saline,intravenous,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Lactated Ringers,IV,338011704,159461,lactated ringers,intravenous,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Insulin,SC,88222033,156824,insulin,subcutaneous,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0.9% Sodium Chloride,IV,338004904,125224,sodium chloride 0.9%,intravenous,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Vancomycin,IV,338355248,123931,vancomycin,intravenous,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Docusate Sodium,PO,904224461,122530,docusate,oral,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Senna,PO/NG,904516561,117239,senna,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dextrose 50%,IV,409490234,116556,dextrose 50%,intravenous,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+HYDROmorphone (Dilaudid),IV,409128331,106724,hydromorphone,intravenous,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+0.9% Sodium Chloride,IV,338004903,96111,sodium chloride 0.9%,intravenous,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+0.9% Sodium Chloride (Mini Bag Plus),IV,338055318,94297,sodium chloride 0.9%,intravenous,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Bisacodyl,PR,574705050,94269,bisacodyl,rectal,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Acetaminophen,PO/NG,51079000220,90154,acetaminophen,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Metoprolol Tartrate,PO/NG,51079025520,84776,metoprolol tartrate,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Docusate Sodium,PO/NG,904224461,84579,docusate,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Glucagon,IM,55390000401,83762,glucagon,intramuscular,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+OxycoDONE (Immediate Release),PO/NG,406055262,83519,oxycodone,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ondansetron,IV,781305714,77526,ondansetron,intravenous,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Potassium Chloride,IV,338070341,74776,potassium chloride,intravenous,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+0.9% Sodium Chloride,IV,338004902,74764,sodium chloride 0.9%,intravenous,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Glucose Gel,PO,38396055018,74018,glucose,oral,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Acetaminophen,PO/NG,904198861,72276,acetaminophen,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Furosemide,IV,517570425,67635,furosemide,intravenous,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Acetaminophen IV,IV,43825010201,67281,acetaminophen,intravenous,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+D5 1/2NS,IV,338008504,66055,"dextrose 5%, sodium chloride 0.45%",intravenous,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Potassium Chloride,PO,66758016013,63791,potassium chloride,oral,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+0.9% Sodium Chloride,IV,338004938,63116,sodium chloride 0.9%,intravenous,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Bisacodyl,PO,536338101,61333,bisacodyl,oral,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Aspirin,PO/NG,904404073,60886,aspirin,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Polyethylene Glycol,PO/NG,11523726808,60578,polyethylene glycol,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lorazepam,IV,409198530,59733,lorazepam,intravenous,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Potassium Chloride,PO,245004101,59678,potassium chloride,oral,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Acetaminophen,PO/NG,904198261,57792,acetaminophen,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Insulin,SC,2821501,56546,insulin,subcutaneous,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Albuterol 0.083% Neb Soln,IH,49502069724,55251,"albuterol 0.083%, solution",inhaled (nebulized),0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Furosemide,IV,409610204,51743,furosemide,intravenous,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Neutra-Phos,PO/NG,60258000601,50771,potassium acid phosphate,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heparin Sodium,IV,264958720,50284,heparin,intravenous,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Heparin,IV,63323026201,49509,heparin,intravenous,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Potassium Chloride,PO,58177020211,46674,potassium chloride,oral,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Senna,PO,904516561,46190,senna,oral,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pantoprazole,PO,8084199,46186,pantoprazole,oral,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+Ondansetron,IV,641607825,46083,ondansetron,intravenous,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Calcium Gluconate,IV,61553008348,44772,calcium gluconate,intravenous,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LR,IV,338011704,44175,lactated ringers,intravenous,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Acetaminophen,PO,182844789,43599,acetaminophen,oral,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Potassium Chloride,IV,409665305,43590,potassium chloride,intravenous,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heparin Flush (10 units/ml),IV,8290036005,43476,heparin,intravenous,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Potassium Chloride,PO,456066270,41428,potassium chloride,oral,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+HYDROmorphone (Dilaudid),IV,409131230,40405,hydromorphone,intravenous,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Senna,PO/NG,904652261,40275,senna,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Calcium Carbonate,PO/NG,66553000401,39074,calcium carbonate,"oral, nasogastric tube",0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Potassium Chloride,IV,338070948,38511,potassium chloride,intravenous,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Calcium Gluconate,IV,61553005148,37878,calcium gluconate,intravenous,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Insulin,SC,2831501,36937,insulin,subcutaneous,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Morphine Sulfate,IV,409176230,35926,morphine,intravenous,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Warfarin,PO/NG,56016975,35262,warfarin,"oral, nasogastric tube",0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Ipratropium Bromide Neb,IH,487980125,35145,ipatropium,inhaled (nebulized),0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Multivitamins,PO/NG,904053061,34566,multivitamin,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Warfarin,PO/NG,56017275,32896,warfarin,"oral, nasogastric tube",0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Furosemide,IV,409610202,32454,furosemide,intravenous,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+OxyCODONE (Immediate Release),PO/NG,904644461,32436,oxycodone (immediate release),"oral, nasogastric tube",0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Omeprazole,PO,904568461,32340,omeprazole,oral,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+0.9% Sodium Chloride,IV DRIP,338004938,32150,sodium chloride 0.9%,intravenous,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Magnesium Sulfate,IV,63323010605,31968,magnesium sulfate,intravenous,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Furosemide,PO/NG,51079007220,30424,furosemide,oral,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Ondansetron,IV,641608025,30417,ondansetron,intravenous,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Warfarin,PO/NG,56017075,30195,warfarin,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Calcium Carbonate,PO,66553000401,29847,calcium carbonate,oral,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+5% Dextrose,IV,338001702,29649,dextrose 5%,intravenous,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Morphine Sulfate,IV,409189001,29646,morphine,intravenous,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Milk of Magnesia,PO,121043130,29383,magnesium hydroxide,oral,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CefePIME,IV,60505068104,28418,cefepime,intravenous,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Magnesium Sulfate,IV,409672923,27751,magnesium sulfate,intravenous,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Propofol,IV DRIP,63323026965,27398,propofol,intravenous,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Potassium Phosphate,IV,409729501,27230,potassium phosphate,intravenous,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+5% Dextrose,IV,338001731,26806,dextrose 5%,intravenous,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Magnesium Oxide,PO/NG,63739035410,26643,magnesium oxide,"oral, nasogastric tube",0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Piperacillin-Tazobactam,IV,206886202,26433,piperacillin-tazobactam,intravenous,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Metoprolol Tartrate,PO,51079025520,26191,metoprolol tartrate,oral,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Acetaminophen,PO,904198861,25893,acetaminophen,oral,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LORazepam,IV,409198530,25611,lorazepam,intravenous,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Vancomycin,IV,409433201,25268,vancomycin,intravenous,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Pantoprazole,IV,8092355,25205,pantoprazole,intravenous,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+5% Dextrose,IV DRIP,338001702,25187,dextrose 5%,intravenous,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Docusate Sodium,PO/NG,904645561,24778,docusate,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Acetaminophen,PO,51079000220,24675,acetaminophen,oral,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+OxycoDONE (Immediate Release),PO,406055262,24636,oxycodone (immediate release),oral,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Famotidine,IV,338519741,24428,famotidine,intravenous,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+Heparin Sodium,IV,409779362,24056,heparin,intravenous,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+OxyCODONE (Immediate Release),PO/NG,406055262,23983,oxycodone (immediate release),"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Amlodipine,PO/NG,51079045120,23964,amlodipine,"oral, nasogastric tube",0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Influenza Vaccine Quadrivalent,IM,49281041688,23898,"influenza vaccine, quadrivalent",intramuscular,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Glucagon,IM,597026010,23848,glucagon,intramuscular,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Zolpidem Tartrate,PO,60505260400,23527,zolpidem,oral,0,0,0,0,0,0,0,0,0,0,0,0,0,1

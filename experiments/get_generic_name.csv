@@ -1,3 +1,0 @@
-source_db,source_csv,input_col_name,gt_col_name,model_id,temperature,n_shots,n_attempts,agentic,elapsed_time,consistencies,accuracy_score
-MIMIC-IV,dataset/unlabeled/mimic_meds.csv,drug,generic_name,meta.llama3-70b-instruct-v1:0,0,0,1,False,1.455,,0.333
-MIMIC-IV,dataset/unlabeled/mimic_meds.csv,drug,generic_name,meta.llama3-70b-instruct-v1:0,0,0,3,True,6.347,0.889,0.333

@@ -13,16 +13,16 @@ task_specific:
 
 source_db: 
   - MIMIC-IV
-  - eICU-CRD
+  # - eICU-CRD
 
 source_csv:
   - dataset/unlabeled/mimic_meds.csv
-  - dataset/unlabeled/eicu_meds.csv
+  # - dataset/unlabeled/eicu_meds.csv
 
 input_col_name:
   - drug
-  - drugname
+  # - drugname
 
 gt_col_name:
   - generic_name
-  - generic_name
+  # - generic_name

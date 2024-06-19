@@ -3,7 +3,10 @@ task_specific:
 
   classif:
     - antibiotic
-    
+  
+  expanded_classif:
+  - antibiotic of any type (against bacteria, including cephalosporins and penicillins, not including viruses or fungi)
+
   possible_shots:
     - An input drugname 'vancocin' and route 'IV' would be classified as '1'.
     - An input drugname 'Toprol XL' and route 'oral' would be classified as '0'.
@@ -11,19 +14,27 @@ task_specific:
     - An input drugname 'Cephalosporin' and route 'intramuscular' would be classified as '1'.
     - An input drugname 'hepariin' and route 'subcutaneous' would be classified as '0'.
 
+  metrics:
+    - accuracy_score
+    - precision_score
+    - recall_score
+    - f1_score
+    - specificity_score
+    - balanced_accuracy_score
+
 source_db: 
   - MIMIC-IV
-  - eICU-CRD
+  # - eICU-CRD
 
 source_csv:
-  - dataset/unlabeled/mimic_meds.csv
-  - dataset/unlabeled/eicu_meds.csv
+  - dataset/labeled/mimic_meds.csv
+  # - dataset/labeled/eicu_meds.csv
 
 input_col_name:
   - ['drug', 'route']
-  - ['drugname', 'routeadmin']
+  # - ['drugname', 'routeadmin']
 
 gt_col_name:
   - antibiotic
-  - antibiotic
+  # - antibiotic
 
