@@ -1,0 +1,19 @@
+model_id:
+  - meta.llama3-70b-instruct-v1:0
+
+temperature:
+  - 0.2
+
+number_of_shots:
+  - 10
+  - 5
+  - 2
+  - 1
+  - 0
+
+number_of_attempts: 
+  - 1
+  - 5
+
+agentic:
+  - False

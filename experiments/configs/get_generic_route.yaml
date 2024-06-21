@@ -5,34 +5,44 @@ task_specific:
   - subcutaneous
   - intravenous
   - oral
+  - nasogastric tube
+  - sublingual
   - oral, nasogastric tube
   - rectal
   - intramuscular
   - inhaled (nebulized)
+  - transdermal
+  - topical
   - other
 
   possible_shots:
+  - "An input route 'PO/NG' would be classified as 'oral, nasogastric tube'."
   - "An input route 'intraven' would be classified as 'intravenous'."
-  - "An input route 'intramuscul' would be classified as 'intramuscular'."
+  - "An input route 'IM' would be classified as 'intramuscular'."
   - "An input route 'rEcTal' would be classified as 'rectal'."
   - "An input route 'oral' would be classified as 'oral'."
   - "An input route 'po' would be classified as 'oral'."
+  - "An input route 'nasogastric' would be classified as 'nasogastric tube'."
+  - "An input route 'TD' would be classified as 'transdermal'."
+  - "An input route 'IH' would be classified as 'inhaled (nebulized)'."
+  - "An input route 'SL' would be classified as 'sublingual'."
+  - "An input route 'SC' would be classified as 'subcutaneous'."
 
   metrics:
     - accuracy_score
 
 source_db: 
   - MIMIC-IV
-  # - eICU-CRD
+  - eICU-CRD
 
 source_csv:
   - dataset/labeled/mimic_meds.csv
-  # - dataset/labeled/eicu_meds.csv
+  - dataset/labeled/eicu_meds.csv
 
 input_col_name:
   - route
-  # - drugname
+  - routeadmin
 
 gt_col_name:
   - generic_route
-  # - generic_route
+  - generic_route

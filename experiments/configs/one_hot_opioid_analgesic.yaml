@@ -8,7 +8,16 @@ task_specific:
     - opioid analgesic, used for pain relief
 
   possible_shots:
-    - 
+    - An input drugname 'morphine' and route 'intravenous' would be classified as '1'.
+    - An input drugname 'hydromorphone' and route 'oral' would be classified as '1'.
+    - An input drugname 'midazolam' and route 'intramuscular' would be classified as '0'.
+    - An input drugname 'acetaminophen' and route 'intravenous' would be classified as '0'.
+    - An input drugname 'oxycodone-acetaminophen' and route 'oral' would be classified as '1'.
+    - An input drugname 'tramadol' and route 'intravenous' would be classified as '0'.
+    - An input drugname 'ketorolac' and route 'intravenous' would be classified as '0'.
+    - An input drugname 'pantoprazole' and route 'intravenous' would be classified as '0'.
+    - An input drugname 'propofol' and route 'intravenous' would be classified as '0'.
+    - An input drugname 'ibuprofen' and route 'oral' would be classified as '0'.
 
   metrics:
     - accuracy_score
@@ -20,17 +29,17 @@ task_specific:
 
 source_db: 
   - MIMIC-IV
-  # - eICU-CRD
+  - eICU-CRD
 
 source_csv:
   - dataset/labeled/mimic_meds.csv
-  # - dataset/labeled/eicu_meds.csv
+  - dataset/labeled/eicu_meds.csv
 
 input_col_name:
   - ['drug', 'route']
-  # - ['drugname', 'routeadmin']
+  - ['drugname', 'routeadmin']
 
 gt_col_name:
   - opioid_analgesic
-  # - opioid_analgesic
+  - opioid_analgesic
 

@@ -1,0 +1,198 @@
+drug,generic_name,pred_1,pred_2,all_pred_2,consistency_2,pred_3
+Heparin,heparin,heparin,heparin,"['heparin', 'heparin', 'heparin', 'heparin', 'heparin']",1.0,heparin
+Magnesium Sulfate,magnesium sulfate,magnesium sulfate,magnesium sulfate,"['magnesium sulfate', 'magnesium sulfate', 'magnesium sulfate', 'magnesium sulfate', 'magnesium sulfate']",1.0,magnesium sulfate
+Insulin,insulin,insulin,insulin,"['insulin', 'insulin', 'insulin', 'insulin', 'insulin']",1.0,insulin
+Sodium Chloride 0.9%,normal saline,sodium chloride,sodium chloride,"['sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride']",1.0,sodium chloride
+Lactated Ringers,lactated ringers,lactated ringers,lactated ringers,"['lactated ringers', 'lactated ringers', 'lactated ringers', 'lactated ringers', 'lactated ringers']",1.0,ringer lactate
+Insulin,insulin,insulin,insulin,"['insulin', 'insulin', 'insulin', 'insulin', 'insulin']",1.0,insulin
+0.9% Sodium Chloride,sodium chloride 0.9%,sodium chloride,sodium chloride,"['sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride']",1.0,sodium chloride 0.9%
+Vancomycin,vancomycin,vancomycin,vancomycin,"['vancomycin', 'vancomycin', 'vancomycin', 'vancomycin', 'vancomycin']",1.0,vancomycin
+Docusate Sodium,docusate,docusate,docusate,"['docusate', 'docusate', 'docusate', 'docusate', 'docusate']",1.0,docusate sodium
+Senna,senna,senna is the generic name.,senna is the generic name.,"['senna is the generic name.', 'senna', 'senna is the generic name.', 'senna is the generic name.', 'senna is the generic name.']",0.8,sennosides
+Dextrose 50%,dextrose 50%,dextrose,dextrose,"['dextrose', 'dextrose', 'dextrose', 'dextrose', 'dextrose']",1.0,dextrose
+HYDROmorphone (Dilaudid),hydromorphone,hydrocodone,hydrocodone,"['hydrocodone', 'hydrocodone', 'hydrocodone', 'hydrocodone', 'hydrocodone']",1.0,morphine
+0.9% Sodium Chloride,sodium chloride 0.9%,sodium chloride,sodium chloride,"['sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride']",1.0,sodium chloride 0.9%
+0.9% Sodium Chloride (Mini Bag Plus),sodium chloride 0.9%,sodium chloride 0.9%,sodium chloride 0.9%,"['sodium chloride 0.9%', 'sodium chloride 0.9%', 'sodium chloride 0.9%', 'sodium chloride 0.9%', 'sodium chloride 0.9%']",1.0,sodium chloride 0.9%
+Bisacodyl,bisacodyl,bisacodyl,bisacodyl,"['bisacodyl', 'bisacodyl', 'bisacodyl', 'bisacodyl', 'bisacodyl']",1.0,bisacodyl
+Acetaminophen,acetaminophen,acetaminophen,acetaminophen,"['acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen']",1.0,acetaminophen
+Metoprolol Tartrate,metoprolol tartrate,metoprolol,metoprolol,"['metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol']",1.0,metoprolol
+Docusate Sodium,docusate,docusate,docusate,"['docusate', 'docusate', 'docusate', 'docusate', 'docusate']",1.0,docusate sodium
+Glucagon,glucagon,glucagon,glucagon,"['glucagon', 'glucagon', 'glucagon', 'glucagon', 'glucagon']",1.0,glucagon
+OxycoDONE (Immediate Release),oxycodone,oxycodone,oxycodone,"['oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone']",1.0,oxycodone
+Ondansetron,ondansetron,ondansetron,ondansetron,"['ondansetron', 'ondansetron', 'ondansetron', 'ondansetron', 'ondansetron']",1.0,ondansetron
+Potassium Chloride,potassium chloride,potassium chloride,potassium chloride,"['potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride']",1.0,potassium chloride
+0.9% Sodium Chloride,sodium chloride 0.9%,sodium chloride,sodium chloride,"['sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride']",1.0,sodium chloride 0.9%
+Glucose Gel,glucose,dextrose,dextrose,"['dextrose', 'dextrose', 'dextrose', 'dextrose', 'dextrose']",1.0,dextrose
+Acetaminophen,acetaminophen,acetaminophen,acetaminophen,"['acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen']",1.0,acetaminophen
+Furosemide,furosemide,furosemide,furosemide,"['furosemide', 'furosemide', 'furosemide', 'furosemide', 'furosemide']",1.0,furosemide
+Acetaminophen IV,acetaminophen,acetaminophen,acetaminophen,"['acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen']",1.0,acetaminophen
+D5 1/2NS,"dextrose 5%, sodium chloride 0.45%","dextrose 5%, sodium chloride","dextrose 5%, sodium chloride","['dextrose 5%, sodium chloride', 'dextrose 5%, sodium chloride', 'dextrose 5%, sodium chloride', 'dextrose 5%, sodium chloride', 'dextrose 5%, sodium chloride']",1.0,dextrose and sodium chloride
+Potassium Chloride,potassium chloride,potassium chloride,potassium chloride,"['potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride']",1.0,potassium chloride
+0.9% Sodium Chloride,sodium chloride 0.9%,sodium chloride,sodium chloride,"['sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride']",1.0,sodium chloride 0.9%
+Bisacodyl,bisacodyl,bisacodyl,bisacodyl,"['bisacodyl', 'bisacodyl', 'bisacodyl', 'bisacodyl', 'bisacodyl']",1.0,bisacodyl
+Aspirin,aspirin,acetylsalicylic acid,acetylsalicylic acid,"['acetylsalicylic acid', 'acetylsalicylic acid', 'acetylsalicylic acid', 'acetylsalicylic acid', 'acetylsalicylic acid']",1.0,acetylsalicylic acid
+Polyethylene Glycol,polyethylene glycol,peg   ( generic name of polyethylene,peg   (the generic name of the drug,"['peg   ( polyethylene glycol is', 'peg   ( polyethylene glycol is', 'peg   (the generic name of the drug', 'peg   (the generic name of the drug', 'peg   (the generic name of the drug']",0.6,polyethylene glycol is classified as poly
+Lorazepam,lorazepam,lorazepam,lorazepam,"['lorazepam', 'lorazepam', 'lorazepam', 'lorazepam', 'lorazepam']",1.0,alprazolam
+Potassium Chloride,potassium chloride,potassium chloride,potassium chloride,"['potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride']",1.0,potassium chloride
+Acetaminophen,acetaminophen,acetaminophen,acetaminophen,"['acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen']",1.0,acetaminophen
+Insulin,insulin,insulin,insulin,"['insulin', 'insulin', 'insulin', 'insulin', 'insulin']",1.0,insulin
+Albuterol 0.083% Neb Soln,"albuterol 0.083%, solution",albuterol,albuterol,"['albuterol', 'albuterol', 'albuterol', 'albuterol', 'albuterol']",1.0,albuterol
+Furosemide,furosemide,furosemide,furosemide,"['furosemide', 'furosemide', 'furosemide', 'furosemide', 'furosemide']",1.0,furosemide
+Neutra-Phos,potassium acid phosphate,potassium acid phosphate,potassium acid phosphate,"['potassium acid phosphate', 'potassium acid phosphate', 'potassium acid phosphate', 'potassium acid phosphate', 'potassium acid phosphate']",1.0,phosphonoformic acid
+Heparin Sodium,heparin,heparin,heparin,"['heparin', 'heparin', 'heparin', 'heparin', 'heparin']",1.0,heparin
+Heparin,heparin,heparin,heparin,"['heparin', 'heparin', 'heparin', 'heparin', 'heparin']",1.0,heparin
+Potassium Chloride,potassium chloride,potassium chloride,potassium chloride,"['potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride']",1.0,potassium chloride
+Senna,senna,senna is the generic name.,senna,"['sennosides', 'senna', 'sennosides', 'senna', 'senna']",0.6,sennosides
+Pantoprazole,pantoprazole,pantoprazole,pantoprazole,"['pantoprazole', 'pantoprazole', 'pantoprazole', 'pantoprazole', 'pantoprazole']",1.0,pantoprazole
+Ondansetron,ondansetron,ondansetron,ondansetron,"['ondansetron', 'ondansetron', 'ondansetron', 'ondansetron', 'ondansetron']",1.0,ondansetron
+Calcium Gluconate,calcium gluconate,calcium gluconate,calcium gluconate,"['calcium gluconate', 'calcium gluconate', 'calcium gluconate', 'calcium gluconate', 'calcium gluconate']",1.0,calcium gluconate
+LR,lactated ringers,lactated ringers,lactated ringers,"['lactated ringers', 'lactated ringers', 'lactated ringers', 'lactated ringers', 'lactated ringers']",1.0,levorphanol
+Acetaminophen,acetaminophen,acetaminophen,acetaminophen,"['acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen']",1.0,acetaminophen
+Potassium Chloride,potassium chloride,potassium chloride,potassium chloride,"['potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride']",1.0,potassium chloride
+Heparin Flush (10 units/ml),heparin,heparin,heparin,"['heparin', 'heparin', 'heparin', 'heparin', 'heparin']",1.0,heparin
+Potassium Chloride,potassium chloride,potassium chloride,potassium chloride,"['potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride']",1.0,potassium chloride
+HYDROmorphone (Dilaudid),hydromorphone,hydrocodone,hydrocodone,"['hydrocodone', 'hydrocodone', 'hydrocodone', 'hydrocodone', 'hydrocodone']",1.0,morphine
+Senna,senna,senna is the generic name.,sennosides,"['sennosides', 'senna', 'sennosides', 'sennosides', 'sennosides']",0.8,senna
+Calcium Carbonate,calcium carbonate,calcium carbonate,calcium carbonate,"['calcium carbonate', 'calcium carbonate', 'calcium carbonate', 'calcium carbonate', 'calcium carbonate']",1.0,calcium carbonate
+Potassium Chloride,potassium chloride,potassium chloride,potassium chloride,"['potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride']",1.0,potassium chloride
+Calcium Gluconate,calcium gluconate,calcium gluconate,calcium gluconate,"['calcium gluconate', 'calcium gluconate', 'calcium gluconate', 'calcium gluconate', 'calcium gluconate']",1.0,calcium gluconate
+Insulin,insulin,insulin,insulin,"['insulin', 'insulin', 'insulin', 'insulin', 'insulin']",1.0,insulin
+Morphine Sulfate,morphine,morphine,morphine,"['morphine', 'morphine', 'morphine', 'morphine', 'morphine']",1.0,morphine
+Warfarin,warfarin,warfarin,warfarin,"['warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin']",1.0,warfarin
+Ipratropium Bromide Neb,ipatropium,ipratropium,ipratropium,"['ipratropium', 'ipratropium', 'ipratropium', 'ipratropium', 'ipratropium']",1.0,ipratropium bromide
+Multivitamins,multivitamin,multivitamin,multivitamin,"['multivitamin', 'multivitamin', 'multivitamin', 'multivitamin', 'multivitamin']",1.0,multivitamins
+Warfarin,warfarin,warfarin,warfarin,"['warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin']",1.0,warfarin
+Furosemide,furosemide,furosemide,furosemide,"['furosemide', 'furosemide', 'furosemide', 'furosemide', 'furosemide']",1.0,furosemide
+OxyCODONE (Immediate Release),oxycodone (immediate release),oxycodone,oxycodone,"['oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone']",1.0,oxycodone
+Omeprazole,omeprazole,omeprazole,omeprazole,"['omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole']",1.0,omeprazole
+0.9% Sodium Chloride,sodium chloride 0.9%,sodium chloride,sodium chloride,"['sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride']",1.0,sodium chloride 0.9%
+Magnesium Sulfate,magnesium sulfate,magnesium sulfate,magnesium sulfate,"['magnesium sulfate', 'magnesium sulfate', 'magnesium sulfate', 'magnesium sulfate', 'magnesium sulfate']",1.0,magnesium sulfate
+Furosemide,furosemide,furosemide,furosemide,"['furosemide', 'furosemide', 'furosemide', 'furosemide', 'furosemide']",1.0,furosemide
+Ondansetron,ondansetron,ondansetron,ondansetron,"['ondansetron', 'ondansetron', 'ondansetron', 'ondansetron', 'ondansetron']",1.0,ondansetron
+Warfarin,warfarin,warfarin,warfarin,"['warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin']",1.0,warfarin
+Calcium Carbonate,calcium carbonate,calcium carbonate,calcium carbonate,"['calcium carbonate', 'calcium carbonate', 'calcium carbonate', 'calcium carbonate', 'calcium carbonate']",1.0,calcium carbonate
+5% Dextrose,dextrose 5%,dextrose,dextrose,"['dextrose', 'dextrose', 'dextrose', 'dextrose', 'dextrose']",1.0,dextrose
+Morphine Sulfate,morphine,morphine,morphine,"['morphine', 'morphine', 'morphine', 'morphine', 'morphine']",1.0,morphine
+Milk of Magnesia,magnesium hydroxide,magnesium hydroxide,magnesium hydroxide,"['magnesium hydroxide', 'magnesium hydroxide', 'magnesium hydroxide', 'magnesium hydroxide', 'magnesium hydroxide']",1.0,magnesium hydroxide
+CefePIME,cefepime,cefepime,cefepime,"['cefepime', 'cefepime', 'cefepime', 'cefepime', 'cefepime']",1.0,cefepime
+Magnesium Sulfate,magnesium sulfate,magnesium sulfate,magnesium sulfate,"['magnesium sulfate', 'magnesium sulfate', 'magnesium sulfate', 'magnesium sulfate', 'magnesium sulfate']",1.0,magnesium sulfate
+Propofol,propofol,propofol,propofol,"['propofol', 'propofol', 'propofol', 'propofol', 'propofol']",1.0,propofol
+Potassium Phosphate,potassium phosphate,potassium phosphate,potassium phosphate,"['potassium phosphate', 'potassium phosphate', 'potassium phosphate', 'potassium phosphate', 'potassium phosphate']",1.0,phosphate
+5% Dextrose,dextrose 5%,dextrose,dextrose,"['dextrose', 'dextrose', 'dextrose', 'dextrose', 'dextrose']",1.0,dextrose
+Magnesium Oxide,magnesium oxide,magnesium oxide,magnesium oxide,"['magnesium oxide', 'magnesium oxide', 'magnesium oxide', 'magnesium oxide', 'magnesium oxide']",1.0,magnesium oxide
+Piperacillin-Tazobactam,piperacillin-tazobactam,piperacillin-tazobact,piperacillin-tazobact,"['piperacillin-tazobact', 'piperacillin-tazobact', 'piperacillin-tazobact', 'piperacillin-tazobact', 'piperacillin-tazobact']",1.0,piperacillin-tazobact
+Metoprolol Tartrate,metoprolol tartrate,metoprolol,metoprolol,"['metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol']",1.0,metoprolol
+Acetaminophen,acetaminophen,acetaminophen,acetaminophen,"['acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen']",1.0,acetaminophen
+LORazepam,lorazepam,lorazepam,lorazepam,"['lorazepam', 'lorazepam', 'lorazepam', 'lorazepam', 'lorazepam']",1.0,lorazepam
+Vancomycin,vancomycin,vancomycin,vancomycin,"['vancomycin', 'vancomycin', 'vancomycin', 'vancomycin', 'vancomycin']",1.0,vancomycin
+Pantoprazole,pantoprazole,pantoprazole,pantoprazole,"['pantoprazole', 'pantoprazole', 'pantoprazole', 'pantoprazole', 'pantoprazole']",1.0,pantoprazole
+5% Dextrose,dextrose 5%,dextrose,dextrose,"['dextrose', 'dextrose', 'dextrose', 'dextrose', 'dextrose']",1.0,dextrose
+Docusate Sodium,docusate,docusate,docusate,"['docusate', 'docusate', 'docusate', 'docusate', 'docusate']",1.0,docusate sodium
+Acetaminophen,acetaminophen,acetaminophen,acetaminophen,"['acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen']",1.0,acetaminophen
+OxycoDONE (Immediate Release),oxycodone (immediate release),oxycodone,oxycodone,"['oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone']",1.0,oxycodone
+Famotidine,famotidine,famotidine,famotidine,"['famotidine', 'famotidine', 'famotidine', 'famotidine', 'famotidine']",1.0,famotidine
+Heparin Sodium,heparin,heparin,heparin,"['heparin', 'heparin', 'heparin', 'heparin', 'heparin']",1.0,heparin
+OxyCODONE (Immediate Release),oxycodone (immediate release),oxycodone,oxycodone,"['oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone']",1.0,oxycodone
+Amlodipine,amlodipine,amlodipine,amlodipine,"['amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine']",1.0,amlodipine
+Influenza Vaccine Quadrivalent,"influenza vaccine, quadrivalent",influenza vaccine,influenza vaccine,"['influenza vaccine', 'influenza vaccine', 'influenza vaccine', 'influenza vaccine', 'influenza vaccine']",1.0,influenza vaccine
+Glucagon,glucagon,glucagon,glucagon,"['glucagon', 'glucagon', 'glucagon', 'glucagon', 'glucagon']",1.0,glucagon
+Zolpidem Tartrate,zolpidem,zolpidem,zolpidem,"['zolpidem', 'zolpidem', 'zolpidem', 'zolpidem', 'zolpidem']",1.0,zolpidem
+Omeprazole,omeprazole,omeprazole,omeprazole,"['omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole']",1.0,omeprazole
+Multivitamins,multivitamin,multivitamin,multivitamin,"['multivitamin', 'multivitamin', 'multivitamin', 'multivitamin', 'multivitamin']",1.0,multivitamins
+Ibuprofen,ibuprofen,ibuprofen,ibuprofen,"['ibuprofen', 'ibuprofen', 'ibuprofen', 'ibuprofen', 'ibuprofen']",1.0,ibuprofen
+Calcium Gluconate,calcium gluconate,calcium gluconate,calcium gluconate,"['calcium gluconate', 'calcium gluconate', 'calcium gluconate', 'calcium gluconate', 'calcium gluconate']",1.0,calcium gluconate
+Sodium Bicarbonate,sodium bicarbonate,sodium bicarbonate,sodium bicarbonate,"['sodium bicarbonate', 'sodium bicarbonate', 'sodium bicarbonate', 'sodium bicarbonate', 'sodium bicarbonate']",1.0,sodium bicarbonate
+Ipratropium-Albuterol Neb,albuterol-ipatropium,ipratropium-albuterol,ipratropium-albuterol,"['ipratropium-albuterol', 'ipratropium-albuterol', 'ipratropium-albuterol', 'ipratropium-albuterol', 'ipratropium-albuterol']",1.0,ipratropium-albuterol
+Chlorhexidine Gluconate 0.12% Oral Rinse,chlorhexidine gluconate,chlorhexidine gluconate,chlorhexidine gluconate,"['chlorhexidine gluconate', 'chlorhexidine gluconate', 'chlorhexidine gluconate', 'chlorhexidine gluconate', 'chlorhexidine gluconate']",1.0,chlorhexidine gluconate
+Potassium Chloride,potassium chloride,potassium chloride,potassium chloride,"['potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride']",1.0,potassium chloride
+HYDROmorphone (Dilaudid),hydromorphone,hydrocodone,hydrocodone,"['hydrocodone', 'hydrocodone', 'hydrocodone', 'hydrocodone', 'hydrocodone']",1.0,morphine
+Ciprofloxacin HCl,ciprofloxacin,ciprofloxacin,ciprofloxacin,"['ciprofloxacin', 'ciprofloxacin', 'ciprofloxacin', 'ciprofloxacin', 'ciprofloxacin']",1.0,ciprofloxacin
+5% Dextrose,dextrose 5%,dextrose,dextrose,"['dextrose', 'dextrose', 'dextrose', 'dextrose', 'dextrose']",1.0,dextrose
+TraZODone,trazodone,the generic name of the drug is:,the generic name of the drug is:,"['the generic name of the drug is:', 'the generic name of the drug is:', 'the generic name is trazodone', 'the generic name of the drug is:', 'the generic name of the drug is:']",0.8,the generic name is trazodone
+DiphenhydrAMINE,diphenhydramine,diphenhydramine,diphenhydramine,"['diphenhydramine', 'diphenhydramine', 'diphenhydramine', 'diphenhydramine', 'diphenhydramine']",1.0,diphenhydramine
+DiphenhydrAMINE,diphenhydramine,diphenhydramine,diphenhydramine,"['diphenhydramine', 'diphenhydramine', 'diphenhydramine', 'diphenhydramine', 'diphenhydramine']",1.0,diphenhydramine
+Furosemide,furosemide,furosemide,furosemide,"['furosemide', 'furosemide', 'furosemide', 'furosemide', 'furosemide']",1.0,furosemide
+Ondansetron,ondansetron,ondansetron,ondansetron,"['ondansetron', 'ondansetron', 'ondansetron', 'ondansetron', 'ondansetron']",1.0,ondansetron
+1/2 NS,sodium chloride 0.45%,half normal saline,half normal saline,"['half normal saline', 'half normal saline', 'half normal saline', 'half normal saline', 'half normal saline']",1.0,normal saline
+Pneumococcal Vac Polyvalent,pneumococcal vaccine polyvalent,pneumococcal polysacchar,pneumococcal polysacchar,"['pneumococcal polysacchar', 'pneumococcal polysacchar', 'pneumococcal polysacchar', 'pneumococcal polysacchar', 'pneumococcal polysacchar']",1.0,pneumococcal polysacchar
+Metoprolol Tartrate,metoprolol tartrate,metoprolol,metoprolol,"['metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol']",1.0,metoprolol
+Simvastatin,simvastatin,simvastatin,simvastatin,"['simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin']",1.0,simvastatin
+Lorazepam,lorazepam,lorazepam,lorazepam,"['lorazepam', 'lorazepam', 'lorazepam', 'lorazepam', 'lorazepam']",1.0,alprazolam
+Omeprazole,omeprazole,omeprazole,omeprazole,"['omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole']",1.0,omeprazole
+0.9% Sodium Chloride,sodium chloride 0.9%,sodium chloride,sodium chloride,"['sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride']",1.0,sodium chloride 0.9%
+Warfarin,warfarin,warfarin,warfarin,"['warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin']",1.0,warfarin
+Dextrose 5%,dextrose 5%,dextrose,dextrose,"['dextrose', 'dextrose', 'dextrose', 'dextrose', 'dextrose']",1.0,dextrose
+0.45% Sodium Chloride,sodium chloride 0.45%,sodium chloride,sodium chloride 0.45%,"['sodium chloride 0.45%', 'sodium chloride 0.45%', 'sodium chloride 0.45%', 'sodium chloride', 'sodium chloride 0.45%']",0.8,sodium chloride
+TraMADOL (Ultram),tramadol,tramadol,tramadol,"['tramadol', 'tramadol', 'tramadol', 'tramadol', 'tramadol']",1.0,tramadol
+Ranitidine,ranitidine,ranitidine,ranitidine,"['ranitidine', 'ranitidine', 'ranitidine', 'ranitidine', 'ranitidine']",1.0,ranitidine
+Lidocaine 5% Patch,lidocaine 5%,lidocaine,lidocaine,"['lidocaine', 'lidocaine', 'lidocaine', 'lidocaine', 'lidocaine']",1.0,lidocaine
+Albuterol Inhaler,albuterol,albuterol,albuterol,"['albuterol', 'albuterol', 'albuterol', 'albuterol', 'albuterol']",1.0,albuterol
+Tacrolimus,tacrolimus,tacrolimus,tacrolimus,"['tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus']",1.0,tacrolimus
+Heparin Flush (10 units/ml),heparin,heparin,heparin,"['heparin', 'heparin', 'heparin', 'heparin', 'heparin']",1.0,heparin
+Potassium Chloride,potassium chloride,potassium chloride,potassium chloride,"['potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride']",1.0,potassium chloride
+Acetaminophen,acetaminophen,acetaminophen,acetaminophen,"['acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen']",1.0,acetaminophen
+Famotidine,famotidine,famotidine,famotidine,"['famotidine', 'famotidine', 'famotidine', 'famotidine', 'famotidine']",1.0,famotidine
+Metoclopramide,metoclopramide,metoclopramide,metoclopramide,"['metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide']",1.0,metoclopramide
+Nitroglycerin,nitroglycerin,nitroglycerin,nitroglycerin,"['nitroglycerin', 'nitroglycerin', 'nitroglycerin', 'nitroglycerin', 'nitroglycerin']",1.0,nitroglycerin
+Vitamin D,vitamin d,cholecalciferol,cholecalciferol,"['cholecalciferol', 'cholecalciferol', 'cholecalciferol', 'cholecalciferol', 'cholecalciferol']",1.0,cholecalciferol
+Insulin Human Regular,insulin,human insulin,human insulin,"['human insulin', 'human insulin', 'human insulin', 'human insulin', 'human insulin']",1.0,human insulin
+NS,sodium chloride 0.9%,normal saline,normal saline,"['normal saline', 'normal saline', 'normal saline', 'normal saline', 'normal saline']",1.0,nelfinavir
+Furosemide,furosemide,furosemide,furosemide,"['furosemide', 'furosemide', 'furosemide', 'furosemide', 'furosemide']",1.0,furosemide
+Potassium Chloride,potassium chloride,potassium chloride,potassium chloride,"['potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride', 'potassium chloride']",1.0,potassium chloride
+Morphine Sulfate,morphine sulfate,morphine,morphine,"['morphine', 'morphine', 'morphine', 'morphine', 'morphine']",1.0,morphine
+Aspirin EC,aspirin,aspirin,aspirin,"['aspirin', 'aspirin', 'acetylsalicylic acid', 'aspirin', 'aspirin']",0.8,acetylsalicylic acid
+Calcium Gluconate,calcium gluconate,calcium gluconate,calcium gluconate,"['calcium gluconate', 'calcium gluconate', 'calcium gluconate', 'calcium gluconate', 'calcium gluconate']",1.0,calcium gluconate
+Atorvastatin,atorvastatin,atorvastatin,atorvastatin,"['atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin']",1.0,atorvastatin
+5% Dextrose,dextrose 5%,dextrose,dextrose,"['dextrose', 'dextrose', 'dextrose', 'dextrose', 'dextrose']",1.0,dextrose
+Thiamine,thiamine,thiamine,thiamine,"['thiamine', 'thiamine', 'thiamine', 'thiamine', 'thiamine']",1.0,thiamine
+Vitamin D,vitamin d,cholecalciferol,cholecalciferol,"['cholecalciferol', 'cholecalciferol', 'cholecalciferol', 'cholecalciferol', 'cholecalciferol']",1.0,cholecalciferol
+Acetaminophen,acetaminophen,acetaminophen,acetaminophen,"['acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen']",1.0,acetaminophen
+Fentanyl Citrate,fentanyl,fentanyl,fentanyl,"['fentanyl', 'fentanyl', 'fentanyl', 'fentanyl', 'fentanyl']",1.0,fentanyl
+Pantoprazole,pantoprazole,pantoprazole,pantoprazole,"['pantoprazole', 'pantoprazole', 'pantoprazole', 'pantoprazole', 'pantoprazole']",1.0,pantoprazole
+HYDROmorphone (Dilaudid),hydromorphone,hydrocodone,hydrocodone,"['hydrocodone', 'hydrocodone', 'hydrocodone', 'hydrocodone', 'hydrocodone']",1.0,morphine
+Morphine Sulfate,morphine sulfate,morphine,morphine,"['morphine', 'morphine', 'morphine', 'morphine', 'morphine']",1.0,morphine
+Acetaminophen,acetaminophen,acetaminophen,acetaminophen,"['acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen']",1.0,acetaminophen
+HydrALAzine,hydralazine,hydralazine,hydralazine,"['hydralazine', 'hydralazine', 'hydralazine', 'hydralazine', 'hydralazine']",1.0,hydralazine
+Heparin Flush (10 units/ml),heparin,heparin,heparin,"['heparin', 'heparin', 'heparin', 'heparin', 'heparin']",1.0,heparin
+Ferrous Sulfate,ferrous sulfate,ferrous sulfate,ferrous sulfate,"['ferrous sulfate', 'ferrous sulfate', 'ferrous sulfate', 'ferrous sulfate', 'ferrous sulfate']",1.0,ferrous sulfate
+HydrALAZINE,hydralazine,hydralazine,hydralazine,"['hydralazine', 'hydralazine', 'the generic name of the drug is:', 'hydralazine -> hydral', 'hydralazine']",0.6,hydralazine
+Docusate Sodium,docusate,docusate,docusate,"['docusate', 'docusate', 'docusate', 'docusate', 'docusate']",1.0,docusate sodium
+5% Dextrose,dextrose 5%,dextrose,dextrose,"['dextrose', 'dextrose', 'dextrose', 'dextrose', 'dextrose']",1.0,dextrose
+0.9% Sodium Chloride,sodium chloride 0.9%,sodium chloride,sodium chloride,"['sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride']",1.0,sodium chloride 0.9%
+Ciprofloxacin IV,ciprofloxacin,ciprofloxacin,ciprofloxacin,"['ciprofloxacin', 'ciprofloxacin', 'ciprofloxacin', 'ciprofloxacin', 'ciprofloxacin']",1.0,ciprofloxacin
+Aspirin,aspirin,acetylsalicylic acid,acetylsalicylic acid,"['acetylsalicylic acid', 'acetylsalicylic acid', 'acetylsalicylic acid', 'acetylsalicylic acid', 'acetylsalicylic acid']",1.0,acetylsalicylic acid
+Furosemide,furosemide,furosemide,furosemide,"['furosemide', 'furosemide', 'furosemide', 'furosemide', 'furosemide']",1.0,furosemide
+Heparin Dwell (1000 Units/mL),heparin,heparin,heparin,"['heparin', 'heparin', 'heparin', 'heparin', 'heparin']",1.0,heparin
+Prochlorperazine,prochlorperazine,prochlorperazine,prochlorperazine,"['prochlorperazine', 'prochlorperazine', 'prochlorperazine', 'prochlorperazine', 'prochlorperazine']",1.0,prochlorperazine
+Oxycodone-Acetaminophen,oxycodone-acetaminophen,oxycodone-acetamin,oxycodone-acetamin,"['oxycodone-acetamin', 'oxycodone-acetamin', 'oxycodone-acetamin', 'oxycodone-acetamin', 'oxycodone-acetamin']",1.0,acetaminophen-oxycod
+Diazepam,diazepam,diazepam,diazepam,"['diazepam', 'diazepam', 'diazepam', 'diazepam', 'diazepam']",1.0,diazepam
+Simethicone,simethicone,dimethicone,dimethicone,"['dimethicone', 'dimethicone', 'dimethicone', 'dimethicone', 'dimethicone']",1.0,dimethicone
+PNEUMOcoccal 23-valent polysaccharide vaccine,pneumococcal vaccine polysaccharide 23-valent,pneumococcal polysacchar,23-valent pneumococcal polys,"['23-valent pneumococcal polys', 'pneumococcal polysacchar', '23-valent pneumococcal polys', '23-valent pneumococcal polys', '23-valent pneumococcal polys']",0.8,pneumococcal 23-val
+traZODONE,trazodone,trazodone,trazodone,"['trazodone', 'trazodone', 'trazodone', 'trazodone', 'trazodone']",1.0,trazodone
+Citalopram,citalopram,citalopram,citalopram,"['citalopram', 'citalopram', 'citalopram', 'citalopram', 'citalopram']",1.0,citalopram
+Morphine Sulfate,morphine,morphine,morphine,"['morphine', 'morphine', 'morphine', 'morphine', 'morphine']",1.0,morphine
+Neomycin-Polymyxin-Bacitracin,neomycin-polymyxin-bacitracin,the generic name is neomycin-pol,neomycin-polymyxin-b,"['the generic name of the drug is ne', 'neomycin-polymyxin-b', 'neomycin-polymyxin-b', 'neomycin-polymyxin-b', 'the generic name is neomycin-p']",0.6,neomycin-polymyxin-b
+0.9% Sodium Chloride,sodium chloride 0.9%,sodium chloride,sodium chloride,"['sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride', 'sodium chloride']",1.0,sodium chloride 0.9%
+Albumin 25% (12.5g / 50mL),albumin 25%,albumin,albumin,"['albumin', 'albumin', 'albumin', 'albumin', 'albumin']",1.0,albumin
+Hydrochlorothiazide,hydrochlorothiazide,hydrochlorothiazide,hydrochlorothiazide,"['hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide']",1.0,hydrochlorothiazide
+Heparin Sodium,heparin,heparin,heparin,"['heparin', 'heparin', 'heparin', 'heparin', 'heparin']",1.0,heparin
+Milk of Magnesia,magnesium sulfate,magnesium hydroxide,magnesium hydroxide,"['magnesium hydroxide', 'magnesium hydroxide', 'magnesium hydroxide', 'magnesium hydroxide', 'magnesium hydroxide']",1.0,magnesium hydroxide
+Lidocaine 5% Patch,lidocaine 5%,lidocaine,lidocaine,"['lidocaine', 'lidocaine', 'lidocaine', 'lidocaine', 'lidocaine']",1.0,lidocaine
+Acetaminophen,acetaminophen,acetaminophen,acetaminophen,"['acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen']",1.0,acetaminophen
+Fluticasone Propionate 110mcg,fluticasone,fluticasone propionate,fluticasone propionate,"['fluticasone propionate', 'fluticasone propionate', 'fluticasone propionate', 'fluticasone propionate', 'fluticasone propionate']",1.0,fluticasone propionate
+HYDROmorphone (Dilaudid),hydromorphone,hydrocodone,hydrocodone,"['hydrocodone', 'hydrocodone', 'hydrocodone', 'hydrocodone', 'hydrocodone']",1.0,morphine
+Metoprolol Tartrate,metoprolol tartrate,metoprolol,metoprolol,"['metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol']",1.0,metoprolol
+Gabapentin,gabapentin,gabapentin,gabapentin,"['gabapentin', 'gabapentin', 'gabapentin', 'gabapentin', 'gabapentin']",1.0,gabapentin
+Influenza Vaccine Quadrivalent,influenza vaccine quadrivalent,influenza vaccine,influenza vaccine,"['influenza vaccine', 'influenza vaccine', 'influenza vaccine', 'influenza vaccine', 'influenza vaccine']",1.0,influenza vaccine
+Acetaminophen,acetaminophen,acetaminophen,acetaminophen,"['acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen', 'acetaminophen']",1.0,acetaminophen
+Albuterol 0.083% Neb Soln,albuterol,albuterol,albuterol,"['albuterol', 'albuterol', 'albuterol', 'albuterol', 'albuterol']",1.0,albuterol
+Simvastatin,simvastatin,simvastatin,simvastatin,"['simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin']",1.0,simvastatin
+Sodium Phosphate,sodium phosphate,phosphate,phosphate,"['phosphate', 'phosphate', 'phosphate', 'phosphate', 'phosphate']",1.0,phosphate
+Influenza Vaccine Quadrivalent,influenza vaccine quadrivalent,influenza vaccine,influenza vaccine,"['influenza vaccine', 'influenza vaccine', 'influenza vaccine', 'influenza vaccine', 'influenza vaccine']",1.0,influenza vaccine
+Furosemide,furosemide,furosemide,furosemide,"['furosemide', 'furosemide', 'furosemide', 'furosemide', 'furosemide']",1.0,furosemide
+Thiamine,thiamine,thiamine,thiamine,"['thiamine', 'thiamine', 'thiamine', 'thiamine', 'thiamine']",1.0,thiamine
+HYDROmorphone (Dilaudid),hydromorphone,hydrocodone,hydrocodone,"['hydrocodone', 'hydrocodone', 'hydrocodone', 'hydrocodone', 'hydrocodone']",1.0,morphine
+FoLIC Acid,folic acid,folic acid,folic acid,"['folic acid', 'folic acid', 'folic acid', 'folic acid', 'folic acid']",1.0,folic acid
+Heparin Flush (100 units/ml),heparin,heparin,heparin,"['heparin', 'heparin', 'heparin', 'heparin', 'heparin']",1.0,heparin
+MetRONIDAZOLE (FLagyl),metronidazole,metronidazole,metronidazole,"['metronidazole', 'metronidazole', 'metronidazole', 'metronidazole', 'metronidazole']",1.0,metronidazole
+Influenza Virus Vaccine,influenza vaccine quadrivalent,influenza vaccine,influenza vaccine,"['influenza vaccine', 'influenza vaccine', 'influenza virus vaccine', 'influenza virus vaccine', 'influenza vaccine']",0.6,influenza virus vaccine

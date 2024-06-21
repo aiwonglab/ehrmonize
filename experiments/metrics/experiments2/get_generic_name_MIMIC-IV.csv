@@ -1,0 +1,4 @@
+db,model_id,temperature,n_shots,n_attempts,agentic,elapsed_time,consistencies,accuracy_score
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.2,10,1,False,77.749,,0.665
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.2,10,5,False,865.584,0.984,0.675
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.2,5,1,False,356.454,,0.645

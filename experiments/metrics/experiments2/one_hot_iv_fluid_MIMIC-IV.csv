@@ -1,0 +1,11 @@
+db,model_id,temperature,n_shots,n_attempts,agentic,elapsed_time,consistencies,accuracy_score,precision_score,recall_score,f1_score,specificity_score,balanced_accuracy_score
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.2,10,1,False,65.235,,0.873,0.468,1.0,0.638,0.857,0.929
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.2,10,5,False,301.983,0.999,0.873,0.468,1.0,0.638,0.857,0.929
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.2,5,1,False,56.905,,0.802,0.361,1.0,0.53,0.777,0.889
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.2,5,5,False,264.795,0.997,0.807,0.367,1.0,0.537,0.783,0.891
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.2,2,1,False,51.608,,0.807,0.367,1.0,0.537,0.783,0.891
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.2,2,5,False,270.932,0.999,0.807,0.367,1.0,0.537,0.783,0.891
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.2,1,1,False,49.096,,0.797,0.355,1.0,0.524,0.771,0.886
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.2,1,5,False,247.083,0.998,0.802,0.361,1.0,0.53,0.777,0.889
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.2,0,1,False,51.571,,0.817,0.379,1.0,0.55,0.794,0.897
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.2,0,5,False,267.578,0.995,0.807,0.367,1.0,0.537,0.783,0.891

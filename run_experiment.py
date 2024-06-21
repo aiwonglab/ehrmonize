@@ -11,13 +11,14 @@ warnings.filterwarnings("ignore")
 
 def arg_parser():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--experiment", help="Insert the experiment's name")
+    parser.add_argument("--task", help="Insert the experiment's name")
+    parser.add_argument("--experiments", help="Insert the experiment's name")
     return parser.parse_args()
 
 
-def load_config(experiment_name):
+def load_config(experiments, task):
 
-    with open('experiments/configs/experiments.yaml', 'r') as file:
+    with open(f'experiments/configs/{experiments}.yaml', 'r') as file:
         for key, value in yaml.safe_load(file).items():
             globals()[key] = value
 
@@ -43,7 +44,7 @@ def load_config(experiment_name):
 
     data_settings = []
 
-    with open(f'experiments/configs/{experiment_name}.yaml', 'r') as file:
+    with open(f'experiments/configs/{task}.yaml', 'r') as file:
         for key, value in yaml.safe_load(file).items():
             globals()[key] = value
 
@@ -53,8 +54,11 @@ def load_config(experiment_name):
     return engines, promptings, data_settings
 
 
-def run_experiment(experiment_name):
-    engines, promptings, data_settings = load_config(experiment_name)
+def run_experiment(experiments, task):
+    engines, promptings, data_settings = load_config(experiments, task)
+
+    print(f"Running {task}...")
+
     results = pd.DataFrame()
 
     for d in data_settings:
@@ -62,6 +66,7 @@ def run_experiment(experiment_name):
         data = pd.read_csv(d['source_csv'])
 
         if not isinstance(d['input_col_name'], list):
+            # rename columns from input_col_name to 'drug', 'route'
             data_to_save = data[[d['input_col_name'],d['gt_col_name']]]
         else:
             data_to_save = data[d['input_col_name'] + [d['gt_col_name']]]
@@ -69,7 +74,7 @@ def run_experiment(experiment_name):
         for e in engines:
             ehrm = EHRmonize(**e)
 
-            for p in promptings:
+            for p in promptings: #add tqdm here
 
                 iter_number = len(results) + 1
                 start_time = time.time()
@@ -91,7 +96,7 @@ def run_experiment(experiment_name):
                     data_to_save[f'all_pred_{iter_number}'] = res['all_pred']
                     data_to_save[f'consistency_{iter_number}'] = res['consistency']
 
-                data_to_save.to_csv(f"experiments/results/{experiment_name}_{d['source_db']}.csv", index=False)
+                data_to_save.to_csv(f"experiments/results/{experiments}/{task}_{d['source_db']}.csv", index=False)
                 
                 metrics = ehrm.evaluate(data[d['gt_col_name']], preds, iter_number)
 
@@ -111,10 +116,10 @@ def run_experiment(experiment_name):
                     ], axis=1)
                 ], axis=0)
 
-                results.to_csv(f"experiments/metrics/{experiment_name}.csv", index=False)
+                results.to_csv(f"experiments/metrics/{experiments}/{task}_{d['source_db']}.csv", index=False)
 
 
 if __name__ == '__main__':
 
     args = arg_parser()
-    run_experiment(args.experiment)
+    run_experiment(args.experiments, args.task)

@@ -49,3 +49,10 @@ python3 run_experiment.py --experiment one_hot_antibiotic
 ```
 
 will run the experiment defined in `experiments/config/one_hot_antibiotic.yaml`.
+
+
+### Run sh file
+
+```sh
+sh '/Users/joaomatos/Documents/ehrmonize/experiments/sh/figure.sh'
+```

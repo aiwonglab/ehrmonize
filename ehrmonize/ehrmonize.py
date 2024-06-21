@@ -4,7 +4,7 @@ import json
 from dotenv import load_dotenv
 import os
 import yaml
-
+import sys
 
 class EHRmonize:
 
@@ -75,7 +75,7 @@ class EHRmonize:
         
         body = json.dumps({
             "prompt": "\n\nHuman:" + prompt + "\n\nAssistant: ",
-            "max_gen_len": self.max_tokens, # this seems to be a bug that is not solved
+            "max_gen_len": self.max_tokens, 
             "temperature": self.temperature,
             "top_p": 0.9,
         })
@@ -113,7 +113,7 @@ class EHRmonize:
         
         body = json.dumps({
             "prompt": "\n\nHuman:" + prompt + "\n\nAssistant: ",
-            "max_tokens": self.max_tokens, # this seems to be a bug that is not solved
+            "max_tokens": self.max_tokens, 
             "temperature": self.temperature,
             "top_p": 0.9,
         })
@@ -156,16 +156,41 @@ class EHRmonize:
     
     def _prompt(self, prompt):
         if self.model_id in ['gpt-3.5-turbo', 'gpt-4', 'gpt-4o']:
-            return self._clean_text(self._invoke_openai(prompt=prompt))
-        
+            try:
+                text = self._invoke_openai(prompt=prompt)
+            except Exception as e:
+                text = 'API failed'
+                print(text + ', proceeding...')
+
+            return self._clean_text(text)
+                
         elif self.model_id in ['meta.llama2-13b-chat-v1', 'meta.llama2-70b-chat-v1', 'meta.llama3-70b-instruct-v1:0']:
-            return self._clean_text(self._invoke_bedrock_llama(prompt=prompt))
+            try:
+                text = self._invoke_bedrock_llama(prompt=prompt)
+            except Exception as e:
+                text = 'API failed'
+                print(text + ', proceeding...')
+            
+            return self._clean_text(text)
         
         elif self.model_id in ['anthropic.claude-v2:1', 'anthropic.claude-instant-v1']:
-            return self._clean_text(self._invoke_bedrock_claude(prompt=prompt))
+            try:
+                text = self._invoke_bedrock_claude(prompt=prompt)
+            except Exception as e:
+                text = 'API failed'
+                print(text + ', proceeding...')
+
+
+            return self._clean_text(text)
         
         elif self.model_id in ['mistral.mistral-7b-instruct-v0:2', 'mistral.mixtral-8x7b-instruct-v0:1']:
-            return self._clean_text(self._invoke_bedrock_mistral(prompt=prompt))
+            try:
+                text = self._invoke_bedrock_mistral(prompt=prompt)
+            except Exception as e:
+                text = 'API failed'
+                print(text + ', proceeding...')
+
+            return self._clean_text(text)
 
         else:
             raise ValueError('model_id not supported. Please make sure you are using the correct model_id. We currently support: \
@@ -375,21 +400,33 @@ class EHRmonize:
                 previous_prompt = self._generate_drug_classification_prompt(drugname, route, classes, possible_shots)
                 return self._run_agentic(previous_prompt, results)
             
-    def _generate_one_hot_drug_classification(self, drugname, route, classif, expanded_classif):
+    def _generate_one_hot_drug_classification(self, drugname, route, classif, expanded_classif, possible_shots):
 
-        prompt = f" \
-            You are a well trained clinician doing data cleaning and harmonization. \
-            You are given a raw drug name and administration route out of EHR, below, within squared brackets as [drugname, route]. \
-            Please output 1 if [{drugname}, {route}] is classified as {classif}, otherwise output 0. \
-            {classif} means {expanded_classif} \
-            Please output nothing more than 1 or 0. \
-        "
+        if self.n_shots == 0:
+            prompt = f" \
+                You are a well trained clinician doing data cleaning and harmonization. \
+                You are given a raw drug name and administration route out of EHR, below, within squared brackets as [drugname, route]. \
+                Please output 1 if [{drugname}, {route}] is classified as {classif}, otherwise output 0. \
+                {classif} means {expanded_classif}. \
+                Please output nothing more than 1 or 0. \
+            "
+        else:
+            shots = possible_shots[:self.n_shots]
+            prompt = f" \
+                You are a well trained clinician doing data cleaning and harmonization. \
+                You are given a raw drug name and administration route out of EHR, below, within squared brackets as [drugname, route]. \
+                Please output 1 if [{drugname}, {route}] is classified as {classif}, otherwise output 0. \
+                {classif} means {expanded_classif}. \
+                Consider the following example(s): \
+                {shots} \
+                Please output nothing more than 1 or 0. \
+            "
 
         return prompt
     
-    def _get_one_hot_drug_classification(self, drugname, route, classif, expanded_classif):
+    def _get_one_hot_drug_classification(self, drugname, route, classif, expanded_classif, possible_shots):
             
-            prompt = self._generate_one_hot_drug_classification(drugname, route, classif, expanded_classif)
+            prompt = self._generate_one_hot_drug_classification(drugname, route, classif, expanded_classif, possible_shots)
         
             output = self._prompt(
                 prompt=('\nHuman: ' + prompt + '\nAssistant:')
@@ -397,13 +434,13 @@ class EHRmonize:
     
             return self._clean_text(output)
     
-    def one_hot_drug_classification(self, drugname, route, classif, expanded_classif=None):
+    def one_hot_drug_classification(self, drugname, route, classif, expanded_classif=None, possible_shots=[]):
             
             results = []
     
             for i in range(self.n_attempts):
                 results.append(self._get_one_hot_drug_classification(drugname, route,
-                                                                     classif, expanded_classif))
+                                                                     classif, expanded_classif, possible_shots))
     
             if self.n_attempts == 1:
                 return results[0]
@@ -414,7 +451,8 @@ class EHRmonize:
     
                 elif self.agentic:
                     previous_prompt = self._generate_one_hot_drug_classification(drugname, route,
-                                                                                 classif, expanded_classif)
+                                                                                 classif, expanded_classif,
+                                                                                 possible_shots)
                     return self._run_agentic(previous_prompt, results)
             
     def _generate_custom_prompt(self, prompt, input):
@@ -449,10 +487,41 @@ class EHRmonize:
                 return self._run_agentic(previous_prompt, results)
 
     def set_task(self, task, **kwargs):
+        """
+        Set the task to be performed by the model.
+        
+        Parameters
+        ----------
+        task : str
+            The task to be performed.
+            We currently support: 'get_generic_route', 'get_generic_name', 'classify_drug', 'one_hot_drug_classification', and 'custom'.
+            Additional arguments to be passed to the task function.
+            Please find which arguments are necessary for each task in the documentation.
+
+        Returns
+        -------
+        None
+        """
+
         self.task = task
         self.kwargs = kwargs
 
     def predict(self, input):
+        """
+        Predict the output of the specified task.
+
+        Parameters
+        ----------
+        input : Pandas Series or DataFrame
+            The input data. If the task is get_generic_route or get_generic_name, input must be a Pandas Series.
+            If the task is classify_drug or one_hot_drug_classification, input must be a Pandas DataFrame.
+            "custom" tasks are currently limited to Pandas Series.
+
+        Returns
+        -------
+        Pandas Series or DataFrame
+            The predicted output.
+        """
 
         if self.task == 'get_generic_route':
             # make sure that input is a pandas Series
@@ -503,11 +572,11 @@ class EHRmonize:
             # make sure that input is a pandas DataFrame
             if not isinstance(input, pd.DataFrame):
                 raise ValueError('input must be a pandas DataFrame')
-            
+                        
             res = input.apply(
                 lambda row: self.classify_drug(
-                    drugname=row.drug,
-                    route=row.route,
+                    drugname=row.iloc[0],
+                    route=row.iloc[1],
                     classes=self.kwargs.get('classes'),
                     possible_shots=self.kwargs.get('possible_shots'),
                 ),
@@ -531,9 +600,11 @@ class EHRmonize:
             
             res = input.apply(
                 lambda row: self.one_hot_drug_classification(
-                    drugname=row.drug,
-                    route=row.route,
+                    drugname=row.iloc[0],
+                    route=row.iloc[1],
                     classif=self.kwargs.get('classif'),
+                    expanded_classif=self.kwargs.get('expanded_classif'),
+                    possible_shots=self.kwargs.get('possible_shots'),
                 ),
                 axis=1
             )
@@ -575,33 +646,144 @@ class EHRmonize:
                              get_generic_route, get_generic_name, classify_drug, custom')
         
     def accuracy_score(self, y_true, y_pred):
+        """
+        Compute the accuracy score.
+        Defined as the proportion of true labels that are exactly equal to the predicted labels.
+
+        Parameters
+        ----------
+        y_true : Pandas Series
+            The true labels.
+        y_pred : Pandas Series
+            The predicted labels.
+
+        Returns
+        -------
+        float
+            The accuracy score.
+        """
         return np.mean(y_true == y_pred)
     
     def recall_score(self, y_true, y_pred):
+        """
+        Compute the recall score.
+        Defined as the proportion of true positive labels that are correctly identified.
+        
+        Parameters
+        ----------
+        y_true : Pandas Series
+            The true labels.
+        y_pred : Pandas Series
+            The predicted labels.
+
+        Returns
+        -------
+        float
+            The recall score.
+            
+        """
         tp = np.sum((y_true == '1') & (y_pred == '1'))
         fn = np.sum((y_true == '1') & (y_pred == '0'))
         return tp / (tp + fn)
     
     def precision_score(self, y_true, y_pred):
+        """
+        Compute the precision score.
+        Defined as the proportion of true positive labels that are correctly identified.
+
+        Parameters
+        ----------
+        y_true : Pandas Series
+            The true labels.
+        y_pred : Pandas Series
+            The predicted labels.
+        Returns
+        -------
+        float
+            The precision score.
+        """
         tp = np.sum((y_true == '1') & (y_pred == '1'))
         fp = np.sum((y_true == '0') & (y_pred == '1'))
         return tp / (tp + fp)
 
     def f1_score(self, y_true, y_pred):
+        """
+        Compute the F1 score.
+        Defined as the harmonic mean of precision and recall.
+
+        Parameters
+        ----------
+        y_true : Pandas Series
+            The true labels.
+        y_pred : Pandas Series
+            The predicted labels.
+        Returns
+        -------
+        float
+            The F1 score.
+        """
         recall = self.recall_score(y_true, y_pred)
         precision = self.precision_score(y_true, y_pred)
         return 2 * (precision * recall) / (precision + recall)
     
     def specificity_score(self, y_true, y_pred):
+        """
+        Compute the specificity score.
+        Defined as the proportion of true negative labels that are correctly identified.
+        
+        Parameters
+        ----------
+        y_true : Pandas Series
+            The true labels.
+        y_pred : Pandas Series
+            The predicted labels.
+        Returns
+        -------
+        float
+            The specificity score.
+        """
         return np.sum((y_true == '0') & (y_pred == '0')) / np.sum(y_true == '0')
     
     def balanced_accuracy_score(self, y_true, y_pred):
+        """
+        Compute the balanced accuracy score.
+        Defined as the average of recall and specificity scores.
+
+        Parameters
+        ----------
+        y_true : Pandas Series
+            The true labels.
+        y_pred : Pandas Series
+            The predicted labels.
+        Returns
+        -------
+        float
+            The balanced accuracy score.        
+        """
         recall = self.recall_score(y_true, y_pred)
         specificity = self.specificity_score(y_true, y_pred)
         return (recall + specificity) / 2
     
 
     def evaluate(self, y_true, y_pred, experiment_number=0):
+        """
+        Evaluate the model performance using the specified metrics.
+
+        Parameters
+        ----------
+        y_true : Pandas Series
+            The true labels.
+        y_pred : Pandas Series
+            The predicted labels.
+        experiment_number : int
+            The experiment number (necessary for the indexation of the output DataFrame).
+
+        Returns
+        -------
+        Pandas DataFrame
+            A DataFrame with the evaluation metrics.
+
+        """
 
         y_true = y_true.astype(str)
         y_pred = y_pred.astype(str)

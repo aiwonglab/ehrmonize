@@ -1,0 +1,201 @@
+route,generic_route,pred_1,pred_2,pred_3,pred_4,pred_5,pred_6,pred_7,pred_8,pred_9,pred_10,pred_11,pred_12,pred_13,pred_14,pred_15
+SC,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intramuscular,subcutaneous,subcutaneous,subcutaneous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+SC,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,the route name [sc] is classified,subcutaneous,subcutaneous,subcutaneous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+SC,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intramuscular,[intravenous],subcutaneous,subcutaneous,subcutaneous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,nasogastric tube,intravenous,oral,oral,nasogastric tube
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PR,rectal,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,other,intravenous,intravenous,intravenous,intravenous,intramuscular,rectal
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,nasogastric tube,intravenous,"oral, nasogastric tube","oral, nasogastric tube","oral, nasogastric tube"
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po/ng] is,intravenous,[po/ng] would fall into,nasogastric tube,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,nasogastric tube,[po/ng] would be classified,"oral, nasogastric tube",oral,nasogastric tube
+IM,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,nasogastric tube,oral,"oral, nasogastric tube",oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,please provide the raw route name,nasogastric tube,nasogastric tube,nasogastric tube,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,oral,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,oral,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,intravenous,intravenous,oral,"oral, nasogastric tube","oral, nasogastric tube"
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,im here to help,nasogastric tube,nasogastric tube,nasogastric tube,oral,oral,nasogastric tube
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,nasogastric tube,intravenous,nasogastric tube,oral,"oral, nasogastric tube",nasogastric tube
+SC,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intramuscular,intramuscular,subcutaneous,subcutaneous,subcutaneous
+IH,inhaled (nebulized),intravenous,intravenous,intravenous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,nasogastric tube,intravenous,intravenous,"oral, nasogastric tube",oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral  conf,intravenous,intravenous,intravenous,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,im here to help,intravenous,intravenous,intravenous,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,nasogastric tube,intravenous,oral,"oral, nasogastric tube",oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,-1,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+SC,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,subcutaneous,subcutaneous,subcutaneous,subcutaneous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,nasogastric tube,oral,oral,oral,oral
+IH,inhaled (nebulized),intravenous,intravenous,intravenous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,other,intravenous,intravenous,intravenous,intravenous,intravenous,other
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,nasogastric tube,intravenous,nasogastric tube,"oral, nasogastric tube",oral,nasogastric tube
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po/ng] can,nasogastric tube,nasogastric tube,please provide the raw route name within squared,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] can be classified,intravenous,nasogastric tube,intravenous,"oral, nasogastric tube",oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV DRIP,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,nasogastric tube,oral,oral,nasogastric tube,nasogastric tube
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po/ng] is,nasogastric tube,nasogastric tube,nasogastric tube,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral  conf,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,-1,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV DRIP,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,nasogastric tube,oral,po,"oral, nasogastric tube","oral, nasogastric tube",nasogastric tube
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV DRIP,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,nasogastric tube,nasogastric tube,nasogastric tube,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,oral,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,im here to help,[po] would fall under,[po] would fall under,nasogastric tube,nasogastric tube,nasogastric tube,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,nasogastric tube,nasogastric tube,nasogastric tube,"oral, nasogastric tube",oral,oral
+IM,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular
+IM,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,oral,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,oral,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral    h,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+NEB,inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,inhaled (nebulized),intravenous,inhaled (nebulized),inhaled (nebulized),inhaled (nebulized)
+ORAL,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,nasogastric tube,intravenous,nasogastric tube,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,im here to help,nasogastric tube,intravenous,nasogastric tube,oral,"oral, nasogastric tube",oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,nasogastric tube,oral,oral,oral,nasogastric tube
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] can be classified,nasogastric tube,nasogastric tube,[ng] should be classified as,oral,oral,nasogastric tube
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po/ng] is,nasogastric tube,nasogastric tube,nasogastric tube,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IM,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,im here to help,nasogastric tube,nasogastric tube,nasogastric tube,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po/ng] is,intravenous,nasogastric tube,[po/ng] would be classified,"oral, nasogastric tube","oral, nasogastric tube",oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV DRIP,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,intravenous,oral,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral  confidence,intravenous,intravenous,intravenous,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,im here to help,[po] would fall under,[po] would fall under,nasogastric tube,nasogastric tube,nasogastric tube,oral,"oral, nasogastric tube","oral, nasogastric tube"
+TD,transdermal,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intramuscular,intravenous,intravenous,[intramuscular],intramuscular,intramuscular,other
+IH,inhaled (nebulized),intravenous,intravenous,intravenous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intramuscular
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,nasogastric tube,nasogastric tube,oral,oral,nasogastric tube
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,nasogastric tube,oral,"oral, nasogastric tube",nasogastric tube,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV DRIP,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po/ng] is,intravenous,nasogastric tube,intravenous,oral,"oral, nasogastric tube",oral
+IV DRIP,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,nasogastric tube,nasogastric tube,oral,oral,oral,nasogastric tube
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,nasogastric tube,[po/ng] should be classified,nasogastric tube,oral,"oral, nasogastric tube","oral, nasogastric tube"
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,nasogastric tube,[po/ng] should be classified,oral,oral,"oral, nasogastric tube"
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,nasogastric tube,nasogastric tube,nasogastric tube,oral,oral,"oral, nasogastric tube"
+IV DRIP,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IVPCA,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,nasogastric tube,nasogastric tube,nasogastric tube,oral,oral,"oral, nasogastric tube"
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po/ng] falls,nasogastric tube,nasogastric tube,nasogastric tube,oral,"oral, nasogastric tube",oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,nasogastric tube,i would classify [po/ng],"oral, nasogastric tube",oral,oral
+IV DRIP,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,nasogastric tube,oral,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,nasogastric tube,nasogastric tube,nasogastric tube,"oral, nasogastric tube",oral,oral
+DWELL,-1,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,oral,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po/ng] can,intravenous,nasogastric tube,nasogastric tube,"oral, nasogastric tube","oral, nasogastric tube",nasogastric tube
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IM,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,intravenous,nasogastric tube,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,im here to help,intravenous,nasogastric tube,intravenous,oral,oral,nasogastric tube
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+TP,topical,intravenous,intravenous,subcutaneous,[other],subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+TP,topical,intravenous,subcutaneous,intravenous,[other],subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,im here to help,intravenous,oral,nasogastric tube,"oral, nasogastric tube",oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,"to provide an accurate classification,",nasogastric tube,nasogastric tube,nasogastric tube,oral,oral,"oral, nasogastric tube"
+TD,transdermal,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,the raw route name [td,intravenous,intravenous,intravenous,intramuscular,intramuscular,other
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,im here to help,nasogastric tube,nasogastric tube,intravenous,oral,oral,nasogastric tube
+IH,inhaled,intravenous,intravenous,intravenous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intramuscular,intravenous,intravenous
+IVPCA,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,nasogastric tube,intravenous,nasogastric tube,oral,oral,nasogastric tube
+IM,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular
+PR,rectal,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intramuscular,intravenous,rectal,intramuscular,intrarectal
+IH,inhaled (nebulized),intravenous,intravenous,intravenous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intramuscular,intravenous,intravenous
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,"to provide an accurate classification,",nasogastric tube,nasogastric tube,i would classify [po/ng],oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IM,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,im here to help,[po] would fall under,im here to help,nasogastric tube,intravenous,[ng] -> nasogastric,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PO/NG,"oral, nasogastric tube",oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,[po] would fall under,[po] would fall under,[po] would fall under,intravenous,nasogastric tube,oral,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IM,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular

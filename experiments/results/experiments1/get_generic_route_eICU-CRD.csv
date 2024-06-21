@@ -1,0 +1,201 @@
+routeadmin,generic_route,pred_1,pred_2,pred_3,pred_4,pred_5,pred_6,pred_7,pred_8,pred_9,pred_10,pred_11,pred_12,pred_13,pred_14,pred_15
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+MISC,other,other,other,other,subcutaneous,subcutaneous,subcutaneous,other,misc  i,other,intravenous,intravenous,[misc] should be classified as,other,other,other
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+Intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+subCUT,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcut should be classified as,subcut should be classified as,subcutaneous,subcutaneous,subcutaneous
+IV Push,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+INTRAVENOU,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IVPB,intravenous,intravenous,intravenous,intravenous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IVPB,intravenous,intravenous,intravenous,intravenous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+SubQ,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subq should be classified as sub,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PER NG TUBE,nasogastric tube,nasogastric tube,nasogastric tube,nasogastric tube,nasogastric tube,nasogastric tube,nasogastric tube,nasogastric tube,nasogastric tube,nasogastric tube,nasogastric tube,nasogastric tube,nasogastric tube,nasogastric tube,nasogastric tube,nasogastric tube
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,oral,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV Push,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+ORAL,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+MISC,subcutaneous,other,other,other,subcutaneous,subcutaneous,subcutaneous,other,other,other,intravenous,intravenous,intravenous,other,other,other
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,oral,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+INTRAVENOU,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+SC,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intramuscular,subcutaneous,subcutaneous,subcutaneous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+SWISH,oral,sublingual,sublingual,sublingual,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,inhaled (nebulized),oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV Push,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+Oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+SubQ,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subq should be classified as sub,subq should be classified as sub,subcutaneous,subcutaneous,subcutaneous,subcutaneous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+INTRAVENOU,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+MISC,intravenous,other,other,other,subcutaneous,subcutaneous,subcutaneous,other,misc  i,other,"[misc] should be classified as """,intravenous,[intravenous],other,other,other
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+RE,rectal,rectal,rectal,rectal,subcutaneous,subcutaneous,subcutaneous,"[""re""] does not match","[""re""] does not match",[other],intravenous,intravenous,intravenous,rectal,intramuscular,rectal
+IV Push,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+SL,sublingual,sublingual,sublingual,sublingual,sublingual,sublingual,sublingual,subcutaneous,subcutaneous,subcutaneous,sublingual,intravenous,intravenous,sublingual,sublingual,sublingual
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+subCUT,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcut should be classified as,subcut should be classified as,subcutaneous,subcutaneous,subcutaneous,subcutaneous
+Inhalation,inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized,inhaled (nebulized,inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized)
+SubQ,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subq should be classified as sub,subcutaneous,subq should be classified as sub,subcutaneous,subcutaneous,subcutaneous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IM,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV Push,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+Oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+INTRAVENOU,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IM,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular,intramuscular
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+NEBULIZATION,inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized,inhaled (nebulized,inhaled (nebulized,inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized)
+INTRAVENOU,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral  confidence,intravenous,intravenous,oral,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,oral,oral,oral,oral
+Intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,oral,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral  confidence,intravenous,intravenous,other,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+INTRAVENOU,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PR,rectal,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intramuscular,intramuscular,intramuscular,intramuscular,intravenous
+NEBULIZATION,inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized,inhaled (nebulized,inhaled (nebulized,inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized),inhaled (nebulized)
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV Push,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IVPB,intravenous,intravenous,intravenous,intravenous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+SubQ,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subq should be classified as sub,subq should be classified as sub,subcutaneous,subcutaneous,subcutaneous,subcutaneous
+MISC,intravenous,other,other,other,subcutaneous,subcutaneous,subcutaneous,other,other,other,[misc] should be classified as,"[misc] should be classified as ""","[misc] should be classified as """,other,other,other
+SC,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intramuscular,intramuscular,subcutaneous,subcutaneous,subcutaneous
+Oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+Subcut,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous
+MISC,inhaled (nebulized),other,other,other,subcutaneous,subcutaneous,subcutaneous,other,other,other,intravenous,intravenous,"[misc] should be classified as """,other,other,other
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral  confidence,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+RE,rectal,rectal,rectal,rectal,subcutaneous,subcutaneous,subcutaneous,"[""re""] does not match",[other],the raw route name [re,intravenous,intravenous,intravenous,rectal,rectal,rectal
+ORAL,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+IVPB,intravenous,intravenous,intravenous,intravenous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+ORAL,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+IVPB,intravenous,intravenous,intravenous,intravenous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV Push,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+Intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV Push,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+SUBCUTAN,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous
+SC,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intramuscular,subcutaneous,subcutaneous,subcutaneous
+ORAL,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral  ex,intravenous,intravenous,intravenous,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PR,rectal,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,other  conf,intravenous,intramuscular,intravenous,intramuscular,intramuscular,other
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral   human,intravenous,intravenous,intravenous,oral,oral,oral
+ORAL,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+SVN,inhaled (nebulized),subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+SC,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intramuscular,subcutaneous,subcutaneous,subcutaneous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+Oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+subCUT,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous
+IVPB,intravenous,intravenous,intravenous,intravenous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+ORAL MUCOSA,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+Intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+SC,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,intravenous,intramuscular,intramuscular,subcutaneous,subcutaneous,subcutaneous
+Oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+.ROUTE,intravenous,oral,oral,oral,[oral],[oral],[oral],im an ai language,im here to help,im here to help,intravenous,intravenous,i am here to help you classify the,other,other,other
+IV Push,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+DEVICE,other,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,other,other,other,please provide the raw route name within squared,[device] should be classified as,[device] falls under the category,other,other,other
+Oral swab,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+SUBCUTAN,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+Oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+SubQ,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subq should be classified as sub,subcutaneous,subq should be classified as sub,subcutaneous,subcutaneous,subcutaneous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+ORAL,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+Intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,[intravenous],oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+Oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+IV Push,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IVPB,intravenous,intravenous,intravenous,intravenous,subcutaneous,subcutaneous,subcutaneous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+Oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+INTRAVENOU,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+SUBCUTAN,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous,subcutaneous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+Oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+INTRAVEN,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+INTRAVENOU,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,oral,oral,oral,oral,intravenous,intravenous,oral,oral,oral,oral
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+IV,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous,intravenous
+PO,oral,oral,oral,oral,subcutaneous,subcutaneous,subcutaneous,oral,oral,oral,intravenous,intravenous,intravenous,oral,oral,oral

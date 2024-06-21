@@ -8,7 +8,16 @@ task_specific:
     - electrolyte supplementation
 
   possible_shots:
-    - 
+    - An input drugname 'potassium chloride' and route 'oral' would be classified as '1'.
+    - An input drugname 'potassium chloride' and route 'intravenous' would be classified as '1'.
+    - An input drugname 'magnesium sulfate' and route 'oral' would be classified as '1'.
+    - An input drugname 'magnesium citrate' and route 'oral' would be classified as '0'.
+    - An input drugname 'lorazepam' and route 'intravenous' would be classified as '0'.
+    - An input drugname 'sodium chloride 0.9%' and route 'intravenous' would be classified as '0'.
+    - An input drugname 'potassium phosphate' and route 'intravenous' would be classified as '1'.
+    - An input drugname 'sodium phosphate' and route 'oral' would be classified as '1'.
+    - An input drugname 'dextrose 5%' and route 'intravenous' would be classified as '0'.
+    - An input drugname 'sodium bicarbonate' and route 'intravenous' would be classified as '0'.
 
   metrics:
     - accuracy_score
@@ -20,17 +29,17 @@ task_specific:
 
 source_db: 
   - MIMIC-IV
-  # - eICU-CRD
+  - eICU-CRD
 
 source_csv:
   - dataset/labeled/mimic_meds.csv
-  # - dataset/labeled/eicu_meds.csv
+  - dataset/labeled/eicu_meds.csv
 
 input_col_name:
   - ['drug', 'route']
-  # - ['drugname', 'routeadmin']
+  - ['drugname', 'routeadmin']
 
 gt_col_name:
   - electrolytes
-  # - electrolytes
+  - electrolytes
 

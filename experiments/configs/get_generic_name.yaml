@@ -6,23 +6,28 @@ task_specific:
     - An input drugname 'Toprol XL' would be classified as 'metroprolol'.
     - An input drugname 'Adderall' would be classified as 'amphetamine/dextroamphetamine'.
     - An input drugname 'Tylenol' would be classified as 'acetaminophen'.
-    - An input drugname 'vancomycin' would be classified as 'vancomycin'.
+    - An input drugname '0.9% Sodium Chloride' would be classified as 'sodium chloride 0.9%'.
+    - An input drugname 'D5 1/2NS' would be classified as 'dextrose 5%, sodium chloride 0.45%'.
+    - An input drugname 'LR' would be classified as 'lactated ringers'.
+    - An input drugname 'Neutra-Phos' would be classified as 'potassium acid phosphate'.
+    - An input drugname 'Ipratropium Bromide Neb' would be classified as 'ipatropium%'.
+    - An input drugname 'Morphine Sulfate' would be classified as 'morphine'.
 
   metrics:
     - accuracy_score
 
 source_db: 
   - MIMIC-IV
-  # - eICU-CRD
+  - eICU-CRD
 
 source_csv:
   - dataset/labeled/mimic_meds.csv
-  # - dataset/unlabeled/eicu_meds.csv
+  - dataset/labeled/eicu_meds.csv
 
 input_col_name:
   - drug
-  # - drugname
+  - drugname
 
 gt_col_name:
   - generic_name
-  # - generic_name
+  - generic_name

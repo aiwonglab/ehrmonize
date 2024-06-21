@@ -1,0 +1,16 @@
+db,model_id,temperature,n_shots,n_attempts,agentic,elapsed_time,consistencies,accuracy_score,precision_score,recall_score,f1_score,specificity_score,balanced_accuracy_score
+eICU-CRD,meta.llama3-70b-instruct-v1:0,0.0,0,1,False,75.739,,0.975,0.815,1.0,0.898,0.972,0.986
+eICU-CRD,meta.llama3-70b-instruct-v1:0,0.2,0,1,False,57.058,,0.97,0.786,1.0,0.88,0.966,0.983
+eICU-CRD,meta.llama3-70b-instruct-v1:0,0.5,0,1,False,51.398,,0.975,0.815,1.0,0.898,0.972,0.986
+eICU-CRD,anthropic.claude-v2:1,0.0,0,1,False,130.748,,0.99,0.955,0.955,0.955,0.994,0.974
+eICU-CRD,anthropic.claude-v2:1,0.2,0,1,False,117.113,,0.985,0.952,0.909,0.93,0.994,0.952
+eICU-CRD,anthropic.claude-v2:1,0.5,0,1,False,136.399,,0.98,0.909,0.909,0.909,0.989,0.949
+eICU-CRD,mistral.mixtral-8x7b-instruct-v0:1,0.0,0,1,False,35.584,,0.98,0.846,1.0,0.917,0.978,0.989
+eICU-CRD,mistral.mixtral-8x7b-instruct-v0:1,0.2,0,1,False,45.177,,0.98,0.846,1.0,0.917,0.978,0.989
+eICU-CRD,mistral.mixtral-8x7b-instruct-v0:1,0.5,0,1,False,42.802,,0.98,0.846,1.0,0.917,0.978,0.989
+eICU-CRD,gpt-3.5-turbo,0.0,0,1,False,72.363,,0.46,0.169,1.0,0.289,0.393,0.697
+eICU-CRD,gpt-3.5-turbo,0.2,0,1,False,103.88,,0.495,0.179,1.0,0.303,0.433,0.716
+eICU-CRD,gpt-3.5-turbo,0.5,0,1,False,72.896,,0.465,0.171,1.0,0.291,0.399,0.699
+eICU-CRD,gpt-4o,0.0,0,1,False,97.804,,0.99,0.917,1.0,0.957,0.989,0.994
+eICU-CRD,gpt-4o,0.2,0,1,False,97.804,,0.99,0.917,1.0,0.957,0.989,0.994
+eICU-CRD,gpt-4o,0.5,0,1,False,97.804,,0.99,0.917,1.0,0.957,0.989,0.994

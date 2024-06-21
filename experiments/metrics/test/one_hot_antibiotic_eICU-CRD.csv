@@ -1,0 +1,16 @@
+db,model_id,temperature,n_shots,n_attempts,agentic,elapsed_time,consistencies,accuracy_score,precision_score,recall_score,f1_score,specificity_score,balanced_accuracy_score
+eICU-CRD,meta.llama3-70b-instruct-v1:0,0.0,0,1,False,58.636,,0.99,0.714,1.0,0.833,0.99,0.995
+eICU-CRD,meta.llama3-70b-instruct-v1:0,0.2,0,1,False,50.708,,0.99,0.714,1.0,0.833,0.99,0.995
+eICU-CRD,meta.llama3-70b-instruct-v1:0,0.5,0,1,False,46.322,,0.99,0.714,1.0,0.833,0.99,0.995
+eICU-CRD,anthropic.claude-v2:1,0.0,0,1,False,152.566,,0.985,1.0,0.4,0.571,1.0,0.7
+eICU-CRD,anthropic.claude-v2:1,0.2,0,1,False,170.859,,0.985,1.0,0.4,0.571,1.0,0.7
+eICU-CRD,anthropic.claude-v2:1,0.5,0,1,False,117.916,,0.98,1.0,0.2,0.333,1.0,0.6
+eICU-CRD,mistral.mixtral-8x7b-instruct-v0:1,0.0,0,1,False,40.529,,1.0,1.0,1.0,1.0,1.0,1.0
+eICU-CRD,mistral.mixtral-8x7b-instruct-v0:1,0.2,0,1,False,36.648,,1.0,1.0,1.0,1.0,1.0,1.0
+eICU-CRD,mistral.mixtral-8x7b-instruct-v0:1,0.5,0,1,False,35.81,,1.0,1.0,1.0,1.0,1.0,1.0
+eICU-CRD,gpt-3.5-turbo,0.0,0,1,False,75.333,,0.71,0.079,1.0,0.147,0.703,0.851
+eICU-CRD,gpt-3.5-turbo,0.2,0,1,False,77.622,,0.7,0.077,1.0,0.143,0.692,0.846
+eICU-CRD,gpt-3.5-turbo,0.5,0,1,False,79.593,,0.69,0.075,1.0,0.139,0.682,0.841
+eICU-CRD,gpt-4o,0.0,0,1,False,104.91,,1.0,1.0,1.0,1.0,1.0,1.0
+eICU-CRD,gpt-4o,0.2,0,1,False,98.238,,1.0,1.0,1.0,1.0,1.0,1.0
+eICU-CRD,gpt-4o,0.5,0,1,False,95.077,,1.0,1.0,1.0,1.0,1.0,1.0

@@ -1,0 +1,16 @@
+db,model_id,temperature,n_shots,n_attempts,agentic,elapsed_time,consistencies,accuracy_score,precision_score,recall_score,f1_score,specificity_score,balanced_accuracy_score
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.0,0,1,False,57.421,,0.985,0.889,1.0,0.941,0.995,0.997
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.2,0,1,False,49.866,,0.985,0.889,1.0,0.941,0.995,0.997
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.5,0,1,False,54.059,,0.98,0.8,1.0,0.889,0.989,0.995
+MIMIC-IV,anthropic.claude-v2:1,0.0,0,1,False,105.784,,0.965,1.0,0.375,0.545,1.0,0.688
+MIMIC-IV,anthropic.claude-v2:1,0.2,0,1,False,105.152,,0.97,1.0,0.5,0.667,1.0,0.75
+MIMIC-IV,anthropic.claude-v2:1,0.5,0,1,False,113.815,,0.955,1.0,0.125,0.222,1.0,0.562
+MIMIC-IV,mistral.mixtral-8x7b-instruct-v0:1,0.0,0,1,False,39.198,,0.99,1.0,1.0,1.0,1.0,1.0
+MIMIC-IV,mistral.mixtral-8x7b-instruct-v0:1,0.2,0,1,False,37.44,,0.99,1.0,1.0,1.0,1.0,1.0
+MIMIC-IV,mistral.mixtral-8x7b-instruct-v0:1,0.5,0,1,False,35.296,,0.99,1.0,1.0,1.0,1.0,1.0
+MIMIC-IV,gpt-3.5-turbo,0.0,0,1,False,76.984,,0.76,0.148,1.0,0.258,0.758,0.879
+MIMIC-IV,gpt-3.5-turbo,0.2,0,1,False,76.783,,0.74,0.138,1.0,0.242,0.737,0.868
+MIMIC-IV,gpt-3.5-turbo,0.5,0,1,False,76.439,,0.715,0.127,1.0,0.225,0.711,0.855
+MIMIC-IV,gpt-4o,0.0,0,1,False,85.317,,0.99,1.0,1.0,1.0,1.0,1.0
+MIMIC-IV,gpt-4o,0.2,0,1,False,95.93,,0.99,1.0,1.0,1.0,1.0,1.0
+MIMIC-IV,gpt-4o,0.5,0,1,False,95.492,,0.99,1.0,1.0,1.0,1.0,1.0
