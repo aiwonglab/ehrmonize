@@ -20,10 +20,10 @@ class EHRmonize:
 
         # read supported models from YAML file
         with open('supported_models.yaml', 'r') as file:
-            supported_models = yaml.safe_load(file)
+            self.supported_models = yaml.safe_load(file)
         
-        if model_id not in supported_models:
-            raise ValueError(f"model_id not supported. We currently support: {supported_models}")
+        if model_id not in self.supported_models:
+            raise ValueError(f"model_id not supported. We currently support: {self.supported_models}")
 
         # make sure that temperatue is a float between 0 and 1
         if (temperature < 0) | (temperature > 1):
@@ -70,8 +70,7 @@ class EHRmonize:
         self.agentic = agentic
 
 
-    def _invoke_bedrock_llama(self,
-                        prompt):
+    def _invoke_bedrock_llama(self, prompt):
         
         body = json.dumps({
             "prompt": "\n\nHuman:" + prompt + "\n\nAssistant: ",
@@ -89,24 +88,23 @@ class EHRmonize:
 
         return response_body.get('generation')
     
-    def _invoke_bedrock_claude(self,
-                        prompt):
+    def _invoke_bedrock_claude(self, prompt):
         
         body = json.dumps({
-            "prompt": "\n\nHuman:" + prompt + "\n\nAssistant: ",
-            "max_tokens_to_sample": self.max_tokens, 
+            "max_tokens": 32, 
+            "messages": [{"role": "user", "content": prompt}],
             "temperature": self.temperature,
-            "top_p": 0.9,
+            "anthropic_version": "bedrock-2023-05-31"
         })
         
         response = self.client.invoke_model(body = body,
                                             modelId = self.model_id,
                                             accept = 'application/json',
-                                            contentType =  'application/json'
+                                            contentType = 'application/json'
                                             )
         response_body = json.loads(response.get('body').read())
 
-        return response_body.get('completion')
+        return response_body.get('content')[0]['text']
     
     def _invoke_bedrock_mistral(self,
                         prompt):
@@ -172,8 +170,8 @@ class EHRmonize:
                 print(text + ', proceeding...')
             
             return self._clean_text(text)
-        
-        elif self.model_id in ['anthropic.claude-v2:1', 'anthropic.claude-instant-v1']:
+
+        elif self.model_id in ['anthropic.claude-3-5-sonnet-20240620-v1:0']:
             try:
                 text = self._invoke_bedrock_claude(prompt=prompt)
             except Exception as e:
@@ -193,11 +191,7 @@ class EHRmonize:
             return self._clean_text(text)
 
         else:
-            raise ValueError('model_id not supported. Please make sure you are using the correct model_id. We currently support: \
-                             gpt-3.5-turbo, gpt-4, gpt-4o,\
-                             meta.llama2-13b-chat-v1, meta.llama2-70b-chat-v1, meta.llama3-70b-instruct-v1:0\
-                             anthropic.claude-v2:1, anthropic.claude-instant-v1,\
-                             mistral.mistral-7b-instruct-v0:2, mistral.mixtral-8x7b-instruct-v0:1')
+            raise ValueError(f"model_id not supported. We currently support: {self.supported_models}")
 
     def _run_rule_based(self, results):
         consistency = results.count(max(set(results), key = results.count)) / len(results)

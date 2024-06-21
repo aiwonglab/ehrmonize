@@ -1,6 +1,6 @@
 model_id:
   - meta.llama3-70b-instruct-v1:0
-  - anthropic.claude-v2:1
+  - anthropic.claude-3-5-sonnet-20240620-v1:0
   - mistral.mixtral-8x7b-instruct-v0:1
   - gpt-3.5-turbo
   - gpt-4o
@@ -11,7 +11,7 @@ temperature:
   - 0.5
 
 number_of_shots:
-  - 0
+  - 10
 
 number_of_attempts: 
   - 1
