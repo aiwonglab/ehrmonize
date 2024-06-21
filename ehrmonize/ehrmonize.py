@@ -272,12 +272,23 @@ class EHRmonize:
 
     def _generate_generic_name_prompt(self, drugname, possible_shots):
 
+        # For reference, as this prompt would therefore include shots:
+        # Remove salt names (e.g., hydromorphone hydrochloride -> hydromorphone) \
+        #     unless there are multiple salts with different clinical effects (e.g., metoprolol tartrate and metoprolol succinate). \
+        #     Remove prescription strengths (e.g, hydromorphone hydrochloride 1 mg to hydromorphone) \
+        #     Include concentrations for intravenous fluids and dextrose solutions \
+        #     (e.g., normal saline 0.9% -> sodium chloride 9 MG/ML, dextrose 50% -> glucose 500 MG/ML). \
+        #     Please output nothing more than the generic name in lowercase. \
+
         if self.n_shots == 0:
             prompt = f" \
             You are a well trained clinician doing data cleaning and harmonization. \
             You are given a raw drug name out of EHR, below, within squared brackets[]. \
-            Please give me this drug's generic name: [{drugname}] \
-            Please output nothing more than the generic name. \
+            Please give me this drug's generic name in accordance with RxNorm standards: [{drugname}] \
+            Remove salt names unless there are multiple salts with different clinical effects. \
+            Remove prescription strengths. \
+            Include concentrations for intravenous fluids and dextrose solutions. \
+            Please output nothing more than the generic name in lowercase. \
         "
         else:
             shots = possible_shots[:self.n_shots]
@@ -288,7 +299,10 @@ class EHRmonize:
             Please give me this drug's generic name: [{drugname}] \
             Consider the following example(s): \
             {shots} \
-            Please output nothing more than the generic name. \
+            Remove salt names unless there are multiple salts with different clinical effects. \
+            Remove prescription strengths. \
+            Include concentrations for intravenous fluids and dextrose solutions. \
+            Please output nothing more than the generic name in lowercase. \
         "
 
         return prompt
