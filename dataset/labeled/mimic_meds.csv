@@ -1,198 +1,199 @@
-drug,route,ndc,count,generic_name,generic_route,antibiotic,antibiotic_systemic,antifungal,diuretic,intravenous_fluid,antihypertensive,electrolytes,opioid_analgesic,anticoagulant,beta_blocker,stress_ulcer_prophylaxis
-Heparin,SC,63323026201,245905,heparin,subcutaneous,0,0,0,0,0,0,0,0,1,0,0
-Magnesium Sulfate,IV,409672924,215074,magnesium sulfate,intravenous,0,0,0,0,0,0,1,0,0,0,0
-Insulin,SC,2751001,202834,insulin,subcutaneous,0,0,0,0,0,0,0,0,0,0,0
-Sodium Chloride 0.9%,IV,338004904,169910,normal saline,intravenous,0,0,0,0,1,0,0,0,0,0,0
-Lactated Ringers,IV,338011704,159461,lactated ringers,intravenous,0,0,0,0,1,0,0,0,0,0,0
-Insulin,SC,88222033,156824,insulin,subcutaneous,0,0,0,0,0,0,0,0,0,0,0
-0.9% Sodium Chloride,IV,338004904,125224,sodium chloride 0.9%,intravenous,0,0,0,0,1,0,0,0,0,0,0
-Vancomycin,IV,338355248,123931,vancomycin,intravenous,1,1,0,0,0,0,0,0,0,0,0
-Docusate Sodium,PO,904224461,122530,docusate,oral,0,0,0,0,0,0,0,0,0,0,0
-Senna,PO/NG,904516561,117239,senna,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0
-Dextrose 50%,IV,409490234,116556,dextrose 50%,intravenous,0,0,0,0,0,0,0,0,0,0,0
-HYDROmorphone (Dilaudid),IV,409128331,106724,hydromorphone,intravenous,0,0,0,0,0,0,0,1,0,0,0
-0.9% Sodium Chloride,IV,338004903,96111,sodium chloride 0.9%,intravenous,0,0,0,0,1,0,0,0,0,0,0
-0.9% Sodium Chloride (Mini Bag Plus),IV,338055318,94297,sodium chloride 0.9%,intravenous,0,0,0,0,1,0,0,0,0,0,0
-Bisacodyl,PR,574705050,94269,bisacodyl,rectal,0,0,0,0,0,0,0,0,0,0,0
-Acetaminophen,PO/NG,51079000220,90154,acetaminophen,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0
-Metoprolol Tartrate,PO/NG,51079025520,84776,metoprolol tartrate,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,1,0
-Docusate Sodium,PO/NG,904224461,84579,docusate,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0
-Glucagon,IM,55390000401,83762,glucagon,intramuscular,0,0,0,0,0,0,0,0,0,0,0
-OxycoDONE (Immediate Release),PO/NG,406055262,83519,oxycodone,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0
-Ondansetron,IV,781305714,77526,ondansetron,intravenous,0,0,0,0,0,0,0,0,0,0,0
-Potassium Chloride,IV,338070341,74776,potassium chloride,intravenous,0,0,0,0,0,0,1,0,0,0,0
-0.9% Sodium Chloride,IV,338004902,74764,sodium chloride 0.9%,intravenous,0,0,0,0,1,0,0,0,0,0,0
-Glucose Gel,PO,38396055018,74018,glucose,oral,0,0,0,0,0,0,0,0,0,0,0
-Acetaminophen,PO/NG,904198861,72276,acetaminophen,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0
-Furosemide,IV,517570425,67635,furosemide,intravenous,0,0,0,1,0,0,0,0,0,0,0
-Acetaminophen IV,IV,43825010201,67281,acetaminophen,intravenous,0,0,0,0,0,0,0,0,0,0,0
-D5 1/2NS,IV,338008504,66055,"dextrose 5%, sodium chloride 0.45%",intravenous,0,0,0,0,1,0,0,0,0,0,0
-Potassium Chloride,PO,66758016013,63791,potassium chloride,oral,0,0,0,0,0,0,1,0,0,0,0
-0.9% Sodium Chloride,IV,338004938,63116,sodium chloride 0.9%,intravenous,0,0,0,0,1,0,0,0,0,0,0
-Bisacodyl,PO,536338101,61333,bisacodyl,oral,0,0,0,0,0,0,0,0,0,0,0
-Aspirin,PO/NG,904404073,60886,aspirin,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0
-Polyethylene Glycol,PO/NG,11523726808,60578,polyethylene glycol,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0
-Lorazepam,IV,409198530,59733,lorazepam,intravenous,0,0,0,0,0,0,0,0,0,0,0
-Potassium Chloride,PO,245004101,59678,potassium chloride,oral,0,0,0,0,0,0,1,0,0,0,0
-Acetaminophen,PO/NG,904198261,57792,acetaminophen,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0
-Insulin,SC,2821501,56546,insulin,subcutaneous,0,0,0,0,0,0,0,0,0,0,0
-Albuterol 0.083% Neb Soln,IH,49502069724,55251,"albuterol 0.083%, solution",inhaled (nebulized),0,0,0,0,0,0,0,0,0,0,0
-Furosemide,IV,409610204,51743,furosemide,intravenous,0,0,0,1,0,0,0,0,0,0,0
-Neutra-Phos,PO/NG,60258000601,50771,potassium acid phosphate,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0
-Heparin Sodium,IV,264958720,50284,heparin,intravenous,0,0,0,0,0,0,0,0,1,0,0
-Heparin,IV,63323026201,49509,heparin,intravenous,0,0,0,0,0,0,0,0,1,0,0
-Potassium Chloride,PO,58177020211,46674,potassium chloride,oral,0,0,0,0,0,0,1,0,0,0,0
-Senna,PO,904516561,46190,senna,oral,0,0,0,0,0,0,0,0,0,0,0
-Pantoprazole,PO,8084199,46186,pantoprazole,oral,0,0,0,0,0,0,0,0,0,0,1
-Ondansetron,IV,641607825,46083,ondansetron,intravenous,0,0,0,0,0,0,0,0,0,0,0
-Calcium Gluconate,IV,61553008348,44772,calcium gluconate,intravenous,0,0,0,0,0,0,0,0,0,0,0
-LR,IV,338011704,44175,lactated ringers,intravenous,0,0,0,0,1,0,0,0,0,0,0
-Acetaminophen,PO,182844789,43599,acetaminophen,oral,0,0,0,0,0,0,0,0,0,0,0
-Potassium Chloride,IV,409665305,43590,potassium chloride,intravenous,0,0,0,0,0,0,0,0,0,0,0
-Heparin Flush (10 units/ml),IV,8290036005,43476,heparin,intravenous,0,0,0,0,0,0,0,0,1,0,0
-Potassium Chloride,PO,456066270,41428,potassium chloride,oral,0,0,0,0,0,0,1,0,0,0,0
-HYDROmorphone (Dilaudid),IV,409131230,40405,hydromorphone,intravenous,0,0,0,0,0,0,0,1,0,0,0
-Senna,PO/NG,904652261,40275,senna,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0
-Calcium Carbonate,PO/NG,66553000401,39074,calcium carbonate,"oral, nasogastric tube",0,0,0,0,0,0,1,0,0,0,0
-Potassium Chloride,IV,338070948,38511,potassium chloride,intravenous,0,0,0,0,0,0,0,0,0,0,0
-Calcium Gluconate,IV,61553005148,37878,calcium gluconate,intravenous,0,0,0,0,0,0,1,0,0,0,0
-Insulin,SC,2831501,36937,insulin,subcutaneous,0,0,0,0,0,0,0,0,0,0,0
-Morphine Sulfate,IV,409176230,35926,morphine,intravenous,0,0,0,0,0,0,0,1,0,0,0
-Warfarin,PO/NG,56016975,35262,warfarin,"oral, nasogastric tube",0,0,0,0,0,0,0,0,1,0,0
-Ipratropium Bromide Neb,IH,487980125,35145,ipatropium,inhaled (nebulized),0,0,0,0,0,0,0,0,0,0,0
-Multivitamins,PO/NG,904053061,34566,multivitamin,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0
-Warfarin,PO/NG,56017275,32896,warfarin,"oral, nasogastric tube",0,0,0,0,0,0,0,0,1,0,0
-Furosemide,IV,409610202,32454,furosemide,intravenous,0,0,0,1,0,0,0,0,0,0,0
-OxyCODONE (Immediate Release),PO/NG,904644461,32436,oxycodone (immediate release),"oral, nasogastric tube",0,0,0,0,0,0,0,1,0,0,0
-Omeprazole,PO,904568461,32340,omeprazole,oral,0,0,0,0,0,0,0,0,0,0,1
-0.9% Sodium Chloride,IV DRIP,338004938,32150,sodium chloride 0.9%,intravenous,0,0,0,0,1,0,0,0,0,0,0
-Magnesium Sulfate,IV,63323010605,31968,magnesium sulfate,intravenous,0,0,0,0,0,0,1,0,0,0,0
-Furosemide,PO/NG,51079007220,30424,furosemide,oral,0,0,0,1,0,0,0,0,0,0,0
-Ondansetron,IV,641608025,30417,ondansetron,intravenous,0,0,0,0,0,0,0,0,0,0,0
-Warfarin,PO/NG,56017075,30195,warfarin,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0
-Calcium Carbonate,PO,66553000401,29847,calcium carbonate,oral,0,0,0,0,0,0,1,0,0,0,0
-5% Dextrose,IV,338001702,29649,dextrose 5%,intravenous,0,0,0,0,1,0,0,0,0,0,0
-Morphine Sulfate,IV,409189001,29646,morphine,intravenous,0,0,0,0,0,0,0,0,0,0,0
-Milk of Magnesia,PO,121043130,29383,magnesium hydroxide,oral,0,0,0,0,0,0,0,0,0,0,0
-CefePIME,IV,60505068104,28418,cefepime,intravenous,1,1,0,0,0,0,0,0,0,0,0
-Magnesium Sulfate,IV,409672923,27751,magnesium sulfate,intravenous,0,0,0,0,0,0,0,0,0,0,0
-Propofol,IV DRIP,63323026965,27398,propofol,intravenous,0,0,0,0,0,0,0,0,0,0,0
-Potassium Phosphate,IV,409729501,27230,potassium phosphate,intravenous,0,0,0,0,0,0,1,0,0,0,0
-5% Dextrose,IV,338001731,26806,dextrose 5%,intravenous,0,0,0,0,1,0,0,0,0,0,0
-Magnesium Oxide,PO/NG,63739035410,26643,magnesium oxide,"oral, nasogastric tube",0,0,0,0,0,0,1,0,0,0,0
-Piperacillin-Tazobactam,IV,206886202,26433,piperacillin-tazobactam,intravenous,1,1,0,0,0,0,0,0,0,0,0
-Metoprolol Tartrate,PO,51079025520,26191,metoprolol tartrate,oral,0,0,0,0,0,0,0,0,0,1,0
-Acetaminophen,PO,904198861,25893,acetaminophen,oral,0,0,0,0,0,0,0,0,0,0,0
-LORazepam,IV,409198530,25611,lorazepam,intravenous,0,0,0,0,0,0,0,0,0,0,0
-Vancomycin,IV,409433201,25268,vancomycin,intravenous,1,1,0,0,0,0,0,0,0,0,0
-Pantoprazole,IV,8092355,25205,pantoprazole,intravenous,0,0,0,0,0,0,0,0,0,0,1
-5% Dextrose,IV DRIP,338001702,25187,dextrose 5%,intravenous,0,0,0,0,1,0,0,0,0,0,0
-Docusate Sodium,PO/NG,904645561,24778,docusate,"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0
-Acetaminophen,PO,51079000220,24675,acetaminophen,oral,0,0,0,0,0,0,0,0,0,0,0
-OxycoDONE (Immediate Release),PO,406055262,24636,oxycodone (immediate release),oral,0,0,0,0,0,0,0,0,0,0,0
-Famotidine,IV,338519741,24428,famotidine,intravenous,0,0,0,0,0,0,0,0,0,0,1
-Heparin Sodium,IV,409779362,24056,heparin,intravenous,0,0,0,0,0,0,0,0,1,0,0
-OxyCODONE (Immediate Release),PO/NG,406055262,23983,oxycodone (immediate release),"oral, nasogastric tube",0,0,0,0,0,0,0,0,0,0,0
-Amlodipine,PO/NG,51079045120,23964,amlodipine,"oral, nasogastric tube",0,0,0,0,0,1,0,0,0,0,0
-Influenza Vaccine Quadrivalent,IM,49281041688,23898,"influenza vaccine, quadrivalent",intramuscular,0,0,0,0,0,0,0,0,0,0,0
-Glucagon,IM,597026010,23848,glucagon,intramuscular,0,0,0,0,0,0,0,0,0,0,0
-Zolpidem Tartrate,PO,60505260400,23527,zolpidem,oral,0,0,0,0,0,0,0,0,0,0,0
-Omeprazole,PO,93521193,23230,omeprazole,oral,0,,,,0,,0,0,0,,1
-Multivitamins,PO,904053061,22963,multivitamin,oral,0,,,,0,,0,0,0,,0
-Ibuprofen,PO,904585461,22501,ibuprofen,oral,0,,,,0,,0,0,0,,0
-Calcium Gluconate,IV,63323031119,22347,calcium gluconate,intravenous,0,,,,0,,1,0,0,,0
-Sodium Bicarbonate,IV,409662502,22264,sodium bicarbonate,intravenous,0,,,,0,,0,0,0,,0
-Ipratropium-Albuterol Neb,NEB,487020101,21894,albuterol-ipatropium,inhaled (nebulized),0,,,,0,,0,0,0,,0
-Chlorhexidine Gluconate 0.12% Oral Rinse,ORAL,54569523500,21875,chlorhexidine gluconate,oral,0,,,,0,,0,0,0,,0
-Potassium Chloride,PO,76439034310,21834,potassium chloride,oral,0,,,,0,,1,0,0,,0
-HYDROmorphone (Dilaudid),PO/NG,54839224,21784,hydromorphone,"oral, nasogastric tube",0,,,,0,,0,1,0,,0
-Ciprofloxacin HCl,PO/NG,68084007001,21630,ciprofloxacin,"oral, nasogastric tube",1,,,,0,,0,0,0,,0
-5% Dextrose,IV,338001704,21603,dextrose 5%,intravenous,0,,,,1,,0,0,0,,0
-TraZODone,PO/NG,904399061,21313,trazodone,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-DiphenhydrAMINE,IV,641037625,21244,diphenhydramine,intravenous,0,,,,0,,0,0,0,,0
-DiphenhydrAMINE,PO/NG,904530661,21107,diphenhydramine,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Furosemide,IV,517570225,21091,furosemide,intravenous,0,,,,0,,0,0,0,,0
-Ondansetron,PO/NG,51079052420,20133,ondansetron,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-1/2 NS,IV,338004304,20061,sodium chloride 0.45%,intravenous,0,,,,1,,0,0,0,,0
-Pneumococcal Vac Polyvalent,IM,6473900,19618,pneumococcal vaccine polyvalent,intramuscular,0,,,,0,,0,0,0,,0
-Metoprolol Tartrate,IV,409177805,19383,metoprolol tartrate,intravenous,0,,,,0,,0,0,0,,0
-Simvastatin,PO/NG,51079045420,19376,simvastatin,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Lorazepam,PO/NG,904598061,19290,lorazepam,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Omeprazole,PO,63739035810,19095,omeprazole,oral,0,,,,0,,0,0,0,,1
-0.9% Sodium Chloride,IV DRIP,338004902,19049,sodium chloride 0.9%,intravenous,0,,,,1,,0,0,0,,0
-Warfarin,PO/NG,56017675,18972,warfarin,"oral, nasogastric tube",0,,,,0,,0,0,1,,0
-Dextrose 5%,IV,338001704,18963,dextrose 5%,intravenous,0,,,,1,,0,0,0,,0
-0.45% Sodium Chloride,IV,338004304,18926,sodium chloride 0.45%,intravenous,0,,,,1,,0,0,0,,0
-TraMADOL (Ultram),PO,406717162,18766,tramadol,oral,0,,,,0,,0,0,0,,0
-Ranitidine,PO/NG,904526161,18402,ranitidine,"oral, nasogastric tube",0,,,,0,,0,0,0,,1
-Lidocaine 5% Patch,TD,591352530,18401,lidocaine 5%,transdermal,0,,,,0,,0,0,0,,0
-Albuterol Inhaler,IH,173068224,18183,albuterol,inhaled (nebulized),0,,,,0,,0,0,0,,0
-Tacrolimus,PO,781210301,18130,tacrolimus,oral,0,,,,0,,0,0,0,,0
-Heparin Flush (10 units/ml),IV,8290306525,17869,heparin,intravenous,0,,,,0,,0,0,1,,0
-Potassium Chloride,PO,603155404,17709,potassium chloride,oral,0,,,,0,,1,0,0,,0
-Acetaminophen,PO/NG,121065721,17702,acetaminophen,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Famotidine,PO/NG,51079096620,17685,famotidine,"oral, nasogastric tube",0,,,,0,,0,0,0,,1
-Metoclopramide,IV,703450204,17657,metoclopramide,intravenous,0,,,,0,,0,0,0,,0
-Nitroglycerin,IV DRIP,338105102,17571,nitroglycerin,intravenous,0,,,,0,,0,0,0,,0
-Vitamin D,PO/NG,904582460,17484,vitamin d,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Insulin Human Regular,IV DRIP,2821501,17421,insulin,intravenous,0,,,,0,,0,0,0,,0
-NS,IV,338004904,17248,sodium chloride 0.9%,intravenous,0,,,,1,,0,0,0,,0
-Furosemide,IV,409610210,17237,furosemide,intravenous,0,,,,0,,0,0,0,,0
-Potassium Chloride,IV,409707714,16930,potassium chloride,intravenous,0,,,,0,,0,0,0,,0
-Morphine Sulfate,IV,641607325,16925,morphine sulfate,intravenous,0,,,,0,,0,1,0,,0
-Aspirin EC,PO,63739027201,16884,aspirin,oral,0,,,,0,,0,0,0,,0
-Calcium Gluconate,IV,63323031110,16814,calcium gluconate,intravenous,0,,,,0,,1,0,0,,0
-Atorvastatin,PO/NG,71015892,16675,atorvastatin,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-5% Dextrose,IV,338001703,16600,dextrose 5%,intravenous,0,,,,0,,0,0,0,,0
-Thiamine,PO/NG,904054460,16587,thiamine,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Vitamin D,PO/NG,10432017002,16558,vitamin d,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Acetaminophen,PO/NG,121197100,16540,acetaminophen,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Fentanyl Citrate,IV DRIP,61553011841,16462,fentanyl,intravenous,0,,,,0,,0,1,0,,0
-Pantoprazole,PO,904647461,16459,pantoprazole,oral,0,,,,0,,0,0,0,,0
-HYDROmorphone (Dilaudid),IVPCA,61553020648,16062,hydromorphone,intravenous,0,,,,0,,0,1,0,,0
-Morphine Sulfate,IV,10019017644,15971,morphine sulfate,intravenous,0,,,,0,,0,1,0,,0
-Acetaminophen,PO/NG,904673061,15951,acetaminophen,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-HydrALAzine,IV,17478093401,15869,hydralazine,intravenous,0,,,,0,,0,0,0,,0
-Heparin Flush (10 units/ml),IV,8290306510,15781,heparin,intravenous,0,,,,0,,0,0,1,,0
-Ferrous Sulfate,PO/NG,245005301,15632,ferrous sulfate,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-HydrALAZINE,IV,63323061401,15436,hydralazine,intravenous,0,,,,0,,0,0,0,,0
-Docusate Sodium,PO/NG,121054410,15140,docusate,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-5% Dextrose,IV DRIP,338001731,15032,dextrose 5%,intravenous,0,,,,1,,0,0,0,,0
-0.9% Sodium Chloride,IV,338004931,15021,sodium chloride 0.9%,intravenous,0,,,,1,,0,0,0,,0
-Ciprofloxacin IV,IV,409477702,14992,ciprofloxacin,intravenous,1,,,,0,,0,0,0,,0
-Aspirin,PO/NG,63739002401,14983,aspirin,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Furosemide,PO/NG,51079007320,14983,furosemide,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Heparin Dwell (1000 Units/mL),DWELL,63323054011,14917,heparin,other,0,,,,0,,0,0,1,,0
-Prochlorperazine,PO,51079054220,14715,prochlorperazine,oral,0,,,,0,,0,0,0,,0
-Oxycodone-Acetaminophen,PO,406051262,14660,oxycodone-acetaminophen,oral,0,,,,0,,0,1,0,,0
-Diazepam,PO/NG,51079028520,14615,diazepam,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Simethicone,PO,182864389,14517,simethicone,oral,0,,,,0,,0,0,0,,0
-PNEUMOcoccal 23-valent polysaccharide vaccine,IM,6494300,14392,pneumococcal vaccine polysaccharide 23-valent,intramuscular,0,,,,0,,0,0,0,,0
-traZODONE,PO/NG,904399061,14313,trazodone,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Citalopram,PO/NG,60505251903,14305,citalopram,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Morphine Sulfate,IV,409125830,14222,morphine,intravenous,0,,,,0,,0,0,0,,0
-Neomycin-Polymyxin-Bacitracin,TP,168001231,14142,neomycin-polymyxin-bacitracin,topical,1,,,,0,,0,0,0,,0
-0.9% Sodium Chloride,IV,338004911,14104,sodium chloride 0.9%,intravenous,0,,,,1,,0,0,0,,0
-Albumin 25% (12.5g / 50mL),IV,67467064301,14086,albumin 25%,intravenous,0,,,,0,,0,0,0,,0
-Hydrochlorothiazide,PO/NG,603385521,14016,hydrochlorothiazide,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Heparin Sodium,IV,338055002,13788,heparin,intravenous,0,,,,0,,0,0,1,,0
-Milk of Magnesia,PO/NG,121043130,13682,magnesium sulfate,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Lidocaine 5% Patch,TD,63481068706,13646,lidocaine 5%,transdermal,0,,,,0,,0,0,0,,0
-Acetaminophen,PO/NG,904677361,13628,acetaminophen,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Fluticasone Propionate 110mcg,IH,173071920,13607,fluticasone,inhaled (nebulized),0,,,,0,,0,0,0,,0
-HYDROmorphone (Dilaudid),IVPCA,74233411,13487,hydromorphone,intravenous,0,,,,0,,0,1,0,,0
-Metoprolol Tartrate,IV,55390034810,13424,metoprolol tartrate,intravenous,0,,,,0,,0,0,0,,0
-Gabapentin,PO/NG,172438210,13389,gabapentin,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Influenza Vaccine Quadrivalent,IM,19515089452,13302,influenza vaccine quadrivalent,intramuscular,0,,,,0,,0,0,0,,0
-Acetaminophen,PR,713016550,13241,acetaminophen,rectal,0,,,,0,,0,0,0,,0
-Albuterol 0.083% Neb Soln,IH,487950101,13194,albuterol,inhaled (nebulized),0,,,,0,,0,0,0,,0
-Simvastatin,PO/NG,51079045620,13179,simvastatin,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Sodium Phosphate,IV,409739172,12904,sodium phosphate,intravenous,0,,,,0,,1,0,0,,0
-Influenza Vaccine Quadrivalent,IM,19515090941,12884,influenza vaccine quadrivalent,intramuscular,0,,,,0,,0,0,0,,0
-Furosemide,PO/NG,182116189,12854,furosemide,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Thiamine,IV,63323001302,12818,thiamine,intravenous,0,,,,0,,0,0,0,,0
-HYDROmorphone (Dilaudid),PO,54839224,12788,hydromorphone,oral,0,,,,0,,0,1,0,,0
-FoLIC Acid,PO/NG,62584089701,12527,folic acid,"oral, nasogastric tube",0,,,,0,,0,0,0,,0
-Heparin Flush (100 units/ml),IV,64253033335,12479,heparin,intravenous,0,,,,0,,0,0,1,,0
-MetRONIDAZOLE (FLagyl),IV,338105548,12464,metronidazole,intravenous,1,,,,0,,0,0,0,,0
-Influenza Virus Vaccine,IM,33332001001,12461,influenza vaccine quadrivalent,intramuscular,0,,,,0,,0,0,0,,0
+drug,route,ndc,count,generic_name,generic_route,antibiotic,intravenous_fluid,electrolytes,opioid_analgesic,anticoagulant,stress_ulcer_prophylaxis
+Heparin,SC,63323026201,245905,heparin,injectable product,0,0,0,0,1,0
+Magnesium Sulfate,IV,409672924,215074,magnesium sulfate,injectable product,0,0,1,0,0,0
+Insulin,SC,2751001,202834,insulin,injectable product,0,0,0,0,0,0
+Sodium Chloride 0.9%,IV,338004904,169910,normal saline,injectable product,0,1,0,0,0,0
+Lactated Ringers,IV,338011704,159461,calcium chloride 0.2 mg/ml / potassium chloride 0.3 mg/ml / sodium chloride 6 mg/ml / sodium lactate 3.1 mg/ml,injectable product,0,1,0,0,0,0
+Insulin,SC,88222033,156824,insulin,injectable product,0,0,0,0,0,0
+0.9% Sodium Chloride,IV,338004904,125224,sodium chloride 9 mg/ml,injectable product,0,1,0,0,0,0
+Vancomycin,IV,338355248,123931,vancomycin,injectable product,1,0,0,0,0,0
+Docusate Sodium,PO,904224461,122530,docusate,oral product,0,0,0,0,0,0
+Senna,PO/NG,904516561,117239,senna,oral product,0,0,0,0,0,0
+Dextrose 50%,IV,409490234,116556,glucose 500 mg/ml,injectable product,0,0,0,0,0,0
+HYDROmorphone (Dilaudid),IV,409128331,106724,hydromorphone,injectable product,0,0,0,1,0,0
+0.9% Sodium Chloride,IV,338004903,96111,sodium chloride 9 mg/ml,injectable product,0,1,0,0,0,0
+0.9% Sodium Chloride (Mini Bag Plus),IV,338055318,94297,sodium chloride 9 mg/ml,injectable product,0,1,0,0,0,0
+Bisacodyl,PR,574705050,94269,bisacodyl,rectal product,0,0,0,0,0,0
+Acetaminophen,PO/NG,51079000220,90154,acetaminophen,oral product,0,0,0,0,0,0
+Metoprolol Tartrate,PO/NG,51079025520,84776,metoprolol tartrate,oral product,0,0,0,0,0,0
+Docusate Sodium,PO/NG,904224461,84579,docusate,oral product,0,0,0,0,0,0
+Glucagon,IM,55390000401,83762,glucagon,injectable product,0,0,0,0,0,0
+OxycoDONE (Immediate Release),PO/NG,406055262,83519,oxycodone,oral product,0,0,0,0,0,0
+Ondansetron,IV,781305714,77526,ondansetron,injectable product,0,0,0,0,0,0
+Potassium Chloride,IV,338070341,74776,potassium chloride,injectable product,0,0,1,0,0,0
+0.9% Sodium Chloride,IV,338004902,74764,sodium chloride 9 mg/ml,injectable product,0,1,0,0,0,0
+Glucose Gel,PO,38396055018,74018,glucose,oral product,0,0,0,0,0,0
+Acetaminophen,PO/NG,904198861,72276,acetaminophen,oral product,0,0,0,0,0,0
+Furosemide,IV,517570425,67635,furosemide,injectable product,0,0,0,0,0,0
+Acetaminophen IV,IV,43825010201,67281,acetaminophen,injectable product,0,0,0,0,0,0
+D5 1/2NS,IV,338008504,66055,"glucose 50 mg/ml, sodium chloride 4.5 mg/ml",injectable product,0,1,0,0,0,0
+Potassium Chloride,PO,66758016013,63791,potassium chloride,oral product,0,0,1,0,0,0
+0.9% Sodium Chloride,IV,338004938,63116,sodium chloride 9 mg/ml,injectable product,0,1,0,0,0,0
+Bisacodyl,PO,536338101,61333,bisacodyl,oral product,0,0,0,0,0,0
+Aspirin,PO/NG,904404073,60886,aspirin,oral product,0,0,0,0,0,0
+Polyethylene Glycol,PO/NG,11523726808,60578,polyethylene glycol,oral product,0,0,0,0,0,0
+Lorazepam,IV,409198530,59733,lorazepam,injectable product,0,0,0,0,0,0
+Potassium Chloride,PO,245004101,59678,potassium chloride,oral product,0,0,1,0,0,0
+Acetaminophen,PO/NG,904198261,57792,acetaminophen,oral product,0,0,0,0,0,0
+Insulin,SC,2821501,56546,insulin,injectable product,0,0,0,0,0,0
+Albuterol 0.083% Neb Soln,IH,49502069724,55251,albuterol 0.83 mg/ml,inhalant product,0,0,0,0,0,0
+Furosemide,IV,409610204,51743,furosemide,injectable product,0,0,0,0,0,0
+Neutra-Phos,PO/NG,60258000601,50771,potassium phosphate,oral product,0,0,0,0,0,0
+Heparin Sodium,IV,264958720,50284,heparin,injectable product,0,0,0,0,1,0
+Heparin,IV,63323026201,49509,heparin,injectable product,0,0,0,0,1,0
+Potassium Chloride,PO,58177020211,46674,potassium chloride,oral product,0,0,1,0,0,0
+Senna,PO,904516561,46190,senna,oral product,0,0,0,0,0,0
+Pantoprazole,PO,8084199,46186,pantoprazole,oral product,0,0,0,0,0,1
+Ondansetron,IV,641607825,46083,ondansetron,injectable product,0,0,0,0,0,0
+Calcium Gluconate,IV,61553008348,44772,calcium gluconate,injectable product,0,0,0,0,0,0
+LR,IV,338011704,44175,calcium chloride 0.2 mg/ml / potassium chloride 0.3 mg/ml / sodium chloride 6 mg/ml / sodium lactate 3.1 mg/ml,injectable product,0,1,0,0,0,0
+Acetaminophen,PO,182844789,43599,acetaminophen,oral product,0,0,0,0,0,0
+Potassium Chloride,IV,409665305,43590,potassium chloride,injectable product,0,0,0,0,0,0
+Heparin Flush (10 units/ml),IV,8290036005,43476,heparin,injectable product,0,0,0,0,1,0
+Potassium Chloride,PO,456066270,41428,potassium chloride,oral product,0,0,1,0,0,0
+HYDROmorphone (Dilaudid),IV,409131230,40405,hydromorphone,injectable product,0,0,0,1,0,0
+Senna,PO/NG,904652261,40275,senna,oral product,0,0,0,0,0,0
+Calcium Carbonate,PO/NG,66553000401,39074,calcium carbonate,oral product,0,0,1,0,0,0
+Potassium Chloride,IV,338070948,38511,potassium chloride,injectable product,0,0,0,0,0,0
+Calcium Gluconate,IV,61553005148,37878,calcium gluconate,injectable product,0,0,1,0,0,0
+Insulin,SC,2831501,36937,insulin,injectable product,0,0,0,0,0,0
+Morphine Sulfate,IV,409176230,35926,morphine,injectable product,0,0,0,1,0,0
+Warfarin,PO/NG,56016975,35262,warfarin,oral product,0,0,0,0,1,0
+Ipratropium Bromide Neb,IH,487980125,35145,ipatropium,inhalant product,0,0,0,0,0,0
+Multivitamins,PO/NG,904053061,34566,multivitamin,oral product,0,0,0,0,0,0
+Warfarin,PO/NG,56017275,32896,warfarin,oral product,0,0,0,0,1,0
+Furosemide,IV,409610202,32454,furosemide,injectable product,0,0,0,0,0,0
+OxyCODONE (Immediate Release),PO/NG,904644461,32436,oxycodone,oral product,0,0,0,1,0,0
+Omeprazole,PO,904568461,32340,omeprazole,oral product,0,0,0,0,0,1
+0.9% Sodium Chloride,IV DRIP,338004938,32150,sodium chloride 9 mg/ml,injectable product,0,1,0,0,0,0
+Magnesium Sulfate,IV,63323010605,31968,magnesium sulfate,injectable product,0,0,1,0,0,0
+Furosemide,PO/NG,51079007220,30424,furosemide,oral product,0,0,0,0,0,0
+Ondansetron,IV,641608025,30417,ondansetron,injectable product,0,0,0,0,0,0
+Warfarin,PO/NG,56017075,30195,warfarin,oral product,0,0,0,0,0,0
+Calcium Carbonate,PO,66553000401,29847,calcium carbonate,oral product,0,0,1,0,0,0
+5% Dextrose,IV,338001702,29649,glucose 50 mg/ml,injectable product,0,1,0,0,0,0
+Morphine Sulfate,IV,409189001,29646,morphine,injectable product,0,0,0,0,0,0
+Milk of Magnesia,PO,121043130,29383,magnesium hydroxide,oral product,0,0,0,0,0,0
+CefePIME,IV,60505068104,28418,cefepime,injectable product,1,0,0,0,0,0
+Magnesium Sulfate,IV,409672923,27751,magnesium sulfate,injectable product,0,0,0,0,0,0
+Propofol,IV DRIP,63323026965,27398,propofol,injectable product,0,0,0,0,0,0
+Potassium Phosphate,IV,409729501,27230,potassium phosphate,injectable product,0,0,1,0,0,0
+5% Dextrose,IV,338001731,26806,glucose 50 mg/ml,injectable product,0,1,0,0,0,0
+Magnesium Oxide,PO/NG,63739035410,26643,magnesium oxide,oral product,0,0,1,0,0,0
+Piperacillin-Tazobactam,IV,206886202,26433,piperacillin-tazobactam,injectable product,1,0,0,0,0,0
+Metoprolol Tartrate,PO,51079025520,26191,metoprolol tartrate,oral product,0,0,0,0,0,0
+Acetaminophen,PO,904198861,25893,acetaminophen,oral product,0,0,0,0,0,0
+LORazepam,IV,409198530,25611,lorazepam,injectable product,0,0,0,0,0,0
+Vancomycin,IV,409433201,25268,vancomycin,injectable product,1,0,0,0,0,0
+Pantoprazole,IV,8092355,25205,pantoprazole,injectable product,0,0,0,0,0,1
+5% Dextrose,IV DRIP,338001702,25187,glucose 50 mg/ml,injectable product,0,1,0,0,0,0
+Docusate Sodium,PO/NG,904645561,24778,docusate,oral product,0,0,0,0,0,0
+Acetaminophen,PO,51079000220,24675,acetaminophen,oral product,0,0,0,0,0,0
+OxycoDONE (Immediate Release),PO,406055262,24636,oxycodone,oral product,0,0,0,0,0,0
+Famotidine,IV,338519741,24428,famotidine,injectable product,0,0,0,0,0,1
+Heparin Sodium,IV,409779362,24056,heparin,injectable product,0,0,0,0,1,0
+OxyCODONE (Immediate Release),PO/NG,406055262,23983,oxycodone,oral product,0,0,0,0,0,0
+Amlodipine,PO/NG,51079045120,23964,amlodipine,oral product,0,0,0,0,0,0
+Influenza Vaccine Quadrivalent,IM,49281041688,23898,influenza virus vaccine,injectable product,0,0,0,0,0,0
+Glucagon,IM,597026010,23848,glucagon,injectable product,0,0,0,0,0,0
+Zolpidem Tartrate,PO,60505260400,23527,zolpidem,oral product,0,0,0,0,0,0
+Omeprazole,PO,93521193,23230,omeprazole,oral product,0,0,0,0,0,1
+Multivitamins,PO,904053061,22963,multivitamin,oral product,0,0,0,0,0,0
+Ibuprofen,PO,904585461,22501,ibuprofen,oral product,0,0,0,0,0,0
+Calcium Gluconate,IV,63323031119,22347,calcium gluconate,injectable product,0,0,1,0,0,0
+Sodium Bicarbonate,IV,409662502,22264,sodium bicarbonate,injectable product,0,0,0,0,0,0
+Ipratropium-Albuterol Neb,NEB,487020101,21894,albuterol 0.833 mg/ml / ipratropium 0.167 mg/ml,inhalant product,0,0,0,0,0,0
+Chlorhexidine Gluconate 0.12% Oral Rinse,ORAL,54569523500,21875,chlorhexidine gluconate,oral product,0,0,0,0,0,0
+Potassium Chloride,PO,76439034310,21834,potassium chloride,oral product,0,0,1,0,0,0
+HYDROmorphone (Dilaudid),PO/NG,54839224,21784,hydromorphone,oral product,0,0,0,1,0,0
+Ciprofloxacin HCl,PO/NG,68084007001,21630,ciprofloxacin,oral product,1,0,0,0,0,0
+5% Dextrose,IV,338001704,21603,glucose 50 mg/ml,injectable product,0,1,0,0,0,0
+TraZODone,PO/NG,904399061,21313,trazodone,oral product,0,0,0,0,0,0
+DiphenhydrAMINE,IV,641037625,21244,diphenhydramine,injectable product,0,0,0,0,0,0
+DiphenhydrAMINE,PO/NG,904530661,21107,diphenhydramine,oral product,0,0,0,0,0,0
+Furosemide,IV,517570225,21091,furosemide,injectable product,0,0,0,0,0,0
+Ondansetron,PO/NG,51079052420,20133,ondansetron,oral product,0,0,0,0,0,0
+1/2 NS,IV,338004304,20061,sodium chloride 4.5 mg/ml,injectable product,0,1,0,0,0,0
+Pneumococcal Vac Polyvalent,IM,6473900,19618,pneumococcal vaccine polyvalent,injectable product,0,0,0,0,0,0
+Metoprolol Tartrate,IV,409177805,19383,metoprolol tartrate,injectable product,0,0,0,0,0,0
+Simvastatin,PO/NG,51079045420,19376,simvastatin,oral product,0,0,0,0,0,0
+Lorazepam,PO/NG,904598061,19290,lorazepam,oral product,0,0,0,0,0,0
+Omeprazole,PO,63739035810,19095,omeprazole,oral product,0,0,0,0,0,1
+0.9% Sodium Chloride,IV DRIP,338004902,19049,sodium chloride 9 mg/ml,injectable product,0,1,0,0,0,0
+Warfarin,PO/NG,56017675,18972,warfarin,oral product,0,0,0,0,1,0
+Dextrose 5%,IV,338001704,18963,glucose 50 mg/ml,injectable product,0,1,0,0,0,0
+0.45% Sodium Chloride,IV,338004304,18926,sodium chloride 4.5 mg/ml,injectable product,0,1,0,0,0,0
+TraMADOL (Ultram),PO,406717162,18766,tramadol,oral product,0,0,0,0,0,0
+Ranitidine,PO/NG,904526161,18402,ranitidine,oral product,0,0,0,0,0,1
+Lidocaine 5% Patch,TD,591352530,18401,lidocaine 0.05 mg/mg,topical product,0,0,0,0,0,0
+Albuterol Inhaler,IH,173068224,18183,albuterol,inhalant product,0,0,0,0,0,0
+Tacrolimus,PO,781210301,18130,tacrolimus,oral product,0,0,0,0,0,0
+Heparin Flush (10 units/ml),IV,8290306525,17869,heparin,injectable product,0,0,0,0,1,0
+Potassium Chloride,PO,603155404,17709,potassium chloride,oral product,0,0,1,0,0,0
+Acetaminophen,PO/NG,121065721,17702,acetaminophen,oral product,0,0,0,0,0,0
+Famotidine,PO/NG,51079096620,17685,famotidine,oral product,0,0,0,0,0,1
+Metoclopramide,IV,703450204,17657,metoclopramide,injectable product,0,0,0,0,0,0
+Nitroglycerin,IV DRIP,338105102,17571,nitroglycerin,injectable product,0,0,0,0,0,0
+Vitamin D,PO/NG,904582460,17484,vitamin d,oral product,0,0,0,0,0,0
+Insulin Human Regular,IV DRIP,2821501,17421,insulin,injectable product,0,0,0,0,0,0
+NS,IV,338004904,17248,sodium chloride 9 mg/ml,injectable product,0,1,0,0,0,0
+Furosemide,IV,409610210,17237,furosemide,injectable product,0,0,0,0,0,0
+Potassium Chloride,IV,409707714,16930,potassium chloride,injectable product,0,0,0,0,0,0
+Morphine Sulfate,IV,641607325,16925,morphine sulfate,injectable product,0,0,0,1,0,0
+Aspirin EC,PO,63739027201,16884,aspirin,oral product,0,0,0,0,0,0
+Calcium Gluconate,IV,63323031110,16814,calcium gluconate,injectable product,0,0,1,0,0,0
+Atorvastatin,PO/NG,71015892,16675,atorvastatin,oral product,0,0,0,0,0,0
+5% Dextrose,IV,338001703,16600,glucose 50 mg/ml,injectable product,0,0,0,0,0,0
+Thiamine,PO/NG,904054460,16587,thiamine,oral product,0,0,0,0,0,0
+Vitamin D,PO/NG,10432017002,16558,vitamin d,oral product,0,0,0,0,0,0
+Acetaminophen,PO/NG,121197100,16540,acetaminophen,oral product,0,0,0,0,0,0
+Fentanyl Citrate,IV DRIP,61553011841,16462,fentanyl,injectable product,0,0,0,1,0,0
+Pantoprazole,PO,904647461,16459,pantoprazole,oral product,0,0,0,0,0,0
+HYDROmorphone (Dilaudid),IVPCA,61553020648,16062,hydromorphone,injectable product,0,0,0,1,0,0
+Morphine Sulfate,IV,10019017644,15971,morphine sulfate,injectable product,0,0,0,1,0,0
+Acetaminophen,PO/NG,904673061,15951,acetaminophen,oral product,0,0,0,0,0,0
+HydrALAzine,IV,17478093401,15869,hydralazine,injectable product,0,0,0,0,0,0
+Heparin Flush (10 units/ml),IV,8290306510,15781,heparin,injectable product,0,0,0,0,1,0
+Ferrous Sulfate,PO/NG,245005301,15632,ferrous sulfate,oral product,0,0,0,0,0,0
+HydrALAZINE,IV,63323061401,15436,hydralazine,injectable product,0,0,0,0,0,0
+Docusate Sodium,PO/NG,121054410,15140,docusate,oral product,0,0,0,0,0,0
+5% Dextrose,IV DRIP,338001731,15032,glucose 50 mg/ml,injectable product,0,1,0,0,0,0
+0.9% Sodium Chloride,IV,338004931,15021,sodium chloride 9 mg/ml,injectable product,0,1,0,0,0,0
+Ciprofloxacin IV,IV,409477702,14992,ciprofloxacin,injectable product,1,0,0,0,0,0
+Aspirin,PO/NG,63739002401,14983,aspirin,oral product,0,0,0,0,0,0
+Furosemide,PO/NG,51079007320,14983,furosemide,oral product,0,0,0,0,0,0
+Heparin Dwell (1000 Units/mL),DWELL,63323054011,14917,heparin,other,0,0,0,0,1,0
+Prochlorperazine,PO,51079054220,14715,prochlorperazine,oral product,0,0,0,0,0,0
+Oxycodone-Acetaminophen,PO,406051262,14660,acetaminophen / oxycodone,oral product,0,0,0,1,0,0
+Diazepam,PO/NG,51079028520,14615,diazepam,oral product,0,0,0,0,0,0
+Simethicone,PO,182864389,14517,simethicone,oral product,0,0,0,0,0,0
+PNEUMOcoccal 23-valent polysaccharide vaccine,IM,6494300,14392,streptococcus pneumoniae capsular polysaccharide antigen 0.05 mg/ml,injectable product,0,0,0,0,0,0
+traZODONE,PO/NG,904399061,14313,trazodone,oral product,0,0,0,0,0,0
+Citalopram,PO/NG,60505251903,14305,citalopram,oral product,0,0,0,0,0,0
+Morphine Sulfate,IV,409125830,14222,morphine,injectable product,0,0,0,0,0,0
+Neomycin-Polymyxin-Bacitracin,TP,168001231,14142,bacitracin / neomycin / polymyxin B,topical product,1,0,0,0,0,0
+Sarna Lotion,TP,54162055007,14113,camphor 5 mg/ml / menthol 5 mg/ml,topical product,0,0,0,0,0,0
+0.9% Sodium Chloride,IV,338004911,14104,sodium chloride 9 mg/ml,injectable product,0,1,0,0,0,0
+Albumin 25% (12.5g / 50mL),IV,67467064301,14086,albumin 250 mg/ml,injectable product,0,0,0,0,0,0
+Hydrochlorothiazide,PO/NG,603385521,14016,hydrochlorothiazide,oral product,0,0,0,0,0,0
+Heparin Sodium,IV,338055002,13788,heparin,injectable product,0,0,0,0,1,0
+Milk of Magnesia,PO/NG,121043130,13682,magnesium sulfate,oral product,0,0,0,0,0,0
+Lidocaine 5% Patch,TD,63481068706,13646,lidocaine 0.05 mg/mg,topical product,0,0,0,0,0,0
+Acetaminophen,PO/NG,904677361,13628,acetaminophen,oral product,0,0,0,0,0,0
+Fluticasone Propionate 110mcg,IH,173071920,13607,fluticasone,inhalant product,0,0,0,0,0,0
+HYDROmorphone (Dilaudid),IVPCA,74233411,13487,hydromorphone,injectable product,0,0,0,1,0,0
+Metoprolol Tartrate,IV,55390034810,13424,metoprolol tartrate,injectable product,0,0,0,0,0,0
+Gabapentin,PO/NG,172438210,13389,gabapentin,oral product,0,0,0,0,0,0
+Influenza Vaccine Quadrivalent,IM,19515089452,13302,influenza virus vaccine,injectable product,0,0,0,0,0,0
+Acetaminophen,PR,713016550,13241,acetaminophen,rectal product,0,0,0,0,0,0
+Albuterol 0.083% Neb Soln,IH,487950101,13194,albuterol 0.83 mg/ml,inhalant product,0,0,0,0,0,0
+Simvastatin,PO/NG,51079045620,13179,simvastatin,oral product,0,0,0,0,0,0
+Sodium Phosphate,IV,409739172,12904,sodium phosphate,injectable product,0,0,1,0,0,0
+Influenza Vaccine Quadrivalent,IM,19515090941,12884,influenza virus vaccine,injectable product,0,0,0,0,0,0
+Furosemide,PO/NG,182116189,12854,furosemide,oral product,0,0,0,0,0,0
+Thiamine,IV,63323001302,12818,thiamine,injectable product,0,0,0,0,0,0
+HYDROmorphone (Dilaudid),PO,54839224,12788,hydromorphone,oral product,0,0,0,1,0,0
+FoLIC Acid,PO/NG,62584089701,12527,folic acid,oral product,0,0,0,0,0,0
+Heparin Flush (100 units/ml),IV,64253033335,12479,heparin,injectable product,0,0,0,0,1,0
+MetRONIDAZOLE (FLagyl),IV,338105548,12464,metronidazole,injectable product,1,0,0,0,0,0
+Influenza Virus Vaccine,IM,33332001001,12461,influenza virus vaccine,injectable product,0,0,0,0,0,0

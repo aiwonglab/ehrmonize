@@ -60,7 +60,7 @@ def run_experiment(experiments, task):
     print(f"Running {task}...")
 
     results = pd.DataFrame()
-
+    # results = pd.read_csv(f"experiments/metrics/{experiments}/{task}.csv")
     for d in data_settings:
 
         data = pd.read_csv(d['source_csv'])
@@ -90,7 +90,11 @@ def run_experiment(experiments, task):
                 elif p['n_attempts'] > 1:
                     res = ehrm.predict(data[d['input_col_name']])
                     preds = res['pred']
-                    consistencies = res['consistency'].mean()
+                    try:
+                        consistencies = res['consistency'].mean()
+                    except Exception as excp:
+                        consistencies = np.nan
+                        print(excp)
                     # save predictions
                     data_to_save[f'pred_{iter_number}'] = preds
                     data_to_save[f'all_pred_{iter_number}'] = res['all_pred']
@@ -116,7 +120,7 @@ def run_experiment(experiments, task):
                     ], axis=1)
                 ], axis=0)
 
-                results.to_csv(f"experiments/metrics/{experiments}/{task}_{d['source_db']}.csv", index=False)
+                results.to_csv(f"experiments/metrics/{experiments}/{task}.csv", index=False)
 
 
 if __name__ == '__main__':

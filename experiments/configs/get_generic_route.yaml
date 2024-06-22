@@ -2,31 +2,25 @@ task_specific:
   task: get_generic_route
 
   classes:
-  - subcutaneous
-  - intravenous
-  - oral
-  - nasogastric tube
-  - sublingual
-  - oral, nasogastric tube
-  - rectal
-  - intramuscular
-  - inhaled (nebulized)
-  - transdermal
-  - topical
-  - other
+    - injectable product
+    - oral product
+    - rectal product
+    - inhalant product
+    - topical product
+    - other
 
   possible_shots:
-  - "An input route 'PO/NG' would be classified as 'oral, nasogastric tube'."
-  - "An input route 'intraven' would be classified as 'intravenous'."
-  - "An input route 'IM' would be classified as 'intramuscular'."
-  - "An input route 'rEcTal' would be classified as 'rectal'."
-  - "An input route 'oral' would be classified as 'oral'."
-  - "An input route 'po' would be classified as 'oral'."
-  - "An input route 'nasogastric' would be classified as 'nasogastric tube'."
-  - "An input route 'TD' would be classified as 'transdermal'."
-  - "An input route 'IH' would be classified as 'inhaled (nebulized)'."
-  - "An input route 'SL' would be classified as 'sublingual'."
-  - "An input route 'SC' would be classified as 'subcutaneous'."
+    - "An input route 'PO/NG' would be classified as 'oral product'."
+    - "An input route 'intraven' would be classified as 'injectable product'."
+    - "An input route 'IM' would be classified as 'injectable product'."
+    - "An input route 'rEcTal' would be classified as 'rectal product'."
+    - "An input route 'oral' would be classified as 'oral product'."
+    - "An input route 'transdermal' would be classified as 'topical product'."
+    - "An input route 'nasogastric' would be classified as 'oral product'."
+    - "An input route 'subcut' would be classified as 'injectable product'."
+    - "An input route 'IH' would be classified as 'inhalant product'."
+    - "An input route 'SL' would be classified as 'oral product'."
+    - "An input route 'SC' would be classified as 'injectable product'."
 
   metrics:
     - accuracy_score

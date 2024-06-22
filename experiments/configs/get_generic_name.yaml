@@ -3,14 +3,14 @@ task_specific:
 
   possible_shots:
     - An input drugname 'vancocin' would be classified as 'vancomycin'.
-    - An input drugname 'Toprol XL' would be classified as 'metroprolol'.
+    - An input drugname 'Toprol XL' would be classified as 'metoprolol succinate'.
     - An input drugname 'Adderall' would be classified as 'amphetamine/dextroamphetamine'.
     - An input drugname 'Tylenol' would be classified as 'acetaminophen'.
-    - An input drugname '0.9% Sodium Chloride' would be classified as 'sodium chloride 0.9%'.
-    - An input drugname 'D5 1/2NS' would be classified as 'dextrose 5%, sodium chloride 0.45%'.
-    - An input drugname 'LR' would be classified as 'lactated ringers'.
-    - An input drugname 'Neutra-Phos' would be classified as 'potassium acid phosphate'.
-    - An input drugname 'Ipratropium Bromide Neb' would be classified as 'ipatropium%'.
+    - An input drugname '0.9% Sodium Chloride' would be classified as 'sodium chloride 9 mg/ml'.
+    - An input drugname 'D5 1/2NS' would be classified as 'glucose 50 mg/ml, sodium chloride 4.5 mg/ml'.
+    - An input drugname 'LR' would be classified as 'calcium chloride 0.2 mg/ml / potassium chloride 0.3 mg/ml / sodium chloride 6 mg/ml / sodium lactate 3.1 mg/ml'.
+    - An input drugname 'Neutra-Phos' would be classified as 'potassium phosphate'.
+    - An input drugname 'Ipratropium Bromide Neb' would be classified as 'ipratropium 0.167 mg/ml'.
     - An input drugname 'Morphine Sulfate' would be classified as 'morphine'.
 
   metrics:
