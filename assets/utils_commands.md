@@ -56,3 +56,12 @@ will run the experiment defined in `experiments/config/one_hot_antibiotic.yaml`.
 ```sh
 sh '/Users/joaomatos/Documents/ehrmonize/experiments/sh/figure3.sh'
 ```
+
+### Publish on PyPi
+
+```sh
+python3 -m pip install --upgrade build 
+python3 -m build   
+pip install twine
+python3 -m twine upload --repository pypi dist/*
+```

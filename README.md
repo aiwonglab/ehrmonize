@@ -4,12 +4,7 @@ Welcome to `ehrmonize`, a Python package to abstract medical concepts using larg
 
 ## Citation
 
-TBD
-
-
-
-> As a data scientist working with EHR data, I want to be able to automatically categorize medical concepts, so that I can collaborate more efficiently with clinicians.
-
+> TBD
 
 ## Rationale
 ![Rationale](assets/rationale.png)
