@@ -54,5 +54,5 @@ will run the experiment defined in `experiments/config/one_hot_antibiotic.yaml`.
 ### Run sh file
 
 ```sh
-sh '/Users/joaomatos/Documents/ehrmonize/experiments/sh/figure.sh'
+sh '/Users/joaomatos/Documents/ehrmonize/experiments/sh/figure3.sh'
 ```

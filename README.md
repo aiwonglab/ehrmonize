@@ -1,9 +1,31 @@
 # EHRmonize
 
-Welcome to `ehrmonize`, an AI-powered Python package to automatically clean and categorize medical concepts when doing EHR data science. 
+Welcome to `ehrmonize`, a Python package to abstract medical concepts using large language models.
 
-## User Story
-> As a data scientist working with EHR data, I want to be able to automatically categorize concepts so that I don't need to annoy my clinician friends (as much).
+## Citation
+
+TBD
+
+
+
+> As a data scientist working with EHR data, I want to be able to automatically categorize medical concepts, so that I can collaborate more efficiently with clinicians.
+
+
+## Rationale
+![Rationale](assets/rationale.png)
+
+Corpus generation from EHRs provides the
+data that needs categorization, across different domains and tasks, which is then fed to `ehrmonize` to employs LLMs to categorize the entries into predefined classes.
+
+## Current supported tasks
+
+| Type          | Task                          |
+|---------------|-------------------------------|
+| Free-text     | *get_generic_name*            |
+|               | *get_generic_route*           |
+| Multiclass    | *classify_drug*               |
+| Binary        | *one_hot_drug_classification* |
+| Custom        | *custom*                      |
 
 
 ## Current supported models / engines / APIs
@@ -14,9 +36,5 @@ Welcome to `ehrmonize`, an AI-powered Python package to automatically clean and 
 |               | gpt-4                                 |
 |               | gpt-4o                                |
 | AWS Bedrock   | anthropic.claude-instant-v1           |
-|               | anthropic.claude-v2:1                 |
-|               | meta.llama2-13b-chat-v1               |
-|               | meta.llama2-70b-chat-v1               |
 |               | meta.llama3-70b-instruct-v1:0         |
-|               | mistral.mistral-7b-instruct-v0:2      |
 |               | mistral.mixtral-8x7b-instruct-v0:1    |

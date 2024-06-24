@@ -1,0 +1,25 @@
+model_id:
+  - anthropic.claude-3-5-sonnet-20240620-v1:0
+  - meta.llama3-70b-instruct-v1:0
+  - mistral.mixtral-8x7b-instruct-v0:1
+  - gpt-3.5-turbo
+  - gpt-4o
+
+temperature:
+  - 0.2
+
+number_of_shots:
+  - 10
+  - 8
+  - 5
+  - 4
+  - 2
+  - 1
+  - 0
+
+number_of_attempts: 
+  - 1
+
+
+agentic:
+  - False

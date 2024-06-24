@@ -68,7 +68,11 @@ class EHRmonize:
     def __init__(self,
                  model_id, 
                  temperature=0.1,
-                 max_tokens=8):
+                 max_tokens=64,
+                 openai_api_key=None,
+                 aws_access_key_id=None,
+                 aws_secret_access_key=None,
+                 ):
         
 
         # make sure that model_id is a string and is supported 
@@ -90,13 +94,23 @@ class EHRmonize:
         self.temperature = temperature
         self.max_tokens = max_tokens
 
-        load_dotenv()
 
 
         # OpenAI models
         if self.model_id in ['gpt-3.5-turbo', 'gpt-4', 'gpt-4o']:
             import openai
-            openai.api_key = str(os.getenv('OPENAI_API_KEY'))
+            # first try to get the API key from the input variables
+            if openai_api_key:
+                self._openai_api_key = str(openai_api_key)
+            # if not, try to get it from the environment variables
+            else:
+                load_dotenv()
+                self._openai_api_key = str(os.getenv('OPENAI_API_KEY'))
+
+            if not self._openai_api_key:
+                raise ValueError('OpenAI API key not found. Please provide it as an input variable or set it as an environment variable')
+
+            openai.api_key = self._openai_api_key
 
             self._client = openai.OpenAI(
                 api_key = openai.api_key,
@@ -105,14 +119,24 @@ class EHRmonize:
         # Bedrock models
         else:
             import boto3
-            aws_access_key_id = str(os.getenv('AWS_ACCESS_KEY_ID'))
-            aws_secret_access_key = str(os.getenv('AWS_SECRET_ACCESS_KEY'))
+            # first try to get the AWS credentials from the input variables
+            if aws_access_key_id and aws_secret_access_key:
+                self._aws_access_key_id = str(aws_access_key_id)
+                self._aws_secret_access_key = str(aws_secret_access_key)
+            # if not, try to get them from the environment variables
+            else:
+                load_dotenv()
+                self._aws_access_key_id = str(os.getenv('AWS_ACCESS_KEY_ID'))
+                self._aws_secret_access_key  = str(os.getenv('AWS_SECRET_ACCESS_KEY'))
+            
+            if not self._aws_access_key_id or not self._aws_secret_access_key:
+                raise ValueError('AWS credentials not found. Please provide them as input variables or set them as environment variables')
 
             self._client = boto3.client(
                 service_name = 'bedrock-runtime',
                 region_name = 'us-east-1',
-                aws_access_key_id = aws_access_key_id,
-                aws_secret_access_key = aws_secret_access_key,
+                aws_access_key_id = self._aws_access_key_id,
+                aws_secret_access_key = self._aws_secret_access_key,
             )
 
         # set default prompting configuration
@@ -121,18 +145,20 @@ class EHRmonize:
         self.agentic = False
 
     # update how prompting is done
-    def config_prompting(self, n_shots, n_attempts, agentic):
+    def config_prompting(self, n_shots=0, n_attempts=1, agentic=False):
         """
         Configure the prompting settings.
 
         Parameters
         ----------
-        n_shots : int
+        n_shots : int, optional, default=0
             The number of example shots to be considered. Must be at least 0.
-        n_attempts : int
+        n_attempts : int, optional, default=1
             The number of attempts/runs to be made. Must be at least 1.
-        agentic : bool
+        agentic : bool, optional, default=False
+            default: False
             Whether to use an agentic approach in deciding ties or unconsistent results.
+
 
         Returns
         -------
@@ -279,7 +305,7 @@ class EHRmonize:
         #     results.append(self._get_clean_route(route, classes))
 
         if consistency <= 0.5:
-            return results, 'unsure', consistency
+            return 'unsure', consistency, results
         else:
             return max(set(results), key = results.count), consistency, results
 
@@ -352,7 +378,7 @@ class EHRmonize:
             The input administration route.
         classes : list
             A list of possible classes for the generic administration route.
-        possible_shots : list, optional
+        possible_shots : list, optional, default=[]
             A list of example shots to help the model understand the task.
 
         Returns
@@ -438,7 +464,7 @@ class EHRmonize:
         ----------
         drugname : str
             The input drug name.
-        possible_shots : list, optional
+        possible_shots : list, optional, default=[]
             A list of example shots to help the model understand the task.
 
         Returns
@@ -512,7 +538,7 @@ class EHRmonize:
             The input administration route.
         classes : list
             A list of possible classes for the drug.
-        possible_shots : list, optional
+        possible_shots : list, optional, default=[]
             A list of example shots to help the model understand the task.
 
         Returns
@@ -586,9 +612,9 @@ class EHRmonize:
             The input administration route.
         classif : str
             The class to be predicted.
-        expanded_classif : str, optional
+        expanded_classif : str, optional, default=None
             The expanded class description
-        possible_shots : list, optional
+        possible_shots : list, optional, default=[]
             A list of example shots to help the model understand the task.
 
         Returns
@@ -685,7 +711,7 @@ class EHRmonize:
         self.task = task
         self.kwargs = kwargs
 
-    def predict(self, input):
+    def predict(self, input, progress_bar=False):
         """
         Predict the output of the specified task.
 
@@ -695,6 +721,8 @@ class EHRmonize:
             The input data. If the task is get_generic_route or get_generic_name, input must be a Pandas Series.
             If the task is classify_drug or one_hot_drug_classification, input must be a Pandas DataFrame.
             "custom" tasks are currently limited to Pandas Series.
+        progress_bar : bool, optional, default=False
+            Whether to show a progress bar when predicting, across the different samples.
 
         Returns
         -------
@@ -707,13 +735,25 @@ class EHRmonize:
             if not isinstance(input, pd.Series):
                 raise ValueError('input must be a pandas Series')
             
-            res = input.apply(
-                lambda x: self.get_generic_route(
-                    route=x,
-                    classes=self.kwargs.get('classes'),
-                    possible_shots=self.kwargs.get('possible_shots'),
+            if progress_bar:
+                from tqdm import tqdm
+                tqdm.pandas()
+
+                res = input.progress_apply(
+                    lambda x: self.get_generic_route(
+                        route=x,
+                        classes=self.kwargs.get('classes'),
+                        possible_shots=self.kwargs.get('possible_shots'),
+                    )
                 )
-            )
+            else:
+                res = input.apply(
+                    lambda x: self.get_generic_route(
+                        route=x,
+                        classes=self.kwargs.get('classes'),
+                        possible_shots=self.kwargs.get('possible_shots'),
+                    )
+                )
 
             if self.n_attempts == 1:
                 return res
@@ -730,12 +770,23 @@ class EHRmonize:
             if not isinstance(input, pd.Series):
                 raise ValueError('input must be a pandas Series')
             
-            res = input.apply(
-                lambda x: self.get_generic_name(
-                    drugname=x,
-                    possible_shots=self.kwargs.get('possible_shots'),
+            if progress_bar:
+                from tqdm import tqdm
+                tqdm.pandas()
+
+                res = input.progress_apply(
+                    lambda x: self.get_generic_name(
+                        drugname=x,
+                        possible_shots=self.kwargs.get('possible_shots'),
+                    )
                 )
-            )
+            else:
+                res = input.apply(
+                    lambda x: self.get_generic_name(
+                        drugname=x,
+                        possible_shots=self.kwargs.get('possible_shots'),
+                    )
+                )
 
             if self.n_attempts == 1:
                 return res
@@ -751,16 +802,31 @@ class EHRmonize:
             # make sure that input is a pandas DataFrame
             if not isinstance(input, pd.DataFrame):
                 raise ValueError('input must be a pandas DataFrame')
-                        
-            res = input.apply(
-                lambda row: self.classify_drug(
-                    drugname=row.iloc[0],
-                    route=row.iloc[1],
-                    classes=self.kwargs.get('classes'),
-                    possible_shots=self.kwargs.get('possible_shots'),
-                ),
-                axis=1
-            )
+            
+
+            if progress_bar:
+                from tqdm import tqdm
+                tqdm.pandas()
+
+                res = input.progress_apply(
+                    lambda row: self.classify_drug(
+                        drugname=row.iloc[0],
+                        route=row.iloc[1],
+                        classes=self.kwargs.get('classes'),
+                        possible_shots=self.kwargs.get('possible_shots'),
+                    ),
+                    axis=1
+                )
+            else:      
+                res = input.apply(
+                    lambda row: self.classify_drug(
+                        drugname=row.iloc[0],
+                        route=row.iloc[1],
+                        classes=self.kwargs.get('classes'),
+                        possible_shots=self.kwargs.get('possible_shots'),
+                    ),
+                    axis=1
+                )
 
             if self.n_attempts == 1:
                 return res
@@ -777,16 +843,31 @@ class EHRmonize:
             if not isinstance(input, pd.DataFrame):
                 raise ValueError('input must be a pandas DataFrame')
             
-            res = input.apply(
-                lambda row: self.one_hot_drug_classification(
-                    drugname=row.iloc[0],
-                    route=row.iloc[1],
-                    classif=self.kwargs.get('classif'),
-                    expanded_classif=self.kwargs.get('expanded_classif'),
-                    possible_shots=self.kwargs.get('possible_shots'),
-                ),
-                axis=1
-            )
+            if progress_bar:
+                from tqdm import tqdm
+                tqdm.pandas()
+
+                res = input.progress_apply(
+                    lambda row: self.one_hot_drug_classification(
+                        drugname=row.iloc[0],
+                        route=row.iloc[1],
+                        classif=self.kwargs.get('classif'),
+                        expanded_classif=self.kwargs.get('expanded_classif'),
+                        possible_shots=self.kwargs.get('possible_shots'),
+                    ),
+                    axis=1
+                )
+            else:
+                res = input.apply(
+                    lambda row: self.one_hot_drug_classification(
+                        drugname=row.iloc[0],
+                        route=row.iloc[1],
+                        classif=self.kwargs.get('classif'),
+                        expanded_classif=self.kwargs.get('expanded_classif'),
+                        possible_shots=self.kwargs.get('possible_shots'),
+                    ),
+                    axis=1
+                )
 
             if self.n_attempts == 1:
                 return res
@@ -803,12 +884,23 @@ class EHRmonize:
             if not isinstance(input, pd.Series):
                 raise ValueError('input must be a pandas Series')
             
-            res = input.apply(
-                lambda x: self.custom_task(
-                    prompt=self.kwargs.get('prompt'),
-                    input=x,
+            if progress_bar:
+                from tqdm import tqdm
+                tqdm.pandas()
+
+                res = input.progress_apply(
+                    lambda x: self.custom_task(
+                        prompt=self.kwargs.get('prompt'),
+                        input=x,
+                    )
                 )
-            )
+            else:
+                res = input.apply(
+                    lambda x: self.custom_task(
+                        prompt=self.kwargs.get('prompt'),
+                        input=x,
+                    )
+                )
 
             if self.n_attempts == 1:
                 return res
