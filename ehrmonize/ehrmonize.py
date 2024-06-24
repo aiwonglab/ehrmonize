@@ -79,9 +79,14 @@ class EHRmonize:
         if not isinstance(model_id, str):
             raise ValueError('model_id must be a string')
 
-        # read supported models from YAML file
-        with open('supported_models.yaml', 'r') as file:
-            self.supported_models = yaml.safe_load(file)
+        self.supported_models = [
+            'anthropic.claude-3-5-sonnet-20240620-v1:0',
+            'gpt-3.5-turbo',
+            'gpt-4',
+            'gpt-4o',
+            'meta.llama3-70b-instruct-v1:0',
+            'mistral.mixtral-8x7b-instruct-v0:1'
+        ]
         
         if model_id not in self.supported_models:
             raise ValueError(f"model_id not supported. We currently support: {self.supported_models}")
