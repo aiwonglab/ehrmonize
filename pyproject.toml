@@ -4,15 +4,16 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ehrmonize"
-version = "0.1.0a2"
+version = "0.1.0a1"
 authors = [
-  { name="João Matos", email="jcmatos@mit.edu" },
+  { name="João Matos", email="joao.matos@duke.edu" },
+  { name="A. Ian Wong", email="a.ian.wong@duke.edu" },
 ]
 license = {file = "LICENSE"}
-description = "ehrmonize is an AI-powered package to clean and categorize medical concepts in EHR data."
+description = "ehrmonize is package to abstract medical concepts using large language models."
 readme = "README.md"
 requires-python = ">=3.9"
-keywords=["ehrmonize", "statistics", "AI", "clinical research", "machine learning"]
+keywords=["ehrmonize", "large language models", "LLMs", "AI", "medical concept abstraction", "electronic health records", "EHR"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Programming Language :: Python :: 3",
@@ -22,11 +23,13 @@ classifiers = [
 dependencies = [
     "numpy",
     "pandas",
-    "scipy",
-    "statsmodels",
-    "tabulate",
     "Jinja2",
-    "openpyxl",
+    "python-dotenv",
+    "google-cloud-bigquery",
+    "db-dtypes",
+    "openai",
+    "boto3",
+    "tqdm",
 ]
 
 [tool.black]
