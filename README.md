@@ -13,6 +13,9 @@ Processing and harmonizing the vast amounts of data captured in complex electron
 ## Rationale
 `EHRmonize` is designed with two main components: a corpus generation and an LLM inference pipeline. The **first step** entails querying the EHR databases to extract and the text/concepts across various data domains that need categorization. The **second step** employs LLM few-shot prompting across different tasks. The objective is to leverage the vast medical text exposure of LLMs to convert raw input medication data into useful, predefined classes.
 
+## Dataset 
+Our curated and labeled dataset is accessible on
+[HuggingFace](https://huggingface.co/datasets/AIWongLab/ehrmonize).
 
 ## Current supported tasks
 
