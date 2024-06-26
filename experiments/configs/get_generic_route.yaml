@@ -1,5 +1,5 @@
 task_specific:
-  task: get_generic_route
+  task: task_generic_route
 
   classes:
     - injectable product

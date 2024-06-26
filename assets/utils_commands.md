@@ -65,3 +65,10 @@ python3 -m build
 pip install twine
 python3 -m twine upload --repository pypi dist/*
 ```
+
+### Build pdcoc
+
+```sh
+pip3 install pdoc3
+pdoc --html --force ehrmonize
+```

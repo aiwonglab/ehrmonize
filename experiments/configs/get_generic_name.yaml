@@ -1,5 +1,5 @@
 task_specific:
-  task: get_generic_name
+  task: task_generic_drug
 
   possible_shots:
     - An input drugname 'vancocin' would be classified as 'vancomycin'.

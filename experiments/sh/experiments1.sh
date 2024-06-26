@@ -4,5 +4,5 @@ python3 run_experiment.py --experiments experiments1 --task one_hot_stress_ulcer
 python3 run_experiment.py --experiments experiments1 --task one_hot_opioid_analgesic
 python3 run_experiment.py --experiments experiments1 --task one_hot_anticoagulant 
 python3 run_experiment.py --experiments experiments1 --task one_hot_antibiotic 
-python3 run_experiment.py --experiments experiments1 --task get_generic_name 
-python3 run_experiment.py --experiments experiments1 --task get_generic_route 
+python3 run_experiment.py --experiments experiments1 --task task_generic_drug 
+python3 run_experiment.py --experiments experiments1 --task task_generic_route 

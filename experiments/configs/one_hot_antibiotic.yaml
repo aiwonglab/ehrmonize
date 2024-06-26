@@ -1,5 +1,5 @@
 task_specific:
-  task: one_hot_drug_classification
+  task: task_binary_drug
 
   classif:
     - antibiotic

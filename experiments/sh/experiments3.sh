@@ -1,5 +1,5 @@
-python3 run_experiment.py --experiments experiments3 --task get_generic_route
-python3 run_experiment.py --experiments experiments3 --task get_generic_name
+python3 run_experiment.py --experiments experiments3 --task task_generic_route
+python3 run_experiment.py --experiments experiments3 --task task_generic_drug
 python3 run_experiment.py --experiments experiments3 --task one_hot_electrolytes
 python3 run_experiment.py --experiments experiments3 --task one_hot_iv_fluid
 python3 run_experiment.py --experiments experiments3 --task one_hot_opioid_analgesic

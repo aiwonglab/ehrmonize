@@ -1,0 +1,1421 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta name="generator" content="pdoc3 0.11.1">
+<title>ehrmonize.ehrmonize API documentation</title>
+<meta name="description" content="">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/13.0.0/sanitize.min.css" integrity="sha512-y1dtMcuvtTMJc1yPgEqF0ZjQbhnc/bFhyvIyVNb9Zk5mIGtqVaAB1Ttl28su8AvFMOY0EwRbAe+HCLqj6W7/KA==" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/13.0.0/typography.min.css" integrity="sha512-Y1DYSb995BAfxobCkKepB1BqJJTPrOp3zPL74AWFugHHmmdcvO+C48WLrUOlhGMc0QG7AE3f7gmvvcrmX2fDoA==" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:1.5em;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:2em 0 .50em 0}h3{font-size:1.4em;margin:1.6em 0 .7em 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .2s ease-in-out}a:visited{color:#503}a:hover{color:#b62}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900;font-weight:bold}pre code{font-size:.8em;line-height:1.4em;padding:1em;display:block}code{background:#f3f3f3;font-family:"DejaVu Sans Mono",monospace;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em 1em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul ul{padding-left:1em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" integrity="sha512-D9gUyxqja7hBtkWpPWGt9wfbfaMGVt9gnyCvYa+jojwwPHLCzUm5i8rpk7vD7wNee9bA35eYIjobYPaQuKS1MQ==" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => {
+hljs.configure({languages: ['bash', 'css', 'diff', 'graphql', 'ini', 'javascript', 'json', 'plaintext', 'python', 'python-repl', 'rust', 'shell', 'sql', 'typescript', 'xml', 'yaml']});
+hljs.highlightAll();
+})</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>ehrmonize.ehrmonize</code></h1>
+</header>
+<section id="section-intro">
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="ehrmonize.ehrmonize.EHRmonize"><code class="flex name class">
+<span>class <span class="ident">EHRmonize</span></span>
+<span>(</span><span>model_id, temperature=0.1, max_tokens=64, openai_api_key=None, aws_access_key_id=None, aws_secret_access_key=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>A class to perform data harmonization tasks in the EHR domain leveraging large language models.</p>
+<p>Initialize the EHRmonize class with the specified parameters.</p>
+<p>API keys must be provided for OpenAI models, and AWS credentials for Bedrock models.
+Alternatively, API keys and credentials can be loaded as environment variables, using the dotenv package,
+which the class will automatically attempt to do if the keys are not provided as input variables.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>model_id</code></strong> :&ensp;<code>str</code></dt>
+<dd>The identifier of the model to be used.
+We currently support: 'gpt-3.5-turbo', 'gpt-4', 'gpt-4o', 'meta.llama3-70b-instruct-v1:0', 'anthropic.claude-3-5-sonnet-20240620-v1:0', 'mistral.mixtral-8x7b-instruct-v0:1'.</dd>
+<dt><strong><code>temperature</code></strong> :&ensp;<code>float</code>, optional</dt>
+<dd>The temperature setting for the model, by default 0.1.
+Must be between 0 and 1.</dd>
+<dt><strong><code>max_tokens</code></strong> :&ensp;<code>int</code>, optional</dt>
+<dd>The maximum number of tokens to be generated by the model, by default 64.</dd>
+<dt><strong><code>openai_api_key</code></strong> :&ensp;<code>str</code>, optional</dt>
+<dd>The OpenAI API key, required if using OpenAI models.</dd>
+<dt><strong><code>aws_access_key_id</code></strong> :&ensp;<code>str</code>, optional</dt>
+<dd>The AWS access key ID, required if using LLMs thorugh AWS Bedrock.</dd>
+<dt><strong><code>aws_secret_access_key</code></strong> :&ensp;<code>str</code>, optional</dt>
+<dd>The AWS secret access key, required if using LLMs thorugh AWS Bedrock.</dd>
+</dl>
+<h2 id="raises">Raises</h2>
+<dl>
+<dt><code>ValueError</code></dt>
+<dd>
+<p>If model_id is not a string or not supported.</p>
+<p>If temperature is not between 0 and 1.</p>
+<p>If the required API keys are not provided.</p>
+</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class EHRmonize:
+    &#34;&#34;&#34;
+    A class to perform data harmonization tasks in the EHR domain leveraging large language models.
+
+    &#34;&#34;&#34;
+
+    def __init__(self,
+                 model_id,
+                 temperature=0.1,
+                 max_tokens=64,
+                 openai_api_key=None,
+                 aws_access_key_id=None,
+                 aws_secret_access_key=None):
+        &#34;&#34;&#34;
+        Initialize the EHRmonize class with the specified parameters.
+
+        API keys must be provided for OpenAI models, and AWS credentials for Bedrock models.
+        Alternatively, API keys and credentials can be loaded as environment variables, using the dotenv package,
+        which the class will automatically attempt to do if the keys are not provided as input variables.
+
+        Parameters
+        ----------
+        model_id : str
+            The identifier of the model to be used.
+            We currently support: &#39;gpt-3.5-turbo&#39;, &#39;gpt-4&#39;, &#39;gpt-4o&#39;, &#39;meta.llama3-70b-instruct-v1:0&#39;, &#39;anthropic.claude-3-5-sonnet-20240620-v1:0&#39;, &#39;mistral.mixtral-8x7b-instruct-v0:1&#39;.
+        temperature : float, optional
+            The temperature setting for the model, by default 0.1.
+            Must be between 0 and 1.
+        max_tokens : int, optional
+            The maximum number of tokens to be generated by the model, by default 64.
+        openai_api_key : str, optional
+            The OpenAI API key, required if using OpenAI models.
+        aws_access_key_id : str, optional
+            The AWS access key ID, required if using LLMs thorugh AWS Bedrock.
+        aws_secret_access_key : str, optional
+            The AWS secret access key, required if using LLMs thorugh AWS Bedrock.
+
+        Raises
+        ------
+        ValueError
+            If model_id is not a string or not supported.
+
+            If temperature is not between 0 and 1.
+
+            If the required API keys are not provided.
+        &#34;&#34;&#34;
+        if not isinstance(model_id, str):
+            raise ValueError(&#39;model_id must be a string&#39;)
+
+        self.supported_models = [
+            &#39;anthropic.claude-3-5-sonnet-20240620-v1:0&#39;,
+            &#39;gpt-3.5-turbo&#39;,
+            &#39;gpt-4&#39;,
+            &#39;gpt-4o&#39;,
+            &#39;meta.llama3-70b-instruct-v1:0&#39;,
+            &#39;mistral.mixtral-8x7b-instruct-v0:1&#39;
+        ]
+
+        if model_id not in self.supported_models:
+            raise ValueError(f&#34;model_id not supported. We currently support: {self.supported_models}&#34;)
+
+        if not (0 &lt;= temperature &lt;= 1):
+            raise ValueError(&#39;temperature must be numeric and between 0 and 1&#39;)
+
+        self.model_id = model_id
+        self.temperature = temperature
+        self.max_tokens = max_tokens
+
+        # OpenAI models
+        if self.model_id in [&#39;gpt-3.5-turbo&#39;, &#39;gpt-4&#39;, &#39;gpt-4o&#39;]:
+            import openai
+            if openai_api_key:
+                self._openai_api_key = str(openai_api_key)
+            else:
+                from dotenv import load_dotenv
+                load_dotenv()
+                import os
+                self._openai_api_key = str(os.getenv(&#39;OPENAI_API_KEY&#39;))
+
+            if not self._openai_api_key:
+                raise ValueError(&#39;OpenAI API key not found. Please provide it as an input variable or set it as an environment variable&#39;)
+
+            openai.api_key = self._openai_api_key
+            self._client = openai.OpenAI(api_key=openai.api_key)
+
+        # Bedrock models
+        else:
+            import boto3
+            if aws_access_key_id and aws_secret_access_key:
+                self._aws_access_key_id = str(aws_access_key_id)
+                self._aws_secret_access_key = str(aws_secret_access_key)
+            else:
+                from dotenv import load_dotenv
+                load_dotenv()
+                import os
+                self._aws_access_key_id = str(os.getenv(&#39;AWS_ACCESS_KEY_ID&#39;))
+                self._aws_secret_access_key = str(os.getenv(&#39;AWS_SECRET_ACCESS_KEY&#39;))
+
+            if not self._aws_access_key_id or not self._aws_secret_access_key:
+                raise ValueError(&#39;AWS credentials not found. Please provide them as input variables or set them as environment variables&#39;)
+
+            self._client = boto3.client(
+                service_name=&#39;bedrock-runtime&#39;,
+                region_name=&#39;us-east-1&#39;,
+                aws_access_key_id=self._aws_access_key_id,
+                aws_secret_access_key=self._aws_secret_access_key,
+            )
+
+        self.n_shots = 0
+        self.n_attempts = 1
+        self.agentic = False
+
+    # update how prompting is done
+    def config_prompting(self, n_shots=0, n_attempts=1, agentic=False):
+        &#34;&#34;&#34;
+        Configure the prompting settings.
+
+        Parameters
+        ----------
+        n_shots : int, optional, default=0
+            The number of example shots to be considered. Must be at least 0.
+        n_attempts : int, optional, default=1
+            The number of attempts/runs to be made. Must be at least 1.
+        agentic : bool, optional, default=False
+            default: False
+            Whether to use an agentic approach in deciding ties or unconsistent results.
+
+
+        Returns
+        -------
+        None
+        &#34;&#34;&#34;
+        self.n_shots = n_shots
+        self.n_attempts = n_attempts
+        self.agentic = agentic
+
+
+    def _invoke_bedrock_llama(self, prompt):
+        
+        body = json.dumps({
+            &#34;prompt&#34;: &#34;\n\nHuman:&#34; + prompt + &#34;\n\nAssistant: &#34;,
+            &#34;max_gen_len&#34;: self.max_tokens, 
+            &#34;temperature&#34;: self.temperature,
+            &#34;top_p&#34;: 0.9,
+        })
+        
+        response = self._client.invoke_model(body = body,
+                                            modelId = self.model_id,
+                                            accept = &#39;application/json&#39;,
+                                            contentType =  &#39;application/json&#39;
+                                            )
+        response_body = json.loads(response.get(&#39;body&#39;).read())
+
+        return response_body.get(&#39;generation&#39;)
+    
+    def _invoke_bedrock_claude(self, prompt):
+        
+        body = json.dumps({
+            &#34;max_tokens&#34;: 32, 
+            &#34;messages&#34;: [{&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: prompt}],
+            &#34;temperature&#34;: self.temperature,
+            &#34;anthropic_version&#34;: &#34;bedrock-2023-05-31&#34;
+        })
+        
+        response = self._client.invoke_model(body = body,
+                                            modelId = self.model_id,
+                                            accept = &#39;application/json&#39;,
+                                            contentType = &#39;application/json&#39;
+                                            )
+        response_body = json.loads(response.get(&#39;body&#39;).read())
+
+        return response_body.get(&#39;content&#39;)[0][&#39;text&#39;]
+    
+    def _invoke_bedrock_mistral(self,
+                        prompt):
+        
+        body = json.dumps({
+            &#34;prompt&#34;: &#34;\n\nHuman:&#34; + prompt + &#34;\n\nAssistant: &#34;,
+            &#34;max_tokens&#34;: self.max_tokens, 
+            &#34;temperature&#34;: self.temperature,
+            &#34;top_p&#34;: 0.9,
+        })
+        
+        response = self._client.invoke_model(body = body,
+                                            modelId = self.model_id,
+                                            accept = &#39;application/json&#39;,
+                                            contentType =  &#39;application/json&#39;
+                                            )
+        response_body = json.loads(response.get(&#39;body&#39;).read())
+
+        return response_body.get(&#39;outputs&#39;)[0].get(&#39;text&#39;)
+    
+    
+    def _invoke_openai(self,
+                       prompt):
+          
+        response = self._client.chat.completions.create(
+            model = self.model_id, 
+            messages = [
+                {&#34;role&#34;: &#34;system&#34;, &#34;content&#34;: &#34;You are a helpful assistant.&#34;},
+                {&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: prompt}
+            ],
+            max_tokens = self.max_tokens, 
+            n = 1,
+            stop = None,
+            temperature = self.temperature,
+        )
+
+        return response.choices[0].message.content
+    
+    def _clean_text(self, text):
+        # remove &#34;\n&#34; and spaces
+        text = text.replace(&#34;\n&#34;, &#34; &#34;).strip()
+        # transform to lowercase
+        text = text.lower()
+        # remove any &#39;
+        text = text.replace(&#34;&#39;&#34;, &#34;&#34;)
+        return text
+    
+    def _prompt(self, prompt):
+        if self.model_id in [&#39;gpt-3.5-turbo&#39;, &#39;gpt-4&#39;, &#39;gpt-4o&#39;]:
+            try:
+                text = self._invoke_openai(prompt=prompt)
+            except Exception as e:
+                text = &#39;API failed&#39;
+                print(e)
+                print(text + &#39;, proceeding...&#39;)
+
+            return self._clean_text(text)
+                
+        elif self.model_id in [&#39;meta.llama2-13b-chat-v1&#39;, &#39;meta.llama2-70b-chat-v1&#39;, &#39;meta.llama3-70b-instruct-v1:0&#39;]:
+            try:
+                text = self._invoke_bedrock_llama(prompt=prompt)
+            except Exception as e:
+                text = &#39;API failed&#39;
+                print(e)
+                print(text + &#39;, proceeding...&#39;)
+            
+            return self._clean_text(text)
+
+        elif self.model_id in [&#39;anthropic.claude-3-5-sonnet-20240620-v1:0&#39;]:
+            try:
+                text = self._invoke_bedrock_claude(prompt=prompt)
+            except Exception as e:
+                text = &#39;API failed&#39;
+                print(e)
+                print(text + &#39;, proceeding...&#39;)
+
+
+            return self._clean_text(text)
+        
+        elif self.model_id in [&#39;mistral.mistral-7b-instruct-v0:2&#39;, &#39;mistral.mixtral-8x7b-instruct-v0:1&#39;]:
+            try:
+                text = self._invoke_bedrock_mistral(prompt=prompt)
+            except Exception as e:
+                text = &#39;API failed&#39;
+                print(e)
+                print(text + &#39;, proceeding...&#39;)
+
+            return self._clean_text(text)
+
+        else:
+            raise ValueError(f&#34;model_id not supported. We currently support: {self.supported_models}&#34;)
+
+    def _run_rule_based(self, results):
+        consistency = results.count(max(set(results), key = results.count)) / len(results)
+
+        # see if there is a tie, i.e, more than one class with the same count that are the max
+        # while results.count(max(set(results), key = results.count)) &lt;= len(results)/2:
+        #     # run prompt again, until there is no tie
+        #     results.append(self._get_clean_route(route, classes))
+
+        if consistency &lt;= 0.5:
+            return &#39;unsure&#39;, consistency, results
+        else:
+            return max(set(results), key = results.count), consistency, results
+
+    def _run_agentic(self, previous_prompt, results):
+
+        consistency = results.count(max(set(results), key = results.count)) / len(results)
+
+        prompt = f&#34; \
+            You are a well trained, senior clinician who is reviewing the work done by your more junior colleagues\
+            who are doing data cleaning and harmonization. This was the task that they received:\
+            {previous_prompt}\
+            After asking {self.n_attempts} different colleagues, these were their responses:\
+            {results}\
+            Please decide the final answer to this task.\
+            Output nothing more than the final answer, without explaining anything,\
+            and write &#39;unsure&#39; if there is a tie or you are unable to decide.\
+        &#34;
+
+        output = self._prompt(
+            prompt=(&#39;\nHuman: &#39; + prompt + &#39;\nAssistant:&#39;)
+        )
+
+        return self._clean_text(output), consistency, results
+        
+
+    def _generate_route_prompt(self, route, classes, possible_shots):    
+
+        if self.n_shots == 0:
+            prompt = f&#34; \
+            You are a well trained clinician doing data cleaning and harmonization. \
+            You are given a raw route name, which may contain spelling typos and variations, below within squared brackets[]. \
+            Please classify [{route}] into one of the following categories: \
+            {classes} \
+            Please output nothing more than the category name. \
+        &#34;
+
+        else:
+            shots = possible_shots[:self.n_shots]
+
+            prompt = f&#34; \
+            You are a well trained clinician doing data cleaning and harmonization. \
+            You are given a raw route name, which may contain spelling typos and variations, below within squared brackets[]. \
+            Please classify [{route}] into one of the following categories: \
+            {classes} \
+            Consider the following example(s): \
+            {shots} \
+            Please output nothing more than the category name. \
+        &#34;
+            
+
+        return prompt
+
+    def _task_generic_route(self, route, classes, possible_shots):
+
+        prompt = self._generate_route_prompt(route, classes, possible_shots)
+
+        output = self._prompt(
+            prompt=(&#39;\nHuman: &#39; + prompt + &#39;\nAssistant:&#39;)
+        )
+
+        return self._clean_text(output)
+
+    def task_generic_route(self, route, classes, possible_shots=[]):
+        &#34;&#34;&#34;
+        Get the generic route of a an input administration route.
+
+        Prompts the model with the following:
+
+        &#34;You are a well trained clinician doing data cleaning and harmonization.
+        You are given a raw route name, which may contain spelling typos and variations, below within squared brackets[].
+        Please classify [route] into one of the following categories: [classes]
+        Consider the following example(s): [possible_shots]
+        Please output nothing more than the category name.&#34;
+
+
+        Parameters
+        ----------
+        route : str
+            The input administration route.
+        classes : list
+            A list of possible classes for the generic administration route.
+        possible_shots : list, optional, default=[]
+            A list of example shots to help the model understand the task.
+
+        Returns
+        -------
+        str
+            The predicted generic route.
+        &#34;&#34;&#34;
+
+        results = []
+
+        for i in range(self.n_attempts):
+            results.append(self._task_generic_route(route, classes, possible_shots))
+
+        # if only one attempt, simply return the result
+        if self.n_attempts == 1:
+            return results[0]
+
+        # if more than one attempt, return the most common result, or let another agent decide
+        else:  
+            # first, rule-based approach, return the most common result
+            if not self.agentic:
+                return self._run_rule_based(results)
+
+            # second, agentic approach, return the result that another LLM decides
+            elif self.agentic:
+                previous_prompt = self._generate_route_prompt(route, classes, possible_shots)
+                return self._run_agentic(previous_prompt, results)
+
+                
+
+    def _generate_generic_name_prompt(self, drugname, possible_shots):
+
+        # For reference, as this prompt would therefore include shots:
+        # Remove salt names (e.g., hydromorphone hydrochloride -&gt; hydromorphone) \
+        #     unless there are multiple salts with different clinical effects (e.g., metoprolol tartrate and metoprolol succinate). \
+        #     Remove prescription strengths (e.g, hydromorphone hydrochloride 1 mg to hydromorphone) \
+        #     Include concentrations for intravenous fluids and dextrose solutions \
+        #     (e.g., normal saline 0.9% -&gt; sodium chloride 9 MG/ML, dextrose 50% -&gt; glucose 500 MG/ML). \
+        #     Please output nothing more than the generic name in lowercase. \
+
+        if self.n_shots == 0:
+            prompt = f&#34; \
+            You are a well trained clinician doing data cleaning and harmonization. \
+            You are given a raw drug name out of EHR, below, within squared brackets[]. \
+            Please give me this drug&#39;s generic name in accordance with RxNorm standards: [{drugname}] \
+            Remove salt names unless there are multiple salts with different clinical effects. \
+            Remove prescription strengths. \
+            Include concentrations for intravenous fluids and dextrose solutions. \
+            Please output nothing more than the generic name in lowercase. \
+        &#34;
+        else:
+            shots = possible_shots[:self.n_shots]
+
+            prompt = f&#34; \
+            You are a well trained clinician doing data cleaning and harmonization. \
+            You are given a raw drug name out of EHR, below, within squared brackets[]. \
+            Please give me this drug&#39;s generic name: [{drugname}] \
+            Consider the following example(s): \
+            {shots} \
+            Remove salt names unless there are multiple salts with different clinical effects. \
+            Remove prescription strengths. \
+            Include concentrations for intravenous fluids and dextrose solutions. \
+            Please output nothing more than the generic name in lowercase. \
+        &#34;
+
+        return prompt
+    
+    def _task_generic_drug(self, drugname, possible_shots):
+
+        prompt = self._generate_generic_name_prompt(drugname, possible_shots)
+
+        output = self._prompt(
+            prompt=(&#39;\nHuman: &#39; + prompt + &#39;\nAssistant:&#39;)
+        )
+
+        return self._clean_text(output)
+
+    def task_generic_drug(self, drugname, possible_shots=[]):
+        &#34;&#34;&#34;
+        Get the generic name of a drug.
+
+        Prompts the model with the following:
+
+        &#34;You are a well trained clinician doing data cleaning and harmonization.
+        You are given a raw drug name out of EHR, below, within squared brackets[].
+        Consider the following example(s): [possible_shots]
+        Please give me this drug&#39;s generic name in accordance with RxNorm standards: [drugname]
+        Remove salt names unless there are multiple salts with different clinical effects.
+        Remove prescription strengths.
+        Include concentrations for intravenous fluids and dextrose solutions.   
+        Please output nothing more than the generic name in lowercase.&#34;
+
+
+        Parameters
+        ----------
+        drugname : str
+            The input drug name.
+        possible_shots : list, optional, default=[]
+            A list of example shots to help the model understand the task.
+
+        Returns
+        -------
+        str or list
+            The predicted generic name if n_attempts = 1.
+            A list with the predicted generic name, consistency, and all predictions if n_attempts &gt; 1.
+        &#34;&#34;&#34;
+        results = []
+
+        for i in range(self.n_attempts):
+            results.append(self._task_generic_drug(drugname, possible_shots))
+
+        if self.n_attempts == 1:
+            return results[0]
+
+        else:  
+            if not self.agentic:
+                return self._run_rule_based(results)
+
+            elif self.agentic:
+                previous_prompt = self._generate_generic_name_prompt(drugname, possible_shots)
+                return self._run_agentic(previous_prompt, results)
+
+
+    def _generate_drug_classification_prompt(self, drugname, route, classes, possible_shots):
+
+        if self.n_shots == 0:
+            
+            prompt = f&#34; \
+                You are a well trained clinician doing data cleaning and harmonization. \
+                You are given a raw drug name and administration route out of EHR, below, within squared brackets as [drugname, route]. \
+                Please classify [{drugname}, {route}] into one of the following categories: \
+                {classes} \
+                Please output nothing more than the category name. \
+            &#34;
+        else:
+            shots = possible_shots[:self.n_shots]
+
+            prompt = f&#34; \
+                You are a well trained clinician doing data cleaning and harmonization. \
+                You are given a raw drug name and administration route out of EHR, below, within squared brackets as [drugname, route]. \
+                Please classify [{drugname}, {route}] into one of the following categories: \
+                {classes} \
+                Consider the following example(s): \
+                {shots} \
+                Please output nothing more than the category name. \
+            &#34;
+        return prompt
+
+    def _get_drug_classification(self, drugname, route, classes, possible_shots):
+
+        prompt = self._generate_drug_classification_prompt(drugname, route, classes, possible_shots)
+    
+        output = self._prompt(
+            prompt=(&#39;\nHuman: &#39; + prompt + &#39;\nAssistant:&#39;)
+        )
+
+        return self._clean_text(output)
+
+
+    def task_multiclass_drug(self, drugname, route, classes, possible_shots=[]):
+        &#34;&#34;&#34;
+        Classify a drug based on its name and administration route (multiple classes).
+
+        Prompts the model with the following:
+
+        &#34;You are a well trained clinician doing data cleaning and harmonization.
+        You are given a raw drug name and administration route out of EHR, below, within squared brackets as [drugname, route].
+        Consider the following example(s): [possible_shots]
+        Please classify [drugname, route] into one of the following categories: [classes]
+        Please output nothing more than the category name.&#34;
+
+
+        Parameters
+        ----------
+        drugname : str
+            The input drug name.
+        route : str
+            The input administration route.
+        classes : list
+            A list of possible classes for the drug.
+        possible_shots : list, optional, default=[]
+            A list of example shots to help the model understand the task.
+
+        Returns
+        -------
+        str or list
+            The predicted class if n_attempts = 1.
+            A list with the predicted class, consistency, and all predictions if n_attempts &gt; 1.
+
+        &#34;&#34;&#34;
+
+        results = []
+
+        for i in range(self.n_attempts):
+            results.append(self._get_drug_classification(drugname, route, classes, possible_shots))
+
+        if self.n_attempts == 1:
+            return results[0]
+
+        else:  
+            if not self.agentic:
+                return self._run_rule_based(results)
+
+            elif self.agentic:
+                previous_prompt = self._generate_drug_classification_prompt(drugname, route, classes, possible_shots)
+                return self._run_agentic(previous_prompt, results)
+            
+    def _generate_task_binary_drug(self, drugname, route, classif, expanded_classif, possible_shots):
+
+        if self.n_shots == 0:
+            prompt = f&#34; \
+                You are a well trained clinician doing data cleaning and harmonization. \
+                You are given a raw drug name and administration route out of EHR, below, within squared brackets as [drugname, route]. \
+                Please output 1 if [{drugname}, {route}] is classified as {classif}, otherwise output 0. \
+                {classif} means {expanded_classif}. \
+                Please output nothing more than 1 or 0. \
+            &#34;
+        else:
+            shots = possible_shots[:self.n_shots]
+            prompt = f&#34; \
+                You are a well trained clinician doing data cleaning and harmonization. \
+                You are given a raw drug name and administration route out of EHR, below, within squared brackets as [drugname, route]. \
+                Please output 1 if [{drugname}, {route}] is classified as {classif}, otherwise output 0. \
+                {classif} means {expanded_classif}. \
+                Consider the following example(s): \
+                {shots} \
+                Please output nothing more than 1 or 0. \
+            &#34;
+
+        return prompt
+    
+    def _get_task_binary_drug(self, drugname, route, classif, expanded_classif, possible_shots):
+            
+            prompt = self._generate_task_binary_drug(drugname, route, classif, expanded_classif, possible_shots)
+        
+            output = self._prompt(
+                prompt=(&#39;\nHuman: &#39; + prompt + &#39;\nAssistant:&#39;)
+            )
+    
+            return self._clean_text(output)
+    
+    def task_binary_drug(self, drugname, route, classif, expanded_classif=None, possible_shots=[]):
+
+        &#34;&#34;&#34;
+        Classify a drug based on its name and administration route (binary classification).
+
+        Prompts the model with the following:
+
+        &#34;You are a well trained clinician doing data cleaning and harmonization.
+        You are given a raw drug name and administration route out of EHR, below, within squared brackets as [drugname, route].
+        Consider the following example(s): [possible_shots]
+        Please output 1 if [drugname, route] is classified as classif, otherwise output 0.
+        [classif] means [expanded_classif].
+        Please output nothing more than 1 or 0.&#34;
+
+        Parameters
+        ----------
+        drugname : str
+            The input drug name.
+        route : str
+            The input administration route.
+        classif : str
+            The class to be predicted.
+        expanded_classif : str, optional, default=None
+            The expanded class description
+        possible_shots : list, optional, default=[]
+            A list of example shots to help the model understand the task.
+
+        Returns
+        -------
+        str or list
+            The predicted class if n_attempts = 1.
+            A list with the predicted class, consistency, and all predictions if n_attempts &gt; 1.
+        &#34;&#34;&#34; 
+            
+        results = []
+
+        for i in range(self.n_attempts):
+            results.append(self._get_task_binary_drug(drugname, route,
+                                                                    classif, expanded_classif, possible_shots))
+
+        if self.n_attempts == 1:
+            return results[0]
+
+        else:  
+            if not self.agentic:
+                return self._run_rule_based(results)
+
+            elif self.agentic:
+                previous_prompt = self._generate_task_binary_drug(drugname, route,
+                                                                                classif, expanded_classif,
+                                                                                possible_shots)
+                return self._run_agentic(previous_prompt, results)
+            
+    def _generate_custom_prompt(self, prompt, input):
+        return f&#34; {prompt} \n {input}&#34;    
+        
+    def _custom_prompt(self, full_prompt):
+
+        output = self._prompt(
+            prompt=(&#39;\nHuman: &#39; + full_prompt + &#39;\nAssistant:&#39;)
+        )
+
+        return self._clean_text(output)
+    
+    def task_custom(self, prompt, input):
+        &#34;&#34;&#34;
+        Perform a custom task.
+
+        Prompts the model with the following:
+
+        &#34;[prompt] [input]&#34;
+
+
+        Parameters
+        ----------
+        prompt : str
+            The custom prompt.
+        input : str
+            The input data. This will appended after the prompt in a new line.
+
+        Returns
+        -------
+        str or list
+            The predicted output if n_attempts = 1.
+            A list with the predicted output, consistency, and all predictions if n_attempts &gt; 1.
+        
+        &#34;&#34;&#34;
+
+        full_prompt = self._generate_custom_prompt(prompt, input)
+
+        results = []
+
+        for i in range(self.n_attempts):
+            results.append(self._custom_prompt(full_prompt))
+
+        if self.n_attempts == 1:
+            return results[0]
+
+        else:  
+            if not self.agentic:
+                return self._run_rule_based(results)
+
+            elif self.agentic:
+                previous_prompt = full_prompt
+                return self._run_agentic(previous_prompt, results)
+
+    def set_task(self, task, **kwargs):
+        &#34;&#34;&#34;
+        Set the task to be performed by the model.
+        
+        Parameters
+        ----------
+        task : str
+            The task to be performed.
+            We currently support: &#39;task_generic_route&#39;, &#39;task_generic_drug&#39;, &#39;task_multiclass_drug&#39;, &#39;task_binary_drug&#39;, and &#39;custom&#39;.
+            Additional arguments to be passed to the task function.
+            Please find which arguments are necessary for each task in the documentation.
+
+        Returns
+        -------
+        None
+        &#34;&#34;&#34;
+
+        self.task = task
+        self.kwargs = kwargs
+
+    def predict(self, input, progress_bar=False):
+        &#34;&#34;&#34;
+        Predict the output of the specified task.
+
+        Parameters
+        ----------
+        input : Pandas Series or DataFrame
+            The input data. If the task is task_generic_route or task_generic_drug, input must be a Pandas Series.
+            If the task is task_multiclass_drug or task_binary_drug, input must be a Pandas DataFrame.
+            &#34;custom&#34; tasks are currently limited to Pandas Series.
+        progress_bar : bool, optional, default=False
+            Whether to show a progress bar when predicting, across the different samples.
+
+        Returns
+        -------
+        Pandas Series or DataFrame
+            The predicted output.
+        &#34;&#34;&#34;
+
+        if self.task == &#39;task_generic_route&#39;:
+            # make sure that input is a pandas Series
+            if not isinstance(input, pd.Series):
+                raise ValueError(&#39;input must be a pandas Series&#39;)
+            
+            if progress_bar:
+                from tqdm import tqdm
+                tqdm.pandas()
+
+                res = input.progress_apply(
+                    lambda x: self.task_generic_route(
+                        route=x,
+                        classes=self.kwargs.get(&#39;classes&#39;),
+                        possible_shots=self.kwargs.get(&#39;possible_shots&#39;),
+                    )
+                )
+            else:
+                res = input.apply(
+                    lambda x: self.task_generic_route(
+                        route=x,
+                        classes=self.kwargs.get(&#39;classes&#39;),
+                        possible_shots=self.kwargs.get(&#39;possible_shots&#39;),
+                    )
+                )
+
+            if self.n_attempts == 1:
+                return res
+            
+            elif self.n_attempts &gt; 1:
+                return {
+                    &#39;pred&#39;: res.apply(lambda x: x[0]), 
+                    &#39;consistency&#39;: res.apply(lambda x: x[1]), 
+                    &#39;all_pred&#39;: res.apply(lambda x: x[2]) 
+                }
+
+        elif self.task == &#39;task_generic_drug&#39;:
+            # make sure that input is a pandas Series
+            if not isinstance(input, pd.Series):
+                raise ValueError(&#39;input must be a pandas Series&#39;)
+            
+            if progress_bar:
+                from tqdm import tqdm
+                tqdm.pandas()
+
+                res = input.progress_apply(
+                    lambda x: self.task_generic_drug(
+                        drugname=x,
+                        possible_shots=self.kwargs.get(&#39;possible_shots&#39;),
+                    )
+                )
+            else:
+                res = input.apply(
+                    lambda x: self.task_generic_drug(
+                        drugname=x,
+                        possible_shots=self.kwargs.get(&#39;possible_shots&#39;),
+                    )
+                )
+
+            if self.n_attempts == 1:
+                return res
+            
+            elif self.n_attempts &gt; 1:
+                return {
+                    &#39;pred&#39;: res.apply(lambda x: x[0]),
+                    &#39;consistency&#39;: res.apply(lambda x: x[1]),
+                    &#39;all_pred&#39;: res.apply(lambda x: x[2])
+                }
+        
+        elif self.task == &#39;task_multiclass_drug&#39;:
+            # make sure that input is a pandas DataFrame
+            if not isinstance(input, pd.DataFrame):
+                raise ValueError(&#39;input must be a pandas DataFrame&#39;)
+            
+
+            if progress_bar:
+                from tqdm import tqdm
+                tqdm.pandas()
+
+                res = input.progress_apply(
+                    lambda row: self.task_multiclass_drug(
+                        drugname=row.iloc[0],
+                        route=row.iloc[1],
+                        classes=self.kwargs.get(&#39;classes&#39;),
+                        possible_shots=self.kwargs.get(&#39;possible_shots&#39;),
+                    ),
+                    axis=1
+                )
+            else:      
+                res = input.apply(
+                    lambda row: self.task_multiclass_drug(
+                        drugname=row.iloc[0],
+                        route=row.iloc[1],
+                        classes=self.kwargs.get(&#39;classes&#39;),
+                        possible_shots=self.kwargs.get(&#39;possible_shots&#39;),
+                    ),
+                    axis=1
+                )
+
+            if self.n_attempts == 1:
+                return res
+            
+            elif self.n_attempts &gt; 1:
+                return {
+                    &#39;pred&#39;: res.apply(lambda x: x[0]),
+                    &#39;consistency&#39;: res.apply(lambda x: x[1]),
+                    &#39;all_pred&#39;: res.apply(lambda x: x[2])
+                }
+            
+        elif self.task == &#39;task_binary_drug&#39;:
+            # make sure that input is a pandas DataFrame
+            if not isinstance(input, pd.DataFrame):
+                raise ValueError(&#39;input must be a pandas DataFrame&#39;)
+            
+            if progress_bar:
+                from tqdm import tqdm
+                tqdm.pandas()
+
+                res = input.progress_apply(
+                    lambda row: self.task_binary_drug(
+                        drugname=row.iloc[0],
+                        route=row.iloc[1],
+                        classif=self.kwargs.get(&#39;classif&#39;),
+                        expanded_classif=self.kwargs.get(&#39;expanded_classif&#39;),
+                        possible_shots=self.kwargs.get(&#39;possible_shots&#39;),
+                    ),
+                    axis=1
+                )
+            else:
+                res = input.apply(
+                    lambda row: self.task_binary_drug(
+                        drugname=row.iloc[0],
+                        route=row.iloc[1],
+                        classif=self.kwargs.get(&#39;classif&#39;),
+                        expanded_classif=self.kwargs.get(&#39;expanded_classif&#39;),
+                        possible_shots=self.kwargs.get(&#39;possible_shots&#39;),
+                    ),
+                    axis=1
+                )
+
+            if self.n_attempts == 1:
+                return res
+            
+            elif self.n_attempts &gt; 1:
+                return {
+                    &#39;pred&#39;: res.apply(lambda x: x[0]),
+                    &#39;consistency&#39;: res.apply(lambda x: x[1]),
+                    &#39;all_pred&#39;: res.apply(lambda x: x[2])
+                }
+            
+        elif self.task == &#39;custom&#39;:
+            # make sure that input is a pandas Series
+            if not isinstance(input, pd.Series):
+                raise ValueError(&#39;input must be a pandas Series&#39;)
+            
+            if progress_bar:
+                from tqdm import tqdm
+                tqdm.pandas()
+
+                res = input.progress_apply(
+                    lambda x: self.task_custom(
+                        prompt=self.kwargs.get(&#39;prompt&#39;),
+                        input=x,
+                    )
+                )
+            else:
+                res = input.apply(
+                    lambda x: self.task_custom(
+                        prompt=self.kwargs.get(&#39;prompt&#39;),
+                        input=x,
+                    )
+                )
+
+            if self.n_attempts == 1:
+                return res
+            
+            elif self.n_attempts &gt; 1:
+                return {
+                    &#39;pred&#39;: res.apply(lambda x: x[0]),
+                    &#39;consistency&#39;: res.apply(lambda x: x[1]),
+                    &#39;all_pred&#39;: res.apply(lambda x: x[2])
+                }
+    
+        else:
+            raise ValueError(&#39;task not supported. Please make sure you are using the correct task. We currently support: \
+                             task_generic_route, task_generic_drug, task_multiclass_drug, custom&#39;)
+        
+    def _accuracy_score(self, y_true, y_pred):
+        &#34;&#34;&#34;
+        Compute the accuracy score.
+        Defined as the proportion of true labels that are exactly equal to the predicted labels.
+
+        Parameters
+        ----------
+        y_true : Pandas Series
+            The true labels.
+        y_pred : Pandas Series
+            The predicted labels.
+
+        Returns
+        -------
+        float
+            The accuracy score.
+        &#34;&#34;&#34;
+        return np.mean(y_true == y_pred)
+    
+    def _recall_score(self, y_true, y_pred):
+        &#34;&#34;&#34;
+        Compute the recall score.
+        Defined as the proportion of true positive labels that are correctly identified.
+        
+        Parameters
+        ----------
+        y_true : Pandas Series
+            The true labels.
+        y_pred : Pandas Series
+            The predicted labels.
+
+        Returns
+        -------
+        float
+            The recall score.
+            
+        &#34;&#34;&#34;
+        tp = np.sum((y_true == &#39;1&#39;) &amp; (y_pred == &#39;1&#39;))
+        fn = np.sum((y_true == &#39;1&#39;) &amp; (y_pred == &#39;0&#39;))
+        return tp / (tp + fn)
+    
+    def _precision_score(self, y_true, y_pred):
+        &#34;&#34;&#34;
+        Compute the precision score.
+        Defined as the proportion of true positive labels that are correctly identified.
+
+        Parameters
+        ----------
+        y_true : Pandas Series
+            The true labels.
+        y_pred : Pandas Series
+            The predicted labels.
+        Returns
+        -------
+        float
+            The precision score.
+        &#34;&#34;&#34;
+        tp = np.sum((y_true == &#39;1&#39;) &amp; (y_pred == &#39;1&#39;))
+        fp = np.sum((y_true == &#39;0&#39;) &amp; (y_pred == &#39;1&#39;))
+        return tp / (tp + fp)
+
+    def _f1_score(self, y_true, y_pred):
+        &#34;&#34;&#34;
+        Compute the F1 score.
+        Defined as the harmonic mean of precision and recall.
+
+        Parameters
+        ----------
+        y_true : Pandas Series
+            The true labels.
+        y_pred : Pandas Series
+            The predicted labels.
+        Returns
+        -------
+        float
+            The F1 score.
+        &#34;&#34;&#34;
+        recall = self.recall_score(y_true, y_pred)
+        precision = self.precision_score(y_true, y_pred)
+        return 2 * (precision * recall) / (precision + recall)
+    
+    def _specificity_score(self, y_true, y_pred):
+        &#34;&#34;&#34;
+        Compute the specificity score.
+        Defined as the proportion of true negative labels that are correctly identified.
+        
+        Parameters
+        ----------
+        y_true : Pandas Series
+            The true labels.
+        y_pred : Pandas Series
+            The predicted labels.
+        Returns
+        -------
+        float
+            The specificity score.
+        &#34;&#34;&#34;
+        return np.sum((y_true == &#39;0&#39;) &amp; (y_pred == &#39;0&#39;)) / np.sum(y_true == &#39;0&#39;)
+    
+    def _balanced_accuracy_score(self, y_true, y_pred):
+        &#34;&#34;&#34;
+        Compute the balanced accuracy score.
+        Defined as the average of recall and specificity scores.
+
+        Parameters
+        ----------
+        y_true : Pandas Series
+            The true labels.
+        y_pred : Pandas Series
+            The predicted labels.
+        Returns
+        -------
+        float
+            The balanced accuracy score.        
+        &#34;&#34;&#34;
+        recall = self.recall_score(y_true, y_pred)
+        specificity = self.specificity_score(y_true, y_pred)
+        return (recall + specificity) / 2
+    
+
+    def evaluate(self, y_true, y_pred, experiment_number=0):
+        &#34;&#34;&#34;
+        Evaluate the model performance using the specified metrics. A list of metrics can be passed as an argument via kwargs when setting the task.
+        
+        We currently support: &#39;accuracy_score&#39;, &#39;recall_score&#39;, &#39;precision_score&#39;, &#39;f1_score&#39;,
+        &#39;specificity_score&#39;, and &#39;balanced_accuracy_score&#39;.
+        These are implemented as private methods in the class, with the prefix &#39;_&#39;.
+
+        Parameters
+        ----------
+        y_true : Pandas Series
+            The true labels.
+        y_pred : Pandas Series
+            The predicted labels.
+        experiment_number : int
+            The experiment number (necessary for the indexation of the output DataFrame).
+
+        Returns
+        -------
+        Pandas DataFrame
+            A DataFrame with the evaluation metrics.
+
+        &#34;&#34;&#34;
+
+        y_true = y_true.astype(str)
+        y_pred = y_pred.astype(str)
+
+        metric_dict = {}
+
+        for m in self.kwargs.get(&#39;metrics&#39;):
+            metric_dict[m] = np.round(getattr(self, &#39;_&#39; + m)(y_true, y_pred), 3)
+
+        return pd.DataFrame(metric_dict, index=[experiment_number])</code></pre>
+</details>
+<h3>Methods</h3>
+<dl>
+<dt id="ehrmonize.ehrmonize.EHRmonize.config_prompting"><code class="name flex">
+<span>def <span class="ident">config_prompting</span></span>(<span>self, n_shots=0, n_attempts=1, agentic=False)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Configure the prompting settings.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>n_shots</code></strong> :&ensp;<code>int</code>, optional, default=<code>0</code></dt>
+<dd>The number of example shots to be considered. Must be at least 0.</dd>
+<dt><strong><code>n_attempts</code></strong> :&ensp;<code>int</code>, optional, default=<code>1</code></dt>
+<dd>The number of attempts/runs to be made. Must be at least 1.</dd>
+<dt><strong><code>agentic</code></strong> :&ensp;<code>bool</code>, optional, default=<code>False</code></dt>
+<dd>default: False
+Whether to use an agentic approach in deciding ties or unconsistent results.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>None</code></dt>
+<dd>&nbsp;</dd>
+</dl></div>
+</dd>
+<dt id="ehrmonize.ehrmonize.EHRmonize.evaluate"><code class="name flex">
+<span>def <span class="ident">evaluate</span></span>(<span>self, y_true, y_pred, experiment_number=0)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Evaluate the model performance using the specified metrics. A list of metrics can be passed as an argument via kwargs when setting the task.</p>
+<p>We currently support: 'accuracy_score', 'recall_score', 'precision_score', 'f1_score',
+'specificity_score', and 'balanced_accuracy_score'.
+These are implemented as private methods in the class, with the prefix '_'.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>y_true</code></strong> :&ensp;<code>Pandas Series</code></dt>
+<dd>The true labels.</dd>
+<dt><strong><code>y_pred</code></strong> :&ensp;<code>Pandas Series</code></dt>
+<dd>The predicted labels.</dd>
+<dt><strong><code>experiment_number</code></strong> :&ensp;<code>int</code></dt>
+<dd>The experiment number (necessary for the indexation of the output DataFrame).</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>Pandas DataFrame</code></dt>
+<dd>A DataFrame with the evaluation metrics.</dd>
+</dl></div>
+</dd>
+<dt id="ehrmonize.ehrmonize.EHRmonize.predict"><code class="name flex">
+<span>def <span class="ident">predict</span></span>(<span>self, input, progress_bar=False)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Predict the output of the specified task.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>input</code></strong> :&ensp;<code>Pandas Series</code> or <code>DataFrame</code></dt>
+<dd>The input data. If the task is task_generic_route or task_generic_drug, input must be a Pandas Series.
+If the task is task_multiclass_drug or task_binary_drug, input must be a Pandas DataFrame.
+"custom" tasks are currently limited to Pandas Series.</dd>
+<dt><strong><code>progress_bar</code></strong> :&ensp;<code>bool</code>, optional, default=<code>False</code></dt>
+<dd>Whether to show a progress bar when predicting, across the different samples.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>Pandas Series</code> or <code>DataFrame</code></dt>
+<dd>The predicted output.</dd>
+</dl></div>
+</dd>
+<dt id="ehrmonize.ehrmonize.EHRmonize.set_task"><code class="name flex">
+<span>def <span class="ident">set_task</span></span>(<span>self, task, **kwargs)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Set the task to be performed by the model.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>task</code></strong> :&ensp;<code>str</code></dt>
+<dd>The task to be performed.
+We currently support: 'task_generic_route', 'task_generic_drug', 'task_multiclass_drug', 'task_binary_drug', and 'custom'.
+Additional arguments to be passed to the task function.
+Please find which arguments are necessary for each task in the documentation.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>None</code></dt>
+<dd>&nbsp;</dd>
+</dl></div>
+</dd>
+<dt id="ehrmonize.ehrmonize.EHRmonize.task_binary_drug"><code class="name flex">
+<span>def <span class="ident">task_binary_drug</span></span>(<span>self, drugname, route, classif, expanded_classif=None, possible_shots=[])</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Classify a drug based on its name and administration route (binary classification).</p>
+<p>Prompts the model with the following:</p>
+<p>"You are a well trained clinician doing data cleaning and harmonization.
+You are given a raw drug name and administration route out of EHR, below, within squared brackets as [drugname, route].
+Consider the following example(s): [possible_shots]
+Please output 1 if [drugname, route] is classified as classif, otherwise output 0.
+[classif] means [expanded_classif].
+Please output nothing more than 1 or 0."</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>drugname</code></strong> :&ensp;<code>str</code></dt>
+<dd>The input drug name.</dd>
+<dt><strong><code>route</code></strong> :&ensp;<code>str</code></dt>
+<dd>The input administration route.</dd>
+<dt><strong><code>classif</code></strong> :&ensp;<code>str</code></dt>
+<dd>The class to be predicted.</dd>
+<dt><strong><code>expanded_classif</code></strong> :&ensp;<code>str</code>, optional, default=<code>None</code></dt>
+<dd>The expanded class description</dd>
+<dt><strong><code>possible_shots</code></strong> :&ensp;<code>list</code>, optional, default=<code>[]</code></dt>
+<dd>A list of example shots to help the model understand the task.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>str</code> or <code>list</code></dt>
+<dd>The predicted class if n_attempts = 1.
+A list with the predicted class, consistency, and all predictions if n_attempts &gt; 1.</dd>
+</dl></div>
+</dd>
+<dt id="ehrmonize.ehrmonize.EHRmonize.task_custom"><code class="name flex">
+<span>def <span class="ident">task_custom</span></span>(<span>self, prompt, input)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Perform a custom task.</p>
+<p>Prompts the model with the following:</p>
+<p>"[prompt] [input]"</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>prompt</code></strong> :&ensp;<code>str</code></dt>
+<dd>The custom prompt.</dd>
+<dt><strong><code>input</code></strong> :&ensp;<code>str</code></dt>
+<dd>The input data. This will appended after the prompt in a new line.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>str</code> or <code>list</code></dt>
+<dd>The predicted output if n_attempts = 1.
+A list with the predicted output, consistency, and all predictions if n_attempts &gt; 1.</dd>
+</dl></div>
+</dd>
+<dt id="ehrmonize.ehrmonize.EHRmonize.task_generic_drug"><code class="name flex">
+<span>def <span class="ident">task_generic_drug</span></span>(<span>self, drugname, possible_shots=[])</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Get the generic name of a drug.</p>
+<p>Prompts the model with the following:</p>
+<p>"You are a well trained clinician doing data cleaning and harmonization.
+You are given a raw drug name out of EHR, below, within squared brackets[].
+Consider the following example(s): [possible_shots]
+Please give me this drug's generic name in accordance with RxNorm standards: [drugname]
+Remove salt names unless there are multiple salts with different clinical effects.
+Remove prescription strengths.
+Include concentrations for intravenous fluids and dextrose solutions. <br>
+Please output nothing more than the generic name in lowercase."</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>drugname</code></strong> :&ensp;<code>str</code></dt>
+<dd>The input drug name.</dd>
+<dt><strong><code>possible_shots</code></strong> :&ensp;<code>list</code>, optional, default=<code>[]</code></dt>
+<dd>A list of example shots to help the model understand the task.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>str</code> or <code>list</code></dt>
+<dd>The predicted generic name if n_attempts = 1.
+A list with the predicted generic name, consistency, and all predictions if n_attempts &gt; 1.</dd>
+</dl></div>
+</dd>
+<dt id="ehrmonize.ehrmonize.EHRmonize.task_generic_route"><code class="name flex">
+<span>def <span class="ident">task_generic_route</span></span>(<span>self, route, classes, possible_shots=[])</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Get the generic route of a an input administration route.</p>
+<p>Prompts the model with the following:</p>
+<p>"You are a well trained clinician doing data cleaning and harmonization.
+You are given a raw route name, which may contain spelling typos and variations, below within squared brackets[].
+Please classify [route] into one of the following categories: [classes]
+Consider the following example(s): [possible_shots]
+Please output nothing more than the category name."</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>route</code></strong> :&ensp;<code>str</code></dt>
+<dd>The input administration route.</dd>
+<dt><strong><code>classes</code></strong> :&ensp;<code>list</code></dt>
+<dd>A list of possible classes for the generic administration route.</dd>
+<dt><strong><code>possible_shots</code></strong> :&ensp;<code>list</code>, optional, default=<code>[]</code></dt>
+<dd>A list of example shots to help the model understand the task.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>str</code></dt>
+<dd>The predicted generic route.</dd>
+</dl></div>
+</dd>
+<dt id="ehrmonize.ehrmonize.EHRmonize.task_multiclass_drug"><code class="name flex">
+<span>def <span class="ident">task_multiclass_drug</span></span>(<span>self, drugname, route, classes, possible_shots=[])</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Classify a drug based on its name and administration route (multiple classes).</p>
+<p>Prompts the model with the following:</p>
+<p>"You are a well trained clinician doing data cleaning and harmonization.
+You are given a raw drug name and administration route out of EHR, below, within squared brackets as [drugname, route].
+Consider the following example(s): [possible_shots]
+Please classify [drugname, route] into one of the following categories: [classes]
+Please output nothing more than the category name."</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>drugname</code></strong> :&ensp;<code>str</code></dt>
+<dd>The input drug name.</dd>
+<dt><strong><code>route</code></strong> :&ensp;<code>str</code></dt>
+<dd>The input administration route.</dd>
+<dt><strong><code>classes</code></strong> :&ensp;<code>list</code></dt>
+<dd>A list of possible classes for the drug.</dd>
+<dt><strong><code>possible_shots</code></strong> :&ensp;<code>list</code>, optional, default=<code>[]</code></dt>
+<dd>A list of example shots to help the model understand the task.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>str</code> or <code>list</code></dt>
+<dd>The predicted class if n_attempts = 1.
+A list with the predicted class, consistency, and all predictions if n_attempts &gt; 1.</dd>
+</dl></div>
+</dd>
+</dl>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="ehrmonize" href="index.html">ehrmonize</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="ehrmonize.ehrmonize.EHRmonize" href="#ehrmonize.ehrmonize.EHRmonize">EHRmonize</a></code></h4>
+<ul class="">
+<li><code><a title="ehrmonize.ehrmonize.EHRmonize.config_prompting" href="#ehrmonize.ehrmonize.EHRmonize.config_prompting">config_prompting</a></code></li>
+<li><code><a title="ehrmonize.ehrmonize.EHRmonize.evaluate" href="#ehrmonize.ehrmonize.EHRmonize.evaluate">evaluate</a></code></li>
+<li><code><a title="ehrmonize.ehrmonize.EHRmonize.predict" href="#ehrmonize.ehrmonize.EHRmonize.predict">predict</a></code></li>
+<li><code><a title="ehrmonize.ehrmonize.EHRmonize.set_task" href="#ehrmonize.ehrmonize.EHRmonize.set_task">set_task</a></code></li>
+<li><code><a title="ehrmonize.ehrmonize.EHRmonize.task_binary_drug" href="#ehrmonize.ehrmonize.EHRmonize.task_binary_drug">task_binary_drug</a></code></li>
+<li><code><a title="ehrmonize.ehrmonize.EHRmonize.task_custom" href="#ehrmonize.ehrmonize.EHRmonize.task_custom">task_custom</a></code></li>
+<li><code><a title="ehrmonize.ehrmonize.EHRmonize.task_generic_drug" href="#ehrmonize.ehrmonize.EHRmonize.task_generic_drug">task_generic_drug</a></code></li>
+<li><code><a title="ehrmonize.ehrmonize.EHRmonize.task_generic_route" href="#ehrmonize.ehrmonize.EHRmonize.task_generic_route">task_generic_route</a></code></li>
+<li><code><a title="ehrmonize.ehrmonize.EHRmonize.task_multiclass_drug" href="#ehrmonize.ehrmonize.EHRmonize.task_multiclass_drug">task_multiclass_drug</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.11.1</a>.</p>
+</footer>
+</body>
+</html>

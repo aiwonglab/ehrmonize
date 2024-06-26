@@ -26,10 +26,10 @@ Our curated and labeled dataset is accessible on
 
 | Type          | Task                          |
 |---------------|-------------------------------|
-| Free-text     | *get_generic_name*            |
-|               | *get_generic_route*           |
-| Multiclass    | *classify_drug*               |
-| Binary        | *one_hot_drug_classification* |
+| Free-text     | *task_generic_drug*            |
+|               | *task_generic_route*           |
+| Multiclass    | *task_multiclass_drug*               |
+| Binary        | *task_binary_drug* |
 | Custom        | *custom*                      |
 
 
