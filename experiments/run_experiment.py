@@ -1,4 +1,3 @@
-from ehrmonize import EHRmonize
 import argparse
 import os
 import yaml
@@ -6,8 +5,17 @@ import pandas as pd
 import numpy as np
 import warnings
 import time
+import sys
+from pathlib import Path
 warnings.filterwarnings("ignore")
 
+
+from pathlib import Path
+__location__ = Path(os.path.dirname(__file__))
+__src__ = __location__ / ".."
+sys.path.insert(0, str(__src__))
+
+from ehrmonize import EHRmonize
 
 def arg_parser():
     parser = argparse.ArgumentParser()

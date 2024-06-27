@@ -41,3 +41,4 @@ reportMissingImports = true
 [project.urls]
 homepage = "https://github.com/aiwonglab/ehrmonize/"
 repository = "https://github.com/aiwonglab/ehrmonize/"
+documentation = "https://ehrmonize.readthedocs.io/"
