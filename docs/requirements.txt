@@ -1,3 +1,4 @@
 sphinx==7.1.2
 sphinx-autoapi
 furo
+pydata_sphinx_theme

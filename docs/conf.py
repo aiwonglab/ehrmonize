@@ -26,13 +26,39 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+autosummary_generate = True
+
 autoapi_dirs = ['../ehrmonize']
 autoapi_generate_api_docs = True
-autoapi_options = ['members', 'special-members','show-inheritance','undoc-members',  ]
+autoapi_options = ['members', 'undoc-members', 'special-members', ]
 
 # -- Options for HTML output
 
-html_theme = 'furo'
+# html_theme = 'furo'
+html_theme = "pydata_sphinx_theme"
+
+html_theme_options = {
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/aiwonglab/ehrmonize",
+            "icon": "fa-brands fa-square-github",
+            "type": "fontawesome",
+        },
+    ],
+    "show_version_warning_banner": True,
+    "navigation_depth": 5,
+    "secondary_sidebar_items": ["page-toc"],
+    "show_toc_level": 5,
+
+}
+
+html_context = {
+    "github_user": "aiwonglab",
+    "github_repo": "ehrmonize",
+    "github_version": "main",
+    "doc_path": "docs",
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
