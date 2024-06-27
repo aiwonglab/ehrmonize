@@ -6,7 +6,7 @@ Welcome to `EHRmonize`, a Python package to abstract medical concepts using larg
 [![stability-alpha](https://img.shields.io/badge/stability-alpha-f4d03f.svg)](https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#alpha)
 [![PyPI version](https://badge.fury.io/py/ehrmonize.svg)](https://badge.fury.io/py/ehrmonize)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-EHRmonize-blue)](https://huggingface.co/datasets/AIWongLab/ehrmonize)
-
+[![Documentation Status](https://readthedocs.org/projects/ehrmonize/badge/?version=latest)](https://ehrmonize.readthedocs.io/en/latest/?badge=latest)
 ## Citation
 
 > TBD, stay tuned!
