@@ -1,5 +1,3 @@
-# Configuration file for the Sphinx documentation builder.
-
 # -- Project information
 
 project = 'EHRmonize'
@@ -15,9 +13,10 @@ extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
+    'autoapi.extension',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx_immaterial',
+    'sphinx_rtd_theme',
 ]
 
 intersphinx_mapping = {
@@ -28,11 +27,13 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+autoapi_dirs = ['../ehrmonize']
+autoapi_generate_api_docs = True
+autoapi_options = ['members', 'special-members','show-inheritance','undoc-members',  ]
+
 # -- Options for HTML output
 
-# html_theme = 'sphinx_rtd_theme'
-html_theme = 'sphinx-immaterial'
-
+html_theme = 'furo'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

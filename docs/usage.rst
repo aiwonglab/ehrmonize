@@ -10,7 +10,7 @@ To use EHRmonize, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install ehrmonize
+   $ pip install ehrmonize
 
 Using EHRmonize
 ---------------
