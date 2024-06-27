@@ -50,6 +50,7 @@ html_theme_options = {
     "navigation_depth": 5,
     "secondary_sidebar_items": ["page-toc"],
     "show_toc_level": 5,
+    "show_prev_next": False,
 
 }
 
