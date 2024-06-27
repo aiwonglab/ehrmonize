@@ -706,7 +706,7 @@ class EHRmonize:
         ----------
         task : str
             The task to be performed.
-            We currently support: 'task_generic_route', 'task_generic_drug', 'task_multiclass_drug', 'task_binary_drug', and 'custom'.
+            We currently support: 'task_generic_route', 'task_generic_drug', 'task_multiclass_drug', 'task_binary_drug', and 'task_custom'.
             Additional arguments to be passed to the task function.
             Please find which arguments are necessary for each task in the documentation.
 
@@ -727,7 +727,7 @@ class EHRmonize:
         input : Pandas Series or DataFrame
             The input data. If the task is task_generic_route or task_generic_drug, input must be a Pandas Series.
             If the task is task_multiclass_drug or task_binary_drug, input must be a Pandas DataFrame.
-            "custom" tasks are currently limited to Pandas Series.
+            "task_custom" tasks are currently limited to Pandas Series.
         progress_bar : bool, optional, default=False
             Whether to show a progress bar when predicting, across the different samples.
 
@@ -886,7 +886,7 @@ class EHRmonize:
                     'all_pred': res.apply(lambda x: x[2])
                 }
             
-        elif self.task == 'custom':
+        elif self.task == 'task_custom':
             # make sure that input is a pandas Series
             if not isinstance(input, pd.Series):
                 raise ValueError('input must be a pandas Series')
@@ -921,7 +921,7 @@ class EHRmonize:
     
         else:
             raise ValueError('task not supported. Please make sure you are using the correct task. We currently support: \
-                             task_generic_route, task_generic_drug, task_multiclass_drug, custom')
+                             task_generic_route, task_generic_drug, task_multiclass_drug, task_custom')
         
     def _accuracy_score(self, y_true, y_pred):
         """

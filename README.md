@@ -30,7 +30,7 @@ Our curated and labeled dataset is accessible on
 |               | *task_generic_route*           |
 | Multiclass    | *task_multiclass_drug*               |
 | Binary        | *task_binary_drug* |
-| Custom        | *custom*                      |
+| Custom        | *task_custom*                      |
 
 
 ## Current supported models / engines / APIs
