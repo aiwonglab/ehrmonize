@@ -1000,8 +1000,8 @@ class EHRmonize:
         float
             The F1 score.
         """
-        recall = self.recall_score(y_true, y_pred)
-        precision = self.precision_score(y_true, y_pred)
+        recall = self._recall_score(y_true, y_pred)
+        precision = self._precision_score(y_true, y_pred)
         return 2 * (precision * recall) / (precision + recall)
     
     def _specificity_score(self, y_true, y_pred):
@@ -1038,8 +1038,8 @@ class EHRmonize:
         float
             The balanced accuracy score.        
         """
-        recall = self.recall_score(y_true, y_pred)
-        specificity = self.specificity_score(y_true, y_pred)
+        recall = self._recall_score(y_true, y_pred)
+        specificity = self._specificity_score(y_true, y_pred)
         return (recall + specificity) / 2
     
 

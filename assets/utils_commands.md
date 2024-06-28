@@ -72,3 +72,11 @@ python3 -m twine upload --repository pypi dist/*
 pip3 install pdoc3
 pdoc --html --force ehrmonize
 ```
+
+### Build sphinx locally
+
+```sh
+cd docs
+sphinx-build -b html . build  
+
+```

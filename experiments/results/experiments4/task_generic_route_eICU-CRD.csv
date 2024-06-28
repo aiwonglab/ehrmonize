@@ -1,0 +1,201 @@
+routeadmin,generic_route,pred_2
+IV,injectable product,injectable product
+PO,oral product,oral product
+IV,injectable product,injectable product
+MISC,other,other
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+PO,oral product,oral product
+Intravenous,injectable product,injectable product
+subCUT,injectable product,injectable product
+IV Push,injectable product,injectable product
+INTRAVENOU,injectable product,injectable product
+PO,oral product,oral product
+IVPB,injectable product,injectable product
+IVPB,injectable product,injectable product
+PO,oral product,oral product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+SubQ,injectable product,injectable product
+PO,oral product,oral product
+PER NG TUBE,oral product,oral product
+IV,injectable product,injectable product
+PO,oral product,oral product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV Push,injectable product,injectable product
+ORAL,oral product,oral product
+MISC,injectable product,other
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+PO,oral product,oral product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+INTRAVENOU,injectable product,injectable product
+SC,injectable product,injectable product
+PO,oral product,oral product
+IV,injectable product,injectable product
+SWISH,oral product,injectable product
+IV,injectable product,injectable product
+IV Push,injectable product,injectable product
+Oral,oral product,oral product
+SubQ,injectable product,injectable product
+IV,injectable product,injectable product
+PO,oral product,oral product
+IV,injectable product,injectable product
+INTRAVENOU,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+MISC,injectable product,other
+IV,injectable product,injectable product
+RE,rectal product,rectal product
+IV Push,injectable product,injectable product
+IV,injectable product,injectable product
+PO,oral product,oral product
+IV,injectable product,injectable product
+SL,oral product,oral product
+IV,injectable product,injectable product
+PO,oral product,oral product
+PO,oral product,oral product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+subCUT,injectable product,injectable product
+Inhalation,inhalant product,inhalant product
+SubQ,injectable product,injectable product
+IV,injectable product,injectable product
+IM,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV Push,injectable product,injectable product
+Oral,oral product,oral product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+PO,oral product,oral product
+IV,injectable product,injectable product
+INTRAVENOU,injectable product,injectable product
+IM,injectable product,injectable product
+IV,injectable product,injectable product
+NEBULIZATION,inhalant product,inhalant product
+INTRAVENOU,injectable product,injectable product
+PO,oral product,oral product
+IV,injectable product,injectable product
+PO,oral product,oral product
+Intravenous,injectable product,injectable product
+PO,oral product,oral product
+IV,injectable product,injectable product
+PO,oral product,oral product
+PO,oral product,oral product
+IV,injectable product,injectable product
+INTRAVENOU,injectable product,injectable product
+PR,rectal product,injectable product
+NEBULIZATION,inhalant product,inhalant product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV Push,injectable product,injectable product
+PO,oral product,oral product
+IVPB,injectable product,injectable product
+SubQ,injectable product,injectable product
+MISC,injectable product,other
+SC,injectable product,injectable product
+Oral,oral product,oral product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+Subcut,injectable product,injectable product
+MISC,inhalant product,other
+IV,injectable product,injectable product
+PO,oral product,oral product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+RE,rectal product,rectal product
+ORAL,oral product,oral product
+IVPB,injectable product,injectable product
+ORAL,oral product,oral product
+IVPB,injectable product,injectable product
+IV Push,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+Intravenous,injectable product,injectable product
+IV Push,injectable product,injectable product
+SUBCUTAN,injectable product,injectable product
+SC,injectable product,injectable product
+ORAL,oral product,oral product
+PO,oral product,oral product
+PO,oral product,oral product
+IV,injectable product,injectable product
+PR,rectal product,injectable product
+PO,oral product,oral product
+ORAL,oral product,oral product
+SVN,inhalant product,injectable product
+SC,injectable product,injectable product
+IV,injectable product,injectable product
+Oral,oral product,oral product
+PO,oral product,oral product
+subCUT,injectable product,injectable product
+IVPB,injectable product,injectable product
+PO,oral product,oral product
+ORAL MUCOSA,oral product,oral product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+Intravenous,injectable product,injectable product
+SC,injectable product,injectable product
+Oral,oral product,oral product
+IV,injectable product,injectable product
+.ROUTE,injectable product,injectable product
+IV Push,injectable product,injectable product
+IV,injectable product,injectable product
+PO,oral product,oral product
+DEVICE,other,im ready when you are. please provide the raw route name within squared brackets.
+Oral swab,oral product,oral product
+SUBCUTAN,injectable product,injectable product
+IV,injectable product,injectable product
+Oral,oral product,oral product
+SubQ,injectable product,injectable product
+PO,oral product,oral product
+PO,oral product,oral product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+ORAL,oral product,oral product
+IV,injectable product,injectable product
+Intravenous,injectable product,injectable product
+PO,oral product,oral product
+IV,injectable product,injectable product
+Oral,oral product,oral product
+IV Push,injectable product,injectable product
+IVPB,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+Oral,oral product,oral product
+IV,injectable product,injectable product
+PO,oral product,oral product
+IV,injectable product,injectable product
+INTRAVENOU,injectable product,injectable product
+SUBCUTAN,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+PO,oral product,oral product
+Oral,oral product,oral product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+INTRAVEN,injectable product,injectable product
+INTRAVENOU,injectable product,injectable product
+IV,injectable product,injectable product
+PO,oral product,oral product
+PO,oral product,oral product
+IV,injectable product,injectable product
+IV,injectable product,injectable product
+PO,oral product,oral product

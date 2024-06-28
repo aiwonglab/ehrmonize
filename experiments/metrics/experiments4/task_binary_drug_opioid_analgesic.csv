@@ -1,0 +1,3 @@
+db,model_id,temperature,n_shots,n_attempts,agentic,elapsed_time,consistencies,accuracy_score,precision_score,recall_score,f1_score,specificity_score,balanced_accuracy_score
+MIMIC-IV,meta.llama3-70b-instruct-v1:0,0.2,10,1,False,59.618,,0.96,0.6,1.0,0.75,0.957,0.978
+eICU-CRD,meta.llama3-70b-instruct-v1:0,0.2,10,1,False,50.005,,0.975,0.815,1.0,0.898,0.972,0.986

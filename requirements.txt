@@ -6,3 +6,5 @@ openai
 boto3
 tokencost
 tqdm
+fsspec
+huggingface-hub
