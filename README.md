@@ -5,8 +5,8 @@ Welcome to `EHRmonize`, a Python package to abstract medical concepts using larg
 [![Python 3.9](https://img.shields.io/badge/python-3.9-red.svg)](https://www.python.org/downloads/release/python-390/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![stability-beta](https://img.shields.io/badge/stability-beta-33bbff.svg)](https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#beta)
-[![PyPI version](https://badge.fury.io/py/ehrmonize.svg)](https://badge.fury.io/py/ehrmonize)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-EHRmonize-blue)](https://huggingface.co/datasets/AIWongLab/ehrmonize)
+[![PyPI version](https://badge.fury.io/py/ehrmonize.svg)](https://badge.fury.io/py/ehrmonize)
 [![Documentation Status](https://readthedocs.org/projects/ehrmonize/badge/?version=latest)](https://ehrmonize.readthedocs.io/en/latest/?badge=latest)
 [![PR Welcome Badge](https://badgen.net/https/pr-welcome-badge.vercel.app/api/badge/aiwonglab/ehrmonize)](https://github.com/aiwonglab/ehrmonize/issues?q=archived:false+is:issue+is:open+sort:updated-desc+label%3A%22help%20wanted%22%2C%22good%20first%20issue%22)
 ## Citation
