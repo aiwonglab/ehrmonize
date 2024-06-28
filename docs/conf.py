@@ -1,7 +1,7 @@
 # -- Project information
 
 project = 'EHRmonize'
-copyright = '2024, João Matos'
+copyright = '2024, AI Wong Lab'
 author = 'João Matos'
 
 release = '0.1'
