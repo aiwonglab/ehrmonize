@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ehrmonize"
-version = "0.1.0a4"
+version = "0.1.0"
 authors = [
   { name="João Matos", email="joao.matos@duke.edu" },
   { name="A. Ian Wong", email="a.ian.wong@duke.edu" },
