@@ -17,15 +17,12 @@ Welcome to `EHRmonize`, a Python package to abstract medical concepts using larg
 > Matos, J., Gallifant, J., Pei, J., & Wong, A. I. (2024). EHRmonize: A framework for medical concept abstraction from electronic health records using large language models. arXiv. https://arxiv.org/abs/2407.00242
 
 ```
-@article{
-    matos2024ehrmonize,
-      title={EHRmonize: A Framework for Medical Concept Abstraction from Electronic Health Records using Large Language Models}, 
-      author={João Matos and Jack Gallifant and Jian Pei and A. Ian Wong},
-      year={2024},
-      eprint={2407.00242},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2407.00242}, 
+@article{matos2024ehrmonize,
+    title={EHRmonize: A Framework for Medical Concept Abstraction from Electronic Health Records using Large Language Models}, 
+    author={João Matos and Jack Gallifant and Jian Pei and A. Ian Wong},
+    year={2024},
+    journal={arXiv preprint arXiv:2407.00242v1 [cs.CL]},
+    url={https://arxiv.org/abs/2407.00242}, 
 }
 ```
 
