@@ -28,8 +28,9 @@ Welcome to `EHRmonize`, a Python package to abstract medical concepts using larg
 
 ## Documentation 
 
-For documentation, please see: https://ehrmonize.readthedocs.io/. We are currently working on a demo that will soon be available on Google Colaboratory.
+For documentation, please see: https://ehrmonize.readthedocs.io/.
 
+A Demo can be found in this [Google Colaboratory Notebook](https://colab.research.google.com/drive/10DsDvpoWe5ACc5u1_VO5HNFUpUgKc_Vq) 
 ## Motivation
 Processing and harmonizing the vast amounts of data captured in complex electronic health records (EHR) is a challenging and costly task that requires clinical expertise. Large language models (LLMs) have shown promise in various healthcare-related tasks. We herein introduce `EHRmonize`, a framework designed to abstract EHR medical concepts using LLMs.
 
